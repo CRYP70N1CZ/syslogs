@@ -1,0 +1,7 @@
+group     total  anon  file shmem  swap
+browser     344   211   125     7     0 
+gpu          49    28    17     3     0 
+renderers  1120   913   194    11     0 
+arc           0     0     0     0     0 
+vms           8     4     4     0     0 
+daemons     606   306   181   117     0 

@@ -1,0 +1,2 @@
+2026-05-22T03:19:10.529962Z INFO bio_fw_updater[660:660]: [../biod-0.0.1/biod/biod_version.h:14] vcsid 0.0.1-r3504-411ccd4805
+2026-05-22T03:19:10.553410Z INFO bio_fw_updater[660:660]: [../biod-0.0.1/biod/tools/bio_fw_updater.cc:125] Fingerprint is not supported on this model, exiting.

@@ -1,0 +1,58 @@
+
+Disk I/O stats for /:
+Read IOs: 16621
+Read Merges: 0
+Read Sectors: 2334072
+Read Ticks: 117882
+Writes IOs: 0
+Write Merges: 0
+Write Sectors: 0
+Write Ticks: 0
+In Flight: 0
+IO Ticks: 11158
+Time In Queue: 117882
+Discard IOs: 0
+Discard Merges: 0
+Discard Sectors: 0
+Discard Ticks: 0
+Flush IOs: 0
+Flush Ticks: 0
+
+Disk I/O stats for /home:
+Read IOs: 544
+Read Merges: 0
+Read Sectors: 16946
+Read Ticks: 588
+Writes IOs: 379
+Write Merges: 0
+Write Sectors: 2928
+Write Ticks: 1104
+In Flight: 0
+IO Ticks: 493
+Time In Queue: 1692
+Discard IOs: 8
+Discard Merges: 0
+Discard Sectors: 120
+Discard Ticks: 0
+Flush IOs: 0
+Flush Ticks: 0
+
+Disk I/O stats for /home/chronos/user:
+Read IOs: 4546
+Read Merges: 0
+Read Sectors: 161282
+Read Ticks: 9293
+Writes IOs: 13541
+Write Merges: 0
+Write Sectors: 510504
+Write Ticks: 120177
+In Flight: 0
+IO Ticks: 7301
+Time In Queue: 186831
+Discard IOs: 1406
+Discard Merges: 0
+Discard Sectors: 271312
+Discard Ticks: 57361
+Flush IOs: 0
+Flush Ticks: 0
+

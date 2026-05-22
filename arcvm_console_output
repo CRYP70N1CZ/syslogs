@@ -1,0 +1,946 @@
+[    0.000000] Linux version 5.10.245-1008429-g8426c769398e (cros-kernel@chromium.org) (Chromium OS 21.0_pre574158 clang version 21.0.0git (/mnt/host/source/src/third_party/llvm-project/clang 423ff19b231694eca51881fd92e0099c0a93d64c), LLD 21.0.0 (/mnt/host/source/src/third_party/llvm-project/llvm 423ff19b231694eca51881fd92e0099c0a93d64c)) #1 SMP PREEMPT Mon, 2 Mar 2026 05:24:56 -0800
+[    0.000000] Command line: panic=-1 console=ttyS0 root=/dev/vda init=/init androidboot.hardware=bertha softlockup_panic=0 androidboot.verifiedbootstate=green rcupdate.rcu_expedited=1 rcutree.kthread_prio=1 ramoops.record_size=262144 ramoops.console_size=262144 ramoops.ftrace_size=4096 ramoops.pmsg_size=4096 ramoops.dump_oops=1 squashfs.cached_blks=20 no-vsti-guest ramoops.mem_address=0x1fb400000 ramoops.mem_size=0x100000
+[    0.000000] BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009ffff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000000a0000-0x00000000000fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000cfffffff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000f4000000-0x00000000f7ffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000feffc000-0x00000000feffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000100000000-0x00000001f33fffff] usable
+[    0.000000] BIOS-e820: [mem 0x00000001f3400000-0x00000001fb3fffff] reserved
+[    0.000000] NX (Execute Disable) protection: active
+[    0.000000] extended physical RAM map:
+[    0.000000] reserve setup_data: [mem 0x0000000000000000-0x00000000000207ff] usable
+[    0.000000] reserve setup_data: [mem 0x0000000000020800-0x000000000002491f] usable
+[    0.000000] reserve setup_data: [mem 0x0000000000024920-0x000000000009ffff] usable
+[    0.000000] reserve setup_data: [mem 0x00000000000a0000-0x00000000000fffff] reserved
+[    0.000000] reserve setup_data: [mem 0x0000000000100000-0x00000000cfffffff] usable
+[    0.000000] reserve setup_data: [mem 0x00000000f4000000-0x00000000f7ffffff] reserved
+[    0.000000] reserve setup_data: [mem 0x00000000feffc000-0x00000000feffffff] reserved
+[    0.000000] reserve setup_data: [mem 0x0000000100000000-0x00000001f33fffff] usable
+[    0.000000] reserve setup_data: [mem 0x00000001f3400000-0x00000001fb3fffff] reserved
+[    0.000000] SMBIOS 3.2.0 present.
+[    0.000000] DMI: ChromiumOS crosvm, BIOS 0 
+[    0.000000] Hypervisor detected: KVM
+[    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+[    0.000000] kvm-clock: cpu 0, msr 1c35db001, primary cpu clock
+[    0.000000] kvm-clock: using sched offset of 918469713 cycles
+[    0.000003] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+[    0.000006] tsc: Detected 806.400 MHz processor
+[    0.000203] last_pfn = 0x1f3400 max_arch_pfn = 0x400000000
+[    0.000261] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+[    0.000270] last_pfn = 0xd0000 max_arch_pfn = 0x400000000
+[    0.000297] found SMP MP-table at [mem 0x0009fff0-0x0009ffff]
+[    0.000340] check: Scanning 1 areas for low memory corruption
+[    0.000443] Using GB pages for direct mapping
+[    0.000446] Incomplete global flushes, disabling PCID
+[    0.000612] ACPI: Early table checksum verification disabled
+[    0.000617] ACPI: RSDP 0x00000000000E0000 000024 (v02 CROSVM)
+[    0.000622] ACPI: XSDT 0x00000000000E0AC0 00003C (v01 CROSVM CROSVMDT 00000001 CROS 00000000)
+[    0.000627] ACPI: FACP 0x00000000000E0880 000114 (v06 CROSVM CROSVMDT 00000001 CROS 00000000)
+[    0.000632] ACPI: DSDT 0x00000000000E0080 0007F2 (v06 CROSVM CROSVMDT 00000001 CROS 00000000)
+[    0.000635] ACPI: FACS 0x00000000000E0040 000040
+[    0.000638] ACPI: APIC 0x00000000000E09C0 000080 (v05 CROSVM CROSVMDT 00000001 CROS 00000000)
+[    0.000641] ACPI: MCFG 0x00000000000E0A40 00003C (v01 CROSVM CROSVMDT 00000001 CROS 00000000)
+[    0.000644] ACPI: Reserving FACP table memory at [mem 0xe0880-0xe0993]
+[    0.000645] ACPI: Reserving DSDT table memory at [mem 0xe0080-0xe0871]
+[    0.000646] ACPI: Reserving FACS table memory at [mem 0xe0040-0xe007f]
+[    0.000647] ACPI: Reserving APIC table memory at [mem 0xe09c0-0xe0a3f]
+[    0.000648] ACPI: Reserving MCFG table memory at [mem 0xe0a40-0xe0a7b]
+[    0.001485] Zone ranges:
+[    0.001490]   Normal   [mem 0x0000000000001000-0x00000001f33fffff]
+[    0.001492]   Device   empty
+[    0.001494] Movable zone start for each node
+[    0.001495] Early memory node ranges
+[    0.001496]   node   0: [mem 0x0000000000001000-0x000000000009ffff]
+[    0.001498]   node   0: [mem 0x0000000000100000-0x00000000cfffffff]
+[    0.001499]   node   0: [mem 0x0000000100000000-0x00000001f33fffff]
+[    0.001501] Initmem setup node 0 [mem 0x0000000000001000-0x00000001f33fffff]
+[    0.001931] On node 0, zone Normal: 1 pages in unavailable ranges
+[    0.018391] On node 0, zone Normal: 96 pages in unavailable ranges
+[    0.036794] On node 0, zone Normal: 19456 pages in unavailable ranges
+[    0.041344] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+[    0.041347] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+[    0.041349] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 low level)
+[    0.041351] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 low level)
+[    0.041352] ACPI: INT_SRC_OVR (bus 0 bus_irq 12 global_irq 12 low level)
+[    0.041358] Using ACPI (MADT) for SMP configuration information
+[    0.041399] TSC deadline timer available
+[    0.041401] smpboot: Allowing 4 CPUs, 0 hotplug CPUs
+[    0.041414] kvm-guest: KVM setup pv remote TLB flush
+[    0.041420] kvm-guest: KVM host has PV_SCHED!
+[    0.041424] kvm-guest: setup PV sched yield
+[    0.041435] [mem 0xd0000000-0xf3ffffff] available for PCI devices
+[    0.041436] Booting paravirtualized kernel on KVM
+[    0.041441] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+[    0.046321] setup_percpu: NR_CPUS:64 nr_cpumask_bits:64 nr_cpu_ids:4 nr_node_ids:1
+[    0.047008] percpu: Embedded 58 pages/cpu s196712 r8192 d32664 u524288
+[    0.047049] kvm-guest: KVM setup async PF for cpu 0
+[    0.047061] kvm-guest: stealtime: cpu 0, msr 1ebe1b100
+[    0.047067] kvm-guest: PV spinlocks enabled
+[    0.047071] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+[    0.047077] Built 1 zonelists, mobility grouping on.  Total pages: 1819315
+[    0.047080] Kernel command line: panic=-1 console=ttyS0 root=/dev/vda init=/init androidboot.hardware=bertha softlockup_panic=0 androidboot.verifiedbootstate=green rcupdate.rcu_expedited=1 rcutree.kthread_prio=1 ramoops.record_size=262144 ramoops.console_size=262144 ramoops.ftrace_size=4096 ramoops.pmsg_size=4096 ramoops.dump_oops=1 squashfs.cached_blks=20 no-vsti-guest ramoops.mem_address=0x1fb400000 ramoops.mem_size=0x100000
+[    0.050320] Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+[    0.051728] Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+[    0.052181] mem auto-init: stack:all(zero), heap alloc:off, heap free:off
+[    0.097754] Memory: 7161200K/7392892K available (14350K kernel code, 2595K rwdata, 6648K rodata, 1352K init, 2288K bss, 231432K reserved, 0K cma-reserved)
+[    0.097885] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.098298] rcu: Preemptible hierarchical RCU implementation.
+[    0.098301] rcu: 	RCU event tracing is enabled.
+[    0.098303] rcu: 	RCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=4.
+[    0.098304] rcu: 	RCU priority boosting: priority 1 delay 500 ms.
+[    0.098305] 	All grace periods are expedited (rcu_expedited).
+[    0.098306] 	Trampoline variant of Tasks RCU enabled.
+[    0.098307] 	Tracing variant of Tasks RCU enabled.
+[    0.098309] rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+[    0.098310] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+[    0.101834] NR_IRQS: 4352, nr_irqs: 456, preallocated irqs: 16
+[    0.102139] rcu: 	Note: kernel parameter 'rcu_nocbs=', 'nohz_full', or 'isolcpus=' contains nonexistent CPUs.
+[    0.102143] rcu: 	Offload RCU callbacks from CPUs: 0-3.
+[    0.102259] kfence: initialized - using 524288 bytes for 63 objects at 0x(____ptrval____)-0x(____ptrval____)
+[    0.102294] random: crng init done
+[    0.617205] printk: console [ttyS0] enabled
+[    0.620488] ACPI: Core revision 20200925
+[    0.622485] APIC: Switch to symmetric I/O mode setup
+[    0.625388] x2apic enabled
+[    0.627270] Switched APIC routing to physical x2apic.
+[    0.630231] kvm-guest: setup PV IPIs
+[    0.635083] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0xb9fb05486c, max_idle_ns: 440795231721 ns
+[    0.640376] Calibrating delay loop (skipped) preset value.. 1612.80 BogoMIPS (lpj=806400)
+[    0.641371] x86/cpu: User Mode Instruction Prevention (UMIP) activated
+[    0.641371] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+[    0.641371] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+[    0.641371] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[    0.641371] Spectre V2 : WARNING: Unprivileged eBPF is enabled with eIBRS on, data leaks possible via Spectre v2 BHB attacks!
+[    0.641371] Spectre V2 : Mitigation: Enhanced / Automatic IBRS
+[    0.641371] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+[    0.641371] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+[    0.641371] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl and seccomp
+[    0.641371] Register File Data Sampling: Mitigation: Clear Register File
+[    0.641371] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.641371] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.641371] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[    0.641371] x86/fpu: Supporting XSAVE feature 0x200: 'Protection Keys User registers'
+[    0.641371] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+[    0.641371] x86/fpu: xstate_offset[9]:  832, xstate_sizes[9]:    8
+[    0.641371] x86/fpu: Enabled xstate features 0x207, context size is 840 bytes, using 'compacted' format.
+[    0.641371] Freeing SMP alternatives memory: 44K
+[    0.641371] pid_max: default: 32768 minimum: 301
+[    0.641371] LSM: Security Framework initializing
+[    0.641371] SELinux:  Initializing.
+[    0.641371] Mount-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[    0.641371] Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[    0.641371] smpboot: CPU0: Intel(R) N100 (family: 0x6, model: 0xbe, stepping: 0x0)
+[    0.641803] Performance Events: generic architected perfmon, full-width counters, Intel PMU driver.
+[    0.642399] ... version:                2
+[    0.643392] ... bit width:              48
+[    0.644389] ... generic registers:      6
+[    0.645401] ... value mask:             0000ffffffffffff
+[    0.646388] ... max period:             00007fffffffffff
+[    0.647388] ... fixed-purpose events:   3
+[    0.648390] ... event mask:             000000070000003f
+[    0.649748] rcu: Hierarchical SRCU implementation.
+[    0.651317] smp: Bringing up secondary CPUs ...
+[    0.651670] x86: Booting SMP configuration:
+[    0.652400] .... node  #0, CPUs:      #1
+[    0.539209] kvm-clock: cpu 1, msr 1c35db041, secondary cpu clock
+[    0.539209] smpboot: CPU 1 Converting physical 0 to logical die 1
+[    0.663431] kvm-guest: KVM setup async PF for cpu 1
+[    0.664371] kvm-guest: stealtime: cpu 1, msr 1ebe9b100
+[    0.669508]  #2
+[    0.539209] kvm-clock: cpu 2, msr 1c35db081, secondary cpu clock
+[    0.539209] smpboot: CPU 2 Converting physical 0 to logical die 2
+[    0.679573] kvm-guest: KVM setup async PF for cpu 2
+[    0.680371] kvm-guest: stealtime: cpu 2, msr 1ebf1b100
+[    0.685611]  #3
+[    0.539209] kvm-clock: cpu 3, msr 1c35db0c1, secondary cpu clock
+[    0.539209] smpboot: CPU 3 Converting physical 0 to logical die 3
+[    0.699431] kvm-guest: KVM setup async PF for cpu 3
+[    0.700371] kvm-guest: stealtime: cpu 3, msr 1ebf9b100
+[    0.706416] smp: Brought up 1 node, 4 CPUs
+[    0.707390] smpboot: Max logical packages: 4
+[    0.708423] smpboot: Total of 4 processors activated (6451.20 BogoMIPS)
+[    0.710434] devtmpfs: initialized
+[    0.711543] x86/mm: Memory block size: 128MB
+[    0.713054] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+[    0.713403] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+[    0.714568] NET: Registered protocol family 16
+[    0.715564] audit: initializing netlink subsys (disabled)
+[    0.716501] ramoops: using module parameters
+[    0.716501] audit: type=2000 audit(1779417716.415:1): state=initialized audit_enabled=0 res=1
+[    0.721524] printk: console [ramoops-1] enabled
+[    0.722387] pstore: Registered ramoops as persistent store backend
+[    0.723386] ramoops: using 0x100000@0x1fb400000, ecc: 0
+[    0.724487] thermal_sys: Registered thermal governor 'step_wise'
+[    0.724519] cpuidle: using governor ladder
+[    0.726407] cpuidle: using governor menu
+[    0.727549] ACPI: bus type PCI registered
+[    0.728683] PCI: MMCONFIG for domain 0000 [bus 00-3f] at [mem 0xf4000000-0xf7ffffff] (base 0xf4000000)
+[    0.729396] PCI: MMCONFIG at [mem 0xf4000000-0xf7ffffff] reserved in E820
+[    0.730411] PCI: Using configuration type 1 for base access
+[    0.733686] Kprobes globally optimized
+[    0.739438] ACPI: Added _OSI(Module Device)
+[    0.740393] ACPI: Added _OSI(Processor Device)
+[    0.741391] ACPI: Added _OSI(Processor Aggregator Device)
+[    0.742390] ACPI: Added _OSI(Linux-Dell-Video)
+[    0.743392] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+[    0.744397] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+[    0.745580] ACPI: 1 ACPI AML tables successfully acquired and loaded
+[    0.747515] ACPI: Interpreter enabled
+[    0.748416] ACPI: (supports S0 S1 S5)
+[    0.749392] ACPI: Using IOAPIC for interrupt routing
+[    0.750438] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[    0.752701] ACPI: PCI Root Bridge [PC00] (domain 0000 [bus 00-3f])
+[    0.753407] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+[    0.754487] acpi PNP0A08:00: _OSC: OS now controls [PCIeHotplug PME PCIeCapability LTR]
+[    0.755495] PCI host bridge to bus 0000:00
+[    0.756390] pci_bus 0000:00: root bus resource [mem 0xd0000000-0xf7ffffff window]
+[    0.757393] pci_bus 0000:00: root bus resource [mem 0x1fb500000-0x7fffffffff window]
+[    0.758397] pci_bus 0000:00: root bus resource [bus 00-3f]
+[    0.759489] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+[    0.762389] pci 0000:00:01.0: [1af4:107f] type 00 class 0x038000
+[    0.765635] pci 0000:00:01.0: reg 0x10: [mem 0xd0800000-0xd0807fff]
+[    0.767783] pci 0000:00:01.0: reg 0x18: [mem 0x200000000-0x2ffffffff 64bit pref]
+[    0.771277] pci 0000:00:01.0: PME# supported from D0 D3hot D3cold
+[    0.772624] pci 0000:00:01.1: [8086:3420] type 01 class 0x060400
+[    0.774337] pci 0000:00:01.1: PME# supported from D0 D3hot D3cold
+[    0.775738] pci 0000:00:02.0: [1af4:1050] type 00 class 0x038000
+[    0.776883] pci 0000:00:02.0: reg 0x10: [mem 0xd0808000-0xd080ffff]
+[    0.778162] pci 0000:00:02.0: reg 0x18: [mem 0x400000000-0x5ffffffff 64bit pref]
+[    0.781659] pci 0000:00:02.0: PME# supported from D0 D3hot D3cold
+[    0.784387] pci 0000:00:03.0: [1af4:1042] type 00 class 0x018000
+[    0.785920] pci 0000:00:03.0: reg 0x10: [mem 0xd0810000-0xd0817fff]
+[    0.791657] pci 0000:00:03.0: PME# supported from D0 D3hot D3cold
+[    0.794658] pci 0000:00:04.0: [1af4:1042] type 00 class 0x018000
+[    0.796021] pci 0000:00:04.0: reg 0x10: [mem 0xd0818000-0xd081ffff]
+[    0.801751] pci 0000:00:04.0: PME# supported from D0 D3hot D3cold
+[    0.804176] pci 0000:00:05.0: [1af4:1042] type 00 class 0x018000
+[    0.805991] pci 0000:00:05.0: reg 0x10: [mem 0xd0820000-0xd0827fff]
+[    0.812209] pci 0000:00:05.0: PME# supported from D0 D3hot D3cold
+[    0.815731] pci 0000:00:06.0: [1af4:1042] type 00 class 0x018000
+[    0.816911] pci 0000:00:06.0: reg 0x10: [mem 0xd0828000-0xd082ffff]
+[    0.824078] pci 0000:00:06.0: PME# supported from D0 D3hot D3cold
+[    0.826112] pci 0000:00:07.0: [1af4:1042] type 00 class 0x018000
+[    0.826939] pci 0000:00:07.0: reg 0x10: [mem 0xd0830000-0xd0837fff]
+[    0.831988] pci 0000:00:07.0: PME# supported from D0 D3hot D3cold
+[    0.833977] pci 0000:00:08.0: [1af4:1042] type 00 class 0x018000
+[    0.834916] pci 0000:00:08.0: reg 0x10: [mem 0xd0838000-0xd083ffff]
+[    0.839100] pci 0000:00:08.0: PME# supported from D0 D3hot D3cold
+[    0.841238] pci 0000:00:09.0: [1af4:1042] type 00 class 0x018000
+[    0.842388] pci 0000:00:09.0: reg 0x10: [mem 0xd0840000-0xd0847fff]
+[    0.847477] pci 0000:00:09.0: PME# supported from D0 D3hot D3cold
+[    0.851966] pci 0000:00:0a.0: [1af4:1044] type 00 class 0x088000
+[    0.853037] pci 0000:00:0a.0: reg 0x10: [mem 0xd0848000-0xd084ffff]
+[    0.856327] pci 0000:00:0a.0: PME# supported from D0 D3hot D3cold
+[    0.859231] pci 0000:00:0b.0: [1af4:107d] type 00 class 0x088000
+[    0.859950] pci 0000:00:0b.0: reg 0x10: [mem 0xd0850000-0xd0857fff]
+[    0.863962] pci 0000:00:0b.0: PME# supported from D0 D3hot D3cold
+[    0.866160] pci 0000:00:0c.0: [1af4:1045] type 00 class 0x088000
+[    0.866955] pci 0000:00:0c.0: reg 0x10: [mem 0xd0858000-0xd085ffff]
+[    0.871911] pci 0000:00:0c.0: PME# supported from D0 D3hot D3cold
+[    0.874975] pci 0000:00:0d.0: [1af4:1041] type 00 class 0x028000
+[    0.876388] pci 0000:00:0d.0: reg 0x10: [mem 0xd0860000-0xd0867fff]
+[    0.882385] pci 0000:00:0d.0: PME# supported from D0 D3hot D3cold
+[    0.885644] pci 0000:00:0e.0: [1af4:1041] type 00 class 0x028000
+[    0.886951] pci 0000:00:0e.0: reg 0x10: [mem 0xd0868000-0xd086ffff]
+[    0.891247] pci 0000:00:0e.0: PME# supported from D0 D3hot D3cold
+[    0.894159] pci 0000:00:0f.0: [1af4:1041] type 00 class 0x028000
+[    0.896004] pci 0000:00:0f.0: reg 0x10: [mem 0xd0870000-0xd0877fff]
+[    0.901668] pci 0000:00:0f.0: PME# supported from D0 D3hot D3cold
+[    0.906672] pci 0000:00:10.0: [1af4:1041] type 00 class 0x028000
+[    0.908330] pci 0000:00:10.0: reg 0x10: [mem 0xd0878000-0xd087ffff]
+[    0.914862] pci 0000:00:10.0: PME# supported from D0 D3hot D3cold
+[    0.919229] pci 0000:00:11.0: [1af4:1041] type 00 class 0x028000
+[    0.920807] pci 0000:00:11.0: reg 0x10: [mem 0xd0880000-0xd0887fff]
+[    0.925726] pci 0000:00:11.0: PME# supported from D0 D3hot D3cold
+[    0.928423] pci 0000:00:12.0: [1af4:1041] type 00 class 0x028000
+[    0.930854] pci 0000:00:12.0: reg 0x10: [mem 0xd0888000-0xd088ffff]
+[    0.936807] pci 0000:00:12.0: PME# supported from D0 D3hot D3cold
+[    0.940028] pci 0000:00:13.0: [1af4:1059] type 00 class 0x040100
+[    0.940996] pci 0000:00:13.0: reg 0x10: [mem 0xd0890000-0xd0897fff]
+[    0.948477] pci 0000:00:13.0: PME# supported from D0 D3hot D3cold
+[    0.951877] pci 0000:00:14.0: [1af4:105f] type 00 class 0x040000
+[    0.953909] pci 0000:00:14.0: reg 0x10: [mem 0xd0898000-0xd089ffff]
+[    0.959015] pci 0000:00:14.0: PME# supported from D0 D3hot D3cold
+[    0.961201] pci 0000:00:15.0: [1af4:105e] type 00 class 0x040000
+[    0.961970] pci 0000:00:15.0: reg 0x10: [mem 0xd08a0000-0xd08a7fff]
+[    0.966450] pci 0000:00:15.0: PME# supported from D0 D3hot D3cold
+[    0.969458] pci 0000:00:16.0: [1af4:1053] type 00 class 0x028000
+[    0.971039] pci 0000:00:16.0: reg 0x10: [mem 0xd08a8000-0xd08affff]
+[    0.975142] pci 0000:00:16.0: PME# supported from D0 D3hot D3cold
+[    0.977451] pci 0000:00:17.0: [1af4:105a] type 00 class 0x018000
+[    0.978967] pci 0000:00:17.0: reg 0x10: [mem 0xd08b0000-0xd08b7fff]
+[    0.983382] pci 0000:00:17.0: PME# supported from D0 D3hot D3cold
+[    0.987782] pci 0000:00:18.0: [1af4:105a] type 00 class 0x018000
+[    0.988959] pci 0000:00:18.0: reg 0x10: [mem 0xd08b8000-0xd08bffff]
+[    0.993972] pci 0000:00:18.0: PME# supported from D0 D3hot D3cold
+[    0.996385] pci 0000:00:19.0: [1af4:105a] type 00 class 0x018000
+[    0.997987] pci 0000:00:19.0: reg 0x10: [mem 0xd08c0000-0xd08c7fff]
+[    1.003348] pci 0000:00:19.0: PME# supported from D0 D3hot D3cold
+[    1.005225] pci 0000:00:1a.0: [1af4:105a] type 00 class 0x018000
+[    1.006246] pci 0000:00:1a.0: reg 0x10: [mem 0xd08c8000-0xd08cffff]
+[    1.010094] pci 0000:00:1a.0: PME# supported from D0 D3hot D3cold
+[    1.012949] pci 0000:00:1b.0: [1af4:105a] type 00 class 0x018000
+[    1.014772] pci 0000:00:1b.0: reg 0x10: [mem 0xd08d0000-0xd08d7fff]
+[    1.019257] pci 0000:00:1b.0: PME# supported from D0 D3hot D3cold
+[    1.021386] pci 0000:00:1c.0: [1af4:105a] type 00 class 0x018000
+[    1.023329] pci 0000:00:1c.0: reg 0x10: [mem 0xd08d8000-0xd08dffff]
+[    1.028272] pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold
+[    1.029797] pci 0000:00:1d.0: [1af4:105a] type 00 class 0x018000
+[    1.030571] pci 0000:00:1d.0: reg 0x10: [mem 0xd08e0000-0xd08e7fff]
+[    1.032665] pci 0000:00:1d.0: PME# supported from D0 D3hot D3cold
+[    1.034548] pci 0000:00:1e.0: [1b73:1400] type 00 class 0x0c0330
+[    1.036010] pci 0000:00:1e.0: reg 0x10: [mem 0xd08f0000-0xd08fffff]
+[    1.040151] pci 0000:00:1f.0: [1b36:0011] type 00 class 0xffff00
+[    1.040556] pci 0000:00:1f.0: reg 0x10: [mem 0xd08e8000-0xd08e800f]
+[    1.042594] pci 0000:00:01.1: PCI bridge to [bus 01]
+[    1.043444] pci 0000:00:01.1:   bridge window [mem 0xd0000000-0xd07fffff]
+[    1.044447] pci 0000:00:01.1:   bridge window [mem 0x1fb500000-0x1ff4fffff 64bit pref]
+[    1.045839] vgaarb: loaded
+[    1.046613] SCSI subsystem initialized
+[    1.047448] ACPI: bus type USB registered
+[    1.048440] usbcore: registered new interface driver usbfs
+[    1.049423] usbcore: registered new interface driver hub
+[    1.050420] usbcore: registered new device driver usb
+[    1.051450] mc: Linux media interface: v0.10
+[    1.052427] videodev: Linux video capture interface: v2.00
+[    1.053522] Advanced Linux Sound Architecture Driver Initialized.
+[    1.054592] PCI: Using ACPI for IRQ routing
+[    1.084661] clocksource: Switched to clocksource kvm-clock
+[    1.109810] VFS: Disk quotas dquot_6.6.0
+[    1.112391] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    1.117029] FS-Cache: Loaded
+[    1.118775] pnp: PnP ACPI init
+[    1.120850] system 00:00: [mem 0xf4000000-0xf7ffffff] has been reserved
+[    1.124655] pnp: PnP ACPI: found 1 devices
+[    1.128016] NET: Registered protocol family 2
+[    1.131972] IP idents hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[    1.136966] tcp_listen_portaddr_hash hash table entries: 4096 (order: 5, 163840 bytes, linear)
+[    1.141537] TCP established hash table entries: 65536 (order: 7, 524288 bytes, linear)
+[    1.146695] TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+[    1.151644] TCP: Hash tables configured (established 65536 bind 65536)
+[    1.155858] UDP hash table entries: 4096 (order: 6, 393216 bytes, linear)
+[    1.159942] UDP-Lite hash table entries: 4096 (order: 6, 393216 bytes, linear)
+[    1.164296] NET: Registered protocol family 1
+[    1.167051] pci 0000:00:01.1: bridge window [io  0x1000-0x0fff] to [bus 01] add_size 1000
+[    1.171935] pci 0000:00:01.1: BAR 7: no space for [io  size 0x1000]
+[    1.175457] pci 0000:00:01.1: BAR 7: failed to assign [io  size 0x1000]
+[    1.181552] pci 0000:00:01.1: BAR 7: no space for [io  size 0x1000]
+[    1.185243] pci 0000:00:01.1: BAR 7: failed to assign [io  size 0x1000]
+[    1.188934] pci 0000:00:01.1: PCI bridge to [bus 01]
+[    1.191840] pci 0000:00:01.1:   bridge window [mem 0xd0000000-0xd07fffff]
+[    1.195705] pci 0000:00:01.1:   bridge window [mem 0x1fb500000-0x1ff4fffff 64bit pref]
+[    1.200540] pci_bus 0000:00: resource 4 [mem 0xd0000000-0xf7ffffff window]
+[    1.204492] pci_bus 0000:00: resource 5 [mem 0x1fb500000-0x7fffffffff window]
+[    1.208590] pci_bus 0000:01: resource 1 [mem 0xd0000000-0xd07fffff]
+[    1.213012] pci_bus 0000:01: resource 2 [mem 0x1fb500000-0x1ff4fffff 64bit pref]
+[    1.217823] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+[    1.227103] PCI: CLS 0 bytes, default 64
+[    1.229300] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[    1.232837] software IO TLB: mapped [mem 0x00000000cc000000-0x00000000d0000000] (64MB)
+[    1.239657] kvm: already loaded the other module
+[    1.242828] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0xb9fb05486c, max_idle_ns: 440795231721 ns
+[    1.248840] clocksource: Switched to clocksource tsc
+[    1.251841] platform rtc_cmos: registered platform RTC device (no PNP device found)
+[    1.261643] check: Scanning for low memory corruption every 60 seconds
+[    1.269164] Initialise system trusted keyrings
+[    1.272732] workingset: timestamp_bits=62 max_order=21 bucket_order=0
+[    1.279955] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    1.284224] fuse: init (API version 7.33)
+[    1.286581] 9p: Installing v9fs 9p2000 file system support
+[    1.297859] Key type asymmetric registered
+[    1.300267] Asymmetric key parser 'x509' registered
+[    1.303141] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 248)
+[    1.307503] io scheduler mq-deadline registered
+[    1.310081] io scheduler kyber registered
+[    1.313158] pcieport 0000:00:01.1: enabling device (0000 -> 0002)
+[    1.321087] pcieport 0000:00:01.1: PME: Signaling with IRQ 24
+[    1.325341] pcieport 0000:00:01.1: pciehp: Slot #0 AttnBtn+ PwrCtrl- MRL- AttnInd+ PwrInd+ HotPlug+ Surprise+ Interlock- NoCompl- IbPresDis- LLActRep- (with Cmd Compl erratum)
+[    1.334941] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+[    1.341364] ACPI: Power Button [PWRF]
+[    1.344131] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+[    1.348111] ACPI: Sleep Button [SLPF]
+[    1.587119] virtio_pvclock virtio10: clocksource rating set to 450
+[    1.607298] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+[    1.607370] clocksource: virtio-pvclock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+[    1.633879] serial8250: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+[    1.633961] clocksource: Switched to clocksource virtio-pvclock
+[    1.650466] virtio_pvclock virtio10: registered clocksource
+[    1.651496] serial8250: ttyS1 at I/O 0x2f8 (irq = 3, base_baud = 115200) is a 16550A
+[    1.662492] serial8250: ttyS2 at I/O 0x3e8 (irq = 4, base_baud = 115200) is a 16550A
+[    1.668001] serial8250: ttyS3 at I/O 0x2e8 (irq = 3, base_baud = 115200) is a 16550A
+[    1.688945] [drm] pci: virtio-gpu-pci detected at 0000:00:02.0
+[    1.693842] [drm] Host memory window: 0x400000000 +0x200000000
+[    1.697246] [drm] features: +virgl +edid +resource_blob +host_visible +context_init
+[    1.718031] [drm] number of scanouts: 16
+[    1.720190] [drm] number of cap sets: 2
+[    1.729046] [drm] cap set 0: id 4, max-version 0, max-size 160
+[    1.733674] [drm] cap set 1: id 5, max-version 0, max-size 16
+[    1.737337] [drm] Initialized virtio_gpu 0.1.0 0 for virtio1 on minor 0
+[    1.741517] parport_pc parport_pc.956: Unable to set coherent dma mask: disabling DMA
+[    1.749997] parport_pc parport_pc.888: Unable to set coherent dma mask: disabling DMA
+[    1.754239] parport_pc parport_pc.632: Unable to set coherent dma mask: disabling DMA
+[    1.760439] brd: module loaded
+[    1.764529] loop: module loaded
+[    1.790454] virtio_blk virtio2: [vda] 225808 4096-byte logical blocks (925 MB/882 MiB)
+[    1.794640] vda: detected capacity change from 0 to 924909568
+[    1.834384] virtio_blk virtio3: [vdb] 23908 4096-byte logical blocks (97.9 MB/93.4 MiB)
+[    1.838935] vdb: detected capacity change from 0 to 97927168
+[    1.882640] virtio_blk virtio4: [vdc] 0 512-byte logical blocks (0 B/0 B)
+[    1.915385] virtio_blk virtio5: [vdd] 0 512-byte logical blocks (0 B/0 B)
+[    1.958348] virtio_blk virtio6: [vde] 4892672 4096-byte logical blocks (20.0 GB/18.7 GiB)
+[    1.962988] vde: detected capacity change from 0 to 20040384512
+[    2.000853] virtio_blk virtio7: [vdf] 0 512-byte logical blocks (0 B/0 B)
+[    2.052203] virtio_blk virtio8: [vdg] 3 512-byte logical blocks (1.54 kB/1.50 KiB)
+[    2.056603] vdg: detected capacity change from 0 to 1536
+[    2.065470] zram: Added device: zram0
+[    2.070859] tun: Universal TUN/TAP device driver, 1.6
+[    2.135102] PPP generic driver version 2.4.2
+[    2.137982] PPP BSD Compression module registered
+[    2.143050] PPP Deflate Compression module registered
+[    2.145896] PPP MPPE Compression module registered
+[    2.148625] NET: Registered protocol family 24
+[    2.151180] PPTP driver version 0.8.5
+[    2.153424] usbcore: registered new interface driver asix
+[    2.156237] usbcore: registered new interface driver ax88179_178a
+[    2.159420] usbcore: registered new interface driver cdc_ether
+[    2.162349] usbcore: registered new interface driver net1080
+[    2.165495] usbcore: registered new interface driver cdc_subset
+[    2.169141] usbcore: registered new interface driver zaurus
+[    2.172240] usbcore: registered new interface driver cdc_ncm
+[    2.175514] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    2.179134] ehci-pci: EHCI PCI platform driver
+[    2.181717] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    2.185047] ohci-pci: OHCI PCI platform driver
+[    2.188016] xhci_hcd 0000:00:1e.0: xHCI Host Controller
+[    2.191014] xhci_hcd 0000:00:1e.0: new USB bus registered, assigned bus number 1
+[    2.196829] xhci_hcd 0000:00:1e.0: hcc params 0x30003501 hci version 0x110 quirks 0x0000000000000450
+[    2.203438] xhci_hcd 0000:00:1e.0: xHCI Host Controller
+[    2.206591] xhci_hcd 0000:00:1e.0: new USB bus registered, assigned bus number 2
+[    2.210721] xhci_hcd 0000:00:1e.0: Host supports USB 3.0 SuperSpeed
+[    2.214415] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.10
+[    2.219556] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.223443] usb usb1: Product: xHCI Host Controller
+[    2.225892] usb usb1: Manufacturer: Linux 5.10.245-1008429-g8426c769398e xhci-hcd
+[    2.230147] usb usb1: SerialNumber: 0000:00:1e.0
+[    2.233172] hub 1-0:1.0: USB hub found
+[    2.235829] hub 1-0:1.0: 8 ports detected
+[    2.240019] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+[    2.244746] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.10
+[    2.249582] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.254532] usb usb2: Product: xHCI Host Controller
+[    2.257627] usb usb2: Manufacturer: Linux 5.10.245-1008429-g8426c769398e xhci-hcd
+[    2.262700] usb usb2: SerialNumber: 0000:00:1e.0
+[    2.265465] hub 2-0:1.0: USB hub found
+[    2.267804] hub 2-0:1.0: 8 ports detected
+[    2.272009] usbcore: registered new interface driver usblp
+[    2.275222] usbcore: registered new interface driver usb-storage
+[    2.278767] mousedev: PS/2 mouse device common for all mice
+[    2.282071] usbcore: registered new interface driver xpad
+[    2.285257] usbcore: registered new interface driver usb_acecad
+[    2.288792] usbcore: registered new interface driver aiptek
+[    2.292163] usbcore: registered new interface driver gtco
+[    2.298549] usbcore: registered new interface driver hanwang
+[    2.301745] usbcore: registered new interface driver kbtab
+[    2.305998] rtc_cmos rtc_cmos: registered as rtc0
+[    2.309000] rtc_cmos rtc_cmos: alarms up to one year, y3k, 114 bytes nvram
+[    2.313211] IR NEC protocol handler initialized
+[    2.315885] IR RC5(x/sz) protocol handler initialized
+[    2.318789] IR RC6 protocol handler initialized
+[    2.321437] IR JVC protocol handler initialized
+[    2.324074] IR Sony protocol handler initialized
+[    2.326721] IR SANYO protocol handler initialized
+[    2.329806] IR Sharp protocol handler initialized
+[    2.332582] IR MCE Keyboard/mouse protocol handler initialized
+[    2.335963] IR XMP protocol handler initialized
+[    2.364657] device-mapper: uevent: version 1.0.3
+[    2.370985] device-mapper: ioctl: 4.44.0-ioctl (2021-02-01) initialised: dm-devel@redhat.com
+[    2.376656] intel_pstate: CPU model not supported
+[    2.384576] hid: raw HID events driver (C) Jiri Kosina
+[    2.390920] usbcore: registered new interface driver usbhid
+[    2.396758] usbhid: USB HID core driver
+[    2.398810] ashmem: initialized
+[    2.428756] virtio-video virtio-video.20: Device 'stateful-encoder' registered as /dev/video0
+[    2.431744] GACT probability NOT on
+[    2.452822] u32 classifier
+[    2.454303]     input device check on
+[    2.456200]     Actions configured
+[    2.459126] xt_time: kernel timezone is -0000
+[    2.462703] IPVS: Registered protocols ()
+[    2.465695] IPVS: Connection hash table configured (size=4096, memory=32Kbytes)
+[    2.470013] IPVS: ipvs loaded.
+[    2.472310] gre: GRE over IPv4 demultiplexor driver
+[    2.475359] IPv4 over IPsec tunneling driver
+[    2.478398] ipt_CLUSTERIP: ClusterIP Version 0.8 loaded successfully
+[    2.482388] Initializing XFRM netlink socket
+[    2.484626] IPsec XFRM device driver
+[    2.487020] NET: Registered protocol family 10
+[    2.489882] Segment Routing with IPv6
+[    2.492078] mip6: Mobile IPv6
+[    2.494178] NET: Registered protocol family 17
+[    2.496485] NET: Registered protocol family 15
+[    2.499006] Bridge firewalling registered
+[    2.501422] l2tp_core: L2TP core driver, V2.0
+[    2.504486] l2tp_ppp: PPPoL2TP kernel driver, V2.0
+[    2.507287] 8021q: 802.1Q VLAN Support v1.8
+[    2.510021] sctp: Hash tables configured (bind 128/128)
+[    2.513395] 9pnet: Installing 9P2000 support
+[    2.516421] NET: Registered protocol family 40
+[    2.540759] IPI shorthand broadcast: enabled
+[    2.542934] sched_clock: Marking stable (2004662084, 538209484)->(3303154905, -760283337)
+[    2.548163] registered taskstats version 1
+[    2.550451] Loading compiled-in X.509 certificates
+[    2.557945] Key type .fscrypt registered
+[    2.567342] Key type fscrypt-provisioning registered
+[    2.574089] pstore: Using crash dump compression: deflate
+[    2.579183] ### dt-test ### start of unittest - you will see error messages
+[    2.583484] ### dt-test ### EXPECT \ : Duplicate name in testcase-data, renamed to "duplicate-name#1"
+[    2.583520] Duplicate name in testcase-data, renamed to "duplicate-name#1"
+[    2.595617] ### dt-test ### EXPECT / : Duplicate name in testcase-data, renamed to "duplicate-name#1"
+[    2.595679] ### dt-test ### EXPECT \ : OF: /testcase-data/phandle-tests/consumer-a: could not get #phandle-cells-missing for /testcase-data/phandle-tests/provider1
+[    2.602626] OF: /testcase-data/phandle-tests/consumer-a: could not get #phandle-cells-missing for /testcase-data/phandle-tests/provider1
+[    2.617238] ### dt-test ### EXPECT / : OF: /testcase-data/phandle-tests/consumer-a: could not get #phandle-cells-missing for /testcase-data/phandle-tests/provider1
+[    2.617240] ### dt-test ### EXPECT \ : OF: /testcase-data/phandle-tests/consumer-a: could not get #phandle-cells-missing for /testcase-data/phandle-tests/provider1
+[    2.625815] OF: /testcase-data/phandle-tests/consumer-a: could not get #phandle-cells-missing for /testcase-data/phandle-tests/provider1
+[    2.640831] ### dt-test ### EXPECT / : OF: /testcase-data/phandle-tests/consumer-a: could not get #phandle-cells-missing for /testcase-data/phandle-tests/provider1
+[    2.640832] ### dt-test ### EXPECT \ : OF: /testcase-data/phandle-tests/consumer-a: could not find phandle
+[    2.649114] OF: /testcase-data/phandle-tests/consumer-a: could not find phandle
+[    2.656548] virtio-video virtio-video.19: Device 'stateful-decoder' registered as /dev/video1
+[    2.658647] ### dt-test ### EXPECT / : OF: /testcase-data/phandle-tests/consumer-a: could not find phandle
+[    2.677278] ### dt-test ### EXPECT \ : OF: /testcase-data/phandle-tests/consumer-a: could not find phandle
+[    2.682966] OF: /testcase-data/phandle-tests/consumer-a: could not find phandle
+[    2.692926] ### dt-test ### EXPECT / : OF: /testcase-data/phandle-tests/consumer-a: could not find phandle
+[    2.692927] ### dt-test ### EXPECT \ : OF: /testcase-data/phandle-tests/consumer-a: #phandle-cells = 3 found -1
+[    2.698398] OF: /testcase-data/phandle-tests/consumer-a: #phandle-cells = 3 found 1
+[    2.708725] ### dt-test ### EXPECT / : OF: /testcase-data/phandle-tests/consumer-a: #phandle-cells = 3 found -1
+[    2.708727] ### dt-test ### EXPECT \ : OF: /testcase-data/phandle-tests/consumer-a: #phandle-cells = 3 found -1
+[    2.714370] OF: /testcase-data/phandle-tests/consumer-a: #phandle-cells = 3 found 1
+[    2.724542] ### dt-test ### EXPECT / : OF: /testcase-data/phandle-tests/consumer-a: #phandle-cells = 3 found -1
+[    2.724590] ### dt-test ### EXPECT \ : OF: /testcase-data/phandle-tests/consumer-b: could not get #phandle-missing-cells for /testcase-data/phandle-tests/provider1
+[    2.730412] OF: /testcase-data/phandle-tests/consumer-b: could not get #phandle-missing-cells for /testcase-data/phandle-tests/provider1
+[    2.745933] ### dt-test ### EXPECT / : OF: /testcase-data/phandle-tests/consumer-b: could not get #phandle-missing-cells for /testcase-data/phandle-tests/provider1
+[    2.745935] ### dt-test ### EXPECT \ : OF: /testcase-data/phandle-tests/consumer-b: could not find phandle
+[    2.754333] OF: /testcase-data/phandle-tests/consumer-b: could not find phandle
+[    2.765154] ### dt-test ### EXPECT / : OF: /testcase-data/phandle-tests/consumer-b: could not find phandle
+[    2.765155] ### dt-test ### EXPECT \ : OF: /testcase-data/phandle-tests/consumer-b: #phandle-cells = 2 found -1
+[    2.770780] OF: /testcase-data/phandle-tests/consumer-b: #phandle-cells = 2 found 1
+[    2.781313] ### dt-test ### EXPECT / : OF: /testcase-data/phandle-tests/consumer-b: #phandle-cells = 2 found -1
+[    2.781570] ### dt-test ### EXPECT \ : platform testcase-data:testcase-device2: IRQ index 0 not found
+[    2.787500] platform testcase-data:testcase-device2: IRQ index 0 not found
+[    2.797058] ### dt-test ### EXPECT / : platform testcase-data:testcase-device2: IRQ index 0 not found
+[    2.797799] ### dt-test ### end of unittest - 197 passed, 0 failed
+[    2.808994] clk: Disabling unused clocks
+[    2.811575] ALSA device list:
+[    2.813397]   #0: VirtIO SoundCard at pci/0000:00:13.0/virtio18
+[    2.820988] F2FS-fs (vda): Magic Mismatch, valid(0xf2f52010) - read(0xe0f5e1e2)
+[    2.825689] F2FS-fs (vda): Can't find valid F2FS filesystem in 1th superblock
+[    2.831624] F2FS-fs (vda): Magic Mismatch, valid(0xf2f52010) - read(0x20202020)
+[    2.837451] F2FS-fs (vda): Can't find valid F2FS filesystem in 2th superblock
+[    2.843299] erofs: (device vda): EXPERIMENTAL big pcluster feature in use. Use at your own risk!
+[    2.849635] erofs: (device vda): mounted with root inode @ nid 65.
+[    2.854540] VFS: Mounted root (erofs filesystem) readonly on device 254:0.
+[    2.862403] devtmpfs: mounted
+[    2.865870] Freeing unused kernel image (initmem) memory: 1352K
+[    2.871081] Write protecting the kernel read-only data: 24576k
+[    2.876261] Freeing unused kernel image (text/rodata gap) memory: 2032K
+[    2.881668] Freeing unused kernel image (rodata/data gap) memory: 1544K
+[    2.886072] Run /init as init process
+[    2.961265] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #80!!!
+[    2.989258] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #80!!!
+[    3.038145] init: init first stage started!
+[    3.041719] init: Unable to open /lib/modules, skipping module loading.
+[    3.050966] init: Checking debug sepolicy: force_debuggable=0 is_userdebug=0 allow_adb_root=0
+[    3.061269] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #80!!!
+[    3.061839] init: Using Android DT directory /proc/device-tree/firmware/android/
+[    3.071454] init: Failed to read vbmeta partitions.
+[    3.085496] init: DSU not detected, proceeding with normal boot
+[    3.089834] init: [libfs_mgr]__mount(source=/dev/block/vdg,target=/runtime.prop,type=none)=0: Success
+[    3.096063] erofs: (device vdb): EXPERIMENTAL big pcluster feature in use. Use at your own risk!
+[    3.104362] erofs: (device vdb): mounted with root inode @ nid 42.
+[    3.107975] init: [libfs_mgr]__mount(source=/dev/block/vdb,target=/vendor,type=erofs)=0: Success
+[    3.114457] init: Skipped setting INIT_AVB_VERSION (not in recovery mode)
+[    3.131488] init: Could not find mount entry for /system
+[    3.136306] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #80!!!
+[    3.136404] init: Opening SELinux policy
+[    3.141702] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #80!!!
+[    3.148783] init: Falling back to standard signature check. TODO implementent support for fsverity SEPolicy.
+[    3.157481] init: Error: Apex SEPolicy failed signature check
+[    3.161336] init: Loading APEX Sepolicy from /system/etc/selinux/apex/SEPolicy.zip
+[    3.166263] init: Failed to open package /system/etc/selinux/apex/SEPolicy.zip: No such file or directory
+[    3.192134] init: Loading SELinux policy
+[    3.200194] SELinux:  Permission bpf in class capability2 not defined in policy.
+[    3.205448] SELinux:  Permission checkpoint_restore in class capability2 not defined in policy.
+[    3.211029] SELinux:  Permission bpf in class cap2_userns not defined in policy.
+[    3.215507] SELinux:  Permission checkpoint_restore in class cap2_userns not defined in policy.
+[    3.220761] SELinux: the above unknown classes and permissions will be denied
+[    3.227191] SELinux:  policy capability network_peer_controls=1
+[    3.230942] SELinux:  policy capability open_perms=1
+[    3.234329] SELinux:  policy capability extended_socket_class=1
+[    3.237775] SELinux:  policy capability always_check_network=0
+[    3.241072] SELinux:  policy capability cgroup_seclabel=0
+[    3.244134] SELinux:  policy capability nnp_nosuid_transition=1
+[    3.247642] SELinux:  policy capability genfs_seclabel_symlinks=0
+[    3.251503] SELinux:  policy capability ioctl_skip_cloexec=0
+[    3.298475] audit: type=1403 audit(1779417718.997:2): auid=4294967295 ses=4294967295 lsm=selinux res=1
+[    3.311235] selinux: SELinux: Loaded file_contexts
+[    3.314254] selinux: 
+[    3.319360] audit: type=1404 audit(1779417719.018:3): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295 enabled=1 old-enabled=1 lsm=selinux res=1
+[    3.335028] init: init second stage started!
+[    3.358995] init: Using Android DT directory /proc/device-tree/firmware/android/
+[    3.364707] init: Couldn't load property file '/system_dlkm/etc/build.prop': open() failed: No such file or directory: No such file or directory
+[    3.372415] init: Couldn't load property file '/vendor/default.prop': open() failed: No such file or directory: No such file or directory
+[    3.380470] init: Overriding previous property 'ro.product.first_api_level':'32' with new value '30'
+[    3.388701] init: Couldn't load property file '/odm_dlkm/etc/build.prop': open() failed: No such file or directory: No such file or directory
+[    3.399056] init: Overriding previous property 'ro.product.board':'{metrics-tag}' with new value 'craaskvin'
+[    3.406063] init: Setting product property ro.product.brand to 'google' (from ro.product.product.brand)
+[    3.411907] init: Setting product property ro.product.device to 'nissa_cheets' (from ro.product.product.device)
+[    3.418381] init: Setting product property ro.product.manufacturer to 'Google' (from ro.product.product.manufacturer)
+[    3.493666] cgroup: Unknown subsys name 'memory'
+[    3.496274] cgroup: Unknown subsys name 'schedtune'
+[    3.544305] ueventd: ueventd started!
+[    3.548049] selinux: SELinux: Loaded file_contexts
+[    3.550245] selinux: 
+[    3.552428] ueventd: Parsing file /system/etc/ueventd.rc...
+[    3.556103] ueventd: Added '/vendor/etc/ueventd.rc' to import list
+[    3.559821] ueventd: Added '/odm/etc/ueventd.rc' to import list
+[    3.564808] ueventd: Parsing file /vendor/etc/ueventd.rc...
+[    3.568408] ueventd: Parsing file /odm/etc/ueventd.rc...
+[    3.572668] ueventd: Unable to read config file '/odm/etc/ueventd.rc': open() failed: No such file or directory
+[    3.582244] ueventd: Parsing file /vendor/ueventd.rc...
+[    3.600099] apexd: Bootstrap subcommand detected
+[    3.604188] apexd: ActivateFlattenedApex
+[    3.607869] apexd: Scanning /system/apex
+[    3.611642] apexd: Bind mounting /system/apex/com.android.adbd onto /apex/com.android.adbd
+[    3.619368] apexd: Bind mounting /system/apex/com.android.adservices onto /apex/com.android.adservices
+[    3.628116] apexd: Bind mounting /system/apex/com.android.appsearch onto /apex/com.android.appsearch
+[    3.639033] apexd: Bind mounting /system/apex/com.android.art onto /apex/com.android.art
+[    3.655964] apexd: Bind mounting /system/apex/com.android.btservices_arc onto /apex/com.android.btservices
+[    3.658503] audit: type=1400 audit(1779417719.357:4): avc:  denied  { relabelto } for  pid=115 comm="ueventd" name="debug" dev="sysfs" ino=1103 scontext=u:r:ueventd:s0 tcontext=u:object_r:debugfs:s0 tclass=dir permissive=0
+[    3.672521] apexd: Bind mounting /system/apex/com.android.conscrypt onto /apex/com.android.conscrypt
+[    3.708928] apexd: Bind mounting /system/apex/com.android.extservices.gms onto /apex/com.android.extservices
+[    3.738911] printk: apexd: 24 output lines suppressed due to ratelimiting
+[    3.915273] audit: type=1400 audit(1779417719.610:5): avc:  denied  { sys_admin } for  pid=68 comm="kworker/2:1" capability=21  scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=capability permissive=0
+[    3.928825] audit: type=1400 audit(1779417719.614:6): avc:  denied  { sys_admin } for  pid=58 comm="kworker/3:1" capability=21  scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=capability permissive=0
+[    4.012991] audit: type=1400 audit(1779417719.711:7): avc:  denied  { read } for  pid=125 comm="boringssl_self_" name="/" dev="vdb" ino=42 scontext=u:r:vendor_boringssl_self_test:s0 tcontext=u:object_r:vendor_file:s0 tclass=dir permissive=0
+[    4.253338] logd.auditd: start
+[    4.256028] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #280!!!
+[    4.266112] logd: Loaded bug_map file: /vendor/etc/selinux/selinux_denial_metadata
+[    4.294016] logd: Loaded bug_map file: /system/etc/selinux/bug_map
+[    4.298712] type=1400 audit(1779417719.962:8): avc: denied { read } for comm="vndservicemanag" name="/" dev="vdb" ino=42 scontext=u:r:vndservicemanager:s0 tcontext=u:object_r:vendor_file:s0 tclass=dir permissive=0
+[    4.385507] type=1400 audit(1779417720.083:9): avc: denied { sys_admin } for comm="kworker/2:1" capability=21 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=capability permissive=0
+[    4.401555] type=1400 audit(1779417720.088:10): avc: denied { sys_admin } for comm="kworker/1:1" capability=21 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=capability permissive=0
+[    4.417134] type=1400 audit(1779417720.099:11): avc: denied { sys_admin } for comm="kworker/0:1" capability=21 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=capability permissive=0
+[    4.508713] vshd: vshd started
+[    5.991845] type=1400 audit(1779417721.690:12): avc: denied { ioctl } for comm="mkfs.ext4" path="/dev/block/vde" dev="tmpfs" ino=343 ioctlcmd=0x127b scontext=u:r:arc_mkfs_blk_data:s0 tcontext=u:object_r:userdata_block_device:s0 tclass=blk_file permissive=0
+[    6.025142] type=1400 audit(1779417721.694:13): avc: denied { ioctl } for comm="mkfs.ext4" path="/dev/block/vde" dev="tmpfs" ino=343 ioctlcmd=0x1277 scontext=u:r:arc_mkfs_blk_data:s0 tcontext=u:object_r:userdata_block_device:s0 tclass=blk_file permissive=0
+[   10.343995] init: Service 'exec 2 (/system/bin/arc-mkfs-blk-data /dev/block/vde)' (pid 149) exited with status 0 waiting took 5.886000 seconds
+[   10.354174] init: Sending signal 9 to service 'exec 2 (/system/bin/arc-mkfs-blk-data /dev/block/vde)' (pid 149) process group...
+[   10.362292] libprocessgroup: Successfully killed process cgroup uid 0 pid 149 in 0ms
+[   10.368427] init: DM_DEV_STATUS failed for system: No such device or address
+[   10.376119] init: DM_DEV_STATUS failed for vroot: No such device or address
+[   10.382681] init: DM_DEV_STATUS failed for system: No such device or address
+[   10.388786] init: DM_DEV_STATUS failed for vroot: No such device or address
+[   10.395314] init: DM_DEV_STATUS failed for system: No such device or address
+[   10.402445] init: DM_DEV_STATUS failed for vroot: No such device or address
+[   10.408299] init: DM_DEV_STATUS failed for system: No such device or address
+[   10.469143] EXT4-fs (vde): Ignoring removed nomblk_io_submit option
+[   10.474825] EXT4-fs (vde): Using encoding defined by superblock: utf8-12.1.0 with flags 0x0
+[   10.541091] EXT4-fs (vde): mounted filesystem with ordered data mode. Opts: errors=remount-ro,nomblk_io_submit
+[   10.891968] type=1400 audit(1779417726.589:14): avc: denied { fowner } for comm="ld-linux" capability=3 scontext=u:r:shell:s0 tcontext=u:r:shell:s0 tclass=capability permissive=0
+[   10.895010] e2fsck: e2fsck 1.46.2 (28-Feb-2021)
+[   10.929900] e2fsck: /dev/block/vde: clean, 12/307200 files, 52312/4892672 blocks
+[   10.940749] EXT4-fs (vde): Using encoding defined by superblock: utf8-12.1.0 with flags 0x0
+[   11.006218] EXT4-fs (vde): mounted filesystem with ordered data mode. Opts: discard,resgid=1065
+[   11.073905] type=1400 audit(1779417726.772:15): avc: denied { relabelto } for comm="init" name="debug" dev="sysfs" ino=1103 scontext=u:r:init:s0 tcontext=u:object_r:debugfs:s0 tclass=dir permissive=0
+[   11.547907] logd: logd reinit
+[   11.559169] logd: FrameworkListener: read() failed (Connection reset by peer)
+[   11.568164] apexd: This device does not support updatable APEX. Exiting
+[   11.575146] apexd: Marking APEXd as activated
+[   13.066790] vold: Failed to chmod /data/system_ce/0: No such file or directory
+[   13.071436] vold: Failed to chmod /data/misc_ce/0: No such file or directory
+[   13.077093] vold: Failed to chmod /data/media/0: No such file or directory
+[   13.118250] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #80!!!
+[   13.394022] apexd: This device does not support updatable APEX. Exiting
+[   13.397585] apexd: Marking APEXd as ready
+[   13.988387] type=1400 audit(1779417729.686:16): avc: denied { noatsecure } for comm="init" scontext=u:r:init:s0 tcontext=u:r:system_server:s0 tclass=process permissive=0
+[   14.174858] type=1400 audit(1779417729.873:17): avc: denied { getattr } for comm="arccachesetup" path="/dev/kmsg" dev="tmpfs" ino=5 scontext=u:r:system_server:s0 tcontext=u:object_r:kmsg_device:s0 tclass=chr_file permissive=0
+[   14.399271] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #80!!!
+[   16.358167] init: Service 'arccachesetup_install' (pid 214) exited with status 0 waiting took 2.371000 seconds
+[   16.365342] init: Sending signal 9 to service 'arccachesetup_install' (pid 214) process group...
+[   16.370487] libprocessgroup: Successfully killed process cgroup uid 1000 pid 214 in 0ms
+[   16.375634] init: starting service 'arccachesetup_installdexopt'...
+[   16.381178] init: SVC_EXEC service 'arccachesetup_installdexopt' pid 220 (uid 0 gid 0+0 context u:r:installd:s0) started; waiting...
+[   16.391053] init: Service 'arccachesetup_installdexopt' (pid 220) exited with status 0 waiting took 0.011000 seconds
+[   16.398423] init: Sending signal 9 to service 'arccachesetup_installdexopt' (pid 220) process group...
+[   16.405102] libprocessgroup: Successfully killed process cgroup uid 0 pid 220 in 0ms
+[   16.411035] init: starting service 'arccachesetup_restorecontext'...
+[   16.421546] init: SVC_EXEC service 'arccachesetup_restorecontext' pid 221 (uid 0 gid 0+0 context u:r:installd:s0) started; waiting...
+[   17.319886] Spectre V2 : WARNING: Unprivileged eBPF is enabled with eIBRS on, data leaks possible via Spectre v2 BHB attacks!
+[   17.415932] LibBpfLoader: Section bpfloader_min_ver value is 2 [0x2]
+[   17.420115] LibBpfLoader: Section bpfloader_max_ver value is 65536 [0x10000]
+[   17.424715] LibBpfLoader: Section size_of_bpf_map_def value is 116 [0x74]
+[   17.430108] LibBpfLoader: Section size_of_bpf_prog_def value is 92 [0x5c]
+[   17.435500] LibBpfLoader: BpfLoader version 0x00013 processing ELF object /apex/com.android.tethering/etc/bpf/offload.o with ver [0x00002,0x10000)
+[   17.735090] printk: bpfloader: 1613 output lines suppressed due to ratelimiting
+[   17.769267] type=1400 audit(1779417733.467:18): avc: denied { setattr } for comm="init" name="admin" dev="sysfs" ino=20375 scontext=u:r:init:s0 tcontext=u:object_r:sysfs_lru_gen_admin:s0 tclass=file permissive=0
+[   17.778248] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #80!!!
+[   17.818945] healthd: batteryCapacityLevelPath not found
+[   17.829015] healthd: batteryChargeTimeToFullNowPath. not found
+[   17.854269] healthd: batteryFullChargeDesignCapacityUahPath. not found
+[   17.892873] healthd: battery l=5 v=10438 t=0.0 h=1 st=2 c=365000 fc=4490000 cc=0 chg=a
+[   18.128140] type=1400 audit(1779417733.826:19): avc: denied { write } for comm="atrace" name="enable" dev="tracefs" ino=9012 scontext=u:r:atrace:s0 tcontext=u:object_r:debugfs_tracing_debug:s0 tclass=file permissive=0
+[   18.586502] type=1400 audit(1779417734.281:20): avc: denied { read } for comm="arc-mojo-proxy" name="/" dev="vdb" ino=42 scontext=u:r:arc_mojo_proxy:s0 tcontext=u:object_r:vendor_file:s0 tclass=dir permissive=0
+[   18.746311] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #80!!!
+[   20.649479] healthd: battery l=5 v=10438 t=0.0 h=1 st=2 c=365000 fc=4490000 cc=0 chg=a
+[   20.856072] healthd: battery l=5 v=10438 t=0.0 h=1 st=2 c=365000 fc=4490000 cc=0 chg=a
+[   20.867651] healthd: battery l=5 v=10438 t=0.0 h=1 st=2 c=365000 fc=4490000 cc=0 chg=a
+[   21.374054] init: processing action (sys.sysctl.extra_free_kbytes=*) from (/system/etc/init/hw/init.rc:1187)
+[   21.383947] init: starting service 'exec 17 (/system/bin/extra_free_kbytes.sh 12294)'...
+[   21.394739] init: SVC_EXEC service 'exec 17 (/system/bin/extra_free_kbytes.sh 12294)' pid 509 (uid 0 gid 0+0 context default) started; waiting...
+[   21.404630] init: Service 'exec 17 (/system/bin/extra_free_kbytes.sh 12294)' (pid 509) exited with status 0 waiting took 0.010000 seconds
+[   21.414422] init: Sending signal 9 to service 'exec 17 (/system/bin/extra_free_kbytes.sh 12294)' (pid 509) process group...
+[   21.423107] libprocessgroup: Successfully killed process cgroup uid 0 pid 509 in 0ms
+[   22.797069] type=1400 audit(1779417738.495:21): avc: denied { read } for comm="system_server" name="u:object_r:build_bootimage_prop:s0" dev="tmpfs" ino=53 scontext=u:r:system_server:s0 tcontext=u:object_r:build_bootimage_prop:s0 tclass=file permissive=0
+[   23.875620] init: processing action (service.bootanim.exit=1) from (/init.bertha.rc:376)
+[   23.885806] init: processing action (service.bootanim.exit=1) from (/init.bertha.rc:376)
+[   23.912755] init: processing action (sys.usb.config=none && sys.usb.configfs=0) from (/system/etc/init/hw/init.usb.rc:31)
+[   23.925653] init: processing action (init.svc.adbd=stopped) from (/system/etc/init/hw/init.usb.configfs.rc:14)
+[   24.034024] logd: logdr: UID=1000 GID=1000 PID=408 n tail=0 logMask=4 pid=0 start=0ns deadline=0ns
+[   24.489470] binder: undelivered TRANSACTION_COMPLETE
+[   24.508640] binder: undelivered transaction 20439, process died.
+[   29.615039] init: DM_DEV_STATUS failed for system: No such device or address
+[   29.630733] init: DM_DEV_STATUS failed for vroot: No such device or address
+[   29.640729] init: DM_DEV_STATUS failed for system: No such device or address
+[   29.649246] init: DM_DEV_STATUS failed for vroot: No such device or address
+[   29.665999] init: DM_DEV_STATUS failed for system: No such device or address
+[   29.677038] init: DM_DEV_STATUS failed for vroot: No such device or address
+[   29.690888] init: DM_DEV_STATUS failed for system: No such device or address
+[   29.701349] init: DM_DEV_STATUS failed for vroot: No such device or address
+[   29.706100] init: DM_DEV_STATUS failed for system: No such device or address
+[   29.711020] init: DM_DEV_STATUS failed for vroot: No such device or address
+[   30.437567] type=1400 audit(1779417748.383:22): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   30.460658] logd: start watching /data/system/packages.list ...
+[   30.465363] logd: ReadPackageList, total packages: 78
+[   31.287452] type=1400 audit(1779417749.234:23): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   31.464105] type=1400 audit(1779417749.410:24): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   31.974838] logd: start watching /data/system/packages.list ...
+[   31.979058] logd: ReadPackageList, total packages: 78
+[   32.289746] type=1400 audit(1779417750.236:25): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   33.467740] type=1400 audit(1779417751.414:26): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   34.292084] type=1400 audit(1779417752.238:27): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   36.411827] type=1400 audit(1779417754.356:28): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   36.490347] type=1400 audit(1779417754.417:29): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   36.630776] binder_alloc: 1320: binder_alloc_buf size 1056768 failed, no address space
+[   36.641897] binder_alloc: allocated: 2624 (num: 2 largest: 2264), free: 1037760 (num: 1 largest: 1037760)
+[   36.655803] binder: 817:1549 transaction call to 1320:0 failed 58609/29201/-28, code 1 size 1056768-0 line 3350
+[   37.304261] type=1400 audit(1779417755.242:30): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   37.420855] type=1400 audit(1779417755.356:31): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   39.264977] init: Service 'vendor.drm-clearkey-service' (pid 1757) exited with status 0 oneshot service took 7.048000 seconds in background
+[   39.273683] init: Sending signal 9 to service 'vendor.drm-clearkey-service' (pid 1757) process group...
+[   39.288477] libprocessgroup: Successfully killed process cgroup uid 1013 pid 1757 in 0ms
+[   39.301388] init: Service 'vendor.drm-widevine-hal' (pid 1767) exited with status 0 oneshot service took 7.042000 seconds in background
+[   39.322577] init: Sending signal 9 to service 'vendor.drm-widevine-hal' (pid 1767) process group...
+[   39.337403] libprocessgroup: Successfully killed process cgroup uid 1013 pid 1767 in 0ms
+[   39.418192] type=1400 audit(1779417757.362:32): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   40.312887] type=1400 audit(1779417758.252:33): avc: denied { read } for comm="binder:1320_4" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   40.527687] type=1400 audit(1779417758.254:34): avc: denied { read } for comm="binder:1320_4" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   40.819386] type=1400 audit(1779417758.263:35): avc: denied { read } for comm="binder:1320_1" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   40.917808] type=1400 audit(1779417758.267:36): avc: denied { read } for comm="binder:1320_1" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   40.940258] type=1400 audit(1779417758.428:37): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   42.231329] init: Sending signal 9 to service 'idmap2d' (pid 269) process group...
+[   42.241788] libprocessgroup: Successfully killed process cgroup uid 1000 pid 269 in 5ms
+[   42.247803] init: Control message: Processed ctl.stop for 'idmap2d' from pid: 408 (system_server)
+[   42.254426] init: Service 'idmap2d' (pid 269) received signal 9
+[   42.422071] type=1400 audit(1779417760.366:39): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   42.554885] type=1400 audit(1779417760.430:40): avc: denied { read } for comm="binder:1320_4" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   42.608943] type=1400 audit(1779417760.433:41): avc: denied { read } for comm="binder:1320_4" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   45.498825] type=1400 audit(1779417763.438:42): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   45.829377] logd: start watching /data/system/packages.list ...
+[   45.851403] logd: ReadPackageList, total packages: 78
+[   46.317361] type=1400 audit(1779417764.260:43): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   46.632625] type=1400 audit(1779417764.393:44): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   46.780829] init: starting service 'idmap2d'...
+[   46.783785] type=1400 audit(1779417764.725:45): avc: denied { read } for comm="binder:1320_1" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   46.803868] init: Control message: Processed ctl.start for 'idmap2d' from pid: 408 (system_server)
+[   46.979903] init: Untracked pid 2730 exited with status 0
+[   46.992692] init: Untracked pid 2730 did not have an associated service entry and will not be reaped
+[   47.041841] init: Untracked pid 2733 exited with status 0
+[   47.074525] init: Untracked pid 2733 did not have an associated service entry and will not be reaped
+[   47.094550] init: Untracked pid 2736 exited with status 0
+[   47.110809] init: Untracked pid 2736 did not have an associated service entry and will not be reaped
+[   47.152995] init: Untracked pid 2738 exited with status 0
+[   47.174345] init: Untracked pid 2738 did not have an associated service entry and will not be reaped
+[   47.176720] type=1400 audit(1779417764.730:46): avc: denied { read } for comm="binder:1320_1" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   48.713111] type=1400 audit(1779417766.658:47): avc: denied { read } for comm="binder:1320_4" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   49.134057] type=1400 audit(1779417766.659:48): avc: denied { read } for comm="binder:1320_4" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   51.145972] type=1400 audit(1779417769.091:49): avc: denied { read } for comm="binder:1320_1" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   51.205831] type=1400 audit(1779417769.091:50): avc: denied { read } for comm="binder:1320_1" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   51.464966] type=1400 audit(1779417769.403:51): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   51.722453] type=1400 audit(1779417769.444:52): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   52.322682] type=1400 audit(1779417770.269:53): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   55.101726] type=1400 audit(1779417773.048:54): avc: denied { read } for comm="binder:1320_1" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   55.127310] type=1400 audit(1779417773.051:55): avc: denied { read } for comm="binder:1320_1" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   55.286051] type=1400 audit(1779417773.232:56): avc: denied { read } for comm="binder:1320_6" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   55.302146] type=1400 audit(1779417773.235:57): avc: denied { read } for comm="binder:1320_6" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   56.135933] type=1400 audit(1779417774.082:58): avc: denied { read } for comm="binder:1320_1" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   56.154059] type=1400 audit(1779417774.099:59): avc: denied { read } for comm="binder:1320_1" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   57.201497] init: Sending signal 9 to service 'idmap2d' (pid 2724) process group...
+[   57.215661] libprocessgroup: Successfully killed process cgroup uid 1000 pid 2724 in 9ms
+[   57.249044] init: Control message: Processed ctl.stop for 'idmap2d' from pid: 408 (system_server)
+[   57.256080] init: Service 'idmap2d' (pid 2724) received signal 9
+[   57.465060] type=1400 audit(1779417775.411:60): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   57.714940] type=1400 audit(1779417775.661:61): avc: denied { read } for comm="binder:1320_6" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   57.734330] type=1400 audit(1779417775.663:62): avc: denied { read } for comm="binder:1320_2" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   57.754207] type=1400 audit(1779417775.664:63): avc: denied { read } for comm="binder:1320_6" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   59.914987] audit: audit_lost=1 audit_rate_limit=5 audit_backlog_limit=64
+[   59.921102] audit: rate limit exceeded
+[   61.209824] type=1400 audit(1779417779.156:73): avc: denied { read } for comm="lowpool[3]" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   61.235875] type=1400 audit(1779417779.180:74): avc: denied { read } for comm="lowpool[3]" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   61.822473] type=1400 audit(1779417779.769:75): avc: denied { read } for comm="binder:1320_2" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   61.856568] type=1400 audit(1779417779.769:76): avc: denied { read } for comm="binder:1320_2" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   62.647029] type=1400 audit(1779417780.593:77): avc: denied { read } for comm="binder:1320_2" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   62.665938] type=1400 audit(1779417780.610:78): avc: denied { read } for comm="binder:1320_2" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   64.474811] type=1400 audit(1779417782.421:79): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   64.725987] init: processing action (persist.device_config.lmkd_native.thrashing_limit_critical=*) from (/system/etc/init/lmkd.rc:44)
+[   64.737822] init: processing action (lmkd.reinit=1) from (/system/etc/init/lmkd.rc:10)
+[   64.744618] init: starting service 'exec 21 (/system/bin/lmkd --reinit)'...
+[   64.773383] init: Service 'exec 21 (/system/bin/lmkd --reinit)' (pid 3125) exited with status 0 oneshot service took 0.015000 seconds in background
+[   64.782308] init: Sending signal 9 to service 'exec 21 (/system/bin/lmkd --reinit)' (pid 3125) process group...
+[   64.790741] libprocessgroup: Successfully killed process cgroup uid 0 pid 3125 in 0ms
+[   66.512552] type=1400 audit(1779417784.459:80): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   67.338828] type=1400 audit(1779417785.285:81): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   68.550062] type=1400 audit(1779417786.496:82): avc: denied { read } for comm="binder:1320_7" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   68.585287] type=1400 audit(1779417786.530:83): avc: denied { read } for comm="binder:1320_7" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   69.099123] type=1400 audit(1779417787.045:84): avc: denied { read } for comm="binder:1320_7" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   69.109976] type=1400 audit(1779417787.052:85): avc: denied { read } for comm="binder:1320_7" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   69.396863] init: Unable to set property 'persist.device_config.tethering.ingress_to_vpn_address_filtering' from uid:1000 gid:1000 pid:408: SELinux permission check failed
+[   69.396918] type=1107 audit(1779417787.343:86): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc: denied { set } for property=persist.device_config.tethering.ingress_to_vpn_address_filtering pid=408 uid=1000 gid=1000 scontext=u:r:system_server:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0'
+[   69.408487] init: Unable to set property 'persist.device_config.tethering.bpf_net_maps_enable_java_bpf_map' from uid:1000 gid:1000 pid:408: SELinux permission check failed
+[   69.430399] type=1107 audit(1779417787.355:87): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc: denied { set } for property=persist.device_config.tethering.bpf_net_maps_enable_java_bpf_map pid=408 uid=1000 gid=1000 scontext=u:r:system_server:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0'
+[   69.609258] type=1400 audit(1779417787.555:88): avc: denied { read } for comm="binder:1320_7" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   69.630321] type=1400 audit(1779417787.556:89): avc: denied { read } for comm="binder:1320_7" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   72.484860] type=1400 audit(1779417790.430:90): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   73.825542] type=1400 audit(1779417791.771:91): avc: denied { read } for comm="binder:1320_7" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   73.848795] type=1400 audit(1779417791.780:92): avc: denied { read } for comm="binder:1320_7" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   75.052702] type=1400 audit(1779417792.999:93): avc: denied { read } for comm="binder:1320_7" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   75.081802] type=1400 audit(1779417792.999:94): avc: denied { read } for comm="binder:1320_7" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   75.522514] type=1400 audit(1779417793.469:95): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   76.348265] type=1400 audit(1779417794.294:96): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   77.893294] healthd: battery l=6 v=10438 t=0.0 h=1 st=2 c=590000 fc=4490000 cc=0 chg=a
+[   78.018716] type=1400 audit(1779417795.965:97): avc: denied { read } for comm="binder:1320_7" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   78.034545] type=1400 audit(1779417795.965:98): avc: denied { read } for comm="binder:1320_7" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   81.311978] init: processing action (persist.device_config.lmkd_native.thrashing_limit_critical=*) from (/system/etc/init/lmkd.rc:44)
+[   81.320784] init: processing action (lmkd.reinit=1) from (/system/etc/init/lmkd.rc:10)
+[   81.327509] init: starting service 'exec 22 (/system/bin/lmkd --reinit)'...
+[   81.368857] init: Service 'exec 22 (/system/bin/lmkd --reinit)' (pid 3247) exited with status 0 oneshot service took 0.031000 seconds in background
+[   81.378423] init: Sending signal 9 to service 'exec 22 (/system/bin/lmkd --reinit)' (pid 3247) process group...
+[   81.384508] libprocessgroup: Successfully killed process cgroup uid 0 pid 3247 in 0ms
+[   81.492722] type=1400 audit(1779417799.439:99): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   82.839289] init: Unable to set property 'persist.device_config.tethering.ingress_to_vpn_address_filtering' from uid:1000 gid:1000 pid:408: SELinux permission check failed
+[   82.852329] type=1107 audit(1779417800.785:100): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc: denied { set } for property=persist.device_config.tethering.ingress_to_vpn_address_filtering pid=408 uid=1000 gid=1000 scontext=u:r:system_server:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0'
+[   82.854297] init: Unable to set property 'persist.device_config.tethering.bpf_net_maps_enable_java_bpf_map' from uid:1000 gid:1000 pid:408: SELinux permission check failed
+[   82.873415] type=1107 audit(1779417800.800:101): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc: denied { set } for property=persist.device_config.tethering.bpf_net_maps_enable_java_bpf_map pid=408 uid=1000 gid=1000 scontext=u:r:system_server:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0'
+[   84.060141] logd: logdr: UID=1000 GID=1000 PID=408 n tail=0 logMask=4 pid=0 start=0ns deadline=0ns
+[   85.532914] type=1400 audit(1779417803.479:102): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   86.358758] type=1400 audit(1779417804.305:103): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[   91.503461] type=1400 audit(1779417809.450:104): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  115.431188] type=1400 audit(1779417833.372:105): avc: denied { read } for comm="binder:1320_2" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[  115.532285] type=1400 audit(1779417833.372:106): avc: denied { read } for comm="binder:1320_2" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[  115.555302] type=1400 audit(1779417833.501:107): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  116.384348] type=1400 audit(1779417834.330:108): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  119.644488] type=1400 audit(1779417837.590:109): avc: denied { read } for comm="binder:1320_7" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[  119.712548] type=1400 audit(1779417837.590:110): avc: denied { read } for comm="binder:1320_7" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[  121.529704] type=1400 audit(1779417839.475:111): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  137.040809] binder: undelivered transaction 276778, process died.
+[  137.050165] logd: start watching /data/system/packages.list ...
+[  137.053518] binder: undelivered transaction 276770, process died.
+[  137.059407] binder: undelivered transaction 276771, process died.
+[  137.067113] binder: undelivered transaction 276782, process died.
+[  137.073642] logd: ReadPackageList, total packages: 78
+[  137.085671] binder: undelivered transaction 276787, process died.
+[  137.891747] healthd: battery l=6 v=10438 t=0.0 h=1 st=2 c=476000 fc=4490000 cc=0 chg=a
+[  145.587380] type=1400 audit(1779417863.531:112): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  146.419336] type=1400 audit(1779417864.361:113): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  150.111490] type=1400 audit(1779417868.057:114): avc: denied { search } for comm="arc.applauncher" name="com.android.vending" dev="vde" ino=27 scontext=u:r:arc_applauncher_app:s0 tcontext=u:object_r:privapp_data_file:s0:c512,c768 tclass=dir permissive=0
+[  151.560352] type=1400 audit(1779417869.506:115): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  154.022118] type=1400 audit(1779417871.968:116): avc: denied { read } for comm="binder:1320_1" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[  154.133065] type=1400 audit(1779417871.980:117): avc: denied { read } for comm="binder:1320_1" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[  157.327052] type=1400 audit(1779417875.272:118): avc: denied { read } for comm="binder:1320_2" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[  157.358330] type=1400 audit(1779417875.273:119): avc: denied { read } for comm="binder:1320_2" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[  158.927845] binder: release 664:676 transaction 291898 in, still active
+[  158.931654] binder: send failed reply for transaction 291898 to 3583:4052
+[  158.934058] binder: release 664:1506 transaction 291900 in, still active
+[  158.936571] binder_alloc: 664: binder_alloc_buf, no vma
+[  158.936672] binder: send failed reply for transaction 291900 to 1972:4051
+[  158.939001] binder: 408:2788 transaction call to 664:0 failed 291950/29189/-3, code 1599098439 size 0-0 line 3350
+[  158.943847] binder_alloc: 664: binder_alloc_buf, no vma
+[  158.946789] binder: undelivered transaction 291923, process died.
+[  158.963390] binder: 408:499 transaction call to 664:0 failed 291952/29189/-3, code 1599098439 size 0-0 line 3350
+[  160.110797] logd: start watching /data/system/packages.list ...
+[  160.116472] logd: ReadPackageList, total packages: 78
+[  160.798590] type=1400 audit(1779417878.745:120): avc: denied { read } for comm="binder:1320_7" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=235 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[  160.808898] type=1400 audit(1779417878.745:121): avc: denied { read } for comm="binder:1320_7" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=28 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[  176.417381] type=1400 audit(1779417894.363:122): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  181.585726] type=1400 audit(1779417899.532:123): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  197.893875] healthd: battery l=6 v=10438 t=0.0 h=1 st=2 c=1069000 fc=4490000 cc=0 chg=a
+[  206.433163] type=1400 audit(1779417924.379:124): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  211.616239] type=1400 audit(1779417929.563:125): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  236.459511] type=1400 audit(1779417954.406:126): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  241.659333] type=1400 audit(1779417959.605:127): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  257.893283] healthd: battery l=7 v=10438 t=0.0 h=1 st=2 c=1280000 fc=4490000 cc=0 chg=a
+[  266.490209] type=1400 audit(1779417984.436:128): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  271.692510] type=1400 audit(1779417989.639:129): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  296.516427] type=1400 audit(1779418014.463:130): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  301.718970] type=1400 audit(1779418019.665:131): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  317.893496] healthd: battery l=7 v=10438 t=0.0 h=1 st=2 c=582000 fc=4490000 cc=0 chg=a
+[  326.564574] type=1400 audit(1779418044.511:132): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  331.749790] type=1400 audit(1779418049.696:133): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  356.591557] type=1400 audit(1779418074.538:134): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  361.776001] type=1400 audit(1779418079.722:135): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  377.893416] healthd: battery l=7 v=10438 t=0.0 h=1 st=2 c=1158000 fc=4490000 cc=0 chg=a
+[  384.116256] logd: logdr: UID=1000 GID=1000 PID=408 n tail=0 logMask=4 pid=0 start=0ns deadline=0ns
+[  386.623241] type=1400 audit(1779418104.569:136): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  391.806796] type=1400 audit(1779418109.753:137): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  416.651397] type=1400 audit(1779418134.597:138): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  421.832804] type=1400 audit(1779418139.779:139): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  437.894861] healthd: battery l=8 v=10438 t=0.0 h=1 st=2 c=1158000 fc=4490000 cc=0 chg=a
+[  446.700324] type=1400 audit(1779418164.647:140): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  451.863538] type=1400 audit(1779418169.810:141): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  476.727170] type=1400 audit(1779418194.673:142): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  481.889992] type=1400 audit(1779418199.836:143): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  497.775479] init: processing action (persist.device_config.lmkd_native.thrashing_limit_critical=*) from (/system/etc/init/lmkd.rc:44)
+[  497.785887] init: processing action (lmkd.reinit=1) from (/system/etc/init/lmkd.rc:10)
+[  497.792155] init: starting service 'exec 23 (/system/bin/lmkd --reinit)'...
+[  497.811849] init: Service 'exec 23 (/system/bin/lmkd --reinit)' (pid 4220) exited with status 0 oneshot service took 0.012000 seconds in background
+[  497.821991] init: Sending signal 9 to service 'exec 23 (/system/bin/lmkd --reinit)' (pid 4220) process group...
+[  497.830089] libprocessgroup: Successfully killed process cgroup uid 0 pid 4220 in 0ms
+[  497.893070] healthd: battery l=8 v=10438 t=0.0 h=1 st=2 c=1275000 fc=4490000 cc=0 chg=a
+[  498.335671] init: Unable to set property 'persist.device_config.tethering.ingress_to_vpn_address_filtering' from uid:1000 gid:1000 pid:408: SELinux permission check failed
+[  498.335701] type=1107 audit(1779418216.282:144): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc: denied { set } for property=persist.device_config.tethering.ingress_to_vpn_address_filtering pid=408 uid=1000 gid=1000 scontext=u:r:system_server:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0'
+[  498.348585] init: Unable to set property 'persist.device_config.tethering.bpf_net_maps_enable_java_bpf_map' from uid:1000 gid:1000 pid:408: SELinux permission check failed
+[  498.378817] type=1107 audit(1779418216.295:145): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc: denied { set } for property=persist.device_config.tethering.bpf_net_maps_enable_java_bpf_map pid=408 uid=1000 gid=1000 scontext=u:r:system_server:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0'
+[  502.583384] type=1400 audit(1779418220.529:146): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  503.585104] type=1400 audit(1779418221.531:147): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  503.954379] init: processing action (persist.device_config.lmkd_native.thrashing_limit_critical=*) from (/system/etc/init/lmkd.rc:44)
+[  503.965410] init: processing action (lmkd.reinit=1) from (/system/etc/init/lmkd.rc:10)
+[  503.971420] init: starting service 'exec 24 (/system/bin/lmkd --reinit)'...
+[  503.988851] init: Service 'exec 24 (/system/bin/lmkd --reinit)' (pid 4264) exited with status 0 oneshot service took 0.011000 seconds in background
+[  503.998070] init: Sending signal 9 to service 'exec 24 (/system/bin/lmkd --reinit)' (pid 4264) process group...
+[  504.005241] libprocessgroup: Successfully killed process cgroup uid 0 pid 4264 in 0ms
+[  504.492139] init: Unable to set property 'persist.device_config.tethering.ingress_to_vpn_address_filtering' from uid:1000 gid:1000 pid:408: SELinux permission check failed
+[  504.492151] type=1107 audit(1779418222.438:148): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc: denied { set } for property=persist.device_config.tethering.ingress_to_vpn_address_filtering pid=408 uid=1000 gid=1000 scontext=u:r:system_server:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0'
+[  504.504403] init: Unable to set property 'persist.device_config.tethering.bpf_net_maps_enable_java_bpf_map' from uid:1000 gid:1000 pid:408: SELinux permission check failed
+[  504.524184] type=1107 audit(1779418222.450:149): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc: denied { set } for property=persist.device_config.tethering.bpf_net_maps_enable_java_bpf_map pid=408 uid=1000 gid=1000 scontext=u:r:system_server:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0'
+[  505.588036] type=1400 audit(1779418223.534:150): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  506.761295] type=1400 audit(1779418224.707:151): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  508.610001] type=1400 audit(1779418226.556:152): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  511.920594] type=1400 audit(1779418229.867:153): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  512.614719] type=1400 audit(1779418230.561:154): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  517.620759] type=1400 audit(1779418235.567:155): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  523.627749] type=1400 audit(1779418241.574:156): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  530.635522] type=1400 audit(1779418248.582:157): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  536.788030] type=1400 audit(1779418254.734:158): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  538.644429] type=1400 audit(1779418256.590:159): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  541.964944] type=1400 audit(1779418259.911:160): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+[  547.654153] type=1400 audit(1779418265.600:161): avc: denied { write } for comm="ThreadPoolForeg" name="traced_producer" dev="tmpfs" ino=466 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms

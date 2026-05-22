@@ -1,0 +1,2 @@
+grep: /sys/bus/i2c/devices/*/config_file: No such file or directory
+Unable to find device ts

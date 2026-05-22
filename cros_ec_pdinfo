@@ -1,0 +1,28 @@
+-----------
+Port C0: enabled, connected  State:Attached.SNK
+Role:SNK DFP VCONN, Polarity:CC1
+CC State: DFP attached
+Port events: 0x00000000
+SOP  PD Rev: 3.0
+Source Capabilities:
+    Fixed: 5000mV 3000mA UP DRD
+    Fixed: 9000mV 2220mA 
+Port C0 SOP Discovery
+Identity VDOs:
+0x01c0311c
+0x00000000
+0x00000000
+0x20800000
+No SVIDs discovered
+Port C0 SOP' Discovery
+No identity discovered
+-----------
+Port C1: disabled, disconnected  State:LowPowerMode
+Role:SNK , Polarity:CC1
+CC State: None
+Port events: 0x00000008
+Port C1 SOP Discovery
+No identity discovered
+Port C1 SOP' Discovery
+No identity discovered
+-----------

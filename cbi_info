@@ -1,0 +1,35 @@
+EC result 3 (INVALID_PARAM)
+Error code: -1003
+/usr/share/userfeedback/scripts/cbi_info: ERROR: Failed to read type 1
+EC result 3 (INVALID_PARAM)
+Error code: -1003
+/usr/share/userfeedback/scripts/cbi_info: ERROR: Failed to read type 4
+EC result 3 (INVALID_PARAM)
+Error code: -1003
+/usr/share/userfeedback/scripts/cbi_info: ERROR: Failed to read type 5
+EC result 3 (INVALID_PARAM)
+Error code: -1003
+/usr/share/userfeedback/scripts/cbi_info: ERROR: Failed to read type 7
+EC result 3 (INVALID_PARAM)
+Error code: -1003
+/usr/share/userfeedback/scripts/cbi_info: ERROR: Failed to read type 8
+EC result 3 (INVALID_PARAM)
+Error code: -1003
+/usr/share/userfeedback/scripts/cbi_info: ERROR: Failed to read type 9
+[0]
+As uint: 5 (0x5)
+As binary: 05
+[1]
+[2]
+As uint: 327681 (0x50001)
+As binary: 01 00 05 00
+[3]
+H9JCNNNCP3MLYR-N6E
+[4]
+[5]
+[6]
+As uint: 513 (0x201)
+As binary: 01 02 00 00
+[7]
+[8]
+[9]
