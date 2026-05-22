@@ -1,0 +1,38 @@
+Filename				Type		Size		Used		Priority
+/dev/zram0                              partition	15811036	0		-2
+
+top-level entries in /sys/block/zram0:
+uevent: MAJOR=253
+uevent: MINOR=0
+uevent: DEVNAME=zram0
+uevent: DEVTYPE=disk
+uevent: DISKSEQ=31
+ext_range: 1
+mm_stat: 4096       64    20480        0    20480        0        0        0        0
+range: 1
+partscan: 0
+backing_dev: /dev/dm-15 (deleted)
+alignment_offset: 0
+diskseq: 31
+writeback_limit_enable: 0
+comp_algorithm: [lz4] zstd
+dev: 253:0
+bd_stat: 0        0        0
+ro: 0
+stat: 51        0     2416        0        1        0        8        0        0        0        0        0        0        0        0        0        0
+events_poll_msecs: -1
+writeback_limit: 0
+size: 31622080
+disksize: 16190504960
+discard_alignment: 0
+io_stat: 0        0 0        0
+max_comp_streams: 4
+recomp_algorithm: #1: lz4 [zstd]
+capability: 0
+hidden: 0
+debug_stat: version: 1
+debug_stat: 0        0
+removable: 0
+initstate: 1
+inflight: 0        0
+

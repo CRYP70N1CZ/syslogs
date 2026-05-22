@@ -1,0 +1,1278 @@
+/service/1
+  AutoConnect: true
+  CheckPortal: auto
+  Connectable: true
+  Country: US
+  Device: /device/wlan0
+  DownlinkSpeedKbps: 1921500
+  EAP.AnonymousIdentity: 
+  EAP.CACertID: 
+  EAP.CertID: 
+  EAP.EAP: 
+  EAP.Identity: 
+  EAP.InnerEAP: 
+  EAP.KeyID: 
+  EAP.KeyMgmt: WPA-PSK WPA-PSK-SHA256 SAE SAE-EXT-KEY
+  EAP.PIN: 
+  EAP.SubjectMatch: 
+  EAP.TLSVersionMax: 
+  EAP.UseLoginPassword: false
+  EAP.UseProactiveKeyCaching: false
+  EAP.UseSystemCAs: true
+  EphemeralPriority: 0
+  Error: no-failure
+  ErrorDetails: 
+  GUID: 509a6bee-2600-4c02-aad7-3ed0374c3484
+  IPConfig: /ipconfig/wlan0_0_dhcp
+  IsConnected: true
+  LastConnected: 13423893554746
+  LastManualConnectAttempt: 13403611686904
+  LastOnline: 13423893554911
+  LinkMonitorDisable: false
+  LogName: wifi_psk_1
+  ManagedCredentials: false
+  Metered: false
+  Mode: managed
+  Name: Eli2018
+  NetworkConfig/1/IPv4Address: 192.168.40.207/24
+  NetworkConfig/2/IPv4Gateway: 192.168.40.1
+  NetworkConfig/4/IPv6Gateway: 
+  NetworkConfig/6/MTU: 1500
+  NetworkConfig/7/NameServers/0: 192.168.40.1
+  NetworkConfig/8/Pref64: 
+  NetworkConfig/9/SearchDomains/0: lan.
+  NetworkConfig/10/SessionID: 1
+  NetworkID: 1
+  ONCSource: None
+  PassphraseRequired: false
+  Passpoint.FQDN: 
+  Passpoint.ID: 
+  Passpoint.MatchType: 
+  Passpoint.ProvisioningSource: 
+  PreviousError: 
+  PreviousErrorSerialNumber: 0
+  Priority: 0
+  ProbeUrl: http://connectivitycheck.gstatic.com/generate_204
+  Profile: /profile/default
+  ProxyConfig: 
+  SaveCredentials: true
+  SavedIPConfig/0/Address: 192.168.40.207
+  SavedIPConfig/1/Gateway: 192.168.40.1
+  SavedIPConfig/2/Mtu: 1500
+  SavedIPConfig/3/NameServers/0: 192.168.40.1
+  SavedIPConfig/4/Prefixlen: 24
+  SavedIPConfig/5/SearchDomains/0: lan.
+  Security: wpa2+wpa3
+  SecurityClass: psk
+  StartTime: 13402371795371
+  State: online
+  Strength: 55
+  TrafficCounterResetTime: 0
+  Type: wifi
+  UIData: {"user_settings":{"NameServersConfigType":"DHCP","Priority":0,"Type":"WiFi","WiFi":{"AutoConnect":true,"HexSSID":"456C6932303138","HiddenSSID":false,"Passphrase":"FAKE_CREDENTIAL_VPaJDV9x","SSID":"Eli2018","Security":"WPA-PSK"}}}
+  UplinkSpeedKbps: 1729600
+  Visible: true
+  WiFi.BSSID: 0a:e4:ce:e6:2e:b3
+  WiFi.BSSIDRequested: 
+  WiFi.Frequency: 6135
+  WiFi.FrequencyList/0: 5300
+  WiFi.FrequencyList/1: 6135
+  WiFi.HexSSID: 456C6932303138
+  WiFi.HiddenSSID: false
+  WiFi.PhyMode: 8
+  WiFi.RandomMACPolicy: Hardware
+  WiFi.RekeyInProgress: false
+  WiFi.RoamState: idle
+  WiFi.SignalStrengthRssi: -51
+  WiFi.VendorInformation/0/DeviceName:  
+  WiFi.VendorInformation/1/Manufacturer:  
+  WiFi.VendorInformation/2/ModelName:  
+  WiFi.VendorInformation/3/ModelNumber:  
+  WiFi.VendorInformation/4/OUIList: 00-10-18
+
+/service/3
+  AutoConnect: false
+  CheckPortal: auto
+  Connectable: true
+  Country: US
+  Device: /device/wlan0
+  DownlinkSpeedKbps: 0
+  EAP.AnonymousIdentity: 
+  EAP.CACertID: 
+  EAP.CertID: 
+  EAP.EAP: 
+  EAP.Identity: 
+  EAP.InnerEAP: 
+  EAP.KeyID: 
+  EAP.KeyMgmt: WPA-PSK WPA-PSK-SHA256 SAE SAE-EXT-KEY
+  EAP.PIN: 
+  EAP.SubjectMatch: 
+  EAP.TLSVersionMax: 
+  EAP.UseLoginPassword: false
+  EAP.UseProactiveKeyCaching: false
+  EAP.UseSystemCAs: true
+  EphemeralPriority: 0
+  Error: no-failure
+  ErrorDetails: 
+  GUID: e4f7edeb-23cb-4d2d-b684-4000f54642d0
+  IsConnected: false
+  LastConnected: 0
+  LastManualConnectAttempt: 13401403601557
+  LastOnline: 0
+  LinkMonitorDisable: false
+  LogName: wifi_psk_3
+  ManagedCredentials: false
+  Metered: false
+  Mode: managed
+  Name: Home Wi-Fi
+  NetworkID: 0
+  ONCSource: None
+  PassphraseRequired: false
+  Passpoint.FQDN: 
+  Passpoint.ID: 
+  Passpoint.MatchType: 
+  Passpoint.ProvisioningSource: 
+  PreviousError: 
+  PreviousErrorSerialNumber: 0
+  Priority: 0
+  ProbeUrl: 
+  Profile: /profile/default
+  ProxyConfig: 
+  SaveCredentials: true
+  Security: wpa2
+  SecurityClass: psk
+  StartTime: 13394350252590
+  State: idle
+  Strength: 13
+  TrafficCounterResetTime: 0
+  Type: wifi
+  UIData: {"user_settings":{"GUID":"e4f7edeb-23cb-4d2d-b684-4000f54642d0","Name":"Home Wi-Fi","Type":"WiFi","WiFi":{"HexSSID":"486F6D652057692D4669","HiddenSSID":false,"Passphrase":"FAKE_CREDENTIAL_VPaJDV9x","SSID":"Home Wi-Fi","Security":"WPA-PSK"}}}
+  UplinkSpeedKbps: 0
+  Visible: true
+  WiFi.BSSID: 14:91:82:91:59:8a
+  WiFi.BSSIDRequested: 
+  WiFi.Frequency: 2432
+  WiFi.FrequencyList/0: 2432
+  WiFi.FrequencyList/1: 2462
+  WiFi.HexSSID: 486F6D652057692D4669
+  WiFi.HiddenSSID: false
+  WiFi.PhyMode: 7
+  WiFi.RandomMACPolicy: Hardware
+  WiFi.RekeyInProgress: false
+  WiFi.RoamState: idle
+  WiFi.SignalStrengthRssi: -80
+  WiFi.VendorInformation/0/OUIList: 00-03-7f 08-86-3b 8c-fd-f0
+
+/service/49
+  AutoConnect: false
+  CheckPortal: auto
+  Connectable: false
+  Country: US
+  Device: /device/wlan0
+  DownlinkSpeedKbps: 0
+  EAP.AnonymousIdentity: 
+  EAP.CACertID: 
+  EAP.CertID: 
+  EAP.EAP: 
+  EAP.Identity: 
+  EAP.InnerEAP: 
+  EAP.KeyID: 
+  EAP.KeyMgmt: WPA-EAP WPA-EAP-SHA256
+  EAP.PIN: 
+  EAP.SubjectMatch: 
+  EAP.TLSVersionMax: 
+  EAP.UseLoginPassword: false
+  EAP.UseProactiveKeyCaching: false
+  EAP.UseSystemCAs: true
+  EphemeralPriority: 0
+  Error: no-failure
+  ErrorDetails: 
+  GUID: 
+  IsConnected: false
+  LastConnected: 0
+  LastManualConnectAttempt: 0
+  LastOnline: 0
+  LinkMonitorDisable: false
+  LogName: wifi_802_1x_49
+  ManagedCredentials: false
+  Metered: false
+  Mode: managed
+  Name: Spectrum Mobile
+  NetworkID: 0
+  ONCSource: Unknown
+  PassphraseRequired: false
+  Passpoint.FQDN: 
+  Passpoint.ID: 
+  Passpoint.MatchType: 
+  Passpoint.ProvisioningSource: 
+  PreviousError: 
+  PreviousErrorSerialNumber: 0
+  Priority: 0
+  ProbeUrl: 
+  Profile: 
+  ProxyConfig: 
+  SaveCredentials: true
+  Security: wpa2-ent
+  SecurityClass: 802_1x
+  StartTime: 13423894518730
+  State: idle
+  Strength: 19
+  TrafficCounterResetTime: 0
+  Type: wifi
+  UIData: 
+  UplinkSpeedKbps: 0
+  Visible: true
+  WiFi.BSSID: ea:33:ed:c5:e2:12
+  WiFi.BSSIDRequested: 
+  WiFi.Frequency: 5220
+  WiFi.FrequencyList/0: 5220
+  WiFi.HexSSID: 537065637472756D204D6F62696C65
+  WiFi.HiddenSSID: false
+  WiFi.PhyMode: 8
+  WiFi.RandomMACPolicy: Hardware
+  WiFi.RekeyInProgress: false
+  WiFi.RoamState: idle
+  WiFi.SignalStrengthRssi: -77
+  WiFi.VendorInformation/0/OUIList: 50-6f-9a 8c-fd-f0
+
+/service/46
+  AutoConnect: false
+  CheckPortal: auto
+  Connectable: false
+  Country: US
+  Device: /device/wlan0
+  DownlinkSpeedKbps: 0
+  EAP.AnonymousIdentity: 
+  EAP.CACertID: 
+  EAP.CertID: 
+  EAP.EAP: 
+  EAP.Identity: 
+  EAP.InnerEAP: 
+  EAP.KeyID: 
+  EAP.KeyMgmt: WPA-PSK WPA-PSK-SHA256 SAE SAE-EXT-KEY
+  EAP.PIN: 
+  EAP.SubjectMatch: 
+  EAP.TLSVersionMax: 
+  EAP.UseLoginPassword: false
+  EAP.UseProactiveKeyCaching: false
+  EAP.UseSystemCAs: true
+  EphemeralPriority: 0
+  Error: no-failure
+  ErrorDetails: 
+  GUID: 
+  IsConnected: false
+  LastConnected: 0
+  LastManualConnectAttempt: 0
+  LastOnline: 0
+  LinkMonitorDisable: false
+  LogName: wifi_psk_46
+  ManagedCredentials: false
+  Metered: false
+  Mode: managed
+  Name: SpectrumSetup-13
+  NetworkID: 0
+  ONCSource: Unknown
+  PassphraseRequired: true
+  Passpoint.FQDN: 
+  Passpoint.ID: 
+  Passpoint.MatchType: 
+  Passpoint.ProvisioningSource: 
+  PreviousError: 
+  PreviousErrorSerialNumber: 0
+  Priority: 0
+  ProbeUrl: 
+  Profile: 
+  ProxyConfig: 
+  SaveCredentials: true
+  Security: wpa2
+  SecurityClass: psk
+  StartTime: 13423894518725
+  State: idle
+  Strength: 40
+  TrafficCounterResetTime: 0
+  Type: wifi
+  UIData: 
+  UplinkSpeedKbps: 0
+  Visible: true
+  WiFi.BSSID: 08:33:ed:c5:e2:11
+  WiFi.BSSIDRequested: 
+  WiFi.Frequency: 2437
+  WiFi.FrequencyList/0: 2437
+  WiFi.FrequencyList/1: 5220
+  WiFi.HexSSID: 537065637472756D53657475702D3133
+  WiFi.HiddenSSID: false
+  WiFi.PhyMode: 8
+  WiFi.RandomMACPolicy: Hardware
+  WiFi.RekeyInProgress: false
+  WiFi.RoamState: idle
+  WiFi.SignalStrengthRssi: -60
+  WiFi.VendorInformation/0/OUIList: 8c-fd-f0
+
+/service/59
+  AutoConnect: false
+  CheckPortal: auto
+  Connectable: false
+  Country: US
+  Device: /device/wlan0
+  DownlinkSpeedKbps: 0
+  EAP.AnonymousIdentity: 
+  EAP.CACertID: 
+  EAP.CertID: 
+  EAP.EAP: 
+  EAP.Identity: 
+  EAP.InnerEAP: 
+  EAP.KeyID: 
+  EAP.KeyMgmt: WPA-PSK WPA-PSK-SHA256 SAE SAE-EXT-KEY
+  EAP.PIN: 
+  EAP.SubjectMatch: 
+  EAP.TLSVersionMax: 
+  EAP.UseLoginPassword: false
+  EAP.UseProactiveKeyCaching: false
+  EAP.UseSystemCAs: true
+  EphemeralPriority: 0
+  Error: no-failure
+  ErrorDetails: 
+  GUID: 
+  IsConnected: false
+  LastConnected: 0
+  LastManualConnectAttempt: 0
+  LastOnline: 0
+  LinkMonitorDisable: false
+  LogName: wifi_psk_59
+  ManagedCredentials: false
+  Metered: false
+  Mode: managed
+  Name: DIRECT-roku-428-89E928
+  NetworkID: 0
+  ONCSource: Unknown
+  PassphraseRequired: true
+  Passpoint.FQDN: 
+  Passpoint.ID: 
+  Passpoint.MatchType: 
+  Passpoint.ProvisioningSource: 
+  PreviousError: 
+  PreviousErrorSerialNumber: 0
+  Priority: 0
+  ProbeUrl: 
+  Profile: 
+  ProxyConfig: 
+  SaveCredentials: true
+  Security: wpa2
+  SecurityClass: psk
+  StartTime: 13423894939361
+  State: idle
+  Strength: 30
+  TrafficCounterResetTime: 0
+  Type: wifi
+  UIData: 
+  UplinkSpeedKbps: 0
+  Visible: true
+  WiFi.BSSID: 12:59:32:68:8a:b1
+  WiFi.BSSIDRequested: 
+  WiFi.Frequency: 2452
+  WiFi.FrequencyList/0: 2452
+  WiFi.HexSSID: 4449524543542D726F6B752D3432382D383945393238
+  WiFi.HiddenSSID: false
+  WiFi.PhyMode: 4
+  WiFi.RandomMACPolicy: Hardware
+  WiFi.RekeyInProgress: false
+  WiFi.RoamState: idle
+  WiFi.SignalStrengthRssi: -67
+  WiFi.VendorInformation/0/DeviceName: Main Bedroom
+  WiFi.VendorInformation/1/Manufacturer: Roku
+  WiFi.VendorInformation/2/ModelName: Premiere
+  WiFi.VendorInformation/3/ModelNumber: 3920X
+  WiFi.VendorInformation/4/OUIList: 50-6f-9a
+
+/service/47
+  AutoConnect: false
+  CheckPortal: auto
+  Connectable: false
+  Country: US
+  Device: /device/wlan0
+  DownlinkSpeedKbps: 0
+  EAP.AnonymousIdentity: 
+  EAP.CACertID: 
+  EAP.CertID: 
+  EAP.EAP: 
+  EAP.Identity: 
+  EAP.InnerEAP: 
+  EAP.KeyID: 
+  EAP.KeyMgmt: WPA-PSK WPA-PSK-SHA256 SAE SAE-EXT-KEY
+  EAP.PIN: 
+  EAP.SubjectMatch: 
+  EAP.TLSVersionMax: 
+  EAP.UseLoginPassword: false
+  EAP.UseProactiveKeyCaching: false
+  EAP.UseSystemCAs: true
+  EphemeralPriority: 0
+  Error: no-failure
+  ErrorDetails: 
+  GUID: 
+  IsConnected: false
+  LastConnected: 0
+  LastManualConnectAttempt: 0
+  LastOnline: 0
+  LinkMonitorDisable: false
+  LogName: wifi_psk_47
+  ManagedCredentials: false
+  Metered: false
+  Mode: managed
+  Name: Get Your Own WiFi
+  NetworkID: 0
+  ONCSource: Unknown
+  PassphraseRequired: true
+  Passpoint.FQDN: 
+  Passpoint.ID: 
+  Passpoint.MatchType: 
+  Passpoint.ProvisioningSource: 
+  PreviousError: 
+  PreviousErrorSerialNumber: 0
+  Priority: 0
+  ProbeUrl: 
+  Profile: 
+  ProxyConfig: 
+  SaveCredentials: true
+  Security: wpa2
+  SecurityClass: psk
+  StartTime: 13423894518726
+  State: idle
+  Strength: 19
+  TrafficCounterResetTime: 0
+  Type: wifi
+  UIData: 
+  UplinkSpeedKbps: 0
+  Visible: true
+  WiFi.BSSID: 48:41:7b:08:4f:f8
+  WiFi.BSSIDRequested: 
+  WiFi.Frequency: 5240
+  WiFi.FrequencyList/0: 5240
+  WiFi.FrequencyList/1: 5805
+  WiFi.HexSSID: 47657420596F7572204F776E2057694669
+  WiFi.HiddenSSID: false
+  WiFi.PhyMode: 8
+  WiFi.RandomMACPolicy: Hardware
+  WiFi.RekeyInProgress: false
+  WiFi.RoamState: idle
+  WiFi.SignalStrengthRssi: -77
+  WiFi.VendorInformation/0/DeviceName: Arris Wireless
+  WiFi.VendorInformation/1/Manufacturer: Arris, Inc.
+  WiFi.VendorInformation/2/ModelName: BGW320-505
+  WiFi.VendorInformation/3/ModelNumber: BGW320-505
+  WiFi.VendorInformation/4/OUIList: 00-10-18 50-6f-9a
+
+/service/50
+  AutoConnect: false
+  CheckPortal: auto
+  Connectable: false
+  Country: US
+  Device: /device/wlan0
+  DownlinkSpeedKbps: 0
+  EAP.AnonymousIdentity: 
+  EAP.CACertID: 
+  EAP.CertID: 
+  EAP.EAP: 
+  EAP.Identity: 
+  EAP.InnerEAP: 
+  EAP.KeyID: 
+  EAP.KeyMgmt: WPA-PSK WPA-PSK-SHA256 SAE SAE-EXT-KEY
+  EAP.PIN: 
+  EAP.SubjectMatch: 
+  EAP.TLSVersionMax: 
+  EAP.UseLoginPassword: false
+  EAP.UseProactiveKeyCaching: false
+  EAP.UseSystemCAs: true
+  EphemeralPriority: 0
+  Error: no-failure
+  ErrorDetails: 
+  GUID: 
+  IsConnected: false
+  LastConnected: 0
+  LastManualConnectAttempt: 0
+  LastOnline: 0
+  LinkMonitorDisable: false
+  LogName: wifi_psk_50
+  ManagedCredentials: false
+  Metered: false
+  Mode: managed
+  Name: MyHouse4
+  NetworkID: 0
+  ONCSource: Unknown
+  PassphraseRequired: true
+  Passpoint.FQDN: 
+  Passpoint.ID: 
+  Passpoint.MatchType: 
+  Passpoint.ProvisioningSource: 
+  PreviousError: 
+  PreviousErrorSerialNumber: 0
+  Priority: 0
+  ProbeUrl: 
+  Profile: 
+  ProxyConfig: 
+  SaveCredentials: true
+  Security: wpa2
+  SecurityClass: psk
+  StartTime: 13423894518732
+  State: idle
+  Strength: 19
+  TrafficCounterResetTime: 0
+  Type: wifi
+  UIData: 
+  UplinkSpeedKbps: 0
+  Visible: true
+  WiFi.BSSID: 48:41:7b:3b:cd:a8
+  WiFi.BSSIDRequested: 
+  WiFi.Frequency: 5240
+  WiFi.FrequencyList/0: 5240
+  WiFi.HexSSID: 4D79486F75736534
+  WiFi.HiddenSSID: false
+  WiFi.PhyMode: 8
+  WiFi.RandomMACPolicy: Hardware
+  WiFi.RekeyInProgress: false
+  WiFi.RoamState: idle
+  WiFi.SignalStrengthRssi: -77
+  WiFi.VendorInformation/0/DeviceName: Arris Wireless
+  WiFi.VendorInformation/1/Manufacturer: Arris, Inc.
+  WiFi.VendorInformation/2/ModelName: BGW320-505
+  WiFi.VendorInformation/3/ModelNumber: BGW320-505
+  WiFi.VendorInformation/4/OUIList: 00-10-18 50-6f-9a
+
+/service/52
+  AutoConnect: false
+  CheckPortal: auto
+  Connectable: false
+  Country: US
+  Device: /device/wlan0
+  DownlinkSpeedKbps: 0
+  EAP.AnonymousIdentity: 
+  EAP.CACertID: 
+  EAP.CertID: 
+  EAP.EAP: 
+  EAP.Identity: 
+  EAP.InnerEAP: 
+  EAP.KeyID: 
+  EAP.KeyMgmt: WPA-PSK WPA-PSK-SHA256 SAE SAE-EXT-KEY
+  EAP.PIN: 
+  EAP.SubjectMatch: 
+  EAP.TLSVersionMax: 
+  EAP.UseLoginPassword: false
+  EAP.UseProactiveKeyCaching: false
+  EAP.UseSystemCAs: true
+  EphemeralPriority: 0
+  Error: no-failure
+  ErrorDetails: 
+  GUID: 
+  IsConnected: false
+  LastConnected: 0
+  LastManualConnectAttempt: 0
+  LastOnline: 0
+  LinkMonitorDisable: false
+  LogName: wifi_psk_52
+  ManagedCredentials: false
+  Metered: false
+  Mode: managed
+  Name: Boyher
+  NetworkID: 0
+  ONCSource: Unknown
+  PassphraseRequired: true
+  Passpoint.FQDN: 
+  Passpoint.ID: 
+  Passpoint.MatchType: 
+  Passpoint.ProvisioningSource: 
+  PreviousError: 
+  PreviousErrorSerialNumber: 0
+  Priority: 0
+  ProbeUrl: 
+  Profile: 
+  ProxyConfig: 
+  SaveCredentials: true
+  Security: wpa2
+  SecurityClass: psk
+  StartTime: 13423894518735
+  State: idle
+  Strength: 17
+  TrafficCounterResetTime: 0
+  Type: wifi
+  UIData: 
+  UplinkSpeedKbps: 0
+  Visible: true
+  WiFi.BSSID: 48:41:7b:06:59:54
+  WiFi.BSSIDRequested: 
+  WiFi.Frequency: 2417
+  WiFi.FrequencyList/0: 2417
+  WiFi.FrequencyList/1: 5240
+  WiFi.FrequencyList/2: 5660
+  WiFi.HexSSID: 426F79686572
+  WiFi.HiddenSSID: false
+  WiFi.PhyMode: 4
+  WiFi.RandomMACPolicy: Hardware
+  WiFi.RekeyInProgress: false
+  WiFi.RoamState: idle
+  WiFi.SignalStrengthRssi: -78
+  WiFi.VendorInformation/0/DeviceName: Arris Wireless
+  WiFi.VendorInformation/1/Manufacturer: Arris, Inc.
+  WiFi.VendorInformation/2/ModelName: BGW320-505
+  WiFi.VendorInformation/3/ModelNumber: BGW320-505
+  WiFi.VendorInformation/4/OUIList: 00-10-18 50-6f-9a
+
+/service/56
+  AutoConnect: false
+  CheckPortal: auto
+  Connectable: false
+  Country: US
+  Device: /device/wlan0
+  DownlinkSpeedKbps: 0
+  EAP.AnonymousIdentity: 
+  EAP.CACertID: 
+  EAP.CertID: 
+  EAP.EAP: 
+  EAP.Identity: 
+  EAP.InnerEAP: 
+  EAP.KeyID: 
+  EAP.KeyMgmt: WPA-PSK WPA-PSK-SHA256 SAE SAE-EXT-KEY
+  EAP.PIN: 
+  EAP.SubjectMatch: 
+  EAP.TLSVersionMax: 
+  EAP.UseLoginPassword: false
+  EAP.UseProactiveKeyCaching: false
+  EAP.UseSystemCAs: true
+  EphemeralPriority: 0
+  Error: no-failure
+  ErrorDetails: 
+  GUID: 
+  IsConnected: false
+  LastConnected: 0
+  LastManualConnectAttempt: 0
+  LastOnline: 0
+  LinkMonitorDisable: false
+  LogName: wifi_psk_56
+  ManagedCredentials: false
+  Metered: false
+  Mode: managed
+  Name: Boyher_Guest
+  NetworkID: 0
+  ONCSource: Unknown
+  PassphraseRequired: true
+  Passpoint.FQDN: 
+  Passpoint.ID: 
+  Passpoint.MatchType: 
+  Passpoint.ProvisioningSource: 
+  PreviousError: 
+  PreviousErrorSerialNumber: 0
+  Priority: 0
+  ProbeUrl: 
+  Profile: 
+  ProxyConfig: 
+  SaveCredentials: true
+  Security: wpa2
+  SecurityClass: psk
+  StartTime: 13423894779004
+  State: idle
+  Strength: 17
+  TrafficCounterResetTime: 0
+  Type: wifi
+  UIData: 
+  UplinkSpeedKbps: 0
+  Visible: true
+  WiFi.BSSID: 48:41:7b:06:59:55
+  WiFi.BSSIDRequested: 
+  WiFi.Frequency: 2417
+  WiFi.FrequencyList/0: 2417
+  WiFi.HexSSID: 426F796865725F4775657374
+  WiFi.HiddenSSID: false
+  WiFi.PhyMode: 4
+  WiFi.RandomMACPolicy: Hardware
+  WiFi.RekeyInProgress: false
+  WiFi.RoamState: idle
+  WiFi.SignalStrengthRssi: -78
+  WiFi.VendorInformation/0/OUIList: 00-10-18 50-6f-9a
+
+/service/48
+  AutoConnect: false
+  CheckPortal: auto
+  Connectable: false
+  Country: US
+  Device: /device/wlan0
+  DownlinkSpeedKbps: 0
+  EAP.AnonymousIdentity: 
+  EAP.CACertID: 
+  EAP.CertID: 
+  EAP.EAP: 
+  EAP.Identity: 
+  EAP.InnerEAP: 
+  EAP.KeyID: 
+  EAP.KeyMgmt: WPA-PSK WPA-PSK-SHA256 SAE SAE-EXT-KEY
+  EAP.PIN: 
+  EAP.SubjectMatch: 
+  EAP.TLSVersionMax: 
+  EAP.UseLoginPassword: false
+  EAP.UseProactiveKeyCaching: false
+  EAP.UseSystemCAs: true
+  EphemeralPriority: 0
+  Error: no-failure
+  ErrorDetails: 
+  GUID: 
+  IsConnected: false
+  LastConnected: 0
+  LastManualConnectAttempt: 0
+  LastOnline: 0
+  LinkMonitorDisable: false
+  LogName: wifi_psk_48
+  ManagedCredentials: false
+  Metered: false
+  Mode: managed
+  Name: TMOBILE-A0DE
+  NetworkID: 0
+  ONCSource: Unknown
+  PassphraseRequired: true
+  Passpoint.FQDN: 
+  Passpoint.ID: 
+  Passpoint.MatchType: 
+  Passpoint.ProvisioningSource: 
+  PreviousError: 
+  PreviousErrorSerialNumber: 0
+  Priority: 0
+  ProbeUrl: 
+  Profile: 
+  ProxyConfig: 
+  SaveCredentials: true
+  Security: wpa2+wpa3
+  SecurityClass: psk
+  StartTime: 13423894518728
+  State: idle
+  Strength: 15
+  TrafficCounterResetTime: 0
+  Type: wifi
+  UIData: 
+  UplinkSpeedKbps: 0
+  Visible: true
+  WiFi.BSSID: 18:a5:ff:02:a0:e0
+  WiFi.BSSIDRequested: 
+  WiFi.Frequency: 2417
+  WiFi.FrequencyList/0: 2417
+  WiFi.HexSSID: 544D4F42494C452D41304445
+  WiFi.HiddenSSID: false
+  WiFi.PhyMode: 8
+  WiFi.RandomMACPolicy: Hardware
+  WiFi.RekeyInProgress: false
+  WiFi.RoamState: idle
+  WiFi.SignalStrengthRssi: -79
+  WiFi.VendorInformation/0/OUIList: 50-6f-9a
+
+/service/55
+  AutoConnect: false
+  CheckPortal: auto
+  Connectable: false
+  Country: US
+  Device: /device/wlan0
+  DownlinkSpeedKbps: 0
+  EAP.AnonymousIdentity: 
+  EAP.CACertID: 
+  EAP.CertID: 
+  EAP.EAP: 
+  EAP.Identity: 
+  EAP.InnerEAP: 
+  EAP.KeyID: 
+  EAP.KeyMgmt: WPA-PSK WPA-PSK-SHA256 SAE SAE-EXT-KEY
+  EAP.PIN: 
+  EAP.SubjectMatch: 
+  EAP.TLSVersionMax: 
+  EAP.UseLoginPassword: false
+  EAP.UseProactiveKeyCaching: false
+  EAP.UseSystemCAs: true
+  EphemeralPriority: 0
+  Error: no-failure
+  ErrorDetails: 
+  GUID: 
+  IsConnected: false
+  LastConnected: 0
+  LastManualConnectAttempt: 0
+  LastOnline: 0
+  LinkMonitorDisable: false
+  LogName: wifi_psk_55
+  ManagedCredentials: false
+  Metered: false
+  Mode: managed
+  Name: DIRECT-0E-HP DeskJet 4200 series
+  NetworkID: 0
+  ONCSource: Unknown
+  PassphraseRequired: true
+  Passpoint.FQDN: 
+  Passpoint.ID: 
+  Passpoint.MatchType: 
+  Passpoint.ProvisioningSource: 
+  PreviousError: 
+  PreviousErrorSerialNumber: 0
+  Priority: 0
+  ProbeUrl: 
+  Profile: 
+  ProxyConfig: 
+  SaveCredentials: true
+  Security: wpa2
+  SecurityClass: psk
+  StartTime: 13423894599192
+  State: idle
+  Strength: 15
+  TrafficCounterResetTime: 0
+  Type: wifi
+  UIData: 
+  UplinkSpeedKbps: 0
+  Visible: true
+  WiFi.BSSID: 6c:0b:5e:28:2e:0f
+  WiFi.BSSIDRequested: 
+  WiFi.Frequency: 2417
+  WiFi.FrequencyList/0: 2417
+  WiFi.HexSSID: 4449524543542D30452D4850204465736B4A6574203432303020736572696573
+  WiFi.HiddenSSID: false
+  WiFi.PhyMode: 4
+  WiFi.RandomMACPolicy: Hardware
+  WiFi.RekeyInProgress: false
+  WiFi.RoamState: idle
+  WiFi.SignalStrengthRssi: -79
+  WiFi.VendorInformation/0/DeviceName: DIRECT-0E-HP DeskJet 4200 series
+  WiFi.VendorInformation/1/OUIList: 00-10-18 08-00-09 50-6f-9a
+
+/service/54
+  AutoConnect: false
+  CheckPortal: auto
+  Connectable: false
+  Country: 
+  Device: /device/wlan0
+  DownlinkSpeedKbps: 0
+  EAP.AnonymousIdentity: 
+  EAP.CACertID: 
+  EAP.CertID: 
+  EAP.EAP: 
+  EAP.Identity: 
+  EAP.InnerEAP: 
+  EAP.KeyID: 
+  EAP.KeyMgmt: WPA-PSK WPA-PSK-SHA256 SAE SAE-EXT-KEY
+  EAP.PIN: 
+  EAP.SubjectMatch: 
+  EAP.TLSVersionMax: 
+  EAP.UseLoginPassword: false
+  EAP.UseProactiveKeyCaching: false
+  EAP.UseSystemCAs: true
+  EphemeralPriority: 0
+  Error: no-failure
+  ErrorDetails: 
+  GUID: 
+  IsConnected: false
+  LastConnected: 0
+  LastManualConnectAttempt: 0
+  LastOnline: 0
+  LinkMonitorDisable: false
+  LogName: wifi_psk_54
+  ManagedCredentials: false
+  Metered: false
+  Mode: managed
+  Name: HP-Print-E1-ENVY 4500 series
+  NetworkID: 0
+  ONCSource: Unknown
+  PassphraseRequired: true
+  Passpoint.FQDN: 
+  Passpoint.ID: 
+  Passpoint.MatchType: 
+  Passpoint.ProvisioningSource: 
+  PreviousError: 
+  PreviousErrorSerialNumber: 0
+  Priority: 0
+  ProbeUrl: 
+  Profile: 
+  ProxyConfig: 
+  SaveCredentials: true
+  Security: wpa2
+  SecurityClass: psk
+  StartTime: 13423894599190
+  State: idle
+  Strength: 0e
+  TrafficCounterResetTime: 0
+  Type: wifi
+  UIData: 
+  UplinkSpeedKbps: 0
+  Visible: true
+  WiFi.BSSID: 34:64:a9:83:45:e1
+  WiFi.BSSIDRequested: 
+  WiFi.Frequency: 2462
+  WiFi.FrequencyList/0: 2462
+  WiFi.HexSSID: 48502D5072696E742D45312D454E5659203435303020736572696573
+  WiFi.HiddenSSID: false
+  WiFi.PhyMode: 3
+  WiFi.RandomMACPolicy: Hardware
+  WiFi.RekeyInProgress: false
+  WiFi.RoamState: idle
+  WiFi.SignalStrengthRssi: -82
+  WiFi.VendorInformation/0/OUIList: 08-00-09
+
+/service/53
+  AutoConnect: false
+  CheckPortal: auto
+  Connectable: false
+  Country: US
+  Device: /device/wlan0
+  DownlinkSpeedKbps: 0
+  EAP.AnonymousIdentity: 
+  EAP.CACertID: 
+  EAP.CertID: 
+  EAP.EAP: 
+  EAP.Identity: 
+  EAP.InnerEAP: 
+  EAP.KeyID: 
+  EAP.KeyMgmt: WPA-PSK WPA-PSK-SHA256 SAE SAE-EXT-KEY
+  EAP.PIN: 
+  EAP.SubjectMatch: 
+  EAP.TLSVersionMax: 
+  EAP.UseLoginPassword: false
+  EAP.UseProactiveKeyCaching: false
+  EAP.UseSystemCAs: true
+  EphemeralPriority: 0
+  Error: no-failure
+  ErrorDetails: 
+  GUID: 
+  IsConnected: false
+  LastConnected: 0
+  LastManualConnectAttempt: 0
+  LastOnline: 0
+  LinkMonitorDisable: false
+  LogName: wifi_psk_53
+  ManagedCredentials: false
+  Metered: false
+  Mode: managed
+  Name: Toulouse and Binx Resort
+  NetworkID: 0
+  ONCSource: Unknown
+  PassphraseRequired: true
+  Passpoint.FQDN: 
+  Passpoint.ID: 
+  Passpoint.MatchType: 
+  Passpoint.ProvisioningSource: 
+  PreviousError: 
+  PreviousErrorSerialNumber: 0
+  Priority: 0
+  ProbeUrl: 
+  Profile: 
+  ProxyConfig: 
+  SaveCredentials: true
+  Security: wpa2
+  SecurityClass: psk
+  StartTime: 13423894599189
+  State: idle
+  Strength: 0c
+  TrafficCounterResetTime: 0
+  Type: wifi
+  UIData: 
+  UplinkSpeedKbps: 0
+  Visible: true
+  WiFi.BSSID: f0:a7:31:68:8d:8b
+  WiFi.BSSIDRequested: 
+  WiFi.Frequency: 5745
+  WiFi.FrequencyList/0: 5745
+  WiFi.HexSSID: 546F756C6F75736520616E642042696E78205265736F7274
+  WiFi.HiddenSSID: false
+  WiFi.PhyMode: 8
+  WiFi.RandomMACPolicy: Hardware
+  WiFi.RekeyInProgress: false
+  WiFi.RoamState: idle
+  WiFi.SignalStrengthRssi: -83
+  WiFi.VendorInformation/0/DeviceName: AX3000 4-Stream Wi-Fi 6 Router
+  WiFi.VendorInformation/1/Manufacturer: TP-Link
+  WiFi.VendorInformation/2/ModelName: Archer AX3000
+  WiFi.VendorInformation/3/ModelNumber: 2
+  WiFi.VendorInformation/4/OUIList: 00-1d-0f 8c-fd-f0
+
+/service/60
+  AutoConnect: false
+  CheckPortal: auto
+  Connectable: false
+  Country: US
+  Device: /device/wlan0
+  DownlinkSpeedKbps: 0
+  EAP.AnonymousIdentity: 
+  EAP.CACertID: 
+  EAP.CertID: 
+  EAP.EAP: 
+  EAP.Identity: 
+  EAP.InnerEAP: 
+  EAP.KeyID: 
+  EAP.KeyMgmt: WPA-PSK WPA-PSK-SHA256 SAE SAE-EXT-KEY
+  EAP.PIN: 
+  EAP.SubjectMatch: 
+  EAP.TLSVersionMax: 
+  EAP.UseLoginPassword: false
+  EAP.UseProactiveKeyCaching: false
+  EAP.UseSystemCAs: true
+  EphemeralPriority: 0
+  Error: no-failure
+  ErrorDetails: 
+  GUID: 
+  IsConnected: false
+  LastConnected: 0
+  LastManualConnectAttempt: 0
+  LastOnline: 0
+  LinkMonitorDisable: false
+  LogName: wifi_psk_60
+  ManagedCredentials: false
+  Metered: false
+  Mode: managed
+  Name: CIA Surveillance Van
+  NetworkID: 0
+  ONCSource: Unknown
+  PassphraseRequired: true
+  Passpoint.FQDN: 
+  Passpoint.ID: 
+  Passpoint.MatchType: 
+  Passpoint.ProvisioningSource: 
+  PreviousError: 
+  PreviousErrorSerialNumber: 0
+  Priority: 0
+  ProbeUrl: 
+  Profile: 
+  ProxyConfig: 
+  SaveCredentials: true
+  Security: wpa2
+  SecurityClass: psk
+  StartTime: 13423894939364
+  State: idle
+  Strength: 05
+  TrafficCounterResetTime: 0
+  Type: wifi
+  UIData: 
+  UplinkSpeedKbps: 0
+  Visible: true
+  WiFi.BSSID: fc:34:97:05:b1:ec
+  WiFi.BSSIDRequested: 
+  WiFi.Frequency: 5220
+  WiFi.FrequencyList/0: 5220
+  WiFi.HexSSID: 434941205375727665696C6C616E63652056616E
+  WiFi.HiddenSSID: false
+  WiFi.PhyMode: 8
+  WiFi.RandomMACPolicy: Hardware
+  WiFi.RekeyInProgress: false
+  WiFi.RoamState: idle
+  WiFi.SignalStrengthRssi: -86
+  WiFi.VendorInformation/0/OUIList: 00-10-18 f8-32-e4
+
+/service/61
+  AutoConnect: false
+  CheckPortal: auto
+  Connectable: false
+  Country: US
+  Device: /device/wlan0
+  DownlinkSpeedKbps: 0
+  EAP.AnonymousIdentity: 
+  EAP.CACertID: 
+  EAP.CertID: 
+  EAP.EAP: 
+  EAP.Identity: 
+  EAP.InnerEAP: 
+  EAP.KeyID: 
+  EAP.KeyMgmt: WPA-PSK WPA-PSK-SHA256 SAE SAE-EXT-KEY
+  EAP.PIN: 
+  EAP.SubjectMatch: 
+  EAP.TLSVersionMax: 
+  EAP.UseLoginPassword: false
+  EAP.UseProactiveKeyCaching: false
+  EAP.UseSystemCAs: true
+  EphemeralPriority: 0
+  Error: no-failure
+  ErrorDetails: 
+  GUID: 
+  IsConnected: false
+  LastConnected: 0
+  LastManualConnectAttempt: 0
+  LastOnline: 0
+  LinkMonitorDisable: false
+  LogName: wifi_psk_61
+  ManagedCredentials: false
+  Metered: false
+  Mode: managed
+  Name: ATTmBkrDkI
+  NetworkID: 0
+  ONCSource: Unknown
+  PassphraseRequired: true
+  Passpoint.FQDN: 
+  Passpoint.ID: 
+  Passpoint.MatchType: 
+  Passpoint.ProvisioningSource: 
+  PreviousError: 
+  PreviousErrorSerialNumber: 0
+  Priority: 0
+  ProbeUrl: 
+  Profile: 
+  ProxyConfig: 
+  SaveCredentials: true
+  Security: wpa2
+  SecurityClass: psk
+  StartTime: 13423894939366
+  State: idle
+  Strength: 03
+  TrafficCounterResetTime: 0
+  Type: wifi
+  UIData: 
+  UplinkSpeedKbps: 0
+  Visible: true
+  WiFi.BSSID: 48:41:7b:30:91:fc
+  WiFi.BSSIDRequested: 
+  WiFi.Frequency: 5805
+  WiFi.FrequencyList/0: 5805
+  WiFi.HexSSID: 4154546D426B72446B49
+  WiFi.HiddenSSID: false
+  WiFi.PhyMode: 8
+  WiFi.RandomMACPolicy: Hardware
+  WiFi.RekeyInProgress: false
+  WiFi.RoamState: idle
+  WiFi.SignalStrengthRssi: -87
+  WiFi.VendorInformation/0/DeviceName: Arris Wireless
+  WiFi.VendorInformation/1/Manufacturer: Arris, Inc.
+  WiFi.VendorInformation/2/ModelName: BGW320-505
+  WiFi.VendorInformation/3/ModelNumber: BGW320-505
+  WiFi.VendorInformation/4/OUIList: 00-10-18 50-6f-9a
+
+/service/57
+  AutoConnect: false
+  CheckPortal: auto
+  Connectable: false
+  Country: US
+  Device: /device/wlan0
+  DownlinkSpeedKbps: 0
+  EAP.AnonymousIdentity: 
+  EAP.CACertID: 
+  EAP.CertID: 
+  EAP.EAP: 
+  EAP.Identity: 
+  EAP.InnerEAP: 
+  EAP.KeyID: 
+  EAP.KeyMgmt: WPA-PSK WPA-PSK-SHA256 SAE SAE-EXT-KEY
+  EAP.PIN: 
+  EAP.SubjectMatch: 
+  EAP.TLSVersionMax: 
+  EAP.UseLoginPassword: false
+  EAP.UseProactiveKeyCaching: false
+  EAP.UseSystemCAs: true
+  EphemeralPriority: 0
+  Error: no-failure
+  ErrorDetails: 
+  GUID: 
+  IsConnected: false
+  LastConnected: 0
+  LastManualConnectAttempt: 0
+  LastOnline: 0
+  LinkMonitorDisable: false
+  LogName: wifi_psk_57
+  ManagedCredentials: false
+  Metered: false
+  Mode: managed
+  Name: SpectrumSetup-97
+  NetworkID: 0
+  ONCSource: Unknown
+  PassphraseRequired: true
+  Passpoint.FQDN: 
+  Passpoint.ID: 
+  Passpoint.MatchType: 
+  Passpoint.ProvisioningSource: 
+  PreviousError: 
+  PreviousErrorSerialNumber: 0
+  Priority: 0
+  ProbeUrl: 
+  Profile: 
+  ProxyConfig: 
+  SaveCredentials: true
+  Security: wpa2
+  SecurityClass: psk
+  StartTime: 13423894779009
+  State: idle
+  Strength: 00
+  TrafficCounterResetTime: 0
+  Type: wifi
+  UIData: 
+  UplinkSpeedKbps: 0
+  Visible: true
+  WiFi.BSSID: 08:33:ed:e3:07:96
+  WiFi.BSSIDRequested: 
+  WiFi.Frequency: 5220
+  WiFi.FrequencyList/0: 5220
+  WiFi.HexSSID: 537065637472756D53657475702D3937
+  WiFi.HiddenSSID: false
+  WiFi.PhyMode: 8
+  WiFi.RandomMACPolicy: Hardware
+  WiFi.RekeyInProgress: false
+  WiFi.RoamState: idle
+  WiFi.SignalStrengthRssi: -89
+  WiFi.VendorInformation/0/OUIList: 8c-fd-f0
+
+/service/58
+  AutoConnect: false
+  CheckPortal: auto
+  Connectable: false
+  Country: US
+  Device: /device/wlan0
+  DownlinkSpeedKbps: 0
+  EAP.AnonymousIdentity: 
+  EAP.CACertID: 
+  EAP.CertID: 
+  EAP.EAP: 
+  EAP.Identity: 
+  EAP.InnerEAP: 
+  EAP.KeyID: 
+  EAP.KeyMgmt: WPA-PSK WPA-PSK-SHA256 SAE SAE-EXT-KEY
+  EAP.PIN: 
+  EAP.SubjectMatch: 
+  EAP.TLSVersionMax: 
+  EAP.UseLoginPassword: false
+  EAP.UseProactiveKeyCaching: false
+  EAP.UseSystemCAs: true
+  EphemeralPriority: 0
+  Error: no-failure
+  ErrorDetails: 
+  GUID: 
+  IsConnected: false
+  LastConnected: 0
+  LastManualConnectAttempt: 0
+  LastOnline: 0
+  LinkMonitorDisable: false
+  LogName: wifi_psk_58
+  ManagedCredentials: false
+  Metered: false
+  Mode: managed
+  Name: NotYours
+  NetworkID: 0
+  ONCSource: Unknown
+  PassphraseRequired: true
+  Passpoint.FQDN: 
+  Passpoint.ID: 
+  Passpoint.MatchType: 
+  Passpoint.ProvisioningSource: 
+  PreviousError: 
+  PreviousErrorSerialNumber: 0
+  Priority: 0
+  ProbeUrl: 
+  Profile: 
+  ProxyConfig: 
+  SaveCredentials: true
+  Security: wpa2+wpa3
+  SecurityClass: psk
+  StartTime: 13423894779010
+  State: idle
+  Strength: 00
+  TrafficCounterResetTime: 0
+  Type: wifi
+  UIData: 
+  UplinkSpeedKbps: 0
+  Visible: true
+  WiFi.BSSID: a4:22:49:b8:88:f6
+  WiFi.BSSIDRequested: 
+  WiFi.Frequency: 5500
+  WiFi.FrequencyList/0: 5500
+  WiFi.HexSSID: 4E6F74596F757273
+  WiFi.HiddenSSID: false
+  WiFi.PhyMode: 8
+  WiFi.RandomMACPolicy: Hardware
+  WiFi.RekeyInProgress: false
+  WiFi.RoamState: idle
+  WiFi.SignalStrengthRssi: -92
+  WiFi.VendorInformation/0/DeviceName: RDK AP
+  WiFi.VendorInformation/1/Manufacturer: rdkcentral.org
+  WiFi.VendorInformation/2/ModelName: WAP
+  WiFi.VendorInformation/3/ModelNumber: 123
+  WiFi.VendorInformation/4/OUIList: 50-6f-9a 8c-fd-f0
+

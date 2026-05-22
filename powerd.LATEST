@@ -1,0 +1,240 @@
+2026-05-22T03:19:10.670190Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/main.cc:460] vcsid 0.0.2-r5618-a1d8c15c58
+2026-05-22T03:19:10.670232Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/main.cc:466] System uptime: 3s
+2026-05-22T03:19:10.676772Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/udev.cc:151] Watching FD 11 for udev events
+2026-05-22T03:19:10.699836Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/udev.cc:578] Adding device /sys/devices/pci0000:00/0000:00:19.1/i2c_designware.5/i2c-14/i2c-ELAN0000:00/input/input4 with tags usable_when_laptop usable_when_display_off wakeup wakeup_only_when_usable inhibit role_internal_touchpad
+2026-05-22T03:19:10.702945Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/udev.cc:578] Adding device /sys/devices/pci0000:00/0000:00:19.1/i2c_designware.5/i2c-14/i2c-ELAN0000:00/input/input4/event4 with tags usable_when_laptop usable_when_display_off role_internal_touchpad
+2026-05-22T03:19:10.707463Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/udev.cc:578] Adding device /sys/devices/platform/i8042/serio0/input/input2 with tags usable_when_laptop usable_when_display_off wakeup inhibit role_internal_keyboard
+2026-05-22T03:19:10.707840Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/udev.cc:578] Adding device /sys/devices/platform/i8042/serio0/input/input2/event2 with tags usable_when_laptop usable_when_display_off role_internal_keyboard
+2026-05-22T03:19:10.715406Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/input_watcher.cc:457] Watching lid switch: /dev/input/event0
+2026-05-22T03:19:10.715487Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/input_watcher.cc:443] Watching power button: /dev/input/event3
+2026-05-22T03:19:10.715498Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/input_watcher.cc:457] Watching lid switch: /dev/input/event3
+2026-05-22T03:19:10.715503Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/input_watcher.cc:475] Watching tablet mode switch: /dev/input/event3
+2026-05-22T03:19:10.715517Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/input_watcher.cc:443] Watching power button: /dev/input/event2
+2026-05-22T03:19:10.715847Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/suspend_configurator.cc:242] Console during suspend is enabled
+2026-05-22T03:19:10.715978Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/suspend_configurator.cc:137] Initial system mem_sleep mode: s2idle
+2026-05-22T03:19:10.722118Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/wakeup_source_identifier.cc:112] Monitoring wakeup path /sys/devices/LNXSYSTM:00/LNXPWRBN:00 for wake events
+2026-05-22T03:19:10.722144Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/wakeup_source_identifier.cc:91] Input device input5 is not wake-capable
+2026-05-22T03:19:10.722149Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/wakeup_source_identifier.cc:91] Input device event5 is not wake-capable
+2026-05-22T03:19:10.722158Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/wakeup_source_identifier.cc:112] Monitoring wakeup path /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:02/PNP0C09:00/PNP0C0D:00 for wake events
+2026-05-22T03:19:10.722168Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/wakeup_source_identifier.cc:112] Monitoring wakeup path /sys/devices/pci0000:00/0000:00:19.1/i2c_designware.5/i2c-14/i2c-ELAN0000:00 for wake events
+2026-05-22T03:19:10.722177Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/wakeup_source_identifier.cc:112] Monitoring wakeup path /sys/devices/pci0000:00/0000:00:1f.0/PNP0C09:00/GOOG0004:00/GOOG0007:00 for wake events
+2026-05-22T03:19:10.722184Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/wakeup_source_identifier.cc:112] Monitoring wakeup path /sys/devices/platform/i8042/serio0 for wake events
+2026-05-22T03:19:10.728601Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/internal_backlight_controller.cc:278] Backlight has range [0, 96000] with 6.25% step and minimum-visible level of 624; current level is 38400 (65.251%)
+2026-05-22T03:19:10.729018Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/power_supply.cc:817] Using full factor of 0.97
+2026-05-22T03:19:10.729563Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/power_supply.cc:829] Using low battery time threshold of 0 secs and using low battery percent threshold of 4
+2026-05-22T03:19:10.731157Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:547] Detected suspend_reboot file
+2026-05-22T03:19:10.731848Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/adaptive_charging_controller.cc:1434] Battery charge current limit set at 4294967295mA
+2026-05-22T03:19:10.734115Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/adaptive_charging_controller.cc:927] Adaptive Charging is supported and disabled at Init. Battery sustain range: (80, 80), Minimum ML probability value: 0.35
+2026-05-22T03:19:10.734136Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/adaptive_charging_controller.cc:934] Charge Limit is disabled at Init
+2026-05-22T03:19:10.734239Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/dark_resume.cc:70] Dark resume enabled
+2026-05-22T03:19:10.734310Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/shutdown_from_suspend.cc:56] Shutdown from suspend is configured to 72h. low_battery_shutdown_percent is 4
+2026-05-22T03:19:10.734476Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/cros_ec_helper.cc:55] This device does not support EC wake angle control
+2026-05-22T03:19:10.734482Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/input_device_controller.cc:297] Configuring devices for mode "laptop"
+2026-05-22T03:19:10.734507Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/input_device_controller.cc:218] Un-inhibiting /sys/devices/pci0000:00/0000:00:19.1/i2c_designware.5/i2c-14/i2c-ELAN0000:00/input/input4
+2026-05-22T03:19:10.734578Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/input_device_controller.cc:218] Un-inhibiting /sys/devices/platform/i8042/serio0/input/input2
+2026-05-22T03:19:10.734626Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/input_device_controller.cc:204] Enabling wakeup for /sys/devices/pci0000:00/0000:00:19.1/i2c_designware.5/i2c-14/i2c-ELAN0000:00/input/input4 through /sys/devices/pci0000:00/0000:00:19.1/i2c_designware.5/i2c-14/i2c-ELAN0000:00
+2026-05-22T03:19:10.739133Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/input_device_controller.cc:204] Enabling wakeup for /sys/devices/platform/i8042/serio0/input/input2 through /sys/devices/platform/i8042/serio0
+2026-05-22T03:19:10.741353Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/state_controller.cc:1254] Updated settings: dim=7m quick_dim=2m screen_off=7m30s lock=0s quick_lock=8m30s idle_warn=0s idle=8m30s (suspend) lid_closed=suspend use_audio=1 use_video=1 wake_locks=
+2026-05-22T03:19:10.742537Z ERROR powerd: [../libchrome-0.0.1/platform2/libchrome/dbus/object_proxy.cc:572] Failed to call method: org.chromium.ChromeFeaturesServiceInterface.IsFeatureEnabled: object_path= /org/chromium/ChromeFeaturesService: org.freedesktop.DBus.Error.ServiceUnknown: The name org.chromium.ChromeFeaturesService was not provided by any .service files
+2026-05-22T03:19:10.744853Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/bluetooth_controller.cc:389] Bluetooth long autosuspend feature is enabled
+2026-05-22T03:19:10.745003Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/wifi_controller.cc:45] WifiController::Init: set_wifi_transmit_power_for_tablet_mode=1, set_wifi_transmit_power_for_proximity=0, wifi_transmit_power_mode_for_static_device=
+2026-05-22T03:19:10.745016Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1151] Disabling tablet mode wifi transmit power
+2026-05-22T03:19:10.745025Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/main.cc:387] Launching "/usr/bin/powerd_setuid_helper --action=set_wifi_transmit_power --nowifi_transmit_power_tablet --wifi_transmit_power_domain=none --wifi_transmit_power_source=init"
+2026-05-22T03:19:10.746332Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/cellular_controller.cc:110] In CellularController::Init set_transmit_power_for_proximity_ = 0 set_transmit_power_for_tablet_mode_ = 0 use_modemmanager_for_dynamic_sar_ = 0 use_multi_power_level_dynamic_sar_ = 0 use_regulatory_domain_for_dynamic_sar_ = 0
+2026-05-22T03:19:10.746718Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/main.cc:387] Launching "/usr/bin/powerd_setuid_helper --action=set_force_lid_open --noforce_lid_open"
+2026-05-22T03:19:10.747912Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/thermal/cooling_device.cc:102] Found processor cooling device: /sys/class/thermal/cooling_device1
+2026-05-22T03:19:10.748192Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/thermal/cooling_device.cc:108] Found charger cooling device: /sys/class/thermal/cooling_device4
+2026-05-22T03:19:10.748303Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/thermal/cooling_device.cc:102] Found processor cooling device: /sys/class/thermal/cooling_device2
+2026-05-22T03:19:10.748396Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/thermal/cooling_device.cc:102] Found processor cooling device: /sys/class/thermal/cooling_device0
+2026-05-22T03:19:10.748490Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/thermal/cooling_device.cc:102] Found processor cooling device: /sys/class/thermal/cooling_device3
+2026-05-22T03:19:10.751275Z INFO powerd: [../power_manager-0.0.2/libec/ec_command.h:201] cros_ec does not support cmd=0xaa ver=0
+2026-05-22T03:19:10.751302Z WARNING powerd: [../power_manager-0.0.2/power_manager/powerd/system/cros_ec_device_event.cc:38] Failed to get CrOS EC device event mask
+2026-05-22T03:19:10.751315Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 27% (displayed as 25%), 1.227/4.490Ah at 0.967A, 0s until full (calculating)
+2026-05-22T03:19:10.751395Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/internal_backlight_controller.cc:958] Setting brightness to 59807 (80.1%) over 2000 ms
+2026-05-22T03:19:10.757290Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 27% (displayed as 25%), 1.227/4.490Ah at 0.967A, 0s until full (calculating)
+2026-05-22T03:19:11.227951Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/thermal/thermal_device.cc:117] UpdateThermalState device: /sys/class/thermal/cooling_device1 new_state: Nominal
+2026-05-22T03:19:11.228099Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/thermal/thermal_device.cc:117] UpdateThermalState device: /sys/class/thermal/cooling_device4 new_state: Nominal
+2026-05-22T03:19:11.228192Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/suspend_delay_controller.cc:87] Registering suspend delay 57475073 (shill) of 19500 ms on behalf of :1.11
+2026-05-22T03:19:11.228252Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/suspend_delay_controller.cc:87] Registering dark suspend delay 57507841 (shill) of 19500 ms on behalf of :1.11
+2026-05-22T03:19:11.228531Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/suspend_delay_controller.cc:87] Registering suspend delay 57475074 (trunksd) of 3000 ms on behalf of :1.15
+2026-05-22T03:19:11.230111Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/suspend_delay_controller.cc:87] Registering suspend delay 57475075 (cdm-oemcrypto) of 500 ms on behalf of :1.40
+2026-05-22T03:19:11.230172Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1302] D-Bus org.chromium.SessionManager ownership changed to :1.38
+2026-05-22T03:19:11.230817Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/thermal/thermal_device.cc:117] UpdateThermalState device: /sys/class/thermal/cooling_device2 new_state: Nominal
+2026-05-22T03:19:11.230853Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/thermal/thermal_device.cc:117] UpdateThermalState device: /sys/class/thermal/cooling_device0 new_state: Nominal
+2026-05-22T03:19:11.230873Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/thermal/thermal_device.cc:117] UpdateThermalState device: /sys/class/thermal/cooling_device3 new_state: Nominal
+2026-05-22T03:19:11.328677Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1151] Disabling tablet mode wifi transmit power
+2026-05-22T03:19:11.328720Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/main.cc:387] Launching "/usr/bin/powerd_setuid_helper --action=set_wifi_transmit_power --nowifi_transmit_power_tablet --wifi_transmit_power_domain=none --wifi_transmit_power_source=udev_event"
+2026-05-22T03:19:11.686367Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1902] Received request to change reg domain to "None"
+2026-05-22T03:19:11.704894Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/suspend_delay_controller.cc:87] Registering suspend delay 57475076 (chrome) of 5000 ms on behalf of :1.46
+2026-05-22T03:19:11.704946Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/suspend_delay_controller.cc:87] Registering dark suspend delay 57507842 (chrome) of 5000 ms on behalf of :1.46
+2026-05-22T03:19:11.828652Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/battery_saver_controller.cc:100] Battery saver mode enabled
+2026-05-22T03:19:11.828680Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/internal_backlight_controller.cc:730] Got battery-saver-state-change-triggered request to set brightness to 20%
+2026-05-22T03:19:11.828697Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/internal_backlight_controller.cc:958] Setting brightness to 2676 (20%) over 200 ms
+2026-05-22T03:19:11.833787Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 27% (displayed as 25%), 1.228/4.490Ah at 0.640A, 0s until full (calculating)
+2026-05-22T03:19:11.834125Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1791] Chrome is using normal display mode
+2026-05-22T03:19:11.834142Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/state_controller.cc:1254] Updated settings: dim=7m quick_dim=2m screen_off=7m30s lock=0s quick_lock=8m30s idle_warn=0s idle=8m30s (suspend) lid_closed=suspend use_audio=1 use_video=1 wake_locks=
+2026-05-22T03:19:11.898143Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1305] D-Bus org.chromium.DisplayService ownership changed to :1.46
+2026-05-22T03:19:11.898182Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/display/display_power_setter.cc:78] Asking DisplayService to turn all displays on
+2026-05-22T03:19:12.025350Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1309] D-Bus org.chromium.PrivacyScreenService ownership changed to :1.46
+2026-05-22T03:19:12.360472Z ERROR powerd: [../libchrome-0.0.1/platform2/libchrome/dbus/object_proxy.cc:572] Failed to call method: org.chromium.ChromeFeaturesServiceInterface.IsFeatureEnabled: object_path= /org/chromium/ChromeFeaturesService: org.freedesktop.DBus.Error.InvalidArgs: Chrome can't get state for 'CrOSLateBootLongBluetoothAutosuspend'; feature_library will decide
+2026-05-22T03:19:12.362992Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/bluetooth_controller.cc:389] Bluetooth long autosuspend feature is enabled
+2026-05-22T03:19:12.363113Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1813] Received updated external policy: ac_dim=7m ac_screen_off=7m30s ac_lock=0s ac_idle_warn=0s ac_idle=8m30s battery_dim=5m battery_screen_off=5m30s battery_lock=0s battery_idle_warn=0s battery_idle=6m30s ac_idle=suspend battery_idle=shutdown lid_closed=shutdown use_audio=1 use_video=1 presentation_factor=1 user_activity_factor=1 wait_for_initial_user_activity=0 force_nonzero_brightness_for_user_activity=1 (Prefs)
+2026-05-22T03:19:12.363153Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/state_controller.cc:1254] Updated settings: dim=7m quick_dim=2m screen_off=7m30s lock=0s quick_lock=8m30s idle_warn=0s idle=8m30s (suspend) lid_closed=shutdown use_audio=1 use_video=1 wake_locks=
+2026-05-22T03:19:12.363324Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/dim_advisor.cc:108] D-Bus org.chromium.MlDecisionService ownership changed to :1.46
+2026-05-22T03:19:12.363619Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/battery_saver_controller.cc:100] Battery saver mode disabled
+2026-05-22T03:19:12.363628Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/internal_backlight_controller.cc:730] Got battery-saver-state-change-triggered request to set brightness to 80.1%
+2026-05-22T03:19:12.363641Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/internal_backlight_controller.cc:958] Setting brightness to 59807 (80.1%) over 200 ms
+2026-05-22T03:19:12.367770Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/display/display_power_setter.cc:78] Asking DisplayService to turn all displays on
+2026-05-22T03:19:12.903236Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 27% (displayed as 25%), 1.228/4.490Ah at 0.640A, 0s until full (calculating)
+2026-05-22T03:19:12.971396Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/audio_client.cc:119] D-Bus org.chromium.cras ownership changed to :1.87
+2026-05-22T03:19:13.298854Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1813] Received updated external policy: ac_dim=7m ac_screen_off=7m30s ac_lock=0s ac_idle_warn=0s ac_idle=8m30s battery_dim=5m battery_screen_off=5m30s battery_lock=0s battery_idle_warn=0s battery_idle=6m30s ac_idle=suspend battery_idle=shutdown lid_closed=shutdown system_wake_lock=1 use_audio=1 use_video=1 presentation_factor=1 user_activity_factor=1 wait_for_initial_user_activity=0 force_nonzero_brightness_for_user_activity=1 (Prefs, DeviceScheduledRebootHandler)
+2026-05-22T03:19:13.298910Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/state_controller.cc:1254] Updated settings: dim=7m quick_dim=2m screen_off=7m30s lock=0s quick_lock=8m30s idle_warn=0s idle=8m30s (suspend) lid_closed=shutdown use_audio=1 use_video=1 wake_locks=system
+2026-05-22T03:19:13.433361Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1151] Disabling tablet mode wifi transmit power
+2026-05-22T03:19:13.433390Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/main.cc:387] Launching "/usr/bin/powerd_setuid_helper --action=set_wifi_transmit_power --nowifi_transmit_power_tablet --wifi_transmit_power_domain=none --wifi_transmit_power_source=udev_event"
+2026-05-22T03:19:13.462167Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1813] Received updated external policy: ac_dim=7m ac_screen_off=7m30s ac_lock=0s ac_idle_warn=0s ac_idle=8m30s battery_dim=5m battery_screen_off=5m30s battery_lock=0s battery_idle_warn=0s battery_idle=6m30s ac_idle=suspend battery_idle=shutdown lid_closed=shutdown use_audio=1 use_video=1 presentation_factor=1 user_activity_factor=1 wait_for_initial_user_activity=0 force_nonzero_brightness_for_user_activity=1 (Prefs)
+2026-05-22T03:19:13.462212Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/state_controller.cc:1254] Updated settings: dim=7m quick_dim=2m screen_off=7m30s lock=0s quick_lock=8m30s idle_warn=0s idle=8m30s (suspend) lid_closed=shutdown use_audio=1 use_video=1 wake_locks=
+2026-05-22T03:19:13.593235Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1791] Chrome is using normal display mode
+2026-05-22T03:19:15.609182Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/wakeup_source_identifier.cc:112] Monitoring wakeup path /sys/devices/pci0000:00/0000:00:1f.3 for wake events
+2026-05-22T03:19:16.164023Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/bluetooth_controller.cc:210] D-Bus org.chromium.bluetooth.Manager ownership changed to :1.140
+2026-05-22T03:19:16.184518Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/suspend_delay_controller.cc:87] Registering suspend delay 57475077 (Bluetooth Manager) of 0 ms on behalf of :1.140
+2026-05-22T03:19:16.132004Z ERROR powerd: [../libchrome-0.0.1/platform2/libchrome/dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.ObjectManager.GetManagedObjects: object_path= /: org.freedesktop.DBus.Error.UnknownMethod: Path, Interface, or Method does not exist
+2026-05-22T03:19:16.132083Z WARNING powerd: [../libchrome-0.0.1/platform2/libchrome/dbus/object_manager.cc:382] org.chromium.bluetooth /: Failed to get managed objects
+2026-05-22T03:19:16.237548Z WARNING powerd: [../libchrome-0.0.1/platform2/libchrome/dbus/exported_object.cc:302] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.9
+path: /org/chromium/PowerManager
+interface: org.chromium.bluetooth.ManagerCallback
+member: OnHciDeviceChanged
+sender: :1.140
+signature: ib
+serial: 34
+
+int32_t 0
+bool true
+
+2026-05-22T03:19:16.242413Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/floss_battery_provider.cc:220] OnHciEnabledChanged: Bluetooth was enabled. Re-registering FlossBatteryProvider.
+2026-05-22T03:19:16.283568Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/system/floss_battery_provider.cc:275] OnRegisteredAsBatteryProvider: Registered as a battery provider with id: 9
+2026-05-22T03:19:16.651057Z WARNING powerd: [../libchrome-0.0.1/platform2/libchrome/dbus/exported_object.cc:302] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: :1.9
+path: /org/chromium/PowerManager
+interface: org.freedesktop.DBus.Properties
+member: GetAll
+sender: :1.162
+signature: s
+serial: 38
+
+string "org.chromium.PowerManager"
+
+2026-05-22T03:19:23.434202Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity reported
+2026-05-22T03:19:39.937815Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1936] Session state changed to started
+2026-05-22T03:19:39.937992Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/state_controller.cc:1254] Updated settings: dim=7m quick_dim=2m screen_off=7m30s lock=0s quick_lock=8m30s idle_warn=0s idle=8m30s (suspend) lid_closed=shutdown use_audio=1 use_video=1 wake_locks=
+2026-05-22T03:19:40.077603Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/suspend_delay_controller.cc:87] Registering suspend delay 57475078 (Pause VMs while suspended) of 5000 ms on behalf of :1.179
+2026-05-22T03:19:40.622039Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1813] Received updated external policy: ac_dim=0s ac_screen_off=0s ac_lock=0s ac_idle_warn=0s ac_idle=10m battery_dim=0s battery_screen_off=0s battery_lock=0s battery_idle_warn=0s battery_idle=10m ac_idle=suspend battery_idle=suspend lid_closed=suspend use_audio=1 use_video=1 presentation_factor=1 user_activity_factor=1 wait_for_initial_user_activity=0 force_nonzero_brightness_for_user_activity=1 (Prefs)
+2026-05-22T03:19:40.622081Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/state_controller.cc:1254] Updated settings: dim=0s quick_dim=0s screen_off=0s lock=0s quick_lock=8m30s idle_warn=0s idle=10m (suspend) lid_closed=suspend use_audio=1 use_video=1 wake_locks=
+2026-05-22T03:19:40.622122Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/adaptive_charging_controller.cc:1053] Policy update to enable Aaptive Charging
+2026-05-22T03:19:40.622128Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/adaptive_charging_controller.cc:1767] Stopping Charge Limit.
+2026-05-22T03:19:40.623773Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/adaptive_charging_controller.cc:1056] Policy update to change Aaptive Charging config
+2026-05-22T03:19:40.624269Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/adaptive_charging_controller.cc:1434] Battery charge current limit set at 4294967295mA
+2026-05-22T03:19:40.624290Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/adaptive_charging_controller.cc:1468] Adaptive Charging state: heuristic requirement not met. Insufficient charge history. Days of history: 30, Minimum required: 14; Full on AC ratio: 0.047619, Minimum required: 0.5
+2026-05-22T03:19:40.734218Z ERROR powerd: [../libchrome-0.0.1/platform2/libchrome/dbus/object_proxy.cc:572] Failed to call method: org.chromium.ChromeFeaturesServiceInterface.IsFeatureEnabled: object_path= /org/chromium/ChromeFeaturesService: org.freedesktop.DBus.Error.InvalidArgs: Chrome can't get state for 'CrOSLateBootSlowAdaptiveCharging'; feature_library will decide
+2026-05-22T03:19:40.734283Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/adaptive_charging_controller.cc:1509] Slow charging is supported and disabled
+2026-05-22T03:19:40.734702Z WARNING powerd: [../libchrome-0.0.1/platform2/libchrome/dbus/exported_object.cc:302] Unknown method: message_type: MESSAGE_METHOD_CALL
+destination: org.chromium.PowerManager
+path: /org/chromium/PowerManager
+interface: org.chromium.PowerManager
+member: GetKeyboardBrightnessPercent
+sender: :1.46
+serial: 777
+
+
+2026-05-22T03:19:41.093901Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/adaptive_charging_controller.cc:1148] Adaptive Charging ML predicts AC unplug will occur after 0 hour(s)
+2026-05-22T03:19:41.094443Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/adaptive_charging_controller.cc:1434] Battery charge current limit set at 4294967295mA
+2026-05-22T03:19:42.759578Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 27% (displayed as 25%), 1.234/4.490Ah at 0.861A, 0s until full (calculating)
+2026-05-22T03:19:43.765177Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 28% (displayed as 25%), 1.235/4.490Ah at 0.600A, 0s until full (calculating)
+2026-05-22T03:19:44.770976Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 28% (displayed as 25%), 1.235/4.490Ah at 1.147A, 0s until full (calculating)
+2026-05-22T03:19:45.776381Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 28% (displayed as 25%), 1.235/4.490Ah at 1.206A, 0s until full (calculating)
+2026-05-22T03:19:46.781713Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 28% (displayed as 25%), 1.236/4.490Ah at 1.231A, 3h5m29s until full
+2026-05-22T03:20:02.210088Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1813] Received updated external policy: ac_dim=0s ac_screen_off=0s ac_lock=0s ac_idle_warn=0s ac_idle=10m battery_dim=0s battery_screen_off=0s battery_lock=0s battery_idle_warn=0s battery_idle=10m ac_idle=suspend battery_idle=suspend lid_closed=suspend screen_wake_lock=1 use_audio=1 use_video=1 presentation_factor=1 user_activity_factor=1 wait_for_initial_user_activity=0 force_nonzero_brightness_for_user_activity=1 (Prefs, IOTask)
+2026-05-22T03:20:02.210165Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/state_controller.cc:1254] Updated settings: dim=0s quick_dim=0s screen_off=0s lock=0s quick_lock=8m30s idle_warn=0s idle=10m (suspend) lid_closed=suspend use_audio=1 use_video=1 wake_locks=screen
+2026-05-22T03:20:02.210197Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/adaptive_charging_controller.cc:1053] Policy update to enable Aaptive Charging
+2026-05-22T03:20:02.210202Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/adaptive_charging_controller.cc:1767] Stopping Charge Limit.
+2026-05-22T03:20:02.212433Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1813] Received updated external policy: ac_dim=0s ac_screen_off=0s ac_lock=0s ac_idle_warn=0s ac_idle=10m battery_dim=0s battery_screen_off=0s battery_lock=0s battery_idle_warn=0s battery_idle=10m ac_idle=suspend battery_idle=suspend lid_closed=suspend use_audio=1 use_video=1 presentation_factor=1 user_activity_factor=1 wait_for_initial_user_activity=0 force_nonzero_brightness_for_user_activity=1 (Prefs)
+2026-05-22T03:20:02.212494Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/state_controller.cc:1254] Updated settings: dim=0s quick_dim=0s screen_off=0s lock=0s quick_lock=8m30s idle_warn=0s idle=10m (suspend) lid_closed=suspend use_audio=1 use_video=1 wake_locks=
+2026-05-22T03:20:02.212523Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/adaptive_charging_controller.cc:1053] Policy update to enable Aaptive Charging
+2026-05-22T03:20:02.212527Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/adaptive_charging_controller.cc:1767] Stopping Charge Limit.
+2026-05-22T03:20:07.282192Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1813] Received updated external policy: ac_dim=0s ac_screen_off=0s ac_lock=0s ac_idle_warn=0s ac_idle=10m battery_dim=0s battery_screen_off=0s battery_lock=0s battery_idle_warn=0s battery_idle=10m ac_idle=suspend battery_idle=suspend lid_closed=suspend screen_wake_lock=1 use_audio=1 use_video=1 presentation_factor=1 user_activity_factor=1 wait_for_initial_user_activity=0 force_nonzero_brightness_for_user_activity=1 (Prefs, IOTask)
+2026-05-22T03:20:07.282252Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/state_controller.cc:1254] Updated settings: dim=0s quick_dim=0s screen_off=0s lock=0s quick_lock=8m30s idle_warn=0s idle=10m (suspend) lid_closed=suspend use_audio=1 use_video=1 wake_locks=screen
+2026-05-22T03:20:07.282282Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/adaptive_charging_controller.cc:1053] Policy update to enable Aaptive Charging
+2026-05-22T03:20:07.282289Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/adaptive_charging_controller.cc:1767] Stopping Charge Limit.
+2026-05-22T03:20:07.284382Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1813] Received updated external policy: ac_dim=0s ac_screen_off=0s ac_lock=0s ac_idle_warn=0s ac_idle=10m battery_dim=0s battery_screen_off=0s battery_lock=0s battery_idle_warn=0s battery_idle=10m ac_idle=suspend battery_idle=suspend lid_closed=suspend use_audio=1 use_video=1 presentation_factor=1 user_activity_factor=1 wait_for_initial_user_activity=0 force_nonzero_brightness_for_user_activity=1 (Prefs)
+2026-05-22T03:20:07.284442Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/state_controller.cc:1254] Updated settings: dim=0s quick_dim=0s screen_off=0s lock=0s quick_lock=8m30s idle_warn=0s idle=10m (suspend) lid_closed=suspend use_audio=1 use_video=1 wake_locks=
+2026-05-22T03:20:07.284469Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/adaptive_charging_controller.cc:1053] Policy update to enable Aaptive Charging
+2026-05-22T03:20:07.284475Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/policy/adaptive_charging_controller.cc:1767] Stopping Charge Limit.
+2026-05-22T03:20:16.788927Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 28% (displayed as 26%), 1.244/4.490Ah at 0.714A, 3h10m34s until full
+2026-05-22T03:20:46.795126Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 28% (displayed as 26%), 1.248/4.490Ah at 0.450A, 3h16m20s until full
+2026-05-22T03:21:16.800363Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 28% (displayed as 26%), 1.254/4.490Ah at 0.707A, 3h35m58s until full
+2026-05-22T03:21:46.805040Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 28% (displayed as 26%), 1.259/4.490Ah at 1.150A, 3h38m28s until full
+2026-05-22T03:22:16.811537Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 28% (displayed as 26%), 1.269/4.490Ah at 1.183A, 3h40m14s until full
+2026-05-22T03:22:23.436021Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity ongoing; last reported 11 sec ago
+2026-05-22T03:22:46.816166Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 28% (displayed as 26%), 1.278/4.490Ah at 1.178A, 3h17m46s until full
+2026-05-22T03:23:07.342234Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity stopped; last reported 20 sec ago
+2026-05-22T03:23:16.821907Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 29% (displayed as 27%), 1.288/4.490Ah at 1.281A, 2h47m20s until full
+2026-05-22T03:23:46.831008Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 29% (displayed as 27%), 1.298/4.490Ah at 1.290A, 2h30m48s until full
+2026-05-22T03:24:16.838657Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 29% (displayed as 27%), 1.307/4.490Ah at 1.234A, 2h28m19s until full
+2026-05-22T03:24:46.846537Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 29% (displayed as 27%), 1.317/4.490Ah at 1.244A, 2h26m23s until full
+2026-05-22T03:25:16.854414Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 30% (displayed as 28%), 1.327/4.490Ah at 1.288A, 2h23m22s until full
+2026-05-22T03:25:46.861757Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 30% (displayed as 28%), 1.337/4.490Ah at 1.294A, 2h22m36s until full
+2026-05-22T03:26:16.868164Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 30% (displayed as 28%), 1.347/4.490Ah at 1.287A, 2h22m11s until full
+2026-05-22T03:26:46.874698Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 30% (displayed as 28%), 1.357/4.490Ah at 1.283A, 2h20m38s until full
+2026-05-22T03:27:16.826095Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity reported
+2026-05-22T03:27:16.880506Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 30% (displayed as 28%), 1.367/4.490Ah at 1.286A, 2h19m15s until full
+2026-05-22T03:27:46.890710Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 31% (displayed as 29%), 1.376/4.490Ah at 1.192A, 2h20m56s until full
+2026-05-22T03:28:16.897183Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 31% (displayed as 29%), 1.385/4.490Ah at 1.159A, 2h23m34s until full
+2026-05-22T03:28:46.905521Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 31% (displayed as 29%), 1.394/4.490Ah at 1.270A, 2h23m31s until full
+2026-05-22T03:28:56.538516Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity stopped; last reported 20 sec ago
+2026-05-22T03:29:09.381077Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity reported
+2026-05-22T03:29:16.906997Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 31% (displayed as 29%), 1.404/4.490Ah at 0.891A, 2h32m42s until full
+2026-05-22T03:29:29.382504Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity stopped; last reported 20 sec ago
+2026-05-22T03:29:45.174167Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity reported
+2026-05-22T03:29:46.913383Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 31% (displayed as 30%), 1.413/4.490Ah at 1.184A, 2h34m58s until full
+2026-05-22T03:30:16.917828Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 32% (displayed as 30%), 1.422/4.490Ah at 0.862A, 2h44m until full
+2026-05-22T03:30:46.923341Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 32% (displayed as 30%), 1.429/4.490Ah at 1.153A, 2h43m47s until full
+2026-05-22T03:31:16.928021Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 32% (displayed as 30%), 1.438/4.490Ah at 1.141A, 2h47m19s until full
+2026-05-22T03:31:46.933182Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 32% (displayed as 30%), 1.445/4.490Ah at 1.172A, 2h38m24s until full
+2026-05-22T03:32:16.941222Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 32% (displayed as 31%), 1.454/4.490Ah at 1.135A, 2h39m19s until full
+2026-05-22T03:32:45.177355Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity ongoing; last reported 4 sec ago
+2026-05-22T03:32:46.945869Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 33% (displayed as 31%), 1.460/4.490Ah at 0.582A, 2h47m35s until full
+2026-05-22T03:33:16.950395Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 33% (displayed as 31%), 1.465/4.490Ah at 0.720A, 3h2m33s until full
+2026-05-22T03:33:46.957701Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 33% (displayed as 31%), 1.472/4.490Ah at 1.242A, 2h58m19s until full
+2026-05-22T03:33:59.147315Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity stopped; last reported 20 sec ago
+2026-05-22T03:34:08.586955Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity reported
+2026-05-22T03:34:16.964328Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 33% (displayed as 31%), 1.481/4.490Ah at 1.135A, 2h59m7s until full
+2026-05-22T03:34:33.631327Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity stopped; last reported 20 sec ago
+2026-05-22T03:34:39.955350Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity reported
+2026-05-22T03:34:46.971893Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 33% (displayed as 31%), 1.490/4.490Ah at 1.260A, 2h54m2s until full
+2026-05-22T03:35:10.474400Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity stopped; last reported 20 sec ago
+2026-05-22T03:35:10.543983Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity reported
+2026-05-22T03:35:16.977791Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 33% (displayed as 32%), 1.500/4.490Ah at 1.227A, 2h33m24s until full
+2026-05-22T03:35:46.983254Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 34% (displayed as 32%), 1.509/4.490Ah at 1.284A, 2h18m53s until full
+2026-05-22T03:36:00.882393Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity stopped; last reported 20 sec ago
+2026-05-22T03:36:08.235655Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity reported
+2026-05-22T03:36:16.989559Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 34% (displayed as 32%), 1.519/4.490Ah at 1.153A, 2h20m26s until full
+2026-05-22T03:36:41.760406Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity stopped; last reported 20 sec ago
+2026-05-22T03:36:46.998654Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 34% (displayed as 32%), 1.529/4.490Ah at 1.245A, 2h17m27s until full
+2026-05-22T03:37:17.007248Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 34% (displayed as 33%), 1.538/4.490Ah at 1.266A, 2h16m52s until full
+2026-05-22T03:37:47.013278Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 34% (displayed as 33%), 1.548/4.490Ah at 1.130A, 2h18m34s until full
+2026-05-22T03:37:56.689563Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity reported
+2026-05-22T03:38:17.020967Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 35% (displayed as 33%), 1.557/4.490Ah at 1.211A, 2h19m48s until full
+2026-05-22T03:38:47.027013Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 35% (displayed as 33%), 1.564/4.490Ah at 1.140A, 2h19m45s until full
+2026-05-22T03:39:13.808429Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity stopped; last reported 20 sec ago
+2026-05-22T03:39:16.595916Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity reported
+2026-05-22T03:39:17.031973Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 35% (displayed as 33%), 1.573/4.490Ah at 1.145A, 2h21m40s until full
+2026-05-22T03:39:47.037326Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 35% (displayed as 34%), 1.580/4.490Ah at 1.177A, 2h23m29s until full
+2026-05-22T03:40:17.046464Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 35% (displayed as 34%), 1.590/4.490Ah at 1.277A, 2h19m26s until full
+2026-05-22T03:40:18.496983Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity stopped; last reported 20 sec ago
+2026-05-22T03:40:47.055649Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 36% (displayed as 34%), 1.599/4.490Ah at 1.284A, 2h17m17s until full
+2026-05-22T03:40:48.073248Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity reported
+2026-05-22T03:41:17.063603Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 36% (displayed as 34%), 1.609/4.490Ah at 1.259A, 2h14m8s until full
+2026-05-22T03:41:19.662687Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity stopped; last reported 20 sec ago
+2026-05-22T03:41:47.071942Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 36% (displayed as 35%), 1.619/4.490Ah at 1.276A, 2h10m52s until full
+2026-05-22T03:42:06.008459Z INFO powerd: [../power_manager-0.0.2/power_manager/common/activity_logger.cc:21] User activity reported
+2026-05-22T03:42:17.077220Z INFO powerd: [../power_manager-0.0.2/power_manager/powerd/daemon.cc:1319] On USB (USB_PD, 8.4V, max 2.2A at 9.0V) with battery at 36% (displayed as 35%), 1.628/4.490Ah at 1.141A, 2h11m11s until full

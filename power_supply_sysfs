@@ -1,0 +1,46 @@
+/sys/class/power_supply/AC
+  online               1
+  type                 Mains
+/sys/class/power_supply/BAT0
+  alarm                0
+  capacity             36
+  capacity_level       Normal
+  charge_full          4490000
+  charge_full_design   4715000
+  charge_now           1632000
+  current_now          894000
+  cycle_count          54
+  manufacturer         SMP KT00307012
+  model_name           AP23A7L
+  present              1
+  status               Charging
+  technology           Li-ion
+  type                 Battery
+  voltage_min_design   11250000
+  voltage_now          11107000
+/sys/class/power_supply/CROS_USBPD_CHARGER0
+  charge_control_limit_max 0
+  current_max          2220000
+  input_current_limit  -1
+  input_voltage_limit  -1
+  manufacturer         311c
+  model_name           0
+  online               1
+  status               Charging
+  type                 USB
+  usb_type             Unknown SDP DCP CDP C [PD] PD_DRP BrickID
+  voltage_max_design   9000000
+  voltage_now          8448000
+/sys/class/power_supply/CROS_USBPD_CHARGER1
+  charge_control_limit_max 0
+  current_max          0
+  input_current_limit  -1
+  input_voltage_limit  -1
+  manufacturer         0
+  model_name           0
+  online               0
+  status               Not charging
+  type                 USB
+  usb_type             Unknown [SDP] DCP CDP C PD PD_DRP BrickID
+  voltage_max_design   0
+  voltage_now          0

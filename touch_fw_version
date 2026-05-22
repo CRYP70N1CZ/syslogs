@@ -1,0 +1,2 @@
+/sys/devices/pci0000:00/0000:00:19.1/i2c_designware.5/i2c-14/i2c-ELAN0000:00 {"updater": "Elan", "name": "ELAN0000:00", "vendor_id": "04F3", "product_id": "188.0"}
+/sys/devices/pci0000:00/0000:00:19.1/i2c_designware.5/i2c-14/i2c-ELAN0000:00 {"updater": "Elan", "initial_version": "2.0", "elan_product_id": "188.0"}

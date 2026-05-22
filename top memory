@@ -1,0 +1,57 @@
+top - 22:42:31 up 23 min,  0 users,  load average: 1.04, 0.75, 0.62
+Tasks: 390 total,   1 running, 389 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.0 us,  3.0 sy,  0.0 ni, 91.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   7720.2 total,   3667.2 free,   1879.9 used,   2173.1 buff/cache
+MiB Swap:  15440.5 total,  15440.5 free,      0.0 used.   5015.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1365 chronos   12  -8   48.8g 443996 243216 S  12.5   5.6   1:30.98 /opt/google/chrome/chrome --enable-native-gpu-memory-bu+
+  10520 chronos   12  -8 1394.3g 351488 154104 S   6.2   4.4   0:24.50 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+   9858 chronos   12  -8 1394.3g 275768 148844 S   0.0   3.5   0:13.22 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+   8541 chronos   12  -8 1392.3g 214108 115900 S   0.0   2.7   0:01.11 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+   8741 chronos   12  -8 1392.4g 192328 127124 S   0.0   2.4   0:28.23 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+   5426 chronos   12  -8 1392.4g 186964 124512 S   0.0   2.4   0:06.84 /opt/google/chrome/chrome --type=renderer --top-chrome-+
+   5533 chronos   12  -8 1394.2g 184156 128368 S   0.0   2.3   0:02.58 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+  16267 chronos   12  -8 1392.3g 173256 120200 S   6.2   2.2   0:01.15 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+  14448 chronos   12  -8 1392.4g 168236 119176 S   0.0   2.1   0:01.59 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+   9914 chronos   12  -8 1396.1g 167900 112276 S   0.0   2.1   0:00.88 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+   5198 chronos   12  -8 1394.2g 164252 110920 S   0.0   2.1   0:00.31 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+   7040 chronos   12  -8 1392.3g 162132 121504 S   0.0   2.1   0:01.74 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+   8423 chronos   12  -8 1392.3g 151408 116696 S   0.0   1.9   0:01.09 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+   5021 chronos   12  -8 1394.2g 149052  98276 S   0.0   1.9   0:06.35 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+  10742 chronos   12  -8 1392.3g 144464 112188 S   0.0   1.8   0:00.85 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+   4875 chronos   12  -8 1394.2g 138820 106268 S   0.0   1.8   0:00.69 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+  16238 chronos   12  -8 1392.3g 138128 107224 S   0.0   1.7   0:00.18 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+  10547 chronos   12  -8 1392.3g 134344 103396 S   0.0   1.7   0:00.16 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+  10157 chronos   12  -8 1394.2g 128148  91532 S   0.0   1.6   0:00.84 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+   1481 chronos   12  -8   48.8g 127732  82328 S  12.5   1.6   1:05.35 /opt/google/chrome/chrome --type=gpu-process --gpu-sand+
+   3716 traced    20   0  138288 123196 121440 S   0.0   1.6   0:02.52 /usr/bin/traced --set-socket-permissions traced-produce+
+  10149 chronos   12  -8 1394.2g 121148  86256 S   0.0   1.5   0:00.55 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+   1483 chronos   20   0   48.4g 105632  68128 S   0.0   1.3   0:12.36 /opt/google/chrome/chrome --type=utility --utility-sub-+
+  16402 chronos   12  -8 1394.2g 102448  73620 S   0.0   1.3   0:00.06 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+  16427 chronos   12  -8 1394.2g 100264  71900 S   0.0   1.3   0:00.06 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+   5105 chronos   20   0 2640744  99516  21704 S   0.0   1.3   0:01.84 /opt/google/drive-file-stream/drivefs -o uid=1000,gid=1+
+   4876 chronos   20   0   48.8g  88916  62448 S   0.0   1.1   0:00.44 /opt/google/chrome/chrome --type=utility --utility-sub-+
+  16452 chronos   12  -8 1392.3g  87408  60768 S   0.0   1.1   0:00.05 /opt/google/chrome/chrome --type=renderer --crashpad-ha+
+   1556 chronos   20   0   48.7g  71164  47916 S   0.0   0.9   0:00.15 /opt/google/chrome/chrome --type=utility --utility-sub-+
+   1513 chronos   20   0   48.4g  68972  49108 S   0.0   0.9   0:00.23 /opt/google/chrome/chrome --type=utility --utility-sub-+
+   4791 chronos   20   0 1392.4g  67080  42992 S   0.0   0.8   0:01.21 /opt/google/chrome/chrome --type=utility --utility-sub-+
+   1545 chronos   20   0   48.7g  61652  40304 S   0.0   0.8   0:00.17 /opt/google/chrome/chrome --type=utility --utility-sub-+
+   6292 chronos   20   0   64.7g  53472  33644 S   0.0   0.7   0:00.11 /opt/google/chrome/chrome --type=utility --utility-sub-+
+   5004 chronos   20   0   48.7g  51520  31524 S   0.0   0.7   0:00.30 /opt/google/chrome/chrome --type=utility --utility-sub-+
+   1418 chronos   20   0   48.6g  50312  31516 S   0.0   0.6   0:00.18 /opt/google/chrome/chrome --type=zygote --no-zygote-san+
+   1424 chronos   20   0   48.6g  49860  31152 S   0.0   0.6   0:00.04 /opt/google/chrome/chrome --type=zygote --enable-loggin+
+   4979 chronos   20   0   48.7g  49704  29980 S   0.0   0.6   0:00.06 /opt/google/chrome/chrome --type=utility --utility-sub-+
+   8279 ml-serv+  20   0   65420  42140  34724 S   0.0   0.5   0:00.29 /usr/bin/ml_service --task=mojo_service --mojo-bootstra+
+   3833 arc-cam+  20   0 1252180  38332  30116 S   0.0   0.5   0:00.26 /usr/bin/cros_camera_service
+   4018 fwupd     20   0  343720  35280  28876 S   0.0   0.4   0:01.00 /usr/libexec/fwupd/fwupd --verbose --no-timestamp
+    690 root      20   0   41436  31456  14096 S   0.0   0.4   0:02.11 /usr/sbin/debugd
+   1526 root      20   0  480908  29232  17652 S   0.0   0.4   0:00.24 cryptohomed --noclose --direncryption --fscrypt_v2 --ap+
+    966 shill     20   0  110404  28416  23816 S   0.0   0.4   0:00.66 /usr/bin/shill --log-level=0 --log-scopes= --vmodule=ob+
+   3983 bluetoo+  20   0 1063956  28416  24632 S   0.0   0.4   0:00.13 /usr/bin/btadapterd --index=0 --hci=0
+   1362 cdm-oem+  20   0  127872  27412  22584 S   0.0   0.3   0:00.04 /usr/sbin/cdm-oemcrypto
+   4718 crosvm    20   0 1370080  26640  22788 S   0.0   0.3   0:00.27 /usr/bin/vm_concierge
+  16450 ml-serv+  20   0   49312  26212  21692 S   0.0   0.3   0:00.02 /usr/bin/ml_service --task=mojo_service --mojo-bootstra+
+   1484 chronos   20   0   48.7g  25636   5356 S   0.0   0.3   0:00.02 /opt/google/chrome/chrome --type=broker
+   1437 chronos   20   0   48.6g  25164   6356 S   0.0   0.3   0:00.32 /opt/google/chrome/chrome --type=zygote --enable-loggin+
+   1857 cros_he+  20   0   43568  25028  21168 S   0.0   0.3   0:00.23 /usr/bin/cros_healthd

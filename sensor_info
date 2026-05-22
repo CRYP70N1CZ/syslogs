@@ -1,0 +1,10 @@
+cat: '/sys/bus/iio/devices/iio:device*/*calibbias': No such file or directory
+cat: '/sys/bus/iio/devices/iio:device*/*calibscale': No such file or directory
+cat: '/sys/bus/iio/devices/iio:device*/*raw': No such file or directory
+cat: '/sys/bus/iio/devices/iio:device*/sampling_frequency': No such file or directory
+cat: '/sys/bus/iio/devices/iio:device*/sampling_frequency_available': No such file or directory
+cat: '/sys/bus/iio/devices/iio:device*/name': No such file or directory
+cat: '/sys/bus/iio/devices/iio:device*/location': No such file or directory
+cat: '/sys/bus/iio/devices/iio:device*/label': No such file or directory
+cat: '/sys/bus/iio/devices/iio:device*/scale': No such file or directory
+/sys/bus/iio/devices/iio:device*/*calibbias: /sys/bus/iio/devices/iio:device*/*calibscale: /sys/bus/iio/devices/iio:device*/*raw: /sys/bus/iio/devices/iio:device*/sampling_frequency: /sys/bus/iio/devices/iio:device*/sampling_frequency_available: /sys/bus/iio/devices/iio:device*/name: /sys/bus/iio/devices/iio:device*/location: /sys/bus/iio/devices/iio:device*/label: /sys/bus/iio/devices/iio:device*/scale: 

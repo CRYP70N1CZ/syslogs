@@ -1,0 +1,160 @@
+22 1 254:0 / / ro,relatime - ext2 /dev/root ro,seclabel
+23 22 0:5 / /dev rw,nosuid,noexec,relatime - devtmpfs devtmpfs rw,seclabel,size=3950940k,nr_inodes=987735,mode=755
+24 23 0:21 / /dev/pts rw,nosuid,noexec,relatime - devpts devpts rw,seclabel,gid=5,mode=620,ptmxmode=666
+25 23 0:22 / /dev/shm rw,nosuid,nodev,noexec,relatime - tmpfs tmpfs rw,seclabel
+26 22 0:23 / /proc rw,nosuid,nodev,noexec,relatime - proc proc rw
+27 22 0:24 / /sys rw,nosuid,nodev,noexec,relatime - sysfs sysfs rw,seclabel
+28 22 0:25 / /tmp rw,nosuid,nodev,noexec,relatime,nosymfollow - tmpfs tmpfs rw,seclabel
+29 22 0:26 / /run rw,nosuid,nodev,noexec,relatime - tmpfs tmpfs rw,seclabel,mode=755
+30 27 0:27 / /sys/fs/cgroup rw,nosuid,nodev,noexec,relatime - tmpfs none rw,seclabel,mode=755
+31 30 0:28 / /sys/fs/cgroup/blkio rw,nosuid,nodev,noexec,relatime - cgroup cgroup rw,blkio
+32 27 0:17 / /sys/fs/selinux rw,nosuid,noexec,relatime - selinuxfs selinuxfs rw
+33 27 0:29 / /sys/fs/pstore rw,nosuid,nodev,noexec,relatime - pstore pstore rw,seclabel
+34 29 7:0 / /run/chromeos-config/private ro,nosuid,nodev,noexec,relatime - squashfs /dev/loop0 ro,seclabel,errors=continue
+35 29 7:0 /v1/chromeos/configs/5085 /run/chromeos-config/v1 ro,nosuid,nodev,noexec,relatime - squashfs /dev/loop0 ro,seclabel,errors=continue
+36 27 0:7 / /sys/kernel/debug rw,nosuid,nodev,noexec,relatime - debugfs debugfs rw,seclabel,gid=605,mode=750
+37 27 0:12 / /sys/kernel/tracing rw,nosuid,nodev,noexec,relatime - tracefs tracefs rw,seclabel,mode=755
+38 27 0:20 / /sys/kernel/config rw,nosuid,nodev,noexec,relatime - configfs configfs rw
+39 27 0:30 / /sys/fs/bpf rw,nosuid,nodev,noexec,relatime - bpf bpf rw,gid=430,mode=770
+40 27 0:6 / /sys/kernel/security ro,nosuid,nodev,noexec,relatime - securityfs securityfs ro
+41 29 0:26 /namespaces /run/namespaces rw,nosuid,nodev,noexec,relatime - tmpfs tmpfs rw,seclabel,mode=755
+42 22 254:5 / /mnt/stateful_partition rw,nosuid,nodev,noexec,noatime - ext4 /dev/X1CPFQ1O337W468X/unencrypted rw,seclabel,discard,resgid=20119,commit=600,stripe=16
+43 22 179:8 / /usr/share/oem ro,nosuid,nodev,noexec,relatime - ext4 /dev/mmcblk0p8 ro,seclabel
+44 22 254:5 /home /home rw,nosuid,nodev,noexec,noatime,nosymfollow - ext4 /dev/X1CPFQ1O337W468X/unencrypted rw,seclabel,discard,resgid=20119,commit=600,stripe=16
+45 42 254:7 / /mnt/stateful_partition/encrypted rw,nosuid,nodev,noexec,noatime - ext4 /dev/mapper/encstateful rw,seclabel,discard,commit=600,stripe=16
+46 22 254:7 /var /var rw,nosuid,nodev,noexec,noatime - ext4 /dev/mapper/encstateful rw,seclabel,discard,commit=600,stripe=16
+47 44 254:7 /chronos /home/chronos rw,nosuid,nodev,noexec,noatime - ext4 /dev/mapper/encstateful rw,seclabel,discard,commit=600,stripe=16
+48 46 0:26 / /var/run rw,nosuid,nodev,noexec,relatime - tmpfs tmpfs rw,seclabel,mode=755
+49 46 0:26 /lock /var/lock rw,nosuid,nodev,noexec,relatime - tmpfs tmpfs rw,seclabel,mode=755
+50 29 0:26 /daemon-store/regmond /run/daemon-store/regmond rw,nosuid,nodev,noexec,relatime shared:1 - tmpfs tmpfs rw,seclabel,mode=755
+51 29 0:26 /daemon-store/shadercached /run/daemon-store/shadercached rw,nosuid,nodev,noexec,relatime shared:2 - tmpfs tmpfs rw,seclabel,mode=755
+52 29 0:26 /daemon-store/dlp /run/daemon-store/dlp rw,nosuid,nodev,noexec,relatime shared:3 - tmpfs tmpfs rw,seclabel,mode=755
+53 29 0:26 /daemon-store/session_manager /run/daemon-store/session_manager rw,nosuid,nodev,noexec,relatime shared:4 - tmpfs tmpfs rw,seclabel,mode=755
+54 29 0:26 /daemon-store/crash /run/daemon-store/crash rw,nosuid,nodev,noexec,relatime shared:5 - tmpfs tmpfs rw,seclabel,mode=755
+55 29 0:26 /daemon-store/debugd /run/daemon-store/debugd rw,nosuid,nodev,noexec,relatime shared:6 - tmpfs tmpfs rw,seclabel,mode=755
+56 29 0:26 /daemon-store/kerberosd /run/daemon-store/kerberosd rw,nosuid,nodev,noexec,relatime shared:7 - tmpfs tmpfs rw,seclabel,mode=755
+57 29 0:26 /daemon-store/smbproviderd /run/daemon-store/smbproviderd rw,nosuid,nodev,noexec,relatime shared:8 - tmpfs tmpfs rw,seclabel,mode=755
+58 29 0:26 /daemon-store/biod /run/daemon-store/biod rw,nosuid,nodev,noexec,relatime shared:9 - tmpfs tmpfs rw,seclabel,mode=755
+59 29 0:26 /daemon-store/appsync-consent /run/daemon-store/appsync-consent rw,nosuid,nodev,noexec,relatime shared:10 - tmpfs tmpfs rw,seclabel,mode=755
+60 29 0:26 /daemon-store/pvm /run/daemon-store/pvm rw,nosuid,nodev,noexec,relatime shared:11 - tmpfs tmpfs rw,seclabel,mode=755
+61 29 0:26 /daemon-store/usb_bouncer /run/daemon-store/usb_bouncer rw,nosuid,nodev,noexec,relatime shared:12 - tmpfs tmpfs rw,seclabel,mode=755
+62 29 0:26 /daemon-store/odmld /run/daemon-store/odmld rw,nosuid,nodev,noexec,relatime shared:13 - tmpfs tmpfs rw,seclabel,mode=755
+63 29 0:26 /daemon-store/smbfs /run/daemon-store/smbfs rw,nosuid,nodev,noexec,relatime shared:14 - tmpfs tmpfs rw,seclabel,mode=755
+64 29 0:26 /daemon-store/u2f /run/daemon-store/u2f rw,nosuid,nodev,noexec,relatime shared:15 - tmpfs tmpfs rw,seclabel,mode=755
+65 29 0:26 /daemon-store/dlcservice /run/daemon-store/dlcservice rw,nosuid,nodev,noexec,relatime shared:16 - tmpfs tmpfs rw,seclabel,mode=755
+66 29 0:26 /daemon-store/cdm-oemcrypto /run/daemon-store/cdm-oemcrypto rw,nosuid,nodev,noexec,relatime shared:17 - tmpfs tmpfs rw,seclabel,mode=755
+67 29 0:26 /daemon-store/appsync-optin /run/daemon-store/appsync-optin rw,nosuid,nodev,noexec,relatime shared:18 - tmpfs tmpfs rw,seclabel,mode=755
+68 29 0:26 /daemon-store/shill /run/daemon-store/shill rw,nosuid,nodev,noexec,relatime shared:19 - tmpfs tmpfs rw,seclabel,mode=755
+69 29 0:26 /daemon-store/uma-consent /run/daemon-store/uma-consent rw,nosuid,nodev,noexec,relatime shared:20 - tmpfs tmpfs rw,seclabel,mode=755
+70 29 0:26 /daemon-store/crosvm /run/daemon-store/crosvm rw,nosuid,nodev,noexec,relatime shared:21 - tmpfs tmpfs rw,seclabel,mode=755
+71 29 0:26 /daemon-store/chaps /run/daemon-store/chaps rw,nosuid,nodev,noexec,relatime shared:22 - tmpfs tmpfs rw,seclabel,mode=755
+72 29 0:26 /daemon-store-cache/regmond /run/daemon-store-cache/regmond rw,nosuid,nodev,noexec,relatime shared:23 - tmpfs tmpfs rw,seclabel,mode=755
+73 29 0:26 /daemon-store-cache/shadercached /run/daemon-store-cache/shadercached rw,nosuid,nodev,noexec,relatime shared:24 - tmpfs tmpfs rw,seclabel,mode=755
+74 29 0:26 /daemon-store-cache/dlp /run/daemon-store-cache/dlp rw,nosuid,nodev,noexec,relatime shared:25 - tmpfs tmpfs rw,seclabel,mode=755
+75 29 0:26 /daemon-store-cache/session_manager /run/daemon-store-cache/session_manager rw,nosuid,nodev,noexec,relatime shared:26 - tmpfs tmpfs rw,seclabel,mode=755
+76 29 0:26 /daemon-store-cache/crash /run/daemon-store-cache/crash rw,nosuid,nodev,noexec,relatime shared:27 - tmpfs tmpfs rw,seclabel,mode=755
+77 29 0:26 /daemon-store-cache/debugd /run/daemon-store-cache/debugd rw,nosuid,nodev,noexec,relatime shared:28 - tmpfs tmpfs rw,seclabel,mode=755
+78 29 0:26 /daemon-store-cache/kerberosd /run/daemon-store-cache/kerberosd rw,nosuid,nodev,noexec,relatime shared:29 - tmpfs tmpfs rw,seclabel,mode=755
+79 29 0:26 /daemon-store-cache/smbproviderd /run/daemon-store-cache/smbproviderd rw,nosuid,nodev,noexec,relatime shared:30 - tmpfs tmpfs rw,seclabel,mode=755
+80 29 0:26 /daemon-store-cache/biod /run/daemon-store-cache/biod rw,nosuid,nodev,noexec,relatime shared:31 - tmpfs tmpfs rw,seclabel,mode=755
+81 29 0:26 /daemon-store-cache/appsync-consent /run/daemon-store-cache/appsync-consent rw,nosuid,nodev,noexec,relatime shared:32 - tmpfs tmpfs rw,seclabel,mode=755
+82 29 0:26 /daemon-store-cache/pvm /run/daemon-store-cache/pvm rw,nosuid,nodev,noexec,relatime shared:33 - tmpfs tmpfs rw,seclabel,mode=755
+83 29 0:26 /daemon-store-cache/usb_bouncer /run/daemon-store-cache/usb_bouncer rw,nosuid,nodev,noexec,relatime shared:34 - tmpfs tmpfs rw,seclabel,mode=755
+84 29 0:26 /daemon-store-cache/odmld /run/daemon-store-cache/odmld rw,nosuid,nodev,noexec,relatime shared:35 - tmpfs tmpfs rw,seclabel,mode=755
+85 29 0:26 /daemon-store-cache/smbfs /run/daemon-store-cache/smbfs rw,nosuid,nodev,noexec,relatime shared:36 - tmpfs tmpfs rw,seclabel,mode=755
+86 29 0:26 /daemon-store-cache/u2f /run/daemon-store-cache/u2f rw,nosuid,nodev,noexec,relatime shared:37 - tmpfs tmpfs rw,seclabel,mode=755
+87 29 0:26 /daemon-store-cache/dlcservice /run/daemon-store-cache/dlcservice rw,nosuid,nodev,noexec,relatime shared:38 - tmpfs tmpfs rw,seclabel,mode=755
+88 29 0:26 /daemon-store-cache/cdm-oemcrypto /run/daemon-store-cache/cdm-oemcrypto rw,nosuid,nodev,noexec,relatime shared:39 - tmpfs tmpfs rw,seclabel,mode=755
+89 29 0:26 /daemon-store-cache/appsync-optin /run/daemon-store-cache/appsync-optin rw,nosuid,nodev,noexec,relatime shared:40 - tmpfs tmpfs rw,seclabel,mode=755
+90 29 0:26 /daemon-store-cache/shill /run/daemon-store-cache/shill rw,nosuid,nodev,noexec,relatime shared:41 - tmpfs tmpfs rw,seclabel,mode=755
+91 29 0:26 /daemon-store-cache/uma-consent /run/daemon-store-cache/uma-consent rw,nosuid,nodev,noexec,relatime shared:42 - tmpfs tmpfs rw,seclabel,mode=755
+92 29 0:26 /daemon-store-cache/crosvm /run/daemon-store-cache/crosvm rw,nosuid,nodev,noexec,relatime shared:43 - tmpfs tmpfs rw,seclabel,mode=755
+93 29 0:26 /daemon-store-cache/chaps /run/daemon-store-cache/chaps rw,nosuid,nodev,noexec,relatime shared:44 - tmpfs tmpfs rw,seclabel,mode=755
+94 22 0:31 / /media rw,nosuid,nodev,noexec,relatime shared:45 - tmpfs media rw,seclabel
+169 30 0:32 / /sys/fs/cgroup/cpu rw,nosuid,nodev,noexec,relatime - cgroup cgroup rw,cpu
+97 30 0:36 / /sys/fs/cgroup/freezer rw,nosuid,nodev,noexec,relatime - cgroup cgroup rw,freezer
+98 30 0:37 / /sys/fs/cgroup/devices rw,nosuid,nodev,noexec,relatime - cgroup cgroup rw,devices
+177 30 0:38 / /sys/fs/cgroup/cpuacct rw,nosuid,nodev,noexec,relatime - cgroup cgroup rw,cpuacct
+102 30 0:41 / /sys/fs/cgroup/cpuset rw,nosuid,nodev,noexec,relatime - cgroup cgroup rw,cpuset,noprefix,cpuset_v2_mode
+99 30 0:39 / /sys/fs/cgroup/net_cls rw,nosuid,nodev,noexec,relatime - cgroup cgroup rw,net_cls
+191 29 0:40 / /run/imageloader rw,nosuid,nodev,noexec,relatime shared:46 - tmpfs imageloader rw,seclabel,mode=755
+115 22 7:1 / /opt/google/modemfwd-firmware ro,nosuid,nodev,noexec,relatime - squashfs /dev/loop1 ro,seclabel,errors=continue
+312 29 0:7 /dri/0000:00:02.0 /run/debugfs_gpu rw,nosuid,nodev,noexec,relatime - debugfs debugfs rw,seclabel,gid=605,mode=750
+536 41 0:4 mnt:[4026532659] /run/namespaces/mnt_chrome rw,nosuid,nodev,noexec - nsfs nsfs rw
+325 22 7:2 / /usr/share/chromeos-assets/speech_synthesis/patts ro,nosuid,nodev,relatime - squashfs /dev/loop2 ro,seclabel,errors=continue
+326 22 7:3 / /usr/share/cros-camera/libfs ro,nosuid,nodev,relatime - squashfs /dev/loop3 ro,seclabel,errors=continue
+745 191 254:10 / /run/imageloader/nc-ap-dlc/package ro,nosuid,nodev,relatime shared:47 - squashfs /dev/mapper/4B33C8C170A150303E3B0C7C56C77B32003CC1BDCFCD9FA79071108B0EE0BA8B ro,seclabel,errors=continue
+953 22 7:5 / /usr/share/chromeos-assets/quickoffice ro,nosuid,nodev,noexec,relatime - squashfs /dev/loop5 ro,seclabel,errors=continue
+944 191 254:13 / /run/imageloader/timeofday-dlc/package ro,nosuid,nodev,relatime shared:48 - squashfs /dev/mapper/62670DD9B6C3E65CDEC8325C5333B51CD4A9FBA414C566E8D41154B925B486A9 ro,seclabel,errors=continue
+792 191 254:18 / /run/imageloader/cros-camera-blur-detector-dlc/package ro,nosuid,nodev,relatime shared:49 - squashfs /dev/mapper/EFD242791103EBDEF64F45E3E5CEC3BCF2D17140489AA8277C36295D271A8746 ro,seclabel,errors=continue
+803 191 254:21 / /run/imageloader/cros-camera-super-res-dlc/package ro,nosuid,nodev,relatime shared:50 - squashfs /dev/mapper/B9BE6BEED75E74A8A00D42D7F25FC28FF547C5F40C35D252B4FACD2A871B5422 ro,seclabel,errors=continue
+597 44 254:23 / /home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount rw,nosuid,nodev,noexec,relatime,nosymfollow - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+598 44 254:25 / /home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/cache rw,nosuid,nodev,noexec,relatime,nosymfollow - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+600 597 254:23 /user /home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/user rw,nosuid,nodev,noexec,relatime,nosymfollow shared:51 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+601 597 254:23 /root /home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+602 47 254:23 /user /home/chronos/user rw,nosuid,nodev,noexec,relatime,nosymfollow master:51 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+603 47 254:23 /user /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow master:51 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+604 44 254:23 /user /home/user/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow master:51 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+605 44 254:23 /root /home/root/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow master:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+606 50 254:23 /root/regmond /run/daemon-store/regmond/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+608 51 254:23 /root/shadercached /run/daemon-store/shadercached/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+610 52 254:23 /root/dlp /run/daemon-store/dlp/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+612 53 254:23 /root/session_manager /run/daemon-store/session_manager/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+626 54 254:23 /root/crash /run/daemon-store/crash/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+630 55 254:23 /root/debugd /run/daemon-store/debugd/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+633 56 254:23 /root/kerberosd /run/daemon-store/kerberosd/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+635 57 254:23 /root/smbproviderd /run/daemon-store/smbproviderd/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+637 58 254:23 /root/biod /run/daemon-store/biod/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+639 59 254:23 /root/appsync-consent /run/daemon-store/appsync-consent/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+642 60 254:23 /root/pvm /run/daemon-store/pvm/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+644 61 254:23 /root/usb_bouncer /run/daemon-store/usb_bouncer/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+646 62 254:23 /root/odmld /run/daemon-store/odmld/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+648 63 254:23 /root/smbfs /run/daemon-store/smbfs/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+650 64 254:23 /root/u2f /run/daemon-store/u2f/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+653 65 254:23 /root/dlcservice /run/daemon-store/dlcservice/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+656 66 254:23 /root/cdm-oemcrypto /run/daemon-store/cdm-oemcrypto/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+659 67 254:23 /root/appsync-optin /run/daemon-store/appsync-optin/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+664 68 254:23 /root/shill /run/daemon-store/shill/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+666 69 254:23 /root/uma-consent /run/daemon-store/uma-consent/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+670 70 254:23 /root/crosvm /run/daemon-store/crosvm/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+672 71 254:23 /root/chaps /run/daemon-store/chaps/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:52 - ext4 /dev/mapper/dmcrypt-fe955082-data rw,seclabel,discard,commit=600,stripe=16
+674 600 254:25 /user/Cache /home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/user/Cache rw,nosuid,nodev,noexec,relatime,nosymfollow - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+677 602 254:25 /user/Cache /home/chronos/user/Cache rw,nosuid,nodev,noexec,relatime,nosymfollow - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+676 603 254:25 /user/Cache /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa/Cache rw,nosuid,nodev,noexec,relatime,nosymfollow - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+675 604 254:25 /user/Cache /home/user/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/Cache rw,nosuid,nodev,noexec,relatime,nosymfollow - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+678 600 254:25 /user/GCache /home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/user/GCache rw,nosuid,nodev,noexec,relatime,nosymfollow - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+681 602 254:25 /user/GCache /home/chronos/user/GCache rw,nosuid,nodev,noexec,relatime,nosymfollow - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+680 603 254:25 /user/GCache /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa/GCache rw,nosuid,nodev,noexec,relatime,nosymfollow - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+679 604 254:25 /user/GCache /home/user/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/GCache rw,nosuid,nodev,noexec,relatime,nosymfollow - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+682 601 254:25 /root/.cache /home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/.cache rw,nosuid,nodev,noexec,relatime,nosymfollow - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+683 605 254:25 /root/.cache /home/root/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/.cache rw,nosuid,nodev,noexec,relatime,nosymfollow - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+687 72 254:25 /root/.cache/regmond /run/daemon-store-cache/regmond/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:53 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+732 73 254:25 /root/.cache/shadercached /run/daemon-store-cache/shadercached/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:54 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+734 74 254:25 /root/.cache/dlp /run/daemon-store-cache/dlp/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:55 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+736 75 254:25 /root/.cache/session_manager /run/daemon-store-cache/session_manager/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:56 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+738 76 254:25 /root/.cache/crash /run/daemon-store-cache/crash/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:57 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+744 77 254:25 /root/.cache/debugd /run/daemon-store-cache/debugd/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:58 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+815 78 254:25 /root/.cache/kerberosd /run/daemon-store-cache/kerberosd/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:59 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+817 79 254:25 /root/.cache/smbproviderd /run/daemon-store-cache/smbproviderd/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:60 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+819 80 254:25 /root/.cache/biod /run/daemon-store-cache/biod/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:61 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+821 81 254:25 /root/.cache/appsync-consent /run/daemon-store-cache/appsync-consent/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:62 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+823 82 254:25 /root/.cache/pvm /run/daemon-store-cache/pvm/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:63 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+825 83 254:25 /root/.cache/usb_bouncer /run/daemon-store-cache/usb_bouncer/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:64 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+827 84 254:25 /root/.cache/odmld /run/daemon-store-cache/odmld/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:65 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+829 85 254:25 /root/.cache/smbfs /run/daemon-store-cache/smbfs/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:66 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+831 86 254:25 /root/.cache/u2f /run/daemon-store-cache/u2f/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:67 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+833 87 254:25 /root/.cache/dlcservice /run/daemon-store-cache/dlcservice/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:68 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+836 88 254:25 /root/.cache/cdm-oemcrypto /run/daemon-store-cache/cdm-oemcrypto/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:69 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+838 89 254:25 /root/.cache/appsync-optin /run/daemon-store-cache/appsync-optin/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:70 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+840 90 254:25 /root/.cache/shill /run/daemon-store-cache/shill/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:71 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+842 91 254:25 /root/.cache/uma-consent /run/daemon-store-cache/uma-consent/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:72 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+844 92 254:25 /root/.cache/crosvm /run/daemon-store-cache/crosvm/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:73 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+866 93 254:25 /root/.cache/chaps /run/daemon-store-cache/chaps/fe955082b5b6b4681da9f4e9ac7f0b95109390aa rw,nosuid,nodev,noexec,relatime,nosymfollow shared:74 - ext4 /dev/mapper/dmcrypt-fe955082-cache rw,seclabel,discard,commit=600,stripe=16
+1268 22 0:26 /crosdns /etc/hosts.d rw,nosuid,nodev,noexec,relatime - tmpfs tmpfs rw,seclabel,mode=755
+1430 29 0:26 /arcvm /run/arcvm rw,nosuid,nodev,noexec,relatime shared:76 - tmpfs tmpfs rw,seclabel,mode=755
+1635 41 0:4 mnt:[4026533001] /run/namespaces/mnt_concierge rw,noexec - nsfs nsfs rw
+1853 94 0:237 / /media/fuse/fusebox rw,nosuid,nodev,noexec,relatime,nosymfollow shared:80 - fuse.fusebox fusebox://fusebox rw,dirsync,user_id=1000,group_id=1001,default_permissions,allow_other
+2044 94 0:240 / /media/fuse/drivefs-994f64e4d17b2060f3c13474d8d66dd4 rw,nosuid,nodev,noexec,relatime shared:81 - fuse.drivefs drivefs://639EA403B2ED4E154DAB4A5A438FC2D0 rw,dirsync,user_id=1000,group_id=1001,default_permissions,allow_other
+2212 191 254:28 / /run/imageloader/libsoda/package ro,nosuid,nodev,relatime shared:82 - squashfs /dev/mapper/6EE1E0185EB9A704A08A5F5D0C1DC4820AC45B5E2D1A053E478F7E09E1535CA9 ro,seclabel,errors=continue
+2068 191 254:31 / /run/imageloader/libsoda-model-en-us-df24d2/package ro,nosuid,nodev,relatime shared:83 - squashfs /dev/mapper/E38CA22553AFB1A6793C02DA7516A98446A15EC77AD762F2710F1E40CF8A3CF1 ro,seclabel,errors=continue
+2084 191 254:34 / /run/imageloader/screen-ai/package ro,nosuid,nodev,relatime shared:84 - squashfs /dev/mapper/5EB6CE6B1FE30AC2C5380EC31F6EBFCD3C45F21A95E1744E630E77D7564BDB04 ro,seclabel,errors=continue

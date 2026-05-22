@@ -1,0 +1,4 @@
+EC result 1 (INVALID_COMMAND)
+
+Failed to get port count: -1001
+No PCHG ports found.

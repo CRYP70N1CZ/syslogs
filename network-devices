@@ -1,0 +1,33 @@
+/device/wlan0
+  Address: dc4546289bc3
+  BgscanMethod: simple
+  BgscanShortInterval: 64
+  BgscanSignalThreshold: -70
+  ForceWakeToScanTimer: false
+  IPConfigs/0: /ipconfig/wlan0_0_dhcp
+  Interface: wlan0
+  LastWakeReason: Unknown
+  LinkStatistics/0/AverageReceiveSignalDbm: -49
+  LinkStatistics/1/ByteReceiveSuccesses: 93105189
+  LinkStatistics/2/ByteTransmitSuccesses: 7171297
+  LinkStatistics/3/InactiveTimeMilliseconds: 223
+  LinkStatistics/4/LastReceiveSignalDbm: -43
+  LinkStatistics/5/PacketReceiveSuccesses: 83455
+  LinkStatistics/6/PacketTransmitSuccesses: 22038
+  LinkStatistics/7/ReceiveBitrate: 1921.5 MBit/s 160MHz VHT-NSS 2
+  LinkStatistics/8/TransmitBitrate: 1729.6 MBit/s 160MHz VHT-NSS 2
+  LinkStatistics/9/TransmitRetries: 4174
+  MACAddressRandomizationEnabled: false
+  MACAddressRandomizationSupported: true
+  Name: wlan0
+  NetDetectScanPeriodSeconds: 120
+  Powered: true
+  ScanInterval: 60
+  Scanning: false
+  SelectedService: /service/1
+  Type: wifi
+  WakeOnWiFiAllowed: false
+  WakeOnWiFiFeaturesEnabled: none
+  WakeOnWiFiSupported: true
+  WakeToScanPeriodSeconds: 900
+

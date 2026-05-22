@@ -1,0 +1,43 @@
+Netid State      Recv-Q Send-Q        Local Address:Port     Peer Address:PortProcess                                 
+raw   UNCONN     216384 0                   0.0.0.0:17            0.0.0.0:*    users:(("dhcpcd",pid=3287,fd=11))      
+udp   UNCONN     0      0               224.0.0.251:5353          0.0.0.0:*    users:(("chrome",pid=1365,fd=243))     
+udp   UNCONN     0      0                   0.0.0.0:5353          0.0.0.0:*    users:(("avahi-daemon",pid=1869,fd=12))
+udp   UNCONN     0      0                 127.0.0.2:53            0.0.0.0:*    users:(("dnsproxyd",pid=2226,fd=9))    
+udp   UNCONN     0      0                 127.0.0.3:53            0.0.0.0:*    users:(("dnsproxyd",pid=2224,fd=9))    
+udp   UNCONN     0      0            192.168.40.207:68            0.0.0.0:*    users:(("dhcpcd",pid=3287,fd=13))      
+udp   UNCONN     0      0            [fd64:ffff::2]:53               [::]:*    users:(("dnsproxyd",pid=2226,fd=12))   
+udp   UNCONN     0      0            [fd64:ffff::3]:53               [::]:*    users:(("dnsproxyd",pid=2224,fd=12))   
+tcp   LISTEN     0      16                127.0.0.3:53            0.0.0.0:*    users:(("dnsproxyd",pid=2224,fd=8))    
+tcp   LISTEN     0      16                127.0.0.2:53            0.0.0.0:*    users:(("dnsproxyd",pid=2226,fd=8))    
+tcp   ESTAB      0      0            192.168.40.207:38942  204.184.29.237:8080 users:(("chrome",pid=1483,fd=43))      
+tcp   ESTAB      0      0            192.168.40.207:56876  209.85.145.188:5228 users:(("chrome",pid=1483,fd=35))      
+tcp   ESTAB      0      0            192.168.40.207:58010  204.184.29.237:8080 users:(("chrome",pid=1483,fd=27))      
+tcp   ESTAB      0      0            192.168.40.207:41868  204.184.29.237:8080 users:(("chrome",pid=1483,fd=39))      
+tcp   ESTAB      0      0            192.168.40.207:34916  142.250.217.99:443  users:(("chrome",pid=1483,fd=28))      
+tcp   ESTAB      0      0            192.168.40.207:45354  173.194.206.84:443  users:(("chrome",pid=1483,fd=79))      
+tcp   ESTAB      0      0            192.168.40.207:49132 142.250.189.142:443  users:(("chrome",pid=1483,fd=8))       
+tcp   ESTAB      0      0            192.168.40.207:51096  142.251.41.131:443  users:(("chrome",pid=1483,fd=122))     
+tcp   TIME-WAIT  0      0            192.168.40.207:49506  142.250.217.99:443                                         
+tcp   ESTAB      0      0            192.168.40.207:58338 142.251.215.138:443  users:(("chrome",pid=1483,fd=55))      
+tcp   TIME-WAIT  0      0      192.168.40.207%wlan0:42818  142.251.34.227:80                                          
+tcp   ESTAB      0      0            192.168.40.207:55386    142.251.32.1:443  users:(("chrome",pid=1483,fd=92))      
+tcp   ESTAB      0      0            192.168.40.207:37476  142.251.41.131:443  users:(("chrome",pid=1483,fd=83))      
+tcp   ESTAB      0      0            192.168.40.207:47772   142.251.41.74:443  users:(("chrome",pid=1483,fd=74))      
+tcp   ESTAB      0      0            192.168.40.207:57998  204.184.29.237:8080 users:(("drivefs",pid=5105,fd=121))    
+tcp   TIME-WAIT  0      0            192.168.40.207:38110   142.251.41.74:443                                         
+tcp   ESTAB      0      0            192.168.40.207:41884  204.184.29.237:8080 users:(("chrome",pid=1483,fd=40))      
+tcp   ESTAB      0      0            192.168.40.207:38590    192.168.40.7:8009 users:(("chrome",pid=1483,fd=30))      
+tcp   ESTAB      0      0            192.168.40.207:60864  173.194.206.84:443  users:(("chrome",pid=1483,fd=44))      
+tcp   CLOSE-WAIT 1      0            192.168.40.207:46016  204.184.29.237:8080 users:(("drivefs",pid=5105,fd=51))     
+tcp   ESTAB      0      0            192.168.40.207:51108  142.251.41.131:443  users:(("chrome",pid=1483,fd=94))      
+tcp   TIME-WAIT  0      0      192.168.40.207%wlan0:42808  142.251.34.227:80                                          
+tcp   TIME-WAIT  0      0      192.168.40.207%wlan0:56220 142.251.157.119:443                                         
+tcp   ESTAB      0      0            192.168.40.207:58016  204.184.29.237:8080 users:(("chrome",pid=1483,fd=29))      
+tcp   ESTAB      0      0            192.168.40.207:43748  142.250.217.99:443  users:(("chrome",pid=1483,fd=90))      
+tcp   ESTAB      0      0            192.168.40.207:57982  204.184.29.237:8080 users:(("chrome",pid=1483,fd=56))      
+tcp   CLOSE-WAIT 1      0            192.168.40.207:42894  204.184.29.237:8080 users:(("drivefs",pid=5105,fd=52))     
+tcp   ESTAB      0      0            192.168.40.207:41000  142.251.41.131:443  users:(("chrome",pid=1483,fd=95))      
+tcp   ESTAB      0      0            192.168.40.207:60378 142.251.210.234:443  users:(("chrome",pid=1483,fd=102))     
+tcp   TIME-WAIT  0      0      192.168.40.207%wlan0:35620 142.251.150.119:443                                         
+tcp   LISTEN     0      16           [fd64:ffff::2]:53               [::]:*    users:(("dnsproxyd",pid=2226,fd=10))   
+tcp   LISTEN     0      16           [fd64:ffff::3]:53               [::]:*    users:(("dnsproxyd",pid=2224,fd=11))   

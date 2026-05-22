@@ -1,0 +1,27 @@
+Device: Line Power
+  path:                    /sys/class/power_supply/CROS_USBPD_CHARGER0
+  online:                  yes
+  type:                    USB_PD
+  enum type:               USB
+  voltage (V):             8.448
+  current (A):             Not available
+  max voltage (V):         9
+  max current (A):         2.22
+  active source:           CROS_USBPD_CHARGER0
+  available sources:       CROS_USBPD_CHARGER0* [311c/0]
+  supports dual-role:      yes
+Device: Battery
+  path:                    /sys/class/power_supply/BAT0
+  vendor:                  SMP KT00307012
+  model name:              AP23A7L
+  state:                   Charging
+  voltage (V):             11.107
+  energy (Wh):             18.36
+  energy rate (W):         9.92966
+  current (A):             0.894
+  charge (Ah):             1.632
+  full charge (Ah):        4.49
+  full charge design (Ah): 4.715
+  percentage:              36.3474
+  display percentage:      34.8
+  technology:              Li-ion

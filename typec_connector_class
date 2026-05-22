@@ -1,0 +1,97 @@
+port0
+  uevent: DEVTYPE=typec_port
+  TYPEC_PORT=port0
+  vconn_source: yes
+  supported_accessory_modes: none
+  power_role: source [sink]
+  data_role: [host] device
+  preferred_role: source
+  power_operation_mode: usb_power_delivery
+  usb_power_delivery_revision: 0.0
+  usb_typec_revision: 0.0
+  waiting_for_supplier: 0
+  port0-partner
+    uevent: DEVTYPE=typec_partner
+    accessory_mode: none
+    usb_power_delivery_revision: 3.0
+    type: not_ufp
+    number_of_alternate_modes: 0
+    supports_usb_power_delivery: yes
+    identity
+      id_header: 0x1c0311c
+        USB Vendor ID: 0x311c
+        Reserved: 0x40
+        Product Type (DFP): 0x3
+        Modal Operation Supported: 0x0
+        Product Type (UFP/Cable Plug): 0x0
+        USB Capable as a USB Device: 0x0
+        USB Capable as a USB Host: 0x0
+      product: 0x0
+        bcdDevice: 0x0
+        USB Product ID: 0x0
+      cert_stat: 0x0
+        XID: 0x0
+      product_type_vdo1: 0x20800000
+        Port Number: 0x0
+        Reserved: 0x40000
+        Host Capability: 0x0
+        Reserved: 0x0
+        DFP VDO Version: 0x1
+      product_type_vdo2: 0x0
+      product_type_vdo3: 0x0
+    pd0
+      uevent: DEVTYPE=usb_power_delivery
+      revision: 3.0
+      sink-capabilities
+        uevent: 
+      source-capabilities
+        uevent: 
+        1:fixed_supply
+          uevent: 
+          dual_role_power: 0
+          unconstrained_power: 1
+          usb_communication_capable: 0
+          unchunked_extended_messages_supported: 0
+          maximum_current: 3000mA
+          usb_suspend_supported: 0
+          dual_role_data: 1
+          voltage: 5000mV
+        2:fixed_supply
+          uevent: 
+          maximum_current: 2220mA
+          voltage: 9000mV
+  port0-cable
+    uevent: DEVTYPE=typec_cable
+    usb_power_delivery_revision: 0.0
+    type: not_cable
+    plug_type: unknown
+    identity
+      id_header: 0x0
+      product: 0x0
+      cert_stat: 0x0
+      product_type_vdo1: 0x0
+      product_type_vdo2: 0x0
+      product_type_vdo3: 0x0
+    port0-plug0
+      uevent: DEVTYPE=typec_plug
+      number_of_alternate_modes: 0
+  physical_location
+    panel: left
+    horizontal_position: left
+
+port1
+  uevent: DEVTYPE=typec_port
+  TYPEC_PORT=port1
+  vconn_source: no
+  supported_accessory_modes: none
+  power_role: source [sink]
+  data_role: host [device]
+  preferred_role: source
+  power_operation_mode: default
+  usb_power_delivery_revision: 0.0
+  usb_typec_revision: 0.0
+  waiting_for_supplier: 0
+  physical_location
+    panel: right
+    horizontal_position: right
+

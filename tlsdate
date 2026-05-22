@@ -1,0 +1,86 @@
+2026-05-22T01:18:27.326782Z INFO tlsdated[3932]: [event:action_kickoff_time_sync] clock delta desync detected (1779389710 != 1779404957)
+2026-05-22T01:18:32.646482Z INFO tlsdated[3932]: [event:cros:handle_service_state_change]: state 'online' for service '/service/1'
+2026-05-22T01:19:22.370158Z INFO tlsdated[3932]: [event:action_resolve_proxy] resolving proxy for clients3.google.com:443
+2026-05-22T01:19:23.373256Z INFO tlsdated[3932]: [event:action_run_tlsdate] attempt 1 backoff 10
+2026-05-22T01:19:23.376676Z INFO tlsdate[38242]: V: time is currently 1779412763.376508984
+2026-05-22T01:19:23.376702Z INFO tlsdate[38242]: V: time is greater than RECENT_COMPILE_DATE
+2026-05-22T01:19:23.378427Z INFO tlsdate[38243]: V: using TLSv1_2_client_method()
+2026-05-22T01:19:23.381150Z INFO tlsdate[38243]: V: setting up connection to clients3.google.com:443
+2026-05-22T01:19:23.405040Z INFO tlsdate[38243]: V: attempting to connect to 142.250.189.142
+2026-05-22T01:19:23.419307Z INFO tlsdate[38243]: V: BIO_do_connect
+2026-05-22T01:19:23.440841Z INFO tlsdate[38243]: V: freezing time for x509 verification
+2026-05-22T01:19:23.440852Z INFO tlsdate[38243]: V: remote peer provided: 1779412763, preferred over compile time: 1767254400
+2026-05-22T01:19:23.440857Z INFO tlsdate[38243]: V: freezing time with X509_VERIFY_PARAM_set_time
+2026-05-22T01:19:23.462012Z INFO tlsdate[38243]: V: BIO_do_handshake
+2026-05-22T01:19:23.462036Z INFO tlsdate[38243]: V: certificate verification passed
+2026-05-22T01:19:23.462051Z INFO tlsdate[38243]: V: commonName mismatch! Expected: clients3.google.com - received: *.google.com
+2026-05-22T01:19:23.462070Z INFO tlsdate[38243]: V: found non subjectAltName extension
+2026-05-22T01:19:23.462112Z INFO tlsdate[38243]: message repeated 5 times: [ V: found non subjectAltName extension]
+2026-05-22T01:19:23.462252Z INFO tlsdate[38243]: V: Inspecting 'clients3.google.com' for possible wildcard match against '*.google.com'
+2026-05-22T01:19:23.462262Z INFO tlsdate[38243]: V: label found; total label count: 1
+2026-05-22T01:19:23.462271Z INFO tlsdate[38243]: V: label found; total label count: 2
+2026-05-22T01:19:23.462279Z INFO tlsdate[38243]: V: label found; total label count: 3
+2026-05-22T01:19:23.462287Z INFO tlsdate[38243]: V: Found wildcard in at start of provided certificate name
+2026-05-22T01:19:23.462295Z INFO tlsdate[38243]: V: Attempting match of 'clients3' against '*'
+2026-05-22T01:19:23.462303Z INFO tlsdate[38243]: V: Forced match of 'clients3' against '*'
+2026-05-22T01:19:23.462311Z INFO tlsdate[38243]: V: Attempting match of 'google' against 'google'
+2026-05-22T01:19:23.462320Z INFO tlsdate[38243]: V: Attempting match of 'com' against 'com'
+2026-05-22T01:19:23.462350Z INFO tlsdate[38243]: V: remaining labels match!
+2026-05-22T01:19:23.462391Z INFO tlsdate[38243]: V: wildcard match of clients3.google.com against *.google.com
+2026-05-22T01:19:23.462403Z INFO tlsdate[38243]: V: hostname verification passed
+2026-05-22T01:19:23.462413Z INFO tlsdate[38243]: V: public key is ready for inspection
+2026-05-22T01:19:23.462444Z INFO tlsdate[38243]: V: key type: EVP_PKEY_EC
+2026-05-22T01:19:23.462455Z INFO tlsdate[38243]: V: keybits: 256
+2026-05-22T01:19:23.462482Z INFO tlsdate[38243]: V: ECC key length appears safe
+2026-05-22T01:19:23.463357Z INFO tlsdate[38242]: V: server time 1779412763 (difference is about 0 s) was fetched in 86 ms
+2026-05-22T01:19:23.000037Z INFO tlsdated[3943]: tlsdate-setter: system time updated to 1779412763.000000000
+2026-05-22T01:19:23.000288Z INFO tlsdated[3932]: [event:handle_child_process_termination] tlsdate reaped => pid:16 uid:234 status:0 code:1
+2026-05-22T01:19:23.000914Z INFO tlsdated[3932]: [event:handle_time_setter] time set from the network (1779412763)
+2026-05-22T02:40:05.408537Z INFO tlsdated[3932]: [event:cros:handle_service_state_change]: state 'online' for service '/service/1'
+2026-05-22T02:40:48.406520Z INFO tlsdated[3932]: [event:cros:handle_service_state_change]: state 'online' for service '/service/1'
+2026-05-22T03:19:16.503961Z INFO tlsdated[3982]: spawning time setting helper . . .
+2026-05-22T03:19:16.510089Z INFO tlsdated[3982]: disk timestamp available: yes
+2026-05-22T03:19:16.510254Z INFO tlsdated[3982]: initial time sync type: system-clock
+2026-05-22T03:19:16.522033Z INFO tlsdated[3982]: Entering dispatch . . .
+2026-05-22T03:19:16.522065Z INFO tlsdated[3982]: [event:action_resolve_proxy] resolving proxy for clients3.google.com:443
+2026-05-22T03:19:16.000049Z INFO tlsdated[3998]: tlsdate-setter: system time updated to 1779419956.000000000
+2026-05-22T03:19:16.000673Z INFO tlsdated[3982]: [event:handle_time_setter] time set from the system-clock (1779419956)
+2026-05-22T03:19:16.035597Z INFO tlsdated[3982]: [cros] DBus name acquired successfully
+2026-05-22T03:19:16.035612Z INFO tlsdated[3982]: [cros] DBus name acquired successfully
+2026-05-22T03:19:17.036295Z INFO tlsdated[3982]: [event:action_run_tlsdate] attempt 1 backoff 10
+2026-05-22T03:19:17.046345Z INFO tlsdate[4220]: V: time is currently 1779419957.46188669
+2026-05-22T03:19:17.046362Z INFO tlsdate[4220]: V: time is greater than RECENT_COMPILE_DATE
+2026-05-22T03:19:17.048022Z INFO tlsdate[4222]: V: using TLSv1_2_client_method()
+2026-05-22T03:19:17.057792Z INFO tlsdate[4222]: V: setting up connection to clients3.google.com:443
+2026-05-22T03:19:17.084932Z INFO tlsdate[4222]: V: attempting to connect to 2607:f8b0:4009:803::200e
+2026-05-22T03:19:17.084996Z INFO tlsdate[4222]: connect: Network is unreachable
+2026-05-22T03:19:17.085014Z INFO tlsdate[4222]: V: attempting to connect to 142.250.189.142
+2026-05-22T03:19:17.095852Z INFO tlsdate[4222]: V: BIO_do_connect
+2026-05-22T03:19:17.119470Z INFO tlsdate[4222]: V: freezing time for x509 verification
+2026-05-22T03:19:17.119480Z INFO tlsdate[4222]: V: remote peer provided: 1779419958, preferred over compile time: 1767254400
+2026-05-22T03:19:17.119484Z INFO tlsdate[4222]: V: freezing time with X509_VERIFY_PARAM_set_time
+2026-05-22T03:19:17.132180Z INFO tlsdate[4222]: V: BIO_do_handshake
+2026-05-22T03:19:17.132194Z INFO tlsdate[4222]: V: certificate verification passed
+2026-05-22T03:19:17.132203Z INFO tlsdate[4222]: V: commonName mismatch! Expected: clients3.google.com - received: *.google.com
+2026-05-22T03:19:17.132213Z INFO tlsdate[4222]: V: found non subjectAltName extension
+2026-05-22T03:19:17.132233Z INFO tlsdate[4222]: message repeated 5 times: [ V: found non subjectAltName extension]
+2026-05-22T03:19:17.132296Z INFO tlsdate[4222]: V: Inspecting 'clients3.google.com' for possible wildcard match against '*.google.com'
+2026-05-22T03:19:17.132301Z INFO tlsdate[4222]: V: label found; total label count: 1
+2026-05-22T03:19:17.132659Z INFO tlsdate[4222]: V: label found; total label count: 2
+2026-05-22T03:19:17.132676Z INFO tlsdate[4222]: V: label found; total label count: 3
+2026-05-22T03:19:17.132680Z INFO tlsdate[4222]: V: Found wildcard in at start of provided certificate name
+2026-05-22T03:19:17.132685Z INFO tlsdate[4222]: V: Attempting match of 'clients3' against '*'
+2026-05-22T03:19:17.132689Z INFO tlsdate[4222]: V: Forced match of 'clients3' against '*'
+2026-05-22T03:19:17.132693Z INFO tlsdate[4222]: V: Attempting match of 'google' against 'google'
+2026-05-22T03:19:17.132696Z INFO tlsdate[4222]: V: Attempting match of 'com' against 'com'
+2026-05-22T03:19:17.132700Z INFO tlsdate[4222]: V: remaining labels match!
+2026-05-22T03:19:17.132704Z INFO tlsdate[4222]: V: wildcard match of clients3.google.com against *.google.com
+2026-05-22T03:19:17.132708Z INFO tlsdate[4222]: V: hostname verification passed
+2026-05-22T03:19:17.132867Z INFO tlsdate[4222]: V: public key is ready for inspection
+2026-05-22T03:19:17.132916Z INFO tlsdate[4222]: V: key type: EVP_PKEY_EC
+2026-05-22T03:19:17.132985Z INFO tlsdate[4222]: V: keybits: 256
+2026-05-22T03:19:17.133035Z INFO tlsdate[4222]: V: ECC key length appears safe
+2026-05-22T03:19:17.136209Z INFO tlsdate[4220]: V: server time 1779419958 (difference is about -1 s) was fetched in 89 ms
+2026-05-22T03:19:18.000154Z INFO tlsdated[3982]: [event:handle_child_process_termination] tlsdate reaped => pid:4 uid:234 status:0 code:1
+2026-05-22T03:19:18.000183Z INFO tlsdated[3998]: tlsdate-setter: system time updated to 1779419958.000000000
+2026-05-22T03:19:18.001533Z INFO tlsdated[3982]: [event:handle_time_setter] time set from the network (1779419958)
