@@ -1,0 +1,45 @@
+2025-03-27T18:04:07.444255Z INFO clobber-state: [clobber_state.cc(644)] Beginning clobber-state run
+2025-03-27T18:04:07.444284Z INFO clobber-state: [clobber_state.cc(645)] Factory wipe: 0
+2025-03-27T18:04:07.444289Z INFO clobber-state: [clobber_state.cc(646)] Fast wipe: 1
+2025-03-27T18:04:07.444293Z INFO clobber-state: [clobber_state.cc(647)] Keepimg: 1
+2025-03-27T18:04:07.444296Z INFO clobber-state: [clobber_state.cc(648)] Safe wipe: 0
+2025-03-27T18:04:07.444299Z INFO clobber-state: [clobber_state.cc(649)] Rollback wipe: 0
+2025-03-27T18:04:07.444301Z INFO clobber-state: [clobber_state.cc(650)] Reason: 
+2025-03-27T18:04:07.444304Z INFO clobber-state: [clobber_state.cc(651)] RMA wipe: 0
+2025-03-27T18:04:07.444306Z INFO clobber-state: [clobber_state.cc(652)] AD migration wipe: 0
+2025-03-27T18:04:08.868488Z INFO clobber-state: [clobber_state.cc(293)] PreserveFiles found no files to preserve, no tar file created.
+2025-03-27T18:04:09.139885Z INFO clobber-state: [clobber_state.cc(736)] Root disk: /dev/mmcblk0
+2025-03-27T18:04:09.139926Z INFO clobber-state: [clobber_state.cc(737)] Root device: /dev/mmcblk0p5
+2025-03-27T18:04:09.143231Z INFO clobber-state: [clobber_state.cc(750)] Stateful device: /dev/mmcblk0p1
+2025-03-27T18:04:09.143254Z INFO clobber-state: [clobber_state.cc(752)] Inactive root device: /dev/mmcblk0p3
+2025-03-27T18:04:09.143262Z INFO clobber-state: [clobber_state.cc(754)] Inactive kernel device: /dev/mmcblk0p2
+2025-03-27T18:04:09.150752Z INFO clobber-state: [clobber_state.cc(978)] No legacy salt file, switching to fast wipe
+2025-03-27T18:04:09.150779Z INFO clobber-state: [clobber_state.cc(141)] Unmounting stateful partition
+2025-03-27T18:04:09.219431Z INFO clobber-state: [clobber_lvm.cc(79)] Deactivating volume group.
+2025-03-27T18:04:09.299030Z INFO clobber-state: [clobber_lvm.cc(81)] Removing volume group.
+2025-03-27T18:04:12.988990Z INFO clobber-state: [clobber_lvm.cc(83)] Removing physical volume.
+2025-03-27T18:04:13.021022Z INFO clobber-state: [clobber_wipe.cc(119)] Wiping block device /dev/mmcblk0p1 (fast) 
+2025-03-27T18:04:13.021066Z INFO clobber-state: [clobber_wipe.cc(121)] Number of bytes to write: 4194304
+2025-03-27T18:04:13.021567Z INFO clobber-state: [storage_utils.cc(99)] DUT is using storage: emmc
+2025-03-27T18:04:13.021589Z INFO clobber-state: [storage_device.cc(84)] Wiping /dev/mmcblk0p1 from 0 to 4194304 with ioctl BLKSECDISCARD
+2025-03-27T18:04:13.026168Z INFO clobber-state: [clobber_wipe.cc(173)] Successfully zeroed 4194304 bytes on /dev/mmcblk0p1
+2025-03-27T18:04:13.767052Z INFO clobber-state: [clobber_state.cc(553)] Creating stateful file system
+mke2fs 1.47.0 (5-Feb-2023)
+Discarding device blocks:       0/5060608               done                            
+Creating filesystem with 5060608 4k blocks and 1267280 inodes
+Filesystem UUID: 48925e7c-1f6c-4d68-ba51-82975918fbe0
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208, 
+	4096000
+
+Allocating group tables:   0/155       done                            
+Writing inode tables:   0/155       done                            
+Creating journal (32768 blocks): done
+Writing superblocks and filesystem accounting information:   0/155       done
+
+2025-03-27T18:04:14.357949Z ERROR clobber-state: [encrypted_reboot_vault.cc(171)] Invalid vault; purging.
+2025-03-27T18:04:14.357995Z ERROR clobber-state: [dircrypto_util.cc(313)] Fscrypt: Invalid directory /mnt/stateful_partition/reboot_vault: No such file or directory (2)
+2025-03-27T18:04:14.358062Z ERROR clobber-state: [dircrypto_util.cc(412)] Failed to remove encryption key: Required key not available (126)
+2025-03-27T18:04:14.358087Z WARNING clobber-state: [encrypted_reboot_vault.cc(155)] Failed to unlink encryption key from keyring.
+E0327 18:04:14.571742     661 vpd.cc:622] At least one of the keys to delete does not exist. Command ignored.
+2025-03-27T18:04:14.580805Z INFO clobber-state: [clobber_state.cc(926)] clobber-state has completed

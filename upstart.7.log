@@ -1,0 +1,12 @@
+2026-05-11T15:36:47.267769Z WARNING kernel: [261973.997343] init: cupsd main process ended, respawning
+2026-05-11T16:30:26.231747Z WARNING kernel: [265193.048798] init: cupsd main process ended, respawning
+2026-05-11T16:49:20.232398Z WARNING kernel: [266327.151031] init: cupsd main process ended, respawning
+2026-05-11T17:00:34.255390Z WARNING kernel: [267001.409707] init: cupsd main process ended, respawning
+2026-05-11T17:39:05.237314Z WARNING kernel: [269312.236443] init: cupsd main process ended, respawning
+2026-05-11T17:46:54.234426Z WARNING kernel: [269781.439775] init: cupsd main process ended, respawning
+2026-05-11T17:47:27.007452Z WARNING kernel: [269814.212744] init: ui_stop_waiter main process (31526) killed by TERM signal
+2026-05-11T18:52:28.236733Z WARNING kernel: [273714.859521] init: cupsd main process ended, respawning
+2026-05-11T19:18:39.248807Z WARNING kernel: [275285.517973] init: cupsd main process ended, respawning
+2026-05-12T12:38:19.252450Z WARNING kernel: [337665.780429] init: cupsd main process ended, respawning
+2026-05-12T12:38:40.065347Z WARNING kernel: [337686.304377] init: ui_stop_waiter main process (45655) killed by TERM signal
+2026-05-12T13:32:30.246237Z WARNING kernel: [340916.844361] init: cupsd main process ended, respawning

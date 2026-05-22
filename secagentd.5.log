@@ -1,0 +1,22 @@
+2026-05-13T17:43:21.675770Z INFO secagentd[1802]: BypassPolicyForTesting:0,BypassEnqOkWaitForTesting:0,StopReportingForUnaffiliatedUsers:0,HeartbeatPeriodSeconds:300,PluginBatchIntervalSeconds:120,FeaturePollIntervalSeconds:600
+2026-05-13T17:43:21.675899Z INFO secagentd[1802]: Set device boot time to 1778694196
+2026-05-13T17:43:21.675919Z INFO secagentd[1802]: Device timezone set to America/Chicago
+2026-05-13T17:43:21.951886Z INFO secagentd[1802]: Feature CrOSLateBootSecagentdXDRReportingchanged to 1
+2026-05-13T17:43:21.951897Z INFO secagentd[1802]: Feature CrOSLateBootSecagentdCoalesceTerminateschanged to 1
+2026-05-13T17:43:21.951903Z INFO secagentd[1802]: Feature CrOSLateBootSecagentdXDRNetworkEventschanged to 1
+2026-05-13T17:43:21.951908Z INFO secagentd[1802]: Feature CrOSLateBootSecagentdXDRAuthenticateEventschanged to 1
+2026-05-13T17:43:21.951912Z INFO secagentd[1802]: Feature CrOSLateBootSecagentdXDRFileEventschanged to 1
+2026-05-13T17:43:21.952354Z INFO secagentd[1802]: Process filter rules created:
+2026-05-13T17:43:21.952361Z INFO secagentd[1802]: PARENT: SHA256:F34707B87C81A0F9A7E65BE44A94B602329FDAE6441A1D890E2399BF4416FB44 pathname:/bin/sh
+2026-05-13T17:43:21.952366Z INFO secagentd[1802]: Commands:
+2026-05-13T17:43:21.952370Z INFO secagentd[1802]: '/bin/sh' '/usr/share/cros/init/temp_logger.sh'
+2026-05-13T17:43:21.952375Z INFO secagentd[1802]: '/bin/sh' '/usr/local/libexec/recover-duts/recover_duts'
+2026-05-13T17:43:21.952379Z INFO secagentd[1802]: '/bin/sh' '/usr/local/libexec/recover-duts/hooks/check_ethernet.hook'
+2026-05-13T17:43:21.955366Z INFO secagentd[1802]: PROCESS: SHA256:5D2A8682407A7223DDFDD7680B3F274DABA67AA36B61B4E35733B5A5F18EF833 pathname:/sbin/dmsetup
+2026-05-13T17:43:21.955402Z INFO secagentd[1802]: PROCESS: SHA256:5FB587D081A0BAA58E033230BBB1D05D3878261C1ED2A1F23B64914B4FF23833 pathname:/usr/sbin/spaced_cli
+2026-05-13T17:43:21.955930Z INFO secagentd[1802]: DeviceReportXDREventsPolicy: 0
+2026-05-13T17:43:21.955938Z INFO secagentd[1802]: CrOSLateBootSecagentdXDRReporting: 1
+2026-05-13T17:43:21.955944Z INFO secagentd[1802]: Not reporting yet.
+2026-05-13T17:43:21.958462Z WARNING secagentd[1802]: Store reporting data by a Missive daemon
+2026-05-13T17:43:24.287255Z WARNING secagentd[1802]: Service became available
+2026-05-13T17:43:24.287281Z WARNING secagentd[1802]: Service became available
