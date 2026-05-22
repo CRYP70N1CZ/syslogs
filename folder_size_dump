@@ -1,0 +1,193 @@
+--- /home/chronos/ ---
+192K	/home/chronos/.com.google.Chrome.dvk3IA
+192K	/home/chronos/.com.google.Chrome.eEK9Lz
+4.0K	/home/chronos/.variations-list.txt
+740K	/home/chronos/ActorSafetyLists
+24K	/home/chronos/AmountExtractionHeuristicRegexes
+4.0M	/home/chronos/BrowserMetrics-spare.pma
+24K	/home/chronos/CaptchaProviders
+2.6M	/home/chronos/CertificateRevocation
+4.0K	/home/chronos/ChromeAppDeprecationAllowlist
+536K	/home/chronos/Crowd Deny
+2.3M	/home/chronos/Default
+896K	/home/chronos/Dictionaries
+28K	/home/chronos/FileTypePolicies
+40K	/home/chronos/FirstPartySetsPreloaded
+28K	/home/chronos/GCM Store
+15M	/home/chronos/GrShaderCache
+300K	/home/chronos/GraphiteDawnCache
+24K	/home/chronos/IwaKeyDistribution
+52K	/home/chronos/Local State
+32K	/home/chronos/MEIPreload
+4.0K	/home/chronos/NativeMessagingHosts
+7.6M	/home/chronos/OnDeviceHeadSuggestModel
+1000K	/home/chronos/OptimizationHints
+20K	/home/chronos/OriginTrials
+780K	/home/chronos/PKIMetadata
+4.0K	/home/chronos/PrivacySandboxAttestationsPreloaded
+28K	/home/chronos/SSLErrorAssistant
+22M	/home/chronos/Safe Browsing
+204K	/home/chronos/SafetyTips
+300K	/home/chronos/ShaderCache
+64K	/home/chronos/SmartDim
+464K	/home/chronos/Subresource Filter
+36K	/home/chronos/TrustTokenKeyCommitments
+4.0K	/home/chronos/Variations
+300K	/home/chronos/VariationsSafeSeedV2
+4.0K	/home/chronos/VariationsSeedV2
+4.0K	/home/chronos/Webstore Downloads
+4.0K	/home/chronos/WidevineCdm
+1.7M	/home/chronos/ZxcvbnData
+12M	/home/chronos/component_crx_cache
+1.4M	/home/chronos/custom_wallpapers
+8.0K	/home/chronos/extensions_crx_cache
+108K	/home/chronos/first_party_sets.db
+20K	<user avatar>.<format>
+1.9M	/home/chronos/hyphen-data
+8.8M	/home/chronos/kiosk
+36K	<user avatar>.<format>
+49M	/home/chronos/optimization_guide_model_store
+4.0K	/home/chronos/startup_settings_cache.json
+416M	/home/chronos/user
+40K	<user avatar>.<format>
+1.5M	/home/chronos/wallpapers
+550M	total
+--- /home/chronos/Default/ ---
+44K	/home/chronos/Default/.com.google.Chrome.JxFnGs
+84K	/home/chronos/Default/Account Web Data
+56K	/home/chronos/Default/Affiliation Database
+4.0K	/home/chronos/Default/AutofillStrikeDatabase
+4.0K	/home/chronos/Default/BudgetDatabase
+36K	/home/chronos/Default/Cache
+52K	/home/chronos/Default/Code Cache
+20K	/home/chronos/Default/Cookies
+300K	/home/chronos/Default/DawnGraphiteCache
+300K	/home/chronos/Default/DawnWebGPUCache
+20K	/home/chronos/Default/Extension Rules
+20K	/home/chronos/Default/Extension Scripts
+20K	/home/chronos/Default/Extension State
+20K	/home/chronos/Default/Favicons
+12K	/home/chronos/Default/Feature Engagement Tracker
+300K	/home/chronos/Default/GPUCache
+160K	/home/chronos/Default/History
+12K	/home/chronos/Default/History-journal
+20K	/home/chronos/Default/Local Extension Settings
+32K	/home/chronos/Default/Local Storage
+52K	/home/chronos/Default/Network Action Predictor
+4.0K	/home/chronos/Default/Network Persistent State
+44K	/home/chronos/Default/Preferences
+36K	/home/chronos/Default/Reporting and NEL
+20K	/home/chronos/Default/Safe Browsing Cookies
+20K	/home/chronos/Default/Session Storage
+64K	/home/chronos/Default/Shared Dictionary
+4.0K	/home/chronos/Default/SharedStorage
+20K	/home/chronos/Default/Shortcuts
+24K	/home/chronos/Default/Site Characteristics Database
+28K	/home/chronos/Default/Sync Data
+20K	/home/chronos/Default/Top Sites
+4.0K	/home/chronos/Default/TransportSecurity
+36K	/home/chronos/Default/Trust Tokens
+128K	/home/chronos/Default/Visited Links
+160K	/home/chronos/Default/Web Data
+8.0K	/home/chronos/Default/blob_storage
+4.0K	/home/chronos/Default/chrome_cart_db
+4.0K	/home/chronos/Default/commerce_subscription_db
+4.0K	/home/chronos/Default/discount_infos_db
+4.0K	/home/chronos/Default/discounts_db
+16K	/home/chronos/Default/heavy_ad_intervention_opt_out.db
+4.0K	/home/chronos/Default/parcel_tracking_db
+4.0K	/home/chronos/Default/passkey_enclave_state
+64K	/home/chronos/Default/shared_proto_db
+2.3M	total
+--- /home/.shadow/ ---
+4.0K	/home/.shadow/cryptohome.ecc.key
+4.0K	/home/.shadow/cryptohome.key
+20K	/home/.shadow/key_store_certs
+552K	/home/.shadow/low_entropy_creds
+580K	total
+--- /mnt/stateful_partition/ ---
+4.0K	/mnt/stateful_partition/encrypted.key
+12K	/mnt/stateful_partition/etc
+16K	/mnt/stateful_partition/lost+found
+8.0K	/mnt/stateful_partition/reboot_vault
+58M	/mnt/stateful_partition/unencrypted
+12K	/mnt/stateful_partition/var_overlay
+58M	total
+--- /mnt/stateful_partition/encrypted/ ---
+16K	/mnt/stateful_partition/encrypted/lost+found
+258M	/mnt/stateful_partition/encrypted/var
+258M	total
+--- /run/ ---
+16K	/run/arcvm
+4.0K	/run/auditd.pid
+4.0K	/run/avahi-daemon
+4.0K	/run/bluetooth
+140K	/run/bootstat
+4.0K	/run/camera
+4.0K	/run/crash-reporter-early-init.log
+4.0K	/run/cros-machine-id-regen
+4.0K	/run/crosdns
+4.0K	/run/dbus.pid
+4.0K	/run/dhcpcd
+4.0K	/run/dns-proxy
+8.0K	/run/frecon
+4.0K	/run/ipf_ufd.pid
+4.0K	/run/lock
+4.0K	/run/lockbox
+16K	/run/metrics
+4.0K	/run/power_manager
+4.0K	/run/resourced
+8.0K	/run/session_manager
+8.0K	/run/shill
+4.0K	/run/touch-updater
+1.2M	/run/udev
+4.0K	/run/upstart-socket-bridge.pid
+4.0K	/run/usb_bouncer
+4.0K	/run/user_policy
+1.5M	total
+--- /tmp/ ---
+4.0K	/tmp/firmware-boot-time
+4.0K	/tmp/machine-info
+4.0K	/tmp/tmp.Pvk9rY9klA
+4.0K	/tmp/tmp.RkLcoEMuf9
+16K	total
+--- /var/ ---
+194M	/var/cache
+16K	/var/db
+4.0M	/var/lib
+4.0K	/var/lock
+60M	/var/log
+1.5M	/var/run
+88K	/var/spool
+8.0K	/var/tmp
+8.0K	/var/
+259M	total
+--- Daemon store ---
+--- /home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/ ---
+184K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/.cache
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/appsync-consent
+12K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/appsync-optin
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/biod
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/cdm-oemcrypto
+32K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/chaps
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/crash
+132K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/crosvm
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/debugd
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/dlcservice
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/dlp
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/kerberosd
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/odmld
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/pvm
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/regmond
+36K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/session_manager
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/shadercached
+16K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/shill
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/smbfs
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/smbproviderd
+12K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/u2f
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/uma-consent
+16K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/usb_bouncer
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/
+568K	total
+--- All users(aggregate) ---
+Sum: 559 MiB

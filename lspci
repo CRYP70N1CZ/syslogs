@@ -1,0 +1,22 @@
+00:00.0 Host bridge: Intel Corporation Device 461c
+00:02.0 VGA compatible controller: Intel Corporation Alder Lake-N [UHD Graphics]
+00:04.0 Signal processing controller: Intel Corporation Alder Lake Innovation Platform Framework Processor Participant
+00:0a.0 Signal processing controller: Intel Corporation Platform Monitoring Technology (rev 01)
+00:0d.0 USB controller: Intel Corporation Alder Lake-N Thunderbolt 4 USB Controller
+00:14.0 USB controller: Intel Corporation Alder Lake-N PCH USB 3.2 xHCI Host Controller
+00:14.2 RAM memory: Intel Corporation Alder Lake-N PCH Shared SRAM
+00:14.3 Network controller: Intel Corporation CNVi: Wi-Fi
+00:15.0 Serial bus controller: Intel Corporation Device 54e8
+00:15.1 Serial bus controller: Intel Corporation Device 54e9
+00:15.2 Serial bus controller: Intel Corporation Device 54ea
+00:15.3 Serial bus controller: Intel Corporation Device 54eb
+00:16.0 Communication controller: Intel Corporation Alder Lake-N PCH HECI Controller
+00:19.0 Serial bus controller: Intel Corporation Device 54c5
+00:19.1 Serial bus controller: Intel Corporation Device 54c6
+00:1a.0 SD Host controller: Intel Corporation Device 54c4
+00:1c.0 PCI bridge: Intel Corporation Alder Lake-N PCI Express Root Port #7
+00:1e.0 Communication controller: Intel Corporation Alder Lake-N Serial IO UART Host Controller
+00:1f.0 ISA bridge: Intel Corporation Alder Lake-N PCH eSPI Controller
+00:1f.3 Multimedia audio controller: Intel Corporation Alder Lake-N PCH High Definition Audio Controller
+00:1f.5 Serial bus controller: Intel Corporation Alder Lake-N SPI (flash) Controller
+01:00.0 SD Host controller: Genesys Logic, Inc GL9750 SD Host Controller (rev 01)

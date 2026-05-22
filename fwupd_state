@@ -1,0 +1,88 @@
+{
+  "Devices" : [
+    {
+      "Name" : "ACER HD User Facing",
+      "DeviceId" : "71d1c58c2a49c133825341887ed230da06146708",
+      "InstanceIds" : [
+        "USB\\VID_0408&PID_4046"
+      ],
+      "Guid" : [
+        "ea78d7d6-c67c-5e7d-977b-cea01fb90437"
+      ],
+      "Plugin" : "dfu",
+      "Protocols" : [
+        "org.usb.dfu"
+      ],
+      "Flags" : [
+        "updatable",
+        "can-emulation-tag"
+      ],
+      "Vendor" : "Quanta",
+      "VendorIds" : [
+        "USB:0x0408"
+      ],
+      "Version" : "0:3",
+      "VersionFormat" : "bcd",
+      "VersionRaw" : 3,
+      "Icons" : [
+        "camera-web"
+      ],
+      "Created" : 1779419957
+    },
+    {
+      "Name" : "DV4032",
+      "DeviceId" : "ed4bece7e5c86fef111edaf6c005e528af3b6c92",
+      "InstanceIds" : [
+        "EMMC\\NAME_DV4032",
+        "EMMC\\MAN_0045&OEM_0100&NAME_DV4032",
+        "EMMC\\MAN_0045&NAME_DV4032&REV_0x5243333042303037",
+        "EMMC\\MAN_0045&OEM_0100&NAME_DV4032&REV_0x5243333042303037",
+        "EMMC\\0069&0256&DV4032"
+      ],
+      "Guid" : [
+        "d5b8c238-2dea-5490-8891-6f6caef168fa",
+        "072d1dab-5b3f-57fe-b739-47989d4e127a",
+        "b2d24d26-5ca2-58b8-a998-70bb8169f4fc",
+        "5c7f6d08-5789-5d14-aa83-57a73203f483",
+        "e3847f7f-b84a-5ec7-bd67-bbdbae7e8040"
+      ],
+      "Plugin" : "emmc",
+      "Protocols" : [
+        "org.jedec.mmc"
+      ],
+      "Flags" : [
+        "internal",
+        "updatable",
+        "can-emulation-tag"
+      ],
+      "Vendor" : "SanDisk",
+      "VendorIds" : [
+        "EMMC:0x000045"
+      ],
+      "Version" : "0x5243333042303037",
+      "VersionFormat" : "number",
+      "Icons" : [
+        "media-memory"
+      ],
+      "Created" : 1779419956
+    },
+    {
+      "Name" : "N116BCA-EA1",
+      "DeviceId" : "10feb8f8641be9b4f44d52078baa6338209a53ef",
+      "InstanceIds" : [
+        "DRM\\VEN_CMN&DEV_114C"
+      ],
+      "Guid" : [
+        "7cc2c97f-a95e-5b2b-9f35-9aa439dd4bd6"
+      ],
+      "Plugin" : "linux_display",
+      "Flags" : [
+        "can-emulation-tag"
+      ],
+      "VendorIds" : [
+        "PNP:CMN"
+      ],
+      "Created" : 1779419956
+    }
+  ]
+}

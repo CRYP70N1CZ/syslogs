@@ -1,0 +1,27 @@
+/:  Bus 04.Port 1: Dev 1, Class=root_hub, Driver=xhci_hcd/4p, 10000M
+    ID 1d6b:0003 Linux Foundation 3.0 root hub
+    /sys/bus/usb/devices/usb4  /dev/bus/usb/004/001
+/:  Bus 03.Port 1: Dev 1, Class=root_hub, Driver=xhci_hcd/12p, 480M
+    ID 1d6b:0002 Linux Foundation 2.0 root hub
+    /sys/bus/usb/devices/usb3  /dev/bus/usb/003/001
+    |__ Port 6: Dev 2, If 0, Class=Video, Driver=uvcvideo, 480M
+        ID 0408:4046 Quanta Computer, Inc. 
+        /sys/bus/usb/devices/3-6  /dev/bus/usb/003/002
+    |__ Port 6: Dev 2, If 1, Class=Video, Driver=uvcvideo, 480M
+        ID 0408:4046 Quanta Computer, Inc. 
+        /sys/bus/usb/devices/3-6  /dev/bus/usb/003/002
+    |__ Port 6: Dev 2, If 2, Class=Application Specific Interface, Driver=, 480M
+        ID 0408:4046 Quanta Computer, Inc. 
+        /sys/bus/usb/devices/3-6  /dev/bus/usb/003/002
+    |__ Port 10: Dev 3, If 0, Class=Wireless, Driver=btusb, 12M
+        ID 8087:0033 Intel Corp. 
+        /sys/bus/usb/devices/3-10  /dev/bus/usb/003/003
+    |__ Port 10: Dev 3, If 1, Class=Wireless, Driver=btusb, 12M
+        ID 8087:0033 Intel Corp. 
+        /sys/bus/usb/devices/3-10  /dev/bus/usb/003/003
+/:  Bus 02.Port 1: Dev 1, Class=root_hub, Driver=xhci_hcd/2p, 20000M/x2
+    ID 1d6b:0003 Linux Foundation 3.0 root hub
+    /sys/bus/usb/devices/usb2  /dev/bus/usb/002/001
+/:  Bus 01.Port 1: Dev 1, Class=root_hub, Driver=xhci_hcd/1p, 480M
+    ID 1d6b:0002 Linux Foundation 2.0 root hub
+    /sys/bus/usb/devices/usb1  /dev/bus/usb/001/001

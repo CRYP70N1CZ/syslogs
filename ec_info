@@ -1,0 +1,46 @@
++ ectool --name cros_ec version
+RO version:    craask-15217.439.0
+RW version:    craask-15217.1007.0
+Firmware copy: RW
+Build info:    craask-15217.1007.0 STATIC_VERSION_DATE reproducible@build
+Tool version:  v2.0.30621-8bc871c25f 2026-03-06 16:01:29 @chromeos-releasempa-builder-us-central1-b-x32-19-7xiz
++ ectool --name cros_pd version
+Unable to establish host communication
+Couldn't find EC
++ true
++ ectool --name cros_fp version
+Unable to establish host communication
+Couldn't find EC
++ true
++ ectool --name cros_scp version
+Unable to establish host communication
+Couldn't find EC
++ true
++ ectool --name cros_ish version
+Unable to establish host communication
+Couldn't find EC
++ true
++ ectool pdchipinfo 0
+vendor_id: 0x45b
+product_id: 0x256
+device_id: 0x105
+fw_version: UNSUPPORTED
+min_req_fw_version: 0x0
+fw_update_flags: UNSUPPORTED
+fw_name_str: UNSUPPORTED
+driver_name: UNSUPPORTED
++ ectool pdchipinfo 1
+vendor_id: 0x45b
+product_id: 0x256
+device_id: 0x105
+fw_version: UNSUPPORTED
+min_req_fw_version: 0x0
+fw_update_flags: UNSUPPORTED
+fw_name_str: UNSUPPORTED
+driver_name: UNSUPPORTED
++ ectool pdchipinfo 2
+EC result 3 (INVALID_PARAM)
++ true
++ ectool pdchipinfo 3
+EC result 3 (INVALID_PARAM)
++ true

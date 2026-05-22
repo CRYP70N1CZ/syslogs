@@ -1,0 +1,358 @@
+0 | 2026-05-06 17:00:27+0000 | S0ix Exit
+1 | 2026-05-06 17:00:27+0000 | Wake Source | GPE # | 81
+2 | 2026-05-06 17:00:27+0000 | EC Event | Lid Open
+3 | 2026-05-06 17:01:01+0000 | S0ix Enter
+4 | 2026-05-06 17:42:34+0000 | S0ix Exit
+5 | 2026-05-06 17:42:34+0000 | Wake Source | GPE # | 81
+6 | 2026-05-06 17:42:34+0000 | EC Event | Lid Open
+7 | 2026-05-06 19:03:11+0000 | S0ix Enter
+8 | 2026-05-06 19:17:47+0000 | S0ix Exit
+9 | 2026-05-06 19:17:47+0000 | Wake Source | GPE # | 81
+10 | 2026-05-06 19:17:47+0000 | EC Event | Lid Open
+11 | 2026-05-06 19:29:07+0000 | S0ix Enter
+12 | 2026-05-06 19:33:52+0000 | S0ix Exit
+13 | 2026-05-06 19:33:52+0000 | Wake Source | GPE # | 81
+14 | 2026-05-06 19:33:52+0000 | EC Event | Lid Open
+15 | 2026-05-06 19:33:55+0000 | S0ix Enter
+16 | 2026-05-07 13:09:21+0000 | S0ix Exit
+17 | 2026-05-07 13:09:21+0000 | Wake Source | GPE # | 81
+18 | 2026-05-07 13:09:21+0000 | EC Event | Lid Open
+19 | 2026-05-07 13:45:02+0000 | S0ix Enter
+20 | 2026-05-07 14:03:38+0000 | S0ix Exit
+21 | 2026-05-07 14:03:38+0000 | Wake Source | GPE # | 81
+22 | 2026-05-07 14:03:38+0000 | EC Event | Lid Open
+23 | 2026-05-07 14:09:12+0000 | S0ix Enter
+24 | 2026-05-07 14:16:47+0000 | S0ix Exit
+25 | 2026-05-07 14:16:47+0000 | Wake Source | GPE # | 81
+26 | 2026-05-07 14:16:47+0000 | EC Event | Lid Open
+27 | 2026-05-07 14:20:07+0000 | S0ix Enter
+28 | 2026-05-07 15:15:07+0000 | S0ix Exit
+29 | 2026-05-07 15:15:07+0000 | Wake Source | GPE # | 81
+30 | 2026-05-07 15:15:07+0000 | EC Event | Lid Open
+31 | 2026-05-07 15:35:39+0000 | S0ix Enter
+32 | 2026-05-07 19:00:01+0000 | S0ix Exit
+33 | 2026-05-07 19:00:01+0000 | Wake Source | GPE # | 81
+34 | 2026-05-07 19:00:01+0000 | EC Event | Lid Open
+35 | 2026-05-07 19:00:05+0000 | S0ix Enter
+36 | 2026-05-08 00:50:35+0000 | S0ix Exit
+37 | 2026-05-08 00:50:35+0000 | Wake Source | GPE # | 81
+38 | 2026-05-08 00:50:35+0000 | EC Event | Lid Open
+39 | 2026-05-08 00:51:06+0000 | Kernel Event | Clean Shutdown
+40 | 2026-05-08 00:51:07+0000 | ACPI Enter | S5
+41 | 2026-05-08 00:51:41+0000 | System boot | 4
+42 | 2026-05-08 00:51:41+0000 | EC Event | Power Button
+43 | 2026-05-08 00:51:41+0000 | ACPI Wake | S5
+44 | 2026-05-08 00:51:41+0000 | Wake Source | Power Button | 0
+45 | 2026-05-08 00:51:41+0000 | Firmware vboot info | boot_mode=Secure | fw_tried=B | fw_try_count=0 | fw_prev_tried=B | fw_prev_result=Unknown
+46 | 2026-05-08 00:53:13+0000 | S0ix Enter
+47 | 2026-05-08 13:42:42+0000 | S0ix Exit
+48 | 2026-05-08 13:42:42+0000 | Wake Source | GPE # | 81
+49 | 2026-05-08 13:42:42+0000 | EC Event | AC Disconnected
+50 | 2026-05-08 13:42:54+0000 | S0ix Enter
+51 | 2026-05-08 14:19:54+0000 | S0ix Exit
+52 | 2026-05-08 14:19:54+0000 | Wake Source | GPE # | 81
+53 | 2026-05-08 14:19:54+0000 | EC Event | Lid Open
+54 | 2026-05-08 14:20:58+0000 | Kernel Event | Clean Shutdown
+55 | 2026-05-08 14:20:58+0000 | ACPI Enter | S5
+56 | 2026-05-08 14:50:10+0000 | System boot | 6
+57 | 2026-05-08 14:50:10+0000 | EC Event | Power Button
+58 | 2026-05-08 14:50:10+0000 | ACPI Wake | S5
+59 | 2026-05-08 14:50:10+0000 | Wake Source | Power Button | 0
+60 | 2026-05-08 14:50:10+0000 | Firmware vboot info | boot_mode=Secure | fw_tried=B | fw_try_count=0 | fw_prev_tried=B | fw_prev_result=Unknown
+61 | 2026-05-08 14:50:12+0000 | Power Button
+62 | 2026-05-08 14:50:12+0000 | ACPI Enter | S5
+63 | 2026-05-08 14:50:32+0000 | System boot | 8
+64 | 2026-05-08 14:50:32+0000 | EC Event | Power Button
+65 | 2026-05-08 14:50:32+0000 | ACPI Wake | S5
+66 | 2026-05-08 14:50:32+0000 | Wake Source | Power Button | 0
+67 | 2026-05-08 14:50:32+0000 | Firmware vboot info | boot_mode=Secure | fw_tried=B | fw_try_count=0 | fw_prev_tried=B | fw_prev_result=Unknown
+68 | 2026-05-08 15:02:15+0000 | S0ix Enter
+69 | 2026-05-08 15:08:23+0000 | S0ix Exit
+70 | 2026-05-08 15:08:23+0000 | Wake Source | GPE # | 81
+71 | 2026-05-08 15:08:23+0000 | EC Event | Lid Open
+72 | 2026-05-08 15:08:23+0000 | Log area cleared | 1019
+73 | 2026-05-08 15:09:24+0000 | S0ix Enter
+74 | 2026-05-08 15:23:50+0000 | S0ix Exit
+75 | 2026-05-08 15:23:50+0000 | Wake Source | GPE # | 81
+76 | 2026-05-08 15:23:50+0000 | EC Event | Lid Open
+77 | 2026-05-08 15:23:58+0000 | S0ix Enter
+78 | 2026-05-08 15:46:45+0000 | S0ix Exit
+79 | 2026-05-08 15:46:45+0000 | Wake Source | GPE # | 81
+80 | 2026-05-08 15:46:45+0000 | EC Event | Lid Open
+81 | 2026-05-08 15:48:18+0000 | S0ix Enter
+82 | 2026-05-08 15:48:44+0000 | S0ix Exit
+83 | 2026-05-08 15:48:44+0000 | Wake Source | GPE # | 81
+84 | 2026-05-08 15:48:44+0000 | EC Event | Lid Open
+85 | 2026-05-08 15:49:13+0000 | S0ix Enter
+86 | 2026-05-08 15:49:29+0000 | S0ix Exit
+87 | 2026-05-08 15:49:29+0000 | Wake Source | GPE # | 81
+88 | 2026-05-08 15:49:29+0000 | EC Event | Lid Open
+89 | 2026-05-08 15:49:52+0000 | S0ix Enter
+90 | 2026-05-08 16:55:09+0000 | S0ix Exit
+91 | 2026-05-08 16:55:09+0000 | Wake Source | GPE # | 81
+92 | 2026-05-08 16:55:09+0000 | EC Event | Lid Open
+93 | 2026-05-08 16:55:26+0000 | S0ix Enter
+94 | 2026-05-08 16:58:56+0000 | S0ix Exit
+95 | 2026-05-08 16:58:56+0000 | Wake Source | GPE # | 81
+96 | 2026-05-08 16:58:56+0000 | EC Event | Lid Open
+97 | 2026-05-08 16:59:27+0000 | S0ix Enter
+98 | 2026-05-08 17:03:40+0000 | S0ix Exit
+99 | 2026-05-08 17:03:40+0000 | Wake Source | GPE # | 81
+100 | 2026-05-08 17:03:40+0000 | EC Event | Lid Open
+101 | 2026-05-08 17:12:54+0000 | S0ix Enter
+102 | 2026-05-08 17:18:25+0000 | S0ix Exit
+103 | 2026-05-08 17:18:25+0000 | Wake Source | GPE # | 81
+104 | 2026-05-08 17:18:25+0000 | EC Event | Lid Open
+105 | 2026-05-08 17:18:32+0000 | S0ix Enter
+106 | 2026-05-08 17:21:47+0000 | S0ix Exit
+107 | 2026-05-08 17:21:47+0000 | Wake Source | GPE # | 81
+108 | 2026-05-08 17:21:47+0000 | EC Event | Lid Open
+109 | 2026-05-08 17:21:53+0000 | S0ix Enter
+110 | 2026-05-08 17:25:46+0000 | S0ix Exit
+111 | 2026-05-08 17:25:46+0000 | Wake Source | GPE # | 81
+112 | 2026-05-08 17:25:46+0000 | EC Event | Lid Open
+113 | 2026-05-08 17:25:51+0000 | S0ix Enter
+114 | 2026-05-08 17:31:01+0000 | S0ix Exit
+115 | 2026-05-08 17:31:01+0000 | Wake Source | GPE # | 81
+116 | 2026-05-08 17:31:01+0000 | EC Event | Lid Open
+117 | 2026-05-08 17:34:09+0000 | S0ix Enter
+118 | 2026-05-11 13:21:19+0000 | S0ix Exit
+119 | 2026-05-11 13:21:19+0000 | Wake Source | GPE # | 81
+120 | 2026-05-11 13:21:19+0000 | EC Event | Lid Open
+121 | 2026-05-11 14:10:07+0000 | S0ix Enter
+122 | 2026-05-11 15:36:47+0000 | S0ix Exit
+123 | 2026-05-11 15:36:47+0000 | Wake Source | GPE # | 81
+124 | 2026-05-11 15:36:47+0000 | EC Event | Lid Open
+125 | 2026-05-11 15:37:37+0000 | S0ix Enter
+126 | 2026-05-11 16:30:26+0000 | S0ix Exit
+127 | 2026-05-11 16:30:26+0000 | Wake Source | GPE # | 81
+128 | 2026-05-11 16:30:26+0000 | EC Event | Lid Open
+129 | 2026-05-11 16:30:29+0000 | S0ix Enter
+130 | 2026-05-11 16:49:20+0000 | S0ix Exit
+131 | 2026-05-11 16:49:20+0000 | Wake Source | GPE # | 81
+132 | 2026-05-11 16:49:20+0000 | EC Event | Lid Open
+133 | 2026-05-11 16:49:23+0000 | S0ix Enter
+134 | 2026-05-11 17:00:34+0000 | S0ix Exit
+135 | 2026-05-11 17:00:34+0000 | Wake Source | GPE # | 81
+136 | 2026-05-11 17:00:34+0000 | EC Event | Lid Open
+137 | 2026-05-11 17:01:41+0000 | S0ix Enter
+138 | 2026-05-11 17:39:05+0000 | S0ix Exit
+139 | 2026-05-11 17:39:05+0000 | Wake Source | GPE # | 81
+140 | 2026-05-11 17:39:05+0000 | EC Event | Lid Open
+141 | 2026-05-11 17:40:31+0000 | S0ix Enter
+142 | 2026-05-11 17:46:54+0000 | S0ix Exit
+143 | 2026-05-11 17:46:54+0000 | Wake Source | GPE # | 81
+144 | 2026-05-11 17:46:54+0000 | EC Event | Lid Open
+145 | 2026-05-11 18:25:12+0000 | S0ix Enter
+146 | 2026-05-11 18:52:28+0000 | S0ix Exit
+147 | 2026-05-11 18:52:28+0000 | Wake Source | GPE # | 81
+148 | 2026-05-11 18:52:28+0000 | EC Event | Lid Open
+149 | 2026-05-11 18:59:47+0000 | S0ix Enter
+150 | 2026-05-11 19:18:39+0000 | S0ix Exit
+151 | 2026-05-11 19:18:39+0000 | Wake Source | GPE # | 81
+152 | 2026-05-11 19:18:39+0000 | EC Event | Lid Open
+153 | 2026-05-11 19:33:07+0000 | S0ix Enter
+154 | 2026-05-12 12:38:19+0000 | S0ix Exit
+155 | 2026-05-12 12:38:19+0000 | Wake Source | GPE # | 81
+156 | 2026-05-12 12:38:19+0000 | EC Event | Lid Open
+157 | 2026-05-12 12:43:43+0000 | S0ix Enter
+158 | 2026-05-12 13:32:30+0000 | S0ix Exit
+159 | 2026-05-12 13:32:30+0000 | Wake Source | GPE # | 81
+160 | 2026-05-12 13:32:30+0000 | EC Event | Lid Open
+161 | 2026-05-12 13:37:51+0000 | S0ix Enter
+162 | 2026-05-12 13:48:37+0000 | S0ix Exit
+163 | 2026-05-12 13:48:37+0000 | Wake Source | GPE # | 81
+164 | 2026-05-12 13:48:37+0000 | EC Event | Lid Open
+165 | 2026-05-12 14:02:20+0000 | S0ix Enter
+166 | 2026-05-12 19:17:11+0000 | S0ix Exit
+167 | 2026-05-12 19:17:11+0000 | Wake Source | GPE # | 81
+168 | 2026-05-12 19:17:11+0000 | EC Event | Lid Open
+169 | 2026-05-12 19:17:11+0000 | Log area cleared | 1020
+170 | 2026-05-12 19:23:42+0000 | S0ix Enter
+171 | 2026-05-13 14:53:40+0000 | S0ix Exit
+172 | 2026-05-13 14:53:40+0000 | Wake Source | GPE # | 81
+173 | 2026-05-13 14:53:40+0000 | EC Event | Lid Open
+174 | 2026-05-13 14:54:35+0000 | S0ix Enter
+175 | 2026-05-13 15:14:05+0000 | S0ix Exit
+176 | 2026-05-13 15:14:05+0000 | Wake Source | GPE # | 81
+177 | 2026-05-13 15:14:05+0000 | EC Event | Lid Open
+178 | 2026-05-13 15:37:06+0000 | S0ix Enter
+179 | 2026-05-13 16:43:36+0000 | S0ix Exit
+180 | 2026-05-13 16:43:36+0000 | Wake Source | GPE # | 81
+181 | 2026-05-13 16:43:36+0000 | EC Event | Lid Open
+182 | 2026-05-13 17:04:38+0000 | S0ix Enter
+183 | 2026-05-13 17:41:48+0000 | S0ix Exit
+184 | 2026-05-13 17:41:48+0000 | Wake Source | GPE # | 81
+185 | 2026-05-13 17:41:48+0000 | EC Event | Lid Open
+186 | 2026-05-13 17:42:31+0000 | Kernel Event | Clean Shutdown
+187 | 2026-05-13 17:42:33+0000 | System boot | 9
+188 | 2026-05-13 17:42:33+0000 | System Reset
+189 | 2026-05-13 17:42:33+0000 | Firmware vboot info | boot_mode=Secure | fw_tried=B | fw_try_count=0 | fw_prev_tried=B | fw_prev_result=Success
+190 | 2026-05-13 17:42:33+0000 | Power Button
+191 | 2026-05-13 17:42:33+0000 | ACPI Enter | S5
+192 | 2026-05-13 17:42:37+0000 | System boot | 10
+193 | 2026-05-13 17:42:37+0000 | EC Event | Power Button
+194 | 2026-05-13 17:42:37+0000 | ACPI Wake | S5
+195 | 2026-05-13 17:42:37+0000 | Wake Source | Power Button | 0
+196 | 2026-05-13 17:42:37+0000 | Firmware vboot info | boot_mode=Secure | fw_tried=B | fw_try_count=0 | fw_prev_tried=B | fw_prev_result=Unknown
+197 | 2026-05-13 17:42:37+0000 | Power Button
+198 | 2026-05-13 17:42:37+0000 | ACPI Enter | S5
+199 | 2026-05-13 17:42:40+0000 | System boot | 11
+200 | 2026-05-13 17:42:40+0000 | EC Event | Power Button
+201 | 2026-05-13 17:42:40+0000 | ACPI Wake | S5
+202 | 2026-05-13 17:42:40+0000 | Wake Source | Power Button | 0
+203 | 2026-05-13 17:42:40+0000 | Firmware vboot info | boot_mode=Secure | fw_tried=B | fw_try_count=0 | fw_prev_tried=B | fw_prev_result=Unknown
+204 | 2026-05-13 17:42:41+0000 | Power Button
+205 | 2026-05-13 17:42:41+0000 | ACPI Enter | S5
+206 | 2026-05-13 17:42:45+0000 | System boot | 12
+207 | 2026-05-13 17:42:45+0000 | EC Event | Power Button
+208 | 2026-05-13 17:42:45+0000 | ACPI Wake | S5
+209 | 2026-05-13 17:42:45+0000 | Wake Source | Power Button | 0
+210 | 2026-05-13 17:42:45+0000 | Firmware vboot info | boot_mode=Secure | fw_tried=B | fw_try_count=0 | fw_prev_tried=B | fw_prev_result=Unknown
+211 | 2026-05-13 17:42:46+0000 | Power Button
+212 | 2026-05-13 17:42:46+0000 | ACPI Enter | S5
+213 | 2026-05-13 17:43:02+0000 | System boot | 14
+214 | 2026-05-13 17:43:02+0000 | EC Event | Power Button
+215 | 2026-05-13 17:43:02+0000 | ACPI Wake | S5
+216 | 2026-05-13 17:43:02+0000 | Wake Source | Power Button | 0
+217 | 2026-05-13 17:43:02+0000 | Firmware vboot info | boot_mode=Secure | fw_tried=B | fw_try_count=0 | fw_prev_tried=B | fw_prev_result=Unknown
+218 | 2026-05-13 17:43:12+0000 | Power Button
+219 | 2026-05-13 17:43:12+0000 | ACPI Enter | S5
+220 | 2026-05-13 17:43:16+0000 | System boot | 16
+221 | 2026-05-13 17:43:16+0000 | EC Event | Power Button
+222 | 2026-05-13 17:43:16+0000 | ACPI Wake | S5
+223 | 2026-05-13 17:43:16+0000 | Wake Source | Power Button | 0
+224 | 2026-05-13 17:43:16+0000 | Firmware vboot info | boot_mode=Secure | fw_tried=B | fw_try_count=0 | fw_prev_tried=B | fw_prev_result=Unknown
+225 | 2026-05-13 17:48:06+0000 | S0ix Enter
+226 | 2026-05-13 19:00:44+0000 | S0ix Exit
+227 | 2026-05-13 19:00:44+0000 | Wake Source | GPE # | 81
+228 | 2026-05-13 19:00:44+0000 | EC Event | Lid Open
+229 | 2026-05-13 19:03:27+0000 | S0ix Enter
+230 | 2026-05-13 19:14:35+0000 | S0ix Exit
+231 | 2026-05-13 19:14:35+0000 | Wake Source | GPE # | 81
+232 | 2026-05-13 19:14:35+0000 | EC Event | Lid Open
+233 | 2026-05-13 19:33:26+0000 | S0ix Enter
+234 | 2026-05-14 12:48:10+0000 | S0ix Exit
+235 | 2026-05-14 12:48:10+0000 | Wake Source | GPE # | 81
+236 | 2026-05-14 12:48:10+0000 | EC Event | Lid Open
+237 | 2026-05-14 12:50:59+0000 | S0ix Enter
+238 | 2026-05-14 13:09:28+0000 | S0ix Exit
+239 | 2026-05-14 13:09:28+0000 | Wake Source | GPE # | 81
+240 | 2026-05-14 13:09:28+0000 | EC Event | Lid Open
+241 | 2026-05-14 13:38:08+0000 | S0ix Enter
+242 | 2026-05-14 14:00:46+0000 | S0ix Exit
+243 | 2026-05-14 14:00:46+0000 | Wake Source | GPE # | 81
+244 | 2026-05-14 14:00:46+0000 | EC Event | Lid Open
+245 | 2026-05-14 14:10:07+0000 | S0ix Enter
+246 | 2026-05-14 14:37:07+0000 | S0ix Exit
+247 | 2026-05-14 14:37:07+0000 | Wake Source | GPE # | 81
+248 | 2026-05-14 14:37:07+0000 | EC Event | Lid Open
+249 | 2026-05-14 14:49:47+0000 | S0ix Enter
+250 | 2026-05-14 14:52:16+0000 | S0ix Exit
+251 | 2026-05-14 14:52:16+0000 | Wake Source | GPE # | 78
+252 | 2026-05-14 14:52:18+0000 | S0ix Enter
+253 | 2026-05-14 15:35:50+0000 | S0ix Exit
+254 | 2026-05-14 15:35:50+0000 | Wake Source | GPE # | 81
+255 | 2026-05-14 15:35:50+0000 | EC Event | Lid Open
+256 | 2026-05-14 15:36:46+0000 | S0ix Enter
+257 | 2026-05-15 12:48:09+0000 | S0ix Exit
+258 | 2026-05-15 12:48:09+0000 | Wake Source | GPE # | 81
+259 | 2026-05-15 12:48:09+0000 | EC Event | Lid Open
+260 | 2026-05-15 13:04:26+0000 | S0ix Enter
+261 | 2026-05-15 13:05:01+0000 | S0ix Exit
+262 | 2026-05-15 13:05:01+0000 | Wake Source | GPE # | 81
+263 | 2026-05-15 13:05:01+0000 | EC Event | USB MUX change
+264 | 2026-05-15 13:05:01+0000 | Log area cleared | 1019
+265 | 2026-05-15 13:05:12+0000 | S0ix Enter
+266 | 2026-05-15 13:12:09+0000 | S0ix Exit
+267 | 2026-05-15 13:12:09+0000 | Wake Source | GPE # | 81
+268 | 2026-05-15 13:12:09+0000 | EC Event | AC Disconnected
+269 | 2026-05-15 13:18:28+0000 | S0ix Enter
+270 | 2026-05-15 13:45:20+0000 | S0ix Exit
+271 | 2026-05-15 13:45:20+0000 | Wake Source | GPE # | 81
+272 | 2026-05-15 13:45:20+0000 | EC Event | Lid Open
+273 | 2026-05-15 14:10:30+0000 | S0ix Enter
+274 | 2026-05-15 14:51:36+0000 | S0ix Exit
+275 | 2026-05-15 14:51:36+0000 | Wake Source | GPE # | 81
+276 | 2026-05-15 14:51:36+0000 | EC Event | Lid Open
+277 | 2026-05-15 14:51:41+0000 | S0ix Enter
+278 | 2026-05-15 15:30:34+0000 | S0ix Exit
+279 | 2026-05-15 15:30:34+0000 | Wake Source | GPE # | 81
+280 | 2026-05-15 15:30:34+0000 | EC Event | Lid Open
+281 | 2026-05-15 15:32:56+0000 | S0ix Enter
+282 | 2026-05-15 16:07:27+0000 | S0ix Exit
+283 | 2026-05-15 16:07:27+0000 | Wake Source | GPE # | 81
+284 | 2026-05-15 16:07:27+0000 | EC Event | Lid Open
+285 | 2026-05-15 16:19:47+0000 | Kernel Event | Clean Shutdown
+286 | 2026-05-15 16:19:48+0000 | ACPI Enter | S5
+287 | 2026-05-15 17:44:50+0000 | System boot | 18
+288 | 2026-05-15 17:44:50+0000 | EC Event | Power Button
+289 | 2026-05-15 17:44:50+0000 | ACPI Wake | S5
+290 | 2026-05-15 17:44:50+0000 | Wake Source | Power Button | 0
+291 | 2026-05-15 17:44:50+0000 | Firmware vboot info | boot_mode=Secure | fw_tried=B | fw_try_count=0 | fw_prev_tried=B | fw_prev_result=Unknown
+292 | 2026-05-15 18:43:53+0000 | S0ix Enter
+293 | 2026-05-15 18:48:24+0000 | S0ix Exit
+294 | 2026-05-15 18:48:24+0000 | Wake Source | GPE # | 81
+295 | 2026-05-15 18:48:24+0000 | EC Event | Lid Open
+296 | 2026-05-15 19:01:23+0000 | S0ix Enter
+297 | 2026-05-15 19:21:39+0000 | S0ix Exit
+298 | 2026-05-15 19:21:39+0000 | Wake Source | GPE # | 81
+299 | 2026-05-15 19:21:39+0000 | EC Event | Lid Open
+300 | 2026-05-15 19:25:19+0000 | S0ix Enter
+301 | 2026-05-15 19:55:19+0000 | S0ix Exit
+302 | 2026-05-15 19:55:19+0000 | Wake Source | RTC Alarm | 0
+303 | 2026-05-15 19:55:29+0000 | S0ix Enter
+304 | 2026-05-15 20:25:29+0000 | S0ix Exit
+305 | 2026-05-15 20:25:29+0000 | Wake Source | RTC Alarm | 0
+306 | 2026-05-15 20:25:39+0000 | S0ix Enter
+307 | 2026-05-15 20:55:39+0000 | S0ix Exit
+308 | 2026-05-15 20:55:39+0000 | Wake Source | RTC Alarm | 0
+309 | 2026-05-15 20:55:49+0000 | S0ix Enter
+310 | 2026-05-15 21:25:49+0000 | S0ix Exit
+311 | 2026-05-15 21:25:49+0000 | Wake Source | RTC Alarm | 0
+312 | 2026-05-15 21:25:59+0000 | S0ix Enter
+313 | 2026-05-16 17:38:58+0000 | S0ix Exit
+314 | 2026-05-16 17:38:58+0000 | Wake Source | GPE # | 81
+315 | 2026-05-16 17:38:58+0000 | EC Event | Lid Open
+316 | 2026-05-16 17:40:20+0000 | Kernel Event | Clean Shutdown
+317 | 2026-05-16 17:40:21+0000 | ACPI Enter | S5
+318 | 2026-05-18 17:59:44+0000 | System boot | 20
+319 | 2026-05-18 17:59:44+0000 | ACPI Wake | S5
+320 | 2026-05-18 17:59:44+0000 | Firmware vboot info | boot_mode=Secure | fw_tried=B | fw_try_count=0 | fw_prev_tried=B | fw_prev_result=Unknown
+321 | 2026-05-18 18:43:16+0000 | S0ix Enter
+322 | 2026-05-18 20:17:10+0000 | S0ix Exit
+323 | 2026-05-18 20:17:10+0000 | Wake Source | Power Button | 0
+324 | 2026-05-18 20:17:10+0000 | EC Event | Power Button
+325 | 2026-05-18 20:17:24+0000 | S0ix Enter
+326 | 2026-05-18 23:35:11+0000 | S0ix Exit
+327 | 2026-05-18 23:35:11+0000 | Wake Source | GPE # | 81
+328 | 2026-05-18 23:35:11+0000 | EC Event | Lid Open
+329 | 2026-05-19 00:26:06+0000 | S0ix Enter
+330 | 2026-05-20 17:52:44+0000 | S0ix Exit
+331 | 2026-05-20 17:52:44+0000 | Wake Source | GPE # | 81
+332 | 2026-05-20 17:52:44+0000 | EC Event | Lid Open
+333 | 2026-05-20 17:57:32+0000 | S0ix Enter
+334 | 2026-05-21 00:29:18+0000 | S0ix Exit
+335 | 2026-05-21 00:29:18+0000 | Wake Source | GPE # | 81
+336 | 2026-05-21 00:29:18+0000 | EC Event | Lid Open
+337 | 2026-05-21 00:30:48+0000 | S0ix Enter
+338 | 2026-05-21 20:36:04+0000 | S0ix Exit
+339 | 2026-05-21 20:36:04+0000 | Wake Source | GPE # | 81
+340 | 2026-05-21 20:36:04+0000 | EC Event | Lid Open
+341 | 2026-05-21 21:04:19+0000 | S0ix Enter
+342 | 2026-05-22 01:18:27+0000 | S0ix Exit
+343 | 2026-05-22 01:18:27+0000 | Wake Source | GPE # | 81
+344 | 2026-05-22 01:18:27+0000 | EC Event | Lid Open
+345 | 2026-05-22 01:21:32+0000 | S0ix Enter
+346 | 2026-05-22 02:40:03+0000 | S0ix Exit
+347 | 2026-05-22 02:40:03+0000 | Wake Source | GPE # | 81
+348 | 2026-05-22 02:40:03+0000 | EC Event | Lid Open
+349 | 2026-05-22 02:40:07+0000 | S0ix Enter
+350 | 2026-05-22 02:40:45+0000 | S0ix Exit
+351 | 2026-05-22 02:40:45+0000 | Wake Source | GPE # | 81
+352 | 2026-05-22 02:40:45+0000 | EC Event | USB MUX change
+353 | 2026-05-22 02:51:14+0000 | S0ix Enter
+354 | 2026-05-22 03:19:07+0000 | System boot | 22
+355 | 2026-05-22 03:19:07+0000 | ACPI Wake | S5
+356 | 2026-05-22 03:19:07+0000 | Wake Source | Power Button | 0
+357 | 2026-05-22 03:19:07+0000 | Firmware vboot info | boot_mode=Secure | fw_tried=B | fw_try_count=0 | fw_prev_tried=B | fw_prev_result=Unknown

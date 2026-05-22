@@ -1,0 +1,36 @@
+Message Reply: [hwsec_foundation.HwsecStatus] {
+  is_enabled: true
+  is_owned: true
+  is_owner_password_present: false
+  has_reset_lock_permissions: true
+  is_srk_default_auth: true
+  support_u2f: true
+  support_pinweaver: true
+  support_runtime_selection: false
+  is_allowed: true
+  support_clear_request: true
+  support_clear_without_prompt: true
+  family: 841887744 (0x322E3000)
+  spec_level: 162 (0x00000000000000A2)
+  manufacturer: 1129467731 (0x43524F53)
+  tpm_model: 1 (0x00000001)
+  firmware_version: 18341289580806928725 (0xFE8959B28A91F955)
+  vendor_specific: 784347206654504D
+  gsc_rw_version: 0.23.250
+  dictionary_attack_counter: 0 (0x00000000)
+  dictionary_attack_threshold: 200 (0x000000C8)
+  dictionary_attack_lockout_in_effect: false
+  dictionary_attack_lockout_seconds_remaining: 0 (0x00000000)
+  prepared_for_enrollment: true
+  enrolled: true
+  verified_boot: true
+  inst_attrs_count: 5
+  inst_attrs_is_secure: true
+  inst_attrs_state: VALID
+  fwmp_flags: 65 (0x00000041)
+  user_token_ready: true
+  owner_user_exists: false
+  is_locked_to_single_user: false
+  is_mounted: true
+  is_ephemeral_mount: false
+}

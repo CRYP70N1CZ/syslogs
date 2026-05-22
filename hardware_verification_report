@@ -1,0 +1,245 @@
+[Component Qualification Status]
+{
+ "isCompliant": true,
+ "foundComponentInfos": [
+  {
+   "componentUuid": "craaskvin_battery_5699_13752",
+   "qualificationStatus": "QUALIFIED",
+   "componentCategory": "battery",
+   "componentFields": {
+    "battery": {
+     "index": 0,
+     "manufacturer": "SMP KT00307012",
+     "modelName": "AP23A7L",
+     "serialNumber": "",
+     "chargeFullDesign": 0,
+     "chargeFull": 0,
+     "chargeNow": 0,
+     "voltageNow": 0,
+     "voltageMinDesign": 0,
+     "cycleCountSmart": 0,
+     "statusSmart": 0,
+     "temperatureSmart": 0,
+     "path": "",
+     "manufactureDateSmart": 0,
+     "technology": "Li-ion",
+     "chemistry": "LiP"
+    }
+   }
+  },
+  {
+   "componentUuid": "craaskvin_storage_4878_10745",
+   "qualificationStatus": "QUALIFIED",
+   "componentCategory": "storage",
+   "componentFields": {
+    "storage": {
+     "path": "",
+     "sectors": "61071360",
+     "size": "0",
+     "type": "MMC_ASSEMBLY",
+     "mmcManfid": 69,
+     "mmcName": "DV4032",
+     "mmcPrv": 1,
+     "mmcSerial": 1583161905,
+     "mmcOemid": 256,
+     "pciVendor": 0,
+     "pciDevice": 0,
+     "pciClass": 0,
+     "ataVendor": "",
+     "ataModel": "",
+     "mmcHwrev": 0,
+     "ufsVendor": "",
+     "ufsModel": "",
+     "mmcHostBusType": "",
+     "mmcHostPciVendorId": "",
+     "mmcHostPciDeviceId": "",
+     "mmcHostPciRevision": "",
+     "mmcHostPciSubsystem": "",
+     "mmcHostPciClass": ""
+    }
+   }
+  },
+  {
+   "componentUuid": "craaskvin_camera_5227_12151",
+   "qualificationStatus": "QUALIFIED",
+   "componentCategory": "camera",
+   "componentFields": {
+    "camera": {
+     "path": "",
+     "busType": "usb",
+     "usbVendorId": 1032,
+     "usbProductId": 16454,
+     "usbBcdDevice": 3,
+     "usbRemovable": "FIXED",
+     "mipiName": "",
+     "mipiModuleId": "",
+     "mipiSensorId": "",
+     "mipiVendor": ""
+    }
+   }
+  },
+  {
+   "componentUuid": "craaskvin_touchpad_881_12040",
+   "qualificationStatus": "QUALIFIED",
+   "componentCategory": "touchpad",
+   "componentFields": {
+    "touchpad": {
+     "name": "Elan Touchpad",
+     "path": "",
+     "event": "",
+     "bus": 24,
+     "vendor": 1267,
+     "product": 188,
+     "version": 0,
+     "fwVersion": "",
+     "deviceType": "TYPE_TOUCHPAD"
+    }
+   }
+  },
+  {
+   "componentUuid": "craaskvin_dram_4658_11536",
+   "qualificationStatus": "QUALIFIED",
+   "componentCategory": "dram",
+   "componentFields": {
+    "dram": {
+     "part": "H9JCNNNCP3MLYR-N6E",
+     "size": 2048,
+     "slot": 0
+    }
+   }
+  },
+  {
+   "componentUuid": "craaskvin_dram_4658_11536",
+   "qualificationStatus": "QUALIFIED",
+   "componentCategory": "dram",
+   "componentFields": {
+    "dram": {
+     "part": "H9JCNNNCP3MLYR-N6E",
+     "size": 2048,
+     "slot": 1
+    }
+   }
+  },
+  {
+   "componentUuid": "craaskvin_dram_4658_11536",
+   "qualificationStatus": "QUALIFIED",
+   "componentCategory": "dram",
+   "componentFields": {
+    "dram": {
+     "part": "H9JCNNNCP3MLYR-N6E",
+     "size": 2048,
+     "slot": 2
+    }
+   }
+  },
+  {
+   "componentUuid": "craaskvin_dram_4658_11536",
+   "qualificationStatus": "QUALIFIED",
+   "componentCategory": "dram",
+   "componentFields": {
+    "dram": {
+     "part": "H9JCNNNCP3MLYR-N6E",
+     "size": 2048,
+     "slot": 3
+    }
+   }
+  },
+  {
+   "componentUuid": "craaskvin_display_panel_2777_10693",
+   "qualificationStatus": "QUALIFIED",
+   "componentCategory": "display_panel",
+   "componentFields": {
+    "displayPanel": {
+     "path": "",
+     "vendor": "CMN",
+     "productId": 4428,
+     "height": 768,
+     "width": 1366
+    }
+   }
+  },
+  {
+   "componentUuid": "craaskvin_wireless_3645_11326",
+   "qualificationStatus": "QUALIFIED",
+   "componentCategory": "wireless",
+   "componentFields": {
+    "wireless": {
+     "path": "",
+     "type": "",
+     "busType": "pci",
+     "pciVendorId": 32902,
+     "pciDeviceId": 21744,
+     "pciRevision": 0,
+     "usbVendorId": 0,
+     "usbProductId": 0,
+     "usbBcdDevice": 0,
+     "sdioVendorId": 0,
+     "sdioDeviceId": 0,
+     "pciSubsystem": 148
+    }
+   }
+  }
+ ]
+}
+
+[Generic Device Info]
+battery {
+  manufacturer: "SMP KT00307012"
+  model_name: "AP23A7L"
+  technology: "Li-ion"
+  chemistry: "LiP"
+}
+storage {
+  sectors: 61071360
+  type: "MMC_ASSEMBLY"
+  mmc_manfid: 69
+  mmc_name: "DV4032"
+  mmc_prv: 1
+  mmc_serial: 1583161905
+  mmc_oemid: 256
+}
+camera {
+  bus_type: "usb"
+  usb_vendor_id: 1032
+  usb_product_id: 16454
+  usb_bcd_device: 3
+  usb_removable: FIXED
+}
+touchpad {
+  name: "Elan Touchpad"
+  bus: 24
+  vendor: 1267
+  product: 188
+  device_type: TYPE_TOUCHPAD
+}
+dram {
+  part: "H9JCNNNCP3MLYR-N6E"
+  size: 2048
+}
+dram {
+  part: "H9JCNNNCP3MLYR-N6E"
+  size: 2048
+  slot: 1
+}
+dram {
+  part: "H9JCNNNCP3MLYR-N6E"
+  size: 2048
+  slot: 2
+}
+dram {
+  part: "H9JCNNNCP3MLYR-N6E"
+  size: 2048
+  slot: 3
+}
+display_panel {
+  vendor: "CMN"
+  product_id: 4428
+  height: 768
+  width: 1366
+}
+wireless {
+  bus_type: "pci"
+  pci_vendor_id: 32902
+  pci_device_id: 21744
+  pci_subsystem: 148
+}

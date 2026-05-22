@@ -1,0 +1,257 @@
+/sys/kernel/debug/dri/0/state:
+plane[32]: plane 1A
+	crtc=pipe A
+	fb=218
+		allocated by = DrmThread
+		refcount=3
+		format=XR24 little-endian (0x34325258)
+		modifier=0x100000000000006
+		size=1366x768
+		layers:
+			size[0]=1366x768
+			pitch[0]=8192
+			offset[0]=0
+			obj[0]:
+				name=0
+				refcount=5
+				start=00000000
+				size=6316032
+				imported=no
+			size[1]=1366x768
+			pitch[1]=1024
+			offset[1]=6291456
+			obj[1]:
+				name=0
+				refcount=5
+				start=00000000
+				size=6316032
+				imported=no
+	crtc-pos=1366x768+0+0
+	src-pos=1366.000000x768.000000+0.000000+0.000000
+	rotation=1
+	normalized-zpos=0
+	color-encoding=ITU-R BT.601 YCbCr
+	color-range=YCbCr limited range
+plane[41]: plane 2A
+	crtc=(null)
+	fb=0
+	crtc-pos=0x0+0+0
+	src-pos=0.000000x0.000000+0.000000+0.000000
+	rotation=1
+	normalized-zpos=1
+	color-encoding=ITU-R BT.709 YCbCr
+	color-range=YCbCr limited range
+plane[50]: plane 3A
+	crtc=(null)
+	fb=0
+	crtc-pos=0x0+0+0
+	src-pos=0.000000x0.000000+0.000000+0.000000
+	rotation=1
+	normalized-zpos=2
+	color-encoding=ITU-R BT.709 YCbCr
+	color-range=YCbCr limited range
+plane[59]: plane 4A
+	crtc=(null)
+	fb=0
+	crtc-pos=0x0+0+0
+	src-pos=0.000000x0.000000+0.000000+0.000000
+	rotation=1
+	normalized-zpos=3
+	color-encoding=ITU-R BT.709 YCbCr
+	color-range=YCbCr limited range
+plane[68]: plane 5A
+	crtc=(null)
+	fb=0
+	crtc-pos=0x0+0+0
+	src-pos=0.000000x0.000000+0.000000+0.000000
+	rotation=1
+	normalized-zpos=4
+	color-encoding=ITU-R BT.709 YCbCr
+	color-range=YCbCr limited range
+plane[77]: cursor A
+	crtc=pipe A
+	fb=223
+		allocated by = DrmThread
+		refcount=2
+		format=AR24 little-endian (0x34325241)
+		modifier=0x0
+		size=64x64
+		layers:
+			size[0]=64x64
+			pitch[0]=256
+			offset[0]=0
+			obj[0]:
+				name=0
+				refcount=4
+				start=00000000
+				size=16384
+				imported=no
+	crtc-pos=64x64+105+442
+	src-pos=64.000000x64.000000+0.000000+0.000000
+	rotation=1
+	normalized-zpos=5
+	color-encoding=ITU-R BT.601 YCbCr
+	color-range=YCbCr limited range
+plane[84]: plane 1B
+	crtc=(null)
+	fb=0
+	crtc-pos=0x0+0+0
+	src-pos=0.000000x0.000000+0.000000+0.000000
+	rotation=1
+	normalized-zpos=0
+	color-encoding=ITU-R BT.709 YCbCr
+	color-range=YCbCr limited range
+plane[93]: plane 2B
+	crtc=(null)
+	fb=0
+	crtc-pos=0x0+0+0
+	src-pos=0.000000x0.000000+0.000000+0.000000
+	rotation=1
+	normalized-zpos=1
+	color-encoding=ITU-R BT.709 YCbCr
+	color-range=YCbCr limited range
+plane[102]: plane 3B
+	crtc=(null)
+	fb=0
+	crtc-pos=0x0+0+0
+	src-pos=0.000000x0.000000+0.000000+0.000000
+	rotation=1
+	normalized-zpos=2
+	color-encoding=ITU-R BT.709 YCbCr
+	color-range=YCbCr limited range
+plane[111]: plane 4B
+	crtc=(null)
+	fb=0
+	crtc-pos=0x0+0+0
+	src-pos=0.000000x0.000000+0.000000+0.000000
+	rotation=1
+	normalized-zpos=3
+	color-encoding=ITU-R BT.709 YCbCr
+	color-range=YCbCr limited range
+plane[120]: plane 5B
+	crtc=(null)
+	fb=0
+	crtc-pos=0x0+0+0
+	src-pos=0.000000x0.000000+0.000000+0.000000
+	rotation=1
+	normalized-zpos=4
+	color-encoding=ITU-R BT.709 YCbCr
+	color-range=YCbCr limited range
+plane[129]: cursor B
+	crtc=(null)
+	fb=0
+	crtc-pos=0x0+0+0
+	src-pos=0.000000x0.000000+0.000000+0.000000
+	rotation=1
+	normalized-zpos=5
+	color-encoding=ITU-R BT.601 YCbCr
+	color-range=YCbCr limited range
+plane[136]: plane 1C
+	crtc=(null)
+	fb=0
+	crtc-pos=0x0+0+0
+	src-pos=0.000000x0.000000+0.000000+0.000000
+	rotation=1
+	normalized-zpos=0
+	color-encoding=ITU-R BT.709 YCbCr
+	color-range=YCbCr limited range
+plane[145]: plane 2C
+	crtc=(null)
+	fb=0
+	crtc-pos=0x0+0+0
+	src-pos=0.000000x0.000000+0.000000+0.000000
+	rotation=1
+	normalized-zpos=1
+	color-encoding=ITU-R BT.709 YCbCr
+	color-range=YCbCr limited range
+plane[154]: plane 3C
+	crtc=(null)
+	fb=0
+	crtc-pos=0x0+0+0
+	src-pos=0.000000x0.000000+0.000000+0.000000
+	rotation=1
+	normalized-zpos=2
+	color-encoding=ITU-R BT.709 YCbCr
+	color-range=YCbCr limited range
+plane[163]: plane 4C
+	crtc=(null)
+	fb=0
+	crtc-pos=0x0+0+0
+	src-pos=0.000000x0.000000+0.000000+0.000000
+	rotation=1
+	normalized-zpos=3
+	color-encoding=ITU-R BT.709 YCbCr
+	color-range=YCbCr limited range
+plane[172]: plane 5C
+	crtc=(null)
+	fb=0
+	crtc-pos=0x0+0+0
+	src-pos=0.000000x0.000000+0.000000+0.000000
+	rotation=1
+	normalized-zpos=4
+	color-encoding=ITU-R BT.709 YCbCr
+	color-range=YCbCr limited range
+plane[181]: cursor C
+	crtc=(null)
+	fb=0
+	crtc-pos=0x0+0+0
+	src-pos=0.000000x0.000000+0.000000+0.000000
+	rotation=1
+	normalized-zpos=5
+	color-encoding=ITU-R BT.601 YCbCr
+	color-range=YCbCr limited range
+crtc[82]: pipe A
+	enable=1
+	active=1
+	self_refresh_active=0
+	planes_changed=0
+	mode_changed=0
+	active_changed=0
+	connectors_changed=0
+	color_mgmt_changed=0
+	plane_mask=21
+	connector_mask=1
+	encoder_mask=1
+	mode: "1366x768": 60 76420 1366 1502 1532 1592 768 776 788 800 0x48 0xa
+crtc[134]: pipe B
+	enable=0
+	active=0
+	self_refresh_active=0
+	planes_changed=0
+	mode_changed=0
+	active_changed=0
+	connectors_changed=0
+	color_mgmt_changed=0
+	plane_mask=0
+	connector_mask=0
+	encoder_mask=0
+	mode: "": 0 0 0 0 0 0 0 0 0 0 0x0 0x0
+crtc[186]: pipe C
+	enable=0
+	active=0
+	self_refresh_active=0
+	planes_changed=0
+	mode_changed=0
+	active_changed=0
+	connectors_changed=0
+	color_mgmt_changed=0
+	plane_mask=0
+	connector_mask=0
+	encoder_mask=0
+	mode: "": 0 0 0 0 0 0 0 0 0 0 0x0 0x0
+connector[189]: eDP-1
+	crtc=pipe A
+	self_refresh_aware=0
+	max_requested_bpc=12
+	colorspace=Default
+connector[198]: DP-1
+	crtc=(null)
+	self_refresh_aware=0
+	max_requested_bpc=12
+	colorspace=Default
+connector[210]: DP-2
+	crtc=(null)
+	self_refresh_aware=0
+	max_requested_bpc=12
+	colorspace=Default
+

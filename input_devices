@@ -1,0 +1,115 @@
+I: Bus=0019 Vendor=0000 Product=0005 Version=0000
+N: Name="Lid Switch"
+P: Phys=PNP0C0D/button/input0
+S: Sysfs=/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:02/PNP0C09:00/PNP0C0D:00/input/input0
+U: Uniq=
+H: Handlers=event0 
+B: PROP=0
+B: EV=21
+B: SW=1
+
+I: Bus=0019 Vendor=0000 Product=0001 Version=0000
+N: Name="Power Button"
+P: Phys=LNXPWRBN/button/input0
+S: Sysfs=/devices/LNXSYSTM:00/LNXPWRBN:00/input/input1
+U: Uniq=
+H: Handlers=event1 
+B: PROP=0
+B: EV=3
+B: KEY=10000000000000 0
+
+I: Bus=0011 Vendor=0001 Product=0001 Version=ab83
+N: Name="AT Translated Set 2 keyboard"
+P: Phys=isa0060/serio0/input0
+S: Sysfs=/devices/platform/i8042/serio0/input/input2
+U: Uniq=
+H: Handlers=sysrq leds event2 
+B: PROP=0
+B: EV=120013
+B: KEY=10000000000000 0 300000000 200040004000 3d1e969a52400000 37ffffffffffffe
+B: MSC=10
+B: LED=7
+
+I: Bus=0006 Vendor=0000 Product=0000 Version=0001
+N: Name="cros_ec_buttons"
+P: Phys=GOOG0004:00/input1
+S: Sysfs=/devices/pci0000:00/0000:00:1f.0/PNP0C09:00/GOOG0004:00/GOOG0007:00/input/input3
+U: Uniq=
+H: Handlers=event3 
+B: PROP=0
+B: EV=100023
+B: KEY=1c000000000000 0
+B: SW=3
+
+I: Bus=0018 Vendor=04f3 Product=00bc Version=0000
+N: Name="Elan Touchpad"
+P: Phys=
+S: Sysfs=/devices/pci0000:00/0000:00:19.1/i2c_designware.5/i2c-14/i2c-ELAN0000:00/input/input4
+U: Uniq=
+H: Handlers=event4 
+B: PROP=5
+B: EV=b
+B: KEY=e520 10000 0 0 0 0
+B: ABS=663800013000003
+
+I: Bus=0019 Vendor=0000 Product=0006 Version=0000
+N: Name="Video Bus"
+P: Phys=LNXVIDEO/video/input0
+S: Sysfs=/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input5
+U: Uniq=
+H: Handlers=event5 
+B: PROP=0
+B: EV=3
+B: KEY=3e000b00000000 0 0 0
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="sof-rt5682 Headset Jack"
+P: Phys=ALSA
+S: Sysfs=/devices/pci0000:00/0000:00:1f.3/adl_rt5682_def/sound/card0/input6
+U: Uniq=
+H: Handlers=event6 
+B: PROP=0
+B: EV=23
+B: KEY=40 0 0 0 0 0 0 1000000000 c000000000000 0
+B: SW=14
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="sof-rt5682 HDMI/DP,pcm=2"
+P: Phys=ALSA
+S: Sysfs=/devices/pci0000:00/0000:00:1f.3/adl_rt5682_def/sound/card0/input7
+U: Uniq=
+H: Handlers=event7 
+B: PROP=0
+B: EV=21
+B: SW=140
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="sof-rt5682 HDMI/DP,pcm=3"
+P: Phys=ALSA
+S: Sysfs=/devices/pci0000:00/0000:00:1f.3/adl_rt5682_def/sound/card0/input8
+U: Uniq=
+H: Handlers=event8 
+B: PROP=0
+B: EV=21
+B: SW=140
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="sof-rt5682 HDMI/DP,pcm=4"
+P: Phys=ALSA
+S: Sysfs=/devices/pci0000:00/0000:00:1f.3/adl_rt5682_def/sound/card0/input9
+U: Uniq=
+H: Handlers=event9 
+B: PROP=0
+B: EV=21
+B: SW=140
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="sof-rt5682 HDMI/DP,pcm=5"
+P: Phys=ALSA
+S: Sysfs=/devices/pci0000:00/0000:00:1f.3/adl_rt5682_def/sound/card0/input10
+U: Uniq=
+H: Handlers=event10 
+B: PROP=0
+B: EV=21
+B: SW=140
+

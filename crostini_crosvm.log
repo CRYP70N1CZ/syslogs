@@ -1,0 +1,2 @@
+tail: cannot open '/run/daemon-store/crosvm/*/log/dGVybWluYQ==.log.1' for reading: No such file or directory
+tail: cannot open '/run/daemon-store/crosvm/*/log/dGVybWluYQ==.log' for reading: No such file or directory

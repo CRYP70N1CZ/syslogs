@@ -1,0 +1,89 @@
+NAME                                                               MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0                                                                7:0    0  47.9M  1 loop /run/chromeos-config/v1
+                                                                                             /run/chromeos-config/private
+loop1                                                                7:1    0 340.4M  1 loop /opt/google/modemfwd-firmware
+loop2                                                                7:2    0  95.5M  1 loop /usr/share/chromeos-assets/speech_synthesis/patts
+loop3                                                                7:3    0   5.9M  1 loop /usr/share/cros-camera/libfs
+loop4                                                                7:4    0    24M  1 loop 
+`-4B33C8C170A150303E3B0C7C56C77B32003CC1BDCFCD9FA79071108B0EE0BA8B 254:10   0   8.7M  1 dm   /run/imageloader/nc-ap-dlc/package
+loop5                                                                7:5    0     7M  1 loop /usr/share/chromeos-assets/quickoffice
+loop6                                                                7:6    0    32M  1 loop 
+`-62670DD9B6C3E65CDEC8325C5333B51CD4A9FBA414C566E8D41154B925B486A9 254:13   0  21.8M  1 dm   /run/imageloader/timeofday-dlc/package
+loop7                                                                7:7    0     1G  0 loop 
+loop8                                                                7:8    0     7M  0 loop 
+loop9                                                                7:9    0    12M  1 loop 
+`-EFD242791103EBDEF64F45E3E5CEC3BCF2D17140489AA8277C36295D271A8746 254:18   0   3.9M  1 dm   /run/imageloader/cros-camera-blur-detector-dlc/package
+loop10                                                               7:10   0     8M  1 loop 
+`-B9BE6BEED75E74A8A00D42D7F25FC28FF547C5F40C35D252B4FACD2A871B5422 254:21   0   5.9M  1 dm   /run/imageloader/cros-camera-super-res-dlc/package
+loop11                                                               7:11   0    70M  1 loop 
+`-6EE1E0185EB9A704A08A5F5D0C1DC4820AC45B5E2D1A053E478F7E09E1535CA9 254:28   0  10.4M  1 dm   /run/imageloader/libsoda/package
+loop12                                                               7:12   0    92M  1 loop 
+`-E38CA22553AFB1A6793C02DA7516A98446A15EC77AD762F2710F1E40CF8A3CF1 254:31   0  57.6M  1 dm   /run/imageloader/libsoda-model-en-us-df24d2/package
+loop13                                                               7:13   0    64M  1 loop 
+`-5EB6CE6B1FE30AC2C5380EC31F6EBFCD3C45F21A95E1744E630E77D7564BDB04 254:34   0  59.9M  1 dm   /run/imageloader/screen-ai/package
+mmcblk0                                                            179:0    0  29.1G  0 disk 
+|-mmcblk0p1                                                        179:1    0  20.7G  0 part 
+| |-X1CPFQ1O337W468X-thinpool_tmeta                                254:1    0   208M  0 lvm  
+| | `-X1CPFQ1O337W468X-thinpool-tpool                              254:3    0  20.3G  0 lvm  
+| |   |-X1CPFQ1O337W468X-thinpool                                  254:4    0  20.3G  1 lvm  
+| |   |-X1CPFQ1O337W468X-unencrypted                               254:5    0  19.3G  0 lvm  /home
+| |   |                                                                                      /mnt/stateful_partition
+| |   |-X1CPFQ1O337W468X-encstateful                               254:6    0   5.7G  0 lvm  
+| |   | `-encstateful                                              254:7    0   5.7G  0 dm   /var
+| |   |                                                                                      /home/chronos
+| |   |                                                                                      /mnt/stateful_partition/encrypted
+| |   |-X1CPFQ1O337W468X-dlc_nc--ap--dlc_a                         254:8    0    24M  0 lvm  
+| |   |-X1CPFQ1O337W468X-dlc_nc--ap--dlc_b                         254:9    0    24M  0 lvm  
+| |   |-X1CPFQ1O337W468X-dlc_timeofday--dlc_a                      254:11   0    32M  0 lvm  
+| |   |-X1CPFQ1O337W468X-dlc_timeofday--dlc_b                      254:12   0    32M  0 lvm  
+| |   |-X1CPFQ1O337W468X-dlc_cros--camera--blur--detector--dlc_a   254:16   0    12M  0 lvm  
+| |   |-X1CPFQ1O337W468X-dlc_cros--camera--blur--detector--dlc_b   254:17   0    12M  0 lvm  
+| |   |-X1CPFQ1O337W468X-dlc_cros--camera--super--res--dlc_a       254:19   0     8M  0 lvm  
+| |   |-X1CPFQ1O337W468X-dlc_cros--camera--super--res--dlc_b       254:20   0     8M  0 lvm  
+| |   |-X1CPFQ1O337W468X-cryptohome--fe955082--data                254:22   0  18.7G  0 lvm  
+| |   |-X1CPFQ1O337W468X-cryptohome--fe955082--cache               254:24   0  18.7G  0 lvm  
+| |   |-X1CPFQ1O337W468X-cryptohome--fe955082--arcvm               254:26   0  18.7G  0 lvm  
+| |   | `-dmcrypt-fe955082-arcvm                                   254:27   0  18.7G  0 dm   
+| |   |-X1CPFQ1O337W468X-dlc_libsoda--model--en--us--df24d2_a      254:29   0    92M  0 lvm  
+| |   |-X1CPFQ1O337W468X-dlc_libsoda--model--en--us--df24d2_b      254:30   0    92M  0 lvm  
+| |   |-X1CPFQ1O337W468X-dlc_screen--ai_a                          254:32   0    64M  0 lvm  
+| |   `-X1CPFQ1O337W468X-dlc_screen--ai_b                          254:33   0    64M  0 lvm  
+| `-X1CPFQ1O337W468X-thinpool_tdata                                254:2    0  20.3G  0 lvm  
+|   `-X1CPFQ1O337W468X-thinpool-tpool                              254:3    0  20.3G  0 lvm  
+|     |-X1CPFQ1O337W468X-thinpool                                  254:4    0  20.3G  1 lvm  
+|     |-X1CPFQ1O337W468X-unencrypted                               254:5    0  19.3G  0 lvm  /home
+|     |                                                                                      /mnt/stateful_partition
+|     |-X1CPFQ1O337W468X-encstateful                               254:6    0   5.7G  0 lvm  
+|     | `-encstateful                                              254:7    0   5.7G  0 dm   /var
+|     |                                                                                      /home/chronos
+|     |                                                                                      /mnt/stateful_partition/encrypted
+|     |-X1CPFQ1O337W468X-dlc_nc--ap--dlc_a                         254:8    0    24M  0 lvm  
+|     |-X1CPFQ1O337W468X-dlc_nc--ap--dlc_b                         254:9    0    24M  0 lvm  
+|     |-X1CPFQ1O337W468X-dlc_timeofday--dlc_a                      254:11   0    32M  0 lvm  
+|     |-X1CPFQ1O337W468X-dlc_timeofday--dlc_b                      254:12   0    32M  0 lvm  
+|     |-X1CPFQ1O337W468X-dlc_cros--camera--blur--detector--dlc_a   254:16   0    12M  0 lvm  
+|     |-X1CPFQ1O337W468X-dlc_cros--camera--blur--detector--dlc_b   254:17   0    12M  0 lvm  
+|     |-X1CPFQ1O337W468X-dlc_cros--camera--super--res--dlc_a       254:19   0     8M  0 lvm  
+|     |-X1CPFQ1O337W468X-dlc_cros--camera--super--res--dlc_b       254:20   0     8M  0 lvm  
+|     |-X1CPFQ1O337W468X-cryptohome--fe955082--data                254:22   0  18.7G  0 lvm  
+|     |-X1CPFQ1O337W468X-cryptohome--fe955082--cache               254:24   0  18.7G  0 lvm  
+|     |-X1CPFQ1O337W468X-cryptohome--fe955082--arcvm               254:26   0  18.7G  0 lvm  
+|     | `-dmcrypt-fe955082-arcvm                                   254:27   0  18.7G  0 dm   
+|     |-X1CPFQ1O337W468X-dlc_libsoda--model--en--us--df24d2_a      254:29   0    92M  0 lvm  
+|     |-X1CPFQ1O337W468X-dlc_libsoda--model--en--us--df24d2_b      254:30   0    92M  0 lvm  
+|     |-X1CPFQ1O337W468X-dlc_screen--ai_a                          254:32   0    64M  0 lvm  
+|     `-X1CPFQ1O337W468X-dlc_screen--ai_b                          254:33   0    64M  0 lvm  
+|-mmcblk0p2                                                        179:2    0    32M  0 part 
+|-mmcblk0p3                                                        179:3    0     4G  0 part 
+|-mmcblk0p4                                                        179:4    0    32M  0 part 
+|-mmcblk0p5                                                        179:5    0     4G  0 part 
+|-mmcblk0p6                                                        179:6    0   512B  0 part 
+|-mmcblk0p7                                                        179:7    0   512B  0 part 
+|-mmcblk0p8                                                        179:8    0     4M  0 part /usr/share/oem
+|-mmcblk0p9                                                        179:9    0   128M  0 part 
+|-mmcblk0p10                                                       179:10   0   128M  0 part 
+|-mmcblk0p11                                                       179:11   0     4M  0 part 
+`-mmcblk0p12                                                       179:12   0    64M  0 part 
+mmcblk0boot0                                                       179:16   0     4M  1 disk 
+mmcblk0boot1                                                       179:32   0     4M  1 disk 
+zram0                                                              253:0    0  15.1G  0 disk [SWAP]

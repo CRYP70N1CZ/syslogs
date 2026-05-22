@@ -1,0 +1,143 @@
+--- Daemon store ---
+--- /home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/ ---
+184K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/.cache
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/appsync-consent
+12K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/appsync-optin
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/biod
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/cdm-oemcrypto
+32K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/chaps
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/crash
+132K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/crosvm
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/debugd
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/dlcservice
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/dlp
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/kerberosd
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/odmld
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/pvm
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/regmond
+36K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/session_manager
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/shadercached
+16K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/shill
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/smbfs
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/smbproviderd
+12K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/u2f
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/uma-consent
+16K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/usb_bouncer
+8.0K	/home/.shadow/fe955082b5b6b4681da9f4e9ac7f0b95109390aa/mount/root/
+568K	total
+--- User directory ---
+--- /home/chronos/user/ ---
+4.0K	/home/chronos/user/.bash_logout
+4.0K	/home/chronos/user/.bash_profile
+4.0K	/home/chronos/user/.bashrc
+4.0K	/home/chronos/user/.early_prefs
+84K	/home/chronos/user/.pki
+4.0K	/home/chronos/user/.variations-list.txt
+76K	/home/chronos/user/Account Web Data
+4.0K	/home/chronos/user/AccountManagerTokens.bin
+120K	/home/chronos/user/Accounts
+56K	/home/chronos/user/Affiliation Database
+4.0K	/home/chronos/user/AutofillAiModelCache
+4.0K	/home/chronos/user/AutofillStrikeDatabase
+4.0K	/home/chronos/user/BookmarkMergedSurfaceOrdering
+12K	/home/chronos/user/Bookmarks
+12K	/home/chronos/user/Bookmarks.bak
+28K	/home/chronos/user/BrowsingTopicsSiteData
+4.0K	/home/chronos/user/BrowsingTopicsState
+4.0K	/home/chronos/user/BudgetDatabase
+160M	/home/chronos/user/Cache
+24M	/home/chronos/user/Code Cache
+24K	/home/chronos/user/Collaboration
+72K	/home/chronos/user/Cookies
+4.0K	/home/chronos/user/DIPS
+232K	/home/chronos/user/DIPS-wal
+24K	/home/chronos/user/DataSharing
+300K	/home/chronos/user/DawnGraphiteCache
+300K	/home/chronos/user/DawnWebGPUCache
+12K	/home/chronos/user/Download Service
+24K	/home/chronos/user/Extension Rules
+24K	/home/chronos/user/Extension Scripts
+108K	/home/chronos/user/Extension State
+86M	/home/chronos/user/Extensions
+60K	/home/chronos/user/Favicons
+12K	/home/chronos/user/Feature Engagement Tracker
+4.0K	/home/chronos/user/FullRestoreData
+48K	/home/chronos/user/GCM Store
+2.7M	/home/chronos/user/GCache
+300K	/home/chronos/user/GPUCache
+224K	/home/chronos/user/History
+4.5M	/home/chronos/user/IndexedDB
+512K	/home/chronos/user/Local Extension Settings
+40K	/home/chronos/user/Local Storage
+40K	/home/chronos/user/Login Data
+40K	/home/chronos/user/Login Data For Account
+56K	/home/chronos/user/Managed Extension Settings
+24K	/home/chronos/user/MediaDeviceSalts
+880K	/home/chronos/user/MyFiles
+4.0K	/home/chronos/user/NearbySharePublicCertificateDatabase
+228K	/home/chronos/user/Network Action Predictor
+20K	/home/chronos/user/Network Persistent State
+4.0K	/home/chronos/user/PersistentOriginTrials
+20K	/home/chronos/user/Platform Notifications
+32K	/home/chronos/user/Policy
+212K	/home/chronos/user/Preferences
+8.0K	/home/chronos/user/PreferredApps
+4.0K	/home/chronos/user/PrintJobDatabase
+4.0K	/home/chronos/user/README
+4.0K	/home/chronos/user/RLZ Data
+64K	/home/chronos/user/Reporting and NEL
+20K	/home/chronos/user/Safe Browsing Cookies
+16K	/home/chronos/user/Segmentation Platform
+20K	/home/chronos/user/ServerCertificate
+257M	/home/chronos/user/Service Worker
+40K	/home/chronos/user/Session Storage
+416K	/home/chronos/user/Sessions
+64K	/home/chronos/user/Shared Dictionary
+4.0K	/home/chronos/user/SharedStorage
+20K	/home/chronos/user/Shortcuts
+28K	/home/chronos/user/Site Characteristics Database
+5.2M	/home/chronos/user/Storage
+28K	/home/chronos/user/Sync App Settings
+316K	/home/chronos/user/Sync Data
+128K	/home/chronos/user/Sync Extension Settings
+20K	/home/chronos/user/Top Sites
+4.0K	/home/chronos/user/Translate Ranker Model
+8.0K	/home/chronos/user/TransportSecurity
+36K	/home/chronos/user/Trust Tokens
+4.0K	/home/chronos/user/VideoDecodeStats
+2.9M	/home/chronos/user/Web Applications
+156K	/home/chronos/user/Web Data
+632K	/home/chronos/user/WebStorage
+4.0K	/home/chronos/user/app_launch_automation
+764K	/home/chronos/user/app_service
+4.0K	/home/chronos/user/autobrightness
+4.0K	/home/chronos/user/birch
+8.0K	/home/chronos/user/blob_storage
+4.0K	/home/chronos/user/chrome_cart_db
+4.0K	/home/chronos/user/commerce_subscription_db
+4.0K	/home/chronos/user/discount_infos_db
+4.0K	/home/chronos/user/discounts_db
+16K	/home/chronos/user/heavy_ad_intervention_opt_out.db
+12K	/home/chronos/user/help_app
+31M	/home/chronos/user/input_methods
+24K	/home/chronos/user/launcher_ranking
+412K	/home/chronos/user/log
+4.0K	/home/chronos/user/login-times
+4.0K	/home/chronos/user/optimization_guide_hint_cache_store
+4.0K	/home/chronos/user/parcel_tracking_db
+4.0K	/home/chronos/user/passkey_enclave_state
+4.0K	/home/chronos/user/saveddesk
+64K	/home/chronos/user/shared_proto_db
+8.0K	/home/chronos/user/smartcharging
+20K	/home/chronos/user/structured_metrics
+4.0K	/home/chronos/user/trusted_vault.pb
+4.0K	/home/chronos/user/webrtc_event_logs
+8.0K	/home/chronos/user/
+578M	total
+--- Other users ---
+0: 0 MiB
+1: 0 MiB
+2: 0 MiB
+3: 0 MiB
+4: 512 MiB
+Sum: 559 MiB

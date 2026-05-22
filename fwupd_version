@@ -1,0 +1,11 @@
+Idle?: 0%
+compile   info.libusb                   1.0.27
+compile   org.freedesktop.fwupd         2.0.19
+compile   com.hughsie.libxmlb           0.3.19
+compile   com.hughsie.libjcat           0.2.0
+compile   org.freedesktop.fwupd.source  2.0.19-1-g72309dcc2
+runtime   com.hughsie.libjcat           0.2.0
+runtime   com.hughsie.libxmlb           0.3.19
+runtime   org.kernel                    6.6.119-09226-gd21866c9e0f4
+runtime   org.freedesktop.fwupd         2.0.19
+
