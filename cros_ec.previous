@@ -1,0 +1,1561 @@
+1970-01-01T00:00:00.000000Z  TCPC Enter Low Power Mode]
+1970-01-01T00:00:00.000000Z  --]
+2026-05-18T17:59:37.198000Z [0.290000 Battery presence changed: -1->1 0x0->0x2]
+2026-05-18T17:59:37.203000Z [0.295700 Battery now present]
+2026-05-18T17:59:37.209000Z [0.301100 Manuf name not found, wait 100ms then retry (attempt 0)]
+2026-05-18T17:59:37.316000Z [0.408100 Manuf name not found, wait 100ms then retry (attempt 1)]
+2026-05-18T17:59:37.316000Z I: power state 7 = G3S5, in 0x0078
+2026-05-18T17:59:37.368000Z [0.460300 PB task 9 = recovery]
+2026-05-18T17:59:37.368000Z [0.460500 PB PCH pwrbtn=HIGH]
+2026-05-18T17:59:37.368000Z [0.460600 PB task 0 = idle, wait -1]
+2026-05-18T17:59:37.422000Z [0.514800 BCFG Battery says SMP KT00307012,AP23A7L]
+2026-05-18T17:59:37.423000Z [0.515000 BCFG Found config_fw[4]]
+2026-05-18T17:59:37.425000Z [0.517600 charge problem: batt params, 0x0 -> 0x15fe after 0.517600s]
+2026-05-18T17:59:37.425000Z I: power state 2 = S5, in 0x100ab
+2026-05-18T17:59:37.425000Z I: power state 2 = S5, in 0x300ab
+2026-05-18T17:59:37.425000Z I: power state 2 = S5, in 0x300af
+2026-05-18T17:59:37.425000Z I: power state 2 = S5, in 0x360a7
+2026-05-18T17:59:37.559000Z [0.651500 hash done 709d1c54aeaa6baeda58f33235f8493161fea5549d5edb5eddb4f55e238420ee]
+2026-05-18T17:59:37.559000Z I: power state 2 = S5, in 0x300a7
+2026-05-18T17:59:37.559000Z I: Clearing request to exit G3
+2026-05-18T17:59:37.559000Z I: power state 8 = S5S4, in 0x38087
+2026-05-18T17:59:37.559000Z I: power state 3 = S4, in 0x38087
+2026-05-18T17:59:37.559000Z I: power state 9 = S4S3, in 0x38087
+2026-05-18T17:59:37.671000Z [0.763400 raa489000_init(0): DEVICE_ID=261]
+2026-05-18T17:59:37.670000Z [0.762600 PD:S5->S3]
+2026-05-18T17:59:37.670000Z I: host sleep event = 0
+2026-05-18T17:59:37.685000Z I: power state 4 = [0.777500 C0: TCPC init ready]
+2026-05-18T17:59:37.689000Z [0.781000 raa489000_init(1): DEVICE_ID=261]
+2026-05-18T17:59:37.689000Z S3, in 0x38087
+2026-05-18T17:59:37.703000Z I: power state 10 = S3S[0.794900 C1: TCPC init ready]
+2026-05-18T17:59:37.703000Z 0, in 0x38087
+2026-05-18T17:59:37.706000Z [0.798000 Motion pre-resume; loops 1; last 604 ms ago; a=0x0, s=0x0]
+2026-05-18T17:59:37.712000Z [0.804600 PD:S3->S0]
+2026-05-18T17:59:37.713000Z [0.805500 USB charge p0 m2 i0]
+2026-05-18T17:59:37.714000Z [0.806200 USB charge p1 m2 i0]
+2026-05-18T17:59:37.714000Z I: power state 6 = S0, in 0x38087
+2026-05-18T17:59:37.714000Z I: Reaching S0
+2026-05-18T17:59:37.714000Z I: Turning on PWR_EC_PCH_SYS_PWROK
+2026-05-18T17:59:37.714000Z I: power state 6 = S0, in 0x38d87
+2026-05-18T17:59:37.771000Z [0.863100 C1: Exit Low Power Mode]
+2026-05-18T17:59:37.770000Z [0.862200 C0: Exit Low Power Mode]
+2026-05-18T17:59:37.824000Z [0.916500 C1: TCPC Enter Low Power Mode]
+2026-05-18T17:59:37.826000Z [0.918300 C0: TCPC Enter Low Power Mode]
+2026-05-18T17:59:37.928000Z [1.020200 charge_manager_leave_safe_mode()]
+2026-05-18T17:59:37.977000Z [1.069600 Battery 49% (Display 48.3 %) / ??h:?? to empty]
+2026-05-18T17:59:37.977000Z I: New chg p-1
+2026-05-18T17:59:37.990000Z [1.082400 raa489000_init(0): DEVICE_ID=261]
+2026-05-18T17:59:38.004000Z [1.096500 C0: TCPC init ready]
+2026-05-18T17:59:38.009000Z [1.101100 raa489000_init(1): DEVICE_ID=261]
+2026-05-18T17:59:38.023000Z [1.115200 C1: TCPC init ready]
+2026-05-18T17:59:38.027000Z [1.119100 CL: p-1 s-1 i512 v0]
+2026-05-18T17:59:38.095000Z [1.186900 MKBP not cleared within threshold, toggling.]
+2026-05-18T17:59:38.106000Z [1.198100 C0: Exit Low Power Mode]
+2026-05-18T17:59:38.124000Z [1.216800 C1: Exit Low Power Mode]
+2026-05-18T17:59:38.162000Z [1.254200 C0: TCPC Enter Low Power Mode]
+2026-05-18T17:59:38.181000Z [1.273100 C1: TCPC Enter Low Power Mode]
+2026-05-18T17:59:38.181000Z I: power state 6 = S0, in 0x36da7
+2026-05-18T17:59:38.181000Z I: power state 15 = S0S3, in 0x360a7
+2026-05-18T17:59:38.555000Z [1.647400 Motion pre-suspend; loops 1; last 1453 ms ago; a=0x0, s=0x0]
+2026-05-18T17:59:38.562000Z [1.654400 raa489000_init(0): DEVICE_ID=261]
+2026-05-18T17:59:38.561000Z [1.653600 PD:S0->S3]
+2026-05-18T17:59:38.561000Z I: host sleep event = 0
+2026-05-18T17:59:38.576000Z I: power state 4 = [1.668300 C0: TCPC init ready]
+2026-05-18T17:59:38.580000Z [1.671900 raa489000_init(1): DEVICE_ID=261]
+2026-05-18T17:59:38.580000Z S3, in 0x360a7
+2026-05-18T17:59:38.594000Z I: power state 14 = S3S4, in[1.686500 C1: TCPC init ready]
+2026-05-18T17:59:38.594000Z  0x360a7
+2026-05-18T17:59:38.594000Z I: power state 3 = S4, in 0x360a7
+2026-05-18T17:59:38.594000Z I: power state 13 = S4S5, in 0x360a7
+2026-05-18T17:59:38.605000Z [1.697700 Motion pre-shutdown; loops 1; last 1503 ms ago; a=0x0, s=0x0]
+2026-05-18T17:59:38.608000Z [1.700500 PD:S3->S5]
+2026-05-18T17:59:38.609000Z [1.701000 USB charge p0 m0 i0]
+2026-05-18T17:59:38.609000Z [1.701800 USB charge p1 m0 i0]
+2026-05-18T17:59:38.609000Z I: power state 2 = S5, in 0x360a7
+2026-05-18T17:59:38.661000Z [1.753600 C1: Exit Low Power Mode]
+2026-05-18T17:59:38.660000Z [1.752800 C0: Exit Low Power Mode]
+2026-05-18T17:59:38.723000Z [1.815800 C1: TCPC Enter Low Power Mode]
+2026-05-18T17:59:38.736000Z [1.828200 C0: TCPC Enter Low Power Mode]
+2026-05-18T17:59:39.097000Z [2.189300 MKBP: The AP is failing to respond because it is sleeping or off]
+2026-05-18T17:59:39.097000Z I: power state 2 = S5, in 0x300a7
+2026-05-18T17:59:39.097000Z I: Clearing request to exit G3
+2026-05-18T17:59:39.097000Z I: power state 8 = S5S4, in 0x38087
+2026-05-18T17:59:39.097000Z I: power state 3 = S4, in 0x38087
+2026-05-18T17:59:39.097000Z I: power state 9 = S4S3, in 0x38087
+2026-05-18T17:59:42.704000Z [5.796500 raa489000_init(0): DEVICE_ID=261]
+2026-05-18T17:59:42.703000Z [5.795700 PD:S5->S3]
+2026-05-18T17:59:42.703000Z I: host sleep event = 0
+2026-05-18T17:59:42.718000Z I: power state 4 = S3[5.810700 C0: TCPC init ready]
+2026-05-18T17:59:42.722000Z [5.814100 raa489000_init(1): DEVICE_ID=261]
+2026-05-18T17:59:42.722000Z , in 0x38087
+2026-05-18T17:59:42.722000Z I: power state 10 = S3S0, in 0x38087
+2026-05-18T17:59:42.739000Z [5.831400 Motion pre-resume; loops 1; last 5637 ms ago; a=0x0, s=0x0]
+2026-05-18T17:59:42.746000Z [5.837900 PD:S3->S0]
+2026-05-18T17:59:42.746000Z [5.838700 USB charge p0 m2 i0]
+2026-05-18T17:59:42.747000Z [5.839500 USB charge p1 m2 i0]
+2026-05-18T17:59:42.747000Z I: power state 6 = S0, in 0x38087
+2026-05-18T17:59:42.747000Z I: Reaching S0
+2026-05-18T17:59:42.747000Z I: Turning on PWR_EC_PCH_SYS_PWROK
+2026-05-18T17:59:42.747000Z I: power state 6 = S0, in 0x38d87
+2026-05-18T17:59:42.804000Z [5.896400 C1: Exit Low Power Mode]
+2026-05-18T17:59:42.803000Z [5.895700 C0: Exit Low Power Mode]
+2026-05-18T17:59:42.858000Z [5.950000 C1: TCPC Enter Low Power Mode]
+2026-05-18T17:59:42.859000Z [5.951800 C0: TCPC Enter Low Power Mode]
+2026-05-18T17:59:43.715000Z [6.807600 Executing host reboot command 5]
+2026-05-18T17:59:45.351000Z [8.443800 KB Clear Buffer]
+2026-05-18T17:59:45.353000Z [8.444900 KB Clear Buffer]
+2026-05-18T17:59:45.354000Z [8.446000 KB IRQ enable]
+2026-05-18T17:59:45.354000Z [8.446700 KB enable]
+2026-05-18T17:59:45.355000Z [8.447300 KB Clear Buffer]
+2026-05-18T17:59:45.365000Z [8.457500 KS enable]
+2026-05-18T17:59:45.366000Z [8.458100 KB Clear Buffer]
+2026-05-18T17:59:45.366000Z I: host sleep event = 0
+2026-05-18T17:59:46.016000Z [9.368100 Battery 49% (Display 48.2 %) / 12h:50 to empty]
+2026-05-18T18:00:01.008000Z [24.380600 Battery 49% (Display 48.1 %) / 3h:40 to empty]
+2026-05-18T18:00:24.361000Z [45.348900 Sustainer enabled: 80 ~ 80%]
+2026-05-18T18:00:27.913000Z [48.900900 Battery 49% (Display 48.0 %) / 3h:36 to empty]
+2026-05-18T18:00:44.875000Z [65.912400 Battery 49% (Display 47.9 %) / 2h:42 to empty]
+2026-05-18T18:00:57.854000Z [78.924500 Battery 48% (Display 47.8 %) / 2h:17 to empty]
+2026-05-18T18:01:08.831000Z [89.935000 Battery 48% (Display 47.7 %) / 2h:6 to empty]
+2026-05-18T18:01:22.786000Z [103.947100 Battery 48% (Display 47.6 %) / 2h:14 to empty]
+2026-05-18T18:01:35.773000Z [116.955800 Battery 48% (Display 47.5 %) / 2h:16 to empty]
+2026-05-18T18:01:53.236000Z [134.469000 Battery 48% (Display 47.4 %) / 2h:17 to empty]
+2026-05-18T18:02:07.226000Z [148.476500 Battery 48% (Display 47.3 %) / 2h:19 to empty]
+2026-05-18T18:02:21.218000Z [162.485700 Battery 48% (Display 47.2 %) / 2h:19 to empty]
+2026-05-18T18:02:43.163000Z [184.502500 Battery 48% (Display 47.1 %) / 3h:43 to empty]
+2026-05-18T18:03:12.136000Z [213.524400 Battery 48% (Display 47.0 %) / 4h:39 to empty]
+2026-05-18T18:03:43.565000Z [245.048600 Battery 48% (Display 46.9 %) / 5h:19 to empty]
+2026-05-18T18:04:25.514000Z [287.076400 Battery 48% (Display 46.8 %) / 5h:39 to empty]
+2026-05-18T18:04:48.494000Z [310.092500 Battery 47% (Display 46.8 %) / 5h:11 to empty]
+2026-05-18T18:04:55.479000Z [317.096800 Battery 47% (Display 46.7 %) / 4h:57 to empty]
+2026-05-18T18:05:21.456000Z [343.114900 Battery 47% (Display 46.6 %) / 4h:11 to empty]
+2026-05-18T18:05:49.920000Z [371.633100 Battery 47% (Display 46.5 %) / 4h:55 to empty]
+2026-05-18T18:06:16.882000Z [398.650000 Battery 47% (Display 46.4 %) / 4h:24 to empty]
+2026-05-18T18:06:39.857000Z [421.663700 Battery 47% (Display 46.3 %) / 4h:1 to empty]
+2026-05-18T18:07:10.818000Z [452.683900 Battery 47% (Display 46.2 %) / 3h:53 to empty]
+2026-05-18T18:07:23.808000Z [465.692700 Battery 47% (Display 46.1 %) / 2h:49 to empty]
+2026-05-18T18:07:50.255000Z [492.210500 Battery 47% (Display 46.0 %) / 4h:1 to empty]
+2026-05-18T18:08:08.245000Z [510.226400 Battery 47% (Display 45.9 %) / 2h:55 to empty]
+2026-05-18T18:08:21.209000Z [523.235900 Battery 47% (Display 45.8 %) / 2h:16 to empty]
+2026-05-18T18:08:35.191000Z [537.247600 Battery 47% (Display 45.7 %) / 1h:59 to empty]
+2026-05-18T18:08:44.177000Z [546.254900 Battery 46% (Display 45.7 %) / 2h:31 to empty]
+2026-05-18T18:08:53.158000Z [555.259700 Battery 46% (Display 45.6 %) / 2h:41 to empty]
+2026-05-18T18:09:17.629000Z [579.780900 Battery 46% (Display 45.5 %) / 3h:5 to empty]
+2026-05-18T18:09:34.612000Z [596.810600 Battery 46% (Display 45.4 %) / 2h:56 to empty]
+2026-05-18T18:09:54.567000Z [616.808900 Battery 46% (Display 45.3 %) / 3h:10 to empty]
+2026-05-18T18:10:10.560000Z [632.819400 Battery 46% (Display 45.2 %) / 2h:42 to empty]
+2026-05-18T18:10:36.521000Z [658.836400 Battery 46% (Display 45.1 %) / 3h:16 to empty]
+2026-05-18T18:10:57.493000Z [679.850900 Battery 46% (Display 45.0 %) / 3h:21 to empty]
+2026-05-18T18:11:18.972000Z [701.363700 Battery 46% (Display 44.9 %) / 3h:29 to empty]
+2026-05-18T18:11:40.951000Z [723.376100 Battery 46% (Display 44.8 %) / 3h:32 to empty]
+2026-05-18T18:12:01.931000Z [744.389400 Battery 46% (Display 44.7 %) / 3h:22 to empty]
+2026-05-18T18:12:22.909000Z [765.402100 Battery 46% (Display 44.6 %) / 3h:24 to empty]
+2026-05-18T18:12:32.898000Z [775.407900 Battery 45% (Display 44.6 %) / 3h:14 to empty]
+2026-05-18T18:12:45.871000Z [788.416900 Battery 45% (Display 44.5 %) / 3h:3 to empty]
+2026-05-18T18:13:07.850000Z [810.430400 Battery 45% (Display 44.4 %) / 3h:24 to empty]
+2026-05-18T18:13:32.333000Z [834.946000 Battery 45% (Display 44.3 %) / 3h:54 to empty]
+2026-05-18T18:14:03.297000Z [865.965600 Battery 45% (Display 44.2 %) / 4h:48 to empty]
+2026-05-18T18:14:34.255000Z [896.987300 Battery 45% (Display 44.1 %) / 4h:57 to empty]
+2026-05-18T18:15:10.684000Z [933.513500 Battery 45% (Display 44.0 %) / 4h:16 to empty]
+2026-05-18T18:15:34.654000Z [957.529900 Battery 45% (Display 43.9 %) / 3h:50 to empty]
+2026-05-18T18:15:57.619000Z [980.542900 Battery 45% (Display 43.8 %) / 3h:42 to empty]
+2026-05-18T18:16:21.571000Z [1004.562400 Battery 45% (Display 43.7 %) / 3h:45 to empty]
+2026-05-18T18:16:44.541000Z [1027.578200 Battery 45% (Display 43.6 %) / 3h:44 to empty]
+2026-05-18T18:17:09.012000Z [1052.098000 Battery 44% (Display 43.5 %) / 3h:43 to empty]
+2026-05-18T18:17:37.959000Z [1081.119500 Battery 44% (Display 43.4 %) / 3h:44 to empty]
+2026-05-18T18:18:01.933000Z [1105.138300 Battery 44% (Display 43.3 %) / 3h:41 to empty]
+2026-05-18T18:18:25.875000Z [1129.156100 Battery 44% (Display 43.2 %) / 3h:41 to empty]
+2026-05-18T18:18:49.345000Z [1152.674400 Battery 44% (Display 43.1 %) / 3h:39 to empty]
+2026-05-18T18:19:12.314000Z [1175.690200 Battery 44% (Display 43.0 %) / 3h:41 to empty]
+2026-05-18T18:19:36.260000Z [1199.707200 Battery 44% (Display 42.9 %) / 3h:41 to empty]
+2026-05-18T18:20:05.230000Z [1228.727000 Battery 44% (Display 42.8 %) / 3h:35 to empty]
+2026-05-18T18:20:29.177000Z [1252.743000 Battery 44% (Display 42.7 %) / 3h:37 to empty]
+2026-05-18T18:20:52.646000Z [1276.261000 Battery 44% (Display 42.6 %) / 3h:38 to empty]
+2026-05-18T18:21:15.613000Z [1299.280000 Battery 44% (Display 42.5 %) / 3h:28 to empty]
+2026-05-18T18:21:33.575000Z [1317.294200 Battery 43% (Display 42.5 %) / 3h:38 to empty]
+2026-05-18T18:21:39.555000Z [1323.298900 Battery 43% (Display 42.4 %) / 3h:39 to empty]
+2026-05-18T18:22:02.527000Z [1346.315400 Battery 43% (Display 42.3 %) / 3h:33 to empty]
+2026-05-18T18:22:31.978000Z [1375.836500 Battery 43% (Display 42.2 %) / 3h:34 to empty]
+2026-05-18T18:22:54.946000Z [1398.853500 Battery 43% (Display 42.1 %) / 3h:33 to empty]
+2026-05-18T18:23:18.914000Z [1422.871400 Battery 43% (Display 42.0 %) / 3h:33 to empty]
+2026-05-18T18:23:41.857000Z [1445.887600 Battery 43% (Display 41.9 %) / 3h:35 to empty]
+2026-05-18T18:24:04.816000Z [1468.906400 Battery 43% (Display 41.8 %) / 3h:31 to empty]
+2026-05-18T18:24:34.254000Z [1498.428800 Battery 43% (Display 41.7 %) / 3h:35 to empty]
+2026-05-18T18:24:58.219000Z [1522.443500 Battery 43% (Display 41.6 %) / 3h:36 to empty]
+2026-05-18T18:25:22.182000Z [1546.464400 Battery 43% (Display 41.5 %) / 3h:30 to empty]
+2026-05-18T18:25:45.115000Z [1569.483400 Battery 43% (Display 41.4 %) / 3h:34 to empty]
+2026-05-18T18:25:57.598000Z [1581.994000 Battery 42% (Display 41.4 %) / 3h:33 to empty]
+2026-05-18T18:26:09.583000Z [1594.002800 Battery 42% (Display 41.3 %) / 3h:33 to empty]
+2026-05-18T18:26:33.555000Z [1618.021400 Battery 42% (Display 41.2 %) / 3h:34 to empty]
+2026-05-18T18:27:02.500000Z [1647.044500 Battery 42% (Display 41.1 %) / 3h:28 to empty]
+2026-05-18T18:27:26.466000Z [1671.062700 Battery 42% (Display 41.0 %) / 3h:30 to empty]
+2026-05-18T18:27:49.909000Z [1694.581800 Battery 42% (Display 40.9 %) / 3h:28 to empty]
+2026-05-18T18:28:13.878000Z [1718.599400 Battery 42% (Display 40.8 %) / 3h:29 to empty]
+2026-05-18T18:28:37.847000Z [1742.617200 Battery 42% (Display 40.7 %) / 3h:30 to empty]
+2026-05-18T18:29:00.786000Z [1765.632200 Battery 42% (Display 40.6 %) / 3h:26 to empty]
+2026-05-18T18:29:30.222000Z [1795.153800 Battery 42% (Display 40.5 %) / 3h:17 to empty]
+2026-05-18T18:29:50.191000Z [1815.168100 Battery 42% (Display 40.4 %) / 3h:7 to empty]
+2026-05-18T18:30:11.157000Z [1836.183100 Battery 42% (Display 40.3 %) / 2h:58 to empty]
+2026-05-18T18:30:16.160000Z [1841.186600 Battery 41% (Display 40.3 %) / 3h:4 to empty]
+2026-05-18T18:30:34.128000Z [1859.200700 Battery 41% (Display 40.2 %) / 3h:18 to empty]
+2026-05-18T18:30:57.095000Z [1882.217300 Battery 41% (Display 40.1 %) / 3h:18 to empty]
+2026-05-18T18:31:26.543000Z [1911.740900 Battery 41% (Display 40.0 %) / 3h:23 to empty]
+2026-05-18T18:31:49.512000Z [1934.756800 Battery 41% (Display 39.9 %) / 3h:24 to empty]
+2026-05-18T18:32:12.480000Z [1957.774400 Battery 41% (Display 39.8 %) / 3h:16 to empty]
+2026-05-18T18:32:35.420000Z [1980.792300 Battery 41% (Display 39.7 %) / 3h:20 to empty]
+2026-05-18T18:32:58.390000Z [2003.809200 Battery 41% (Display 39.6 %) / 3h:16 to empty]
+2026-05-18T18:33:23.863000Z [2029.327200 Battery 41% (Display 39.5 %) / 3h:33 to empty]
+2026-05-18T18:34:01.790000Z [2067.352000 Battery 41% (Display 39.4 %) / 4h:23 to empty]
+2026-05-18T18:34:32.743000Z [2098.374200 Battery 41% (Display 39.3 %) / 4h:29 to empty]
+2026-05-18T18:35:04.191000Z [2129.898000 Battery 40% (Display 39.2 %) / 4h:20 to empty]
+2026-05-18T18:35:36.136000Z [2161.924300 Battery 40% (Display 39.1 %) / 4h:31 to empty]
+2026-05-18T18:36:07.078000Z [2192.948100 Battery 40% (Display 39.0 %) / 4h:29 to empty]
+2026-05-18T18:36:39.482000Z [2225.475200 Battery 40% (Display 38.9 %) / 4h:30 to empty]
+2026-05-18T18:37:18.427000Z [2264.508900 Battery 40% (Display 38.8 %) / 4h:22 to empty]
+2026-05-18T18:37:49.364000Z [2295.534500 Battery 40% (Display 38.7 %) / 4h:15 to empty]
+2026-05-18T18:38:20.802000Z [2327.060200 Battery 40% (Display 38.6 %) / 4h:24 to empty]
+2026-05-18T18:38:52.723000Z [2359.081400 Battery 40% (Display 38.5 %) / 4h:26 to empty]
+2026-05-18T18:39:24.672000Z [2391.106300 Battery 40% (Display 38.4 %) / 4h:28 to empty]
+2026-05-18T18:40:05.101000Z [2431.636500 Battery 40% (Display 38.3 %) / 4h:26 to empty]
+2026-05-18T18:40:36.050000Z [2462.661300 Battery 40% (Display 38.2 %) / 4h:10 to empty]
+2026-05-18T18:40:58.021000Z [2484.678700 Battery 39% (Display 38.2 %) / 4h:7 to empty]
+2026-05-18T18:41:05.024000Z [2491.682200 Battery 39% (Display 38.1 %) / 4h:6 to empty]
+2026-05-18T18:41:36.968000Z [2523.703100 Battery 39% (Display 38.0 %) / 4h:18 to empty]
+2026-05-18T18:42:07.429000Z [2554.221900 Battery 39% (Display 37.9 %) / 4h:7 to empty]
+2026-05-18T18:42:38.388000Z [2585.242900 Battery 39% (Display 37.8 %) / 4h:19 to empty]
+2026-05-18T18:42:38.388000Z I: host sleep event = 3
+2026-05-18T18:43:01.330000Z [2622.916100 KB Clear Buffer]
+2026-05-18T18:43:01.330000Z I: power state 6 = S0, in 0x38d97
+2026-05-18T18:43:01.330000Z I: power state 16 = S0S0ix, in 0x38d97
+2026-05-18T18:43:01.601000Z [2623.186900 Motion pre-suspend; loops 1; last 2622992 ms ago; a=0x0, s=0x0]
+2026-05-18T18:43:01.608000Z [2623.193200 raa489000_init(0): DEVICE_ID=261]
+2026-05-18T18:43:01.607000Z [2623.192500 PD:S0->S3]
+2026-05-18T18:43:01.607000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.621000Z [2623.207100 C0: TCPC init ready]
+2026-05-18T18:43:01.625000Z [2623.210600 raa489000_init(1): DEVICE_ID=261]
+2026-05-18T18:43:01.639000Z [2623.224500 C1: TCPC init ready]
+2026-05-18T18:43:01.706000Z [2623.291800 C0: Exit Low Power Mode]
+2026-05-18T18:43:01.707000Z [2623.292900 C1: Exit Low Power Mode]
+2026-05-18T18:43:01.770000Z [2623.355500 C1: TCPC Enter Low Power Mode]
+2026-05-18T18:43:01.784000Z [2623.370100 C0: TCPC Enter Low Power Mode]
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T18:43:01.784000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T19:51:01.710000Z [6703.295900 Battery 39% (Display 37.7 %) / 195h:0 to empty]
+2026-05-18T19:51:01.710000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T19:51:01.710000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T19:51:01.710000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T19:51:01.710000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T19:51:01.710000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T19:51:01.710000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T19:51:01.710000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T19:51:01.710000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T19:51:01.710000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T19:51:01.710000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T19:51:01.710000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T19:51:01.710000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T19:51:01.710000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T19:51:01.710000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T19:51:01.710000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T19:51:01.710000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T19:51:01.710000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T19:51:01.710000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T20:17:09.947000Z [8271.532700 KB disable_scanning_mask changed: 0x00000002]
+2026-05-18T20:17:09.948000Z [8271.534000 KB Clear Buffer]
+2026-05-18T20:17:09.977000Z [8271.562800 power button pressed]
+2026-05-18T20:17:09.978000Z [8271.563800 mkbp buttons: 1]
+2026-05-18T20:17:09.978000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T20:17:09.978000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-18T20:17:09.978000Z I: power state 6 = S0, in 0x38d87
+2026-05-18T20:17:09.979000Z [8271.564800 PB pressed]
+2026-05-18T20:17:09.989000Z [8271.574900 PB task 1 = pressed]
+2026-05-18T20:17:09.990000Z [8271.576100 PB PCH pwrbtn=LOW]
+2026-05-18T20:17:09.991000Z [8271.576600 SW 0x03]
+2026-05-18T20:17:09.995000Z [8271.580300 PB task 2 = t0, wait 26700]
+2026-05-18T20:17:10.030000Z [8271.615400 PB task 2 = t0]
+2026-05-18T20:17:10.031000Z [8271.616300 PB PCH pwrbtn=HIGH]
+2026-05-18T20:17:10.031000Z [8271.617100 PB task 3 = t1, wait 3966400]
+2026-05-18T20:17:10.057000Z [8271.643100 KS disable]
+2026-05-18T20:17:10.058000Z [8271.643900 KB Clear Buffer]
+2026-05-18T20:17:10.060000Z [8271.645900 KS enable]
+2026-05-18T20:17:10.061000Z [8271.646600 KB Clear Buffer]
+2026-05-18T20:17:10.061000Z I: host sleep event = 4
+2026-05-18T20:17:10.204000Z [8271.795200 Motion pre-resume; loops 1; last 3976634 ms ago; a=0x0, s=0x0]
+2026-05-18T20:17:10.210000Z [8271.801300 raa489000_init(0): DEVICE_ID=261]
+2026-05-18T20:17:10.212000Z [8271.803700 PD:S3->S0]
+2026-05-18T20:17:10.214000Z [8271.805600 USB charge p0 m2 i0]
+2026-05-18T20:17:10.224000Z [8271.815900 C0: TCPC init ready]
+2026-05-18T20:17:10.228000Z [8271.819400 raa489000_init(1): DEVICE_ID=261]
+2026-05-18T20:17:10.223000Z [8271.815000 USB charge p1 m2 i0]
+2026-05-18T20:17:10.242000Z [8271.833500 C1: TCPC init ready]
+2026-05-18T20:17:10.308000Z [8271.899600 C0: Exit Low Power Mode]
+2026-05-18T20:17:10.312000Z [8271.903700 C1: Exit Low Power Mode]
+2026-05-18T20:17:10.341000Z [8271.932600 KB disable_scanning_mask changed: 0x00000000]
+2026-05-18T20:17:10.342000Z [8271.934000 power button released]
+2026-05-18T20:17:10.344000Z [8271.935200 mkbp buttons: 0]
+2026-05-18T20:17:10.345000Z [8271.936400 PB released]
+2026-05-18T20:17:10.349000Z [8271.940100 PB task 6 = released]
+2026-05-18T20:17:10.350000Z [8271.941200 SW 0x01]
+2026-05-18T20:17:10.352000Z [8271.944000 PB PCH pwrbtn=HIGH]
+2026-05-18T20:17:10.359000Z [8271.950800 PB task 0 = idle, wait -1]
+2026-05-18T20:17:10.362000Z [8271.953800 C0: TCPC Enter Low Power Mode]
+2026-05-18T20:17:10.365000Z [8271.957000 C1: TCPC Enter Low Power Mode]
+2026-05-18T20:17:10.365000Z : power state 5 = S0ix, in 0x38d87
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T20:17:10.365000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z [13806.384500 Battery 39% (Display 37.6 %) / 194h:33 to empty]
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x
+2026-05-18T21:48:55.010000Z 38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T21:48:55.010000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-18T23:35:10.984000Z [20182.337900 lid open]
+2026-05-18T23:35:10.985000Z [20182.338700 KB disable_scanning_mask changed: 0x00000000]
+2026-05-18T23:35:10.986000Z [20182.340300 SW 0x01]
+2026-05-18T23:35:10.987000Z [20182.341000 mkbp switches: 1]
+2026-05-18T23:35:10.987000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-18T23:35:10.987000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-18T23:35:10.987000Z I: power state 6 = S0, in 0x38d87
+2026-05-18T23:35:11.057000Z [20182.411000 KS disable]
+2026-05-18T23:35:11.058000Z [20182.411800 KB Clear Buffer]
+2026-05-18T23:35:11.061000Z [20182.414900 KS enable]
+2026-05-18T23:35:11.061000Z [20182.415600 KB Clear Buffer]
+2026-05-18T23:35:11.061000Z I: host sleep event = 4
+2026-05-18T23:35:11.215000Z [20182.584100 Motion pre-resume; loops 1; last 3002521 ms ago; a=0x0, s=0x0]
+2026-05-18T23:35:11.221000Z [20182.590500 raa489000_init(0): DEVICE_ID=261]
+2026-05-18T23:35:11.223000Z [20182.592600 PD:S3->S0]
+2026-05-18T23:35:11.235000Z [20182.604300 C0: TCPC init ready]
+2026-05-18T23:35:11.239000Z [20182.608300 raa489000_init(1): DEVICE_ID=261]
+2026-05-18T23:35:11.229000Z [20182.598500 USB charge p0 m2 i0]
+2026-05-18T23:35:11.241000Z [20182.610300 USB charge p1 m2 i0]
+2026-05-18T23:35:11.253000Z [20182.622400 C1: TCPC init ready]
+2026-05-18T23:35:11.320000Z [20182.689800 C0: Exit Low Power Mode]
+2026-05-18T23:35:11.324000Z [20182.693200 C1: Exit Low Power Mode]
+2026-05-18T23:35:11.374000Z [20182.743600 C0: TCPC Enter Low Power Mode]
+2026-05-18T23:35:11.377000Z [20182.746600 C1: TCPC Enter Low Power Mode]
+2026-05-18T23:35:27.247000Z [20198.632900 Battery 39% (Display 37.5 %) / 3h:39 to empty]
+2026-05-18T23:35:36.236000Z [20207.637800 Battery 39% (Display 37.4 %) / 2h:4 to empty]
+2026-05-18T23:35:55.211000Z [20226.649400 Battery 39% (Display 37.3 %) / 2h:34 to empty]
+2026-05-18T23:36:26.225000Z [20258.175400 Battery 39% (Display 37.2 %) / 3h:54 to empty]
+2026-05-18T23:37:04.135000Z [20296.207300 Battery 39% (Display 37.1 %) / 4h:8 to empty]
+2026-05-18T23:37:23.124000Z [20315.222900 Battery 38% (Display 37.1 %) / 4h:50 to empty]
+2026-05-18T23:37:34.579000Z [20326.733900 Battery 38% (Display 37.0 %) / 3h:39 to empty]
+2026-05-18T23:37:55.536000Z [20347.750000 Battery 38% (Display 36.9 %) / 3h:10 to empty]
+2026-05-18T23:38:19.488000Z [20371.766400 Battery 38% (Display 36.8 %) / 3h:17 to empty]
+2026-05-18T23:38:44.445000Z [20396.786700 Battery 38% (Display 36.7 %) / 3h:28 to empty]
+2026-05-18T23:39:17.863000Z [20430.316000 Battery 38% (Display 36.6 %) / 3h:36 to empty]
+2026-05-18T23:39:42.838000Z [20455.334800 Battery 38% (Display 36.5 %) / 3h:34 to empty]
+2026-05-18T23:40:10.784000Z [20483.356500 Battery 38% (Display 36.4 %) / 3h:45 to empty]
+2026-05-18T23:40:36.760000Z [20509.376500 Battery 38% (Display 36.3 %) / 3h:29 to empty]
+2026-05-18T23:41:06.210000Z [20538.897700 Battery 38% (Display 36.2 %) / 3h:48 to empty]
+2026-05-18T23:41:30.153000Z [20562.915300 Battery 38% (Display 36.1 %) / 3h:28 to empty]
+2026-05-18T23:42:02.100000Z [20594.941300 Battery 38% (Display 36.0 %) / 3h:14 to empty]
+2026-05-18T23:42:08.105000Z [20600.945700 Battery 37% (Display 36.0 %) / 3h:19 to empty]
+2026-05-18T23:42:28.069000Z [20620.960300 Battery 37% (Display 35.9 %) / 3h:35 to empty]
+2026-05-18T23:42:57.512000Z [20650.478800 Battery 37% (Display 35.8 %) / 3h:50 to empty]
+2026-05-18T23:43:22.465000Z [20675.498100 Battery 37% (Display 35.7 %) / 3h:32 to empty]
+2026-05-18T23:43:49.441000Z [20702.517100 Battery 37% (Display 35.6 %) / 3h:38 to empty]
+2026-05-18T23:44:11.417000Z [20724.531100 Battery 37% (Display 35.5 %) / 3h:11 to empty]
+2026-05-18T23:44:52.868000Z [20766.059200 Battery 37% (Display 35.4 %) / 4h:11 to empty]
+2026-05-18T23:45:26.808000Z [20800.083000 Battery 37% (Display 35.3 %) / 3h:58 to empty]
+2026-05-18T23:45:52.783000Z [20826.102100 Battery 37% (Display 35.2 %) / 3h:38 to empty]
+2026-05-18T23:46:14.758000Z [20848.116700 Battery 37% (Display 35.1 %) / 2h:56 to empty]
+2026-05-18T23:46:40.219000Z [20873.633300 Battery 37% (Display 35.0 %) / 3h:7 to empty]
+2026-05-18T23:46:56.210000Z [20889.643800 Battery 37% (Display 34.9 %) / 2h:23 to empty]
+2026-05-18T23:47:01.192000Z [20894.646900 Battery 36% (Display 34.9 %) / 2h:28 to empty]
+2026-05-18T23:47:24.162000Z [20917.660200 Battery 36% (Display 34.8 %) / 2h:58 to empty]
+2026-05-18T23:47:52.101000Z [20945.683900 Battery 36% (Display 34.7 %) / 3h:25 to empty]
+2026-05-18T23:48:18.572000Z [20972.206100 Battery 36% (Display 34.6 %) / 3h:25 to empty]
+2026-05-18T23:48:39.540000Z [20993.222900 Battery 36% (Display 34.5 %) / 2h:31 to empty]
+2026-05-18T23:48:47.520000Z [21001.230300 Battery 36% (Display 34.4 %) / 1h:41 to empty]
+2026-05-18T23:49:13.466000Z [21027.250400 Battery 36% (Display 34.3 %) / 2h:39 to empty]
+2026-05-18T23:49:26.451000Z [21040.260600 Battery 36% (Display 34.2 %) / 1h:56 to empty]
+2026-05-18T23:49:49.421000Z [21063.276800 Battery 36% (Display 34.1 %) / 2h:40 to empty]
+2026-05-18T23:50:08.894000Z [21082.795600 Battery 36% (Display 34.0 %) / 2h:30 to empty]
+2026-05-18T23:50:34.854000Z [21108.819900 Battery 36% (Display 33.9 %) / 3h:9 to empty]
+2026-05-18T23:50:59.825000Z [21133.839700 Battery 35% (Display 33.8 %) / 3h:9 to empty]
+2026-05-18T23:51:27.776000Z [21161.858600 Battery 35% (Display 33.7 %) / 2h:55 to empty]
+2026-05-18T23:51:51.772000Z [21185.895000 Battery 35% (Display 33.6 %) / 3h:0 to empty]
+2026-05-18T23:52:16.207000Z [21210.394800 Battery 35% (Display 33.5 %) / 3h:11 to empty]
+2026-05-18T23:52:37.182000Z [21231.409700 Battery 35% (Display 33.4 %) / 2h:46 to empty]
+2026-05-18T23:52:57.162000Z [21251.423900 Battery 35% (Display 33.3 %) / 2h:39 to empty]
+2026-05-18T23:53:23.146000Z [21277.442700 Battery 35% (Display 33.2 %) / 3h:16 to empty]
+2026-05-18T23:53:57.596000Z [21311.965300 Battery 35% (Display 33.1 %) / 3h:34 to empty]
+2026-05-18T23:54:26.579000Z [21340.984600 Battery 35% (Display 33.0 %) / 3h:34 to empty]
+2026-05-18T23:54:53.544000Z [21368.001000 Battery 35% (Display 32.9 %) / 3h:28 to empty]
+2026-05-18T23:55:24.510000Z [21399.022600 Battery 35% (Display 32.8 %) / 3h:37 to empty]
+2026-05-18T23:55:38.496000Z [21413.030000 Battery 34% (Display 32.8 %) / 3h:38 to empty]
+2026-05-18T23:55:52.466000Z [21427.038700 Battery 34% (Display 32.7 %) / 3h:28 to empty]
+2026-05-18T23:56:19.946000Z [21454.558200 Battery 34% (Display 32.6 %) / 2h:20 to empty]
+2026-05-18T23:56:37.920000Z [21472.572800 Battery 34% (Display 32.5 %) / 2h:29 to empty]
+2026-05-18T23:56:58.900000Z [21493.588300 Battery 34% (Display 32.4 %) / 2h:34 to empty]
+2026-05-18T23:57:26.866000Z [21521.607100 Battery 34% (Display 32.3 %) / 3h:23 to empty]
+2026-05-18T23:57:48.848000Z [21543.621600 Battery 34% (Display 32.2 %) / 2h:37 to empty]
+2026-05-18T23:58:17.314000Z [21572.139600 Battery 34% (Display 32.1 %) / 3h:4 to empty]
+2026-05-18T23:58:37.291000Z [21592.150900 Battery 34% (Display 32.0 %) / 2h:3 to empty]
+2026-05-18T23:59:02.275000Z [21617.167000 Battery 34% (Display 31.9 %) / 3h:10 to empty]
+2026-05-18T23:59:33.240000Z [21648.186000 Battery 34% (Display 31.8 %) / 3h:26 to empty]
+2026-05-18T23:59:55.218000Z [21670.198200 Battery 34% (Display 31.7 %) / 2h:52 to empty]
+2026-05-19T00:00:04.705000Z [21679.703000 Battery 33% (Display 31.7 %) / 3h:20 to empty]
+2026-05-19T00:00:28.665000Z [21703.720200 Battery 33% (Display 31.6 %) / 3h:36 to empty]
+2026-05-19T00:01:02.626000Z [21737.741100 Battery 33% (Display 31.5 %) / 4h:11 to empty]
+2026-05-19T00:01:45.564000Z [21780.773500 Battery 33% (Display 31.4 %) / 4h:11 to empty]
+2026-05-19T00:02:22.996000Z [21818.302200 Battery 33% (Display 31.3 %) / 4h:21 to empty]
+2026-05-19T00:02:47.969000Z [21843.319600 Battery 33% (Display 31.2 %) / 3h:12 to empty]
+2026-05-19T00:03:15.922000Z [21871.339300 Battery 33% (Display 31.1 %) / 3h:34 to empty]
+2026-05-19T00:03:46.874000Z [21902.359800 Battery 33% (Display 31.0 %) / 3h:38 to empty]
+2026-05-19T00:04:27.309000Z [21942.885900 Battery 33% (Display 30.9 %) / 3h:55 to empty]
+2026-05-19T00:05:02.255000Z [21977.913200 Battery 33% (Display 30.8 %) / 3h:50 to empty]
+2026-05-19T00:05:30.190000Z [22005.938600 Battery 33% (Display 30.7 %) / 3h:17 to empty]
+2026-05-19T00:06:06.603000Z [22042.470600 Battery 32% (Display 30.6 %) / 4h:10 to empty]
+2026-05-19T00:06:42.546000Z [22078.502200 Battery 32% (Display 30.5 %) / 4h:11 to empty]
+2026-05-19T00:07:17.471000Z [22113.531500 Battery 32% (Display 30.4 %) / 4h:13 to empty]
+2026-05-19T00:07:59.908000Z [22156.062300 Battery 32% (Display 30.3 %) / 3h:37 to empty]
+2026-05-19T00:08:24.881000Z [22181.078500 Battery 32% (Display 30.2 %) / 2h:55 to empty]
+2026-05-19T00:08:56.836000Z [22213.100300 Battery 32% (Display 30.1 %) / 3h:39 to empty]
+2026-05-19T00:09:29.268000Z [22245.620900 Battery 32% (Display 30.0 %) / 3h:36 to empty]
+2026-05-19T00:10:02.232000Z [22278.643500 Battery 32% (Display 29.9 %) / 3h:52 to empty]
+2026-05-19T00:10:30.211000Z [22306.660800 Battery 32% (Display 29.8 %) / 3h:8 to empty]
+2026-05-19T00:11:08.157000Z [22344.684300 Battery 32% (Display 29.7 %) / 3h:31 to empty]
+2026-05-19T00:11:37.615000Z [22374.206100 Battery 32% (Display 29.6 %) / 3h:10 to empty]
+2026-05-19T00:12:00.591000Z [22397.220300 Battery 31% (Display 29.6 %) / 3h:30 to empty]
+2026-05-19T00:12:08.577000Z [22405.225400 Battery 31% (Display 29.5 %) / 3h:36 to empty]
+2026-05-19T00:12:41.539000Z [22438.246200 Battery 31% (Display 29.4 %) / 3h:35 to empty]
+2026-05-19T00:13:18.982000Z [22475.769600 Battery 31% (Display 29.3 %) / 4h:7 to empty]
+2026-05-19T00:13:52.945000Z [22509.789900 Battery 31% (Display 29.2 %) / 3h:20 to empty]
+2026-05-19T00:14:26.886000Z [22543.812500 Battery 31% (Display 29.1 %) / 3h:49 to empty]
+2026-05-19T00:15:03.853000Z [22580.836100 Battery 31% (Display 29.0 %) / 4h:3 to empty]
+2026-05-19T00:15:35.316000Z [22612.355900 Battery 31% (Display 28.9 %) / 3h:16 to empty]
+2026-05-19T00:16:08.276000Z [22645.377800 Battery 31% (Display 28.8 %) / 3h:46 to empty]
+2026-05-19T00:16:41.208000Z [22678.402200 Battery 31% (Display 28.7 %) / 3h:23 to empty]
+2026-05-19T00:17:16.665000Z [22713.925900 Battery 31% (Display 28.6 %) / 3h:21 to empty]
+2026-05-19T00:17:50.606000Z [22747.946500 Battery 31% (Display 28.5 %) / 3h:45 to empty]
+2026-05-19T00:18:08.571000Z [22765.962100 Battery 30% (Display 28.5 %) / 3h:53 to empty]
+2026-05-19T00:18:21.558000Z [22778.972400 Battery 30% (Display 28.4 %) / 3h:10 to empty]
+2026-05-19T00:18:38.022000Z [22795.484200 Battery 30% (Display 28.3 %) / 1h:44 to empty]
+2026-05-19T00:18:52.007000Z [22809.496800 Battery 30% (Display 28.2 %) / 1h:44 to empty]
+2026-05-19T00:19:15.946000Z [22833.515500 Battery 30% (Display 28.1 %) / 2h:18 to empty]
+2026-05-19T00:19:53.881000Z [22871.545300 Battery 30% (Display 28.0 %) / 3h:0 to empty]
+2026-05-19T00:20:11.875000Z [22889.561600 Battery 30% (Display 27.9 %) / 2h:1 to empty]
+2026-05-19T00:20:32.844000Z [22910.576800 Battery 30% (Display 27.8 %) / 2h:20 to empty]
+2026-05-19T00:20:56.292000Z [22934.099100 Battery 30% (Display 27.7 %) / 2h:19 to empty]
+2026-05-19T00:21:20.258000Z [22958.116700 Battery 30% (Display 27.6 %) / 2h:33 to empty]
+2026-05-19T00:21:48.207000Z [22986.136800 Battery 30% (Display 27.5 %) / 2h:55 to empty]
+2026-05-19T00:22:14.181000Z [23012.152900 Battery 30% (Display 27.4 %) / 2h:19 to empty]
+2026-05-19T00:22:20.167000Z [23018.156500 Battery 29% (Display 27.4 %) / 2h:20 to empty]
+2026-05-19T00:22:41.642000Z [23039.670600 Battery 29% (Display 27.3 %) / 2h:44 to empty]
+2026-05-19T00:23:06.616000Z [23064.689300 Battery 29% (Display 27.2 %) / 2h:39 to empty]
+2026-05-19T00:23:23.587000Z [23081.700200 Battery 29% (Display 27.1 %) / 1h:44 to empty]
+2026-05-19T00:23:39.561000Z [23097.711100 Battery 29% (Display 27.0 %) / 1h:43 to empty]
+2026-05-19T00:24:16.525000Z [23134.737100 Battery 29% (Display 26.9 %) / 2h:37 to empty]
+2026-05-19T00:24:42.988000Z [23161.253500 Battery 29% (Display 26.8 %) / 2h:45 to empty]
+2026-05-19T00:24:53.978000Z [23172.261300 Battery 29% (Display 26.7 %) / 1h:33 to empty]
+2026-05-19T00:25:15.953000Z [23194.276100 Battery 29% (Display 26.6 %) / 1h:58 to empty]
+2026-05-19T00:25:47.904000Z [23226.298400 Battery 29% (Display 26.5 %) / 2h:59 to empty]
+2026-05-19T00:25:47.904000Z tate 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-19T00:25:47.904000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z [168565.388300 Battery 28% (Display 25.6 %) / 138h:53 to empty]
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T16:41:56.060000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-20T17:52:43.951000Z [172813.279900 lid open]
+2026-05-20T17:52:43.952000Z [172813.280900 KB disable_scanning_mask changed: 0x00000000]
+2026-05-20T17:52:43.954000Z [172813.282600 SW 0x01]
+2026-05-20T17:52:43.955000Z [172813.283400 mkbp switches: 1]
+2026-05-20T17:52:43.955000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-20T17:52:43.955000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-20T17:52:43.955000Z I: power state 6 = S0, in 0x38d87
+2026-05-20T17:52:44.030000Z [172813.358900 KS disable]
+2026-05-20T17:52:44.031000Z [172813.359800 KB Clear Buffer]
+2026-05-20T17:52:44.033000Z [172813.361800 KS enable]
+2026-05-20T17:52:44.034000Z [172813.362600 KB Clear Buffer]
+2026-05-20T17:52:44.034000Z I: host sleep event = 4
+2026-05-20T17:52:44.207000Z [172813.520000 Motion pre-resume; loops 1; last 1014634 ms ago; a=0x0, s=0x0]
+2026-05-20T17:52:44.214000Z [172813.527100 raa489000_init(0): DEVICE_ID=261]
+2026-05-20T17:52:44.216000Z [172813.529300 PD:S3->S0]
+2026-05-20T17:52:44.228000Z [172813.540900 C0: TCPC init ready]
+2026-05-20T17:52:44.232000Z [172813.545500 raa489000_init(1): DEVICE_ID=261]
+2026-05-20T17:52:44.224000Z [172813.537100 USB charge p0 m2 i0]
+2026-05-20T17:52:44.234000Z [172813.547700 USB charge p1 m2 i0]
+2026-05-20T17:52:44.246000Z [172813.559700 C1: TCPC init ready]
+2026-05-20T17:52:44.312000Z [172813.625700 C0: Exit Low Power Mode]
+2026-05-20T17:52:44.317000Z [172813.630000 C1: Exit Low Power Mode]
+2026-05-20T17:52:44.366000Z [172813.679500 C0: TCPC Enter Low Power Mode]
+2026-05-20T17:52:44.370000Z [172813.683600 C1: TCPC Enter Low Power Mode]
+2026-05-20T17:52:54.248000Z [172823.561300 Battery 28% (Display 25.5 %) / 3h:31 to empty]
+2026-05-20T17:53:09.211000Z [172838.573000 Battery 28% (Display 25.4 %) / 2h:30 to empty]
+2026-05-20T17:53:20.691000Z [172850.080400 Battery 28% (Display 25.3 %) / 1h:53 to empty]
+2026-05-20T17:53:40.269000Z [172868.094900 Battery 27% (Display 25.3 %) / 2h:25 to empty]
+2026-05-20T17:53:44.287000Z [172872.113200 Battery 27% (Display 25.2 %) / 2h:30 to empty]
+2026-05-20T17:53:56.262000Z [172884.103800 Battery 27% (Display 25.1 %) / 1h:47 to empty]
+2026-05-20T17:54:03.248000Z [172891.108800 Battery 27% (Display 25.0 %) / 1h:24 to empty]
+2026-05-20T17:54:18.209000Z [172906.119200 Battery 27% (Display 24.9 %) / 1h:51 to empty]
+2026-05-20T17:54:26.217000Z [172914.127000 Battery 27% (Display 24.8 %) / 1h:27 to empty]
+2026-05-20T17:54:35.196000Z [172923.133600 Battery 27% (Display 24.7 %) / 1h:20 to empty]
+2026-05-20T17:54:55.151000Z [172943.151500 Battery 27% (Display 24.6 %) / 1h:58 to empty]
+2026-05-20T17:55:02.630000Z [172950.658400 Battery 27% (Display 24.5 %) / 1h:28 to empty]
+2026-05-20T17:55:19.592000Z [172967.673300 Battery 27% (Display 24.4 %) / 2h:13 to empty]
+2026-05-20T17:55:42.561000Z [172990.690500 Battery 27% (Display 24.3 %) / 2h:58 to empty]
+2026-05-20T17:55:58.550000Z [173006.703400 Battery 27% (Display 24.2 %) / 2h:31 to empty]
+2026-05-20T17:56:08.533000Z [173016.710800 Battery 26% (Display 24.2 %) / 2h:7 to empty]
+2026-05-20T17:56:11.514000Z [173019.713900 Battery 26% (Display 24.1 %) / 2h:2 to empty]
+2026-05-20T17:56:26.503000Z [173034.724600 Battery 26% (Display 24.0 %) / 1h:42 to empty]
+2026-05-20T17:56:37.491000Z [173045.733600 Battery 26% (Display 23.9 %
+2026-05-20T17:56:37.491000Z ) / 1h:36 to empty]
+2026-05-20T17:56:46.975000Z [173055.239500 Battery 26% (Display 23.8 %) / 1h:26 to empty]
+2026-05-20T17:56:58.961000Z [173067.249600 Battery 26% (Display 23.7 %) / 1h:34 to empty]
+2026-05-20T17:57:11.946000Z [173080.258400 Battery 26% (Display 23.6 %) / 1h:51 to empty]
+2026-05-20T17:57:11.946000Z S0, in 0x38d87
+2026-05-20T17:57:11.946000Z I: power state 6 = S0, in 0x38d97
+2026-05-20T17:57:11.946000Z I: power state 16 = S0S0ix, in 0x38d97
+2026-05-21T00:13:23.636000Z [195708.504100 Motion pre-suspend; loops 1; last 2434781 ms ago; a=0x0, s=0x0]
+2026-05-21T00:13:23.640000Z [195708.507900 raa489000_init(0): DEVICE_ID=261]
+2026-05-21T00:13:23.639000Z [195708.507200 PD:S0->S3]
+2026-05-21T00:13:23.639000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:13:23.654000Z [195708.522000 C0: TCPC init ready]
+2026-05-21T00:13:23.658000Z [195708.525600 raa489000_init(1): DEVICE_ID=261]
+2026-05-21T00:13:23.672000Z [195708.539900 C1: TCPC init ready]
+2026-05-21T00:13:23.739000Z [195708.607100 C1: Exit Low Power Mode]
+2026-05-21T00:13:23.739000Z [195708.606600 C0: Exit Low Power Mode]
+2026-05-21T00:13:23.802000Z [195708.670300 C1: TCPC Enter Low Power Mode]
+2026-05-21T00:13:23.816000Z [195708.684200 C0: TCPC Enter Low Power Mode]
+2026-05-21T00:13:23.816000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:13:23.816000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-21T00:13:23.816000Z I: power state 6 = S0, in 0x38d97
+2026-05-21T00:13:23.816000Z I: power state 16 = S0S0ix, in 0x38d97
+2026-05-21T00:16:23.063000Z [195887.930900 Motion pre-suspend; loops 1; last 2614208 ms ago; a=0x0, s=0x0]
+2026-05-21T00:16:23.067000Z [195887.934800 raa489000_init(0): DEVICE_ID=261]
+2026-05-21T00:16:23.066000Z [195887.934100 PD:S0->S3]
+2026-05-21T00:16:23.081000Z I: power state 5 = S0ix, in 0x38d9[195887.949100 C0: TCPC init ready]
+2026-05-21T00:16:23.085000Z [195887.952700 raa489000_init(1): DEVICE_ID=261]
+2026-05-21T00:16:23.085000Z 7
+2026-05-21T00:16:23.099000Z [195887.967500 C1: TCPC init ready]
+2026-05-21T00:16:23.166000Z [195888.034000 C1: Exit Low Power Mode]
+2026-05-21T00:16:23.165000Z [195888.033400 C0: Exit Low Power Mode]
+2026-05-21T00:16:23.231000Z [195888.099200 C1: TCPC Enter Low Power Mode]
+2026-05-21T00:16:23.241000Z [195888.109000 C0: TCPC Enter Low Power Mode]
+2026-05-21T00:16:23.241000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:16:23.241000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-21T00:16:23.241000Z I: power state 6 = S0, in 0x38d97
+2026-05-21T00:16:23.241000Z I: power state 16 = S0S0ix, in 0x38d97
+2026-05-21T00:19:22.490000Z [196067.358400 Motion pre-suspend; loops 1; last 2793636 ms ago; a=0x0, s=0x0]
+2026-05-21T00:19:22.494000Z [196067.362300 raa489000_init(0): DEVICE_ID=261]
+2026-05-21T00:19:22.494000Z [196067.361600 PD:S0->S3]
+2026-05-21T00:19:22.494000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:19:22.508000Z [196067.376400 C0: TCPC init ready]
+2026-05-21T00:19:22.512000Z [196067.380200 raa489000_init(1): DEVICE_ID=261]
+2026-05-21T00:19:22.527000Z [196067.395100 C1: TCPC init ready]
+2026-05-21T00:19:22.594000Z [196067.461600 C1: Exit Low Power Mode]
+2026-05-21T00:19:22.593000Z [196067.461000 C0: Exit Low Power Mode]
+2026-05-21T00:19:22.656000Z [196067.524400 C1: TCPC Enter Low Power Mode]
+2026-05-21T00:19:22.670000Z [196067.537800 C0: TCPC Enter Low Power Mode]
+2026-05-21T00:19:22.670000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:19:22.670000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-21T00:19:22.670000Z I: power state 6 = S0, in 0x38d97
+2026-05-21T00:19:22.670000Z I: power state 16 = S0S0ix, in 0x38d97
+2026-05-21T00:22:21.915000Z [196246.783300 Motion pre-suspend; loops 1; last 2973061 ms ago; a=0x0, s=0x0]
+2026-05-21T00:22:21.919000Z [196246.787200 raa489000_init(0): DEVICE_ID=261]
+2026-05-21T00:22:21.918000Z [196246.786500 PD:S0->S3]
+2026-05-21T00:22:21.933000Z I: power state 5 = S0ix, in 0x38d97[196246.801400 C0: TCPC init ready]
+2026-05-21T00:22:21.937000Z [196246.805000 raa489000_init(1): DEVICE_ID=261]
+2026-05-21T00:22:21.937000Z 
+2026-05-21T00:22:21.951000Z [196246.819100 C1: TCPC init ready]
+2026-05-21T00:22:22.018000Z [196246.886500 C1: Exit Low Power Mode]
+2026-05-21T00:22:22.018000Z [196246.885800 C0: Exit Low Power Mode]
+2026-05-21T00:22:22.082000Z [196246.949700 C1: TCPC Enter Low Power Mode]
+2026-05-21T00:22:22.097000Z [196246.964900 C0: TCPC Enter Low Power Mode]
+2026-05-21T00:22:22.097000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:22:22.097000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-21T00:22:22.097000Z I: power state 6 = S0, in 0x38d97
+2026-05-21T00:22:22.097000Z I: power state 16 = S0S0ix, in 0x38d97
+2026-05-21T00:25:21.345000Z [196426.213200 Motion pre-suspend; loops 1; last 3152490 ms ago; a=0x0, s=0x0]
+2026-05-21T00:25:21.349000Z [196426.217100 raa489000_init(0): DEVICE_ID=261]
+2026-05-21T00:25:21.348000Z [196426.216400 PD:S0->S3]
+2026-05-21T00:25:21.363000Z I: power state 5 = S0ix, in 0x38d97[196426.231300 C0: TCPC init ready]
+2026-05-21T00:25:21.367000Z [196426.234900 raa489000_init(1): DEVICE_ID=261]
+2026-05-21T00:25:21.367000Z 
+2026-05-21T00:25:21.381000Z [196426.249100 C1: TCPC init ready]
+2026-05-21T00:25:21.448000Z [196426.316300 C1: Exit Low Power Mode]
+2026-05-21T00:25:21.448000Z [196426.315800 C0: Exit Low Power Mode]
+2026-05-21T00:25:21.513000Z [196426.380600 C1: TCPC Enter Low Power Mode]
+2026-05-21T00:25:21.526000Z [196426.393900 C0: TCPC Enter Low Power Mode]
+2026-05-21T00:25:21.526000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:25:21.526000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-21T00:25:21.526000Z I: power state 6 = S0, in 0x38d97
+2026-05-21T00:25:21.526000Z I: power state 16 = S0S0ix, in 0x38d97
+2026-05-21T00:28:20.775000Z [196605.643500 Motion pre-suspend; loops 1; last 3331921 ms ago; a=0x0, s=0x0]
+2026-05-21T00:28:20.779000Z [196605.647400 raa489000_init(0): DEVICE_ID=261]
+2026-05-21T00:28:20.779000Z [196605.646700 PD:S0->S3]
+2026-05-21T00:28:20.793000Z I: power state 5 = S0ix, in 0x3[196605.661400 C0: TCPC init ready]
+2026-05-21T00:28:20.797000Z [196605.665200 raa489000_init(1): DEVICE_ID=261]
+2026-05-21T00:28:20.797000Z 8d97
+2026-05-21T00:28:20.812000Z [196605.679900 C1: TCPC init ready]
+2026-05-21T00:28:20.879000Z [196605.746600 C1: Exit Low Power Mode]
+2026-05-21T00:28:20.878000Z [196605.745900 C0: Exit Low Power Mode]
+2026-05-21T00:28:20.944000Z [196605.811700 C1: TCPC Enter Low Power Mode]
+2026-05-21T00:28:20.957000Z [196605.824800 C0: TCPC Enter Low Power Mode]
+2026-05-21T00:29:17.956000Z [196662.823700 lid open]
+2026-05-21T00:29:17.957000Z [196662.824700 KB disable_scanning_mask changed: 0x00000000]
+2026-05-21T00:29:17.958000Z [196662.826400 SW 0x01]
+2026-05-21T00:29:17.959000Z [196662.827200 mkbp switches: 1]
+2026-05-21T00:29:17.959000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:29:17.959000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-21T00:29:17.959000Z I: power state 6 = S0, in 0x38d87
+2026-05-21T00:29:18.036000Z [196662.904500 KS disable]
+2026-05-21T00:29:18.037000Z [196662.905400 KB Clear Buffer]
+2026-05-21T00:29:18.039000Z [196662.907300 KS enable]
+2026-05-21T00:29:18.040000Z [196662.908100 KB Clear Buffer]
+2026-05-21T00:29:18.040000Z I: host sleep event = 4
+2026-05-21T00:29:18.209000Z [196663.064900 Motion pre-resume; loops 1; last 3389342 ms ago; a=0x0, s=0x0]
+2026-05-21T00:29:18.216000Z [196663.072000 raa489000_init(0): DEVICE_ID=261]
+2026-05-21T00:29:18.219000Z [196663.074300 PD:S3->S0]
+2026-05-21T00:29:18.230000Z [196663.085700 C0: TCPC init ready]
+2026-05-21T00:29:18.234000Z [196663.090100 raa489000_init(1): DEVICE_ID=261]
+2026-05-21T00:29:18.226000Z [196663.081900 USB charge p0 m2 i0]
+2026-05-21T00:29:18.236000Z [196663.092200 USB charge p1 m2 i0]
+2026-05-21T00:29:18.248000Z [196663.104100 C1: TCPC init ready]
+2026-05-21T00:29:18.315000Z [196663.170700 C0: Exit Low Power Mode]
+2026-05-21T00:29:18.319000Z [196663.174900 C1: Exit Low Power Mode]
+2026-05-21T00:29:18.369000Z [196663.224500 C0: TCPC Enter Low Power Mode]
+2026-05-21T00:29:18.373000Z [196663.228300 C1: TCPC Enter Low Power Mode]
+2026-05-21T00:29:25.251000Z [196670.106900 Battery 26% (Display 23.3 %) / 4h:13 to empty]
+2026-05-21T00:29:39.810000Z [196684.116400 Battery 26% (Display 23.2 %) / 2h:29 to empty]
+2026-05-21T00:29:51.794000Z [196696.125200 Battery 26% (Display 23.1 %) / 2h:2 to empty]
+2026-05-21T00:29:56.298000Z [196700.629000 Battery 25% (Display 23.1 %) / 1h:41 to empty]
+2026-05-21T00:29:59.300000Z [196703.631300 Battery 25% (Display 23.0 %) / 1h:33 to empty]
+2026-05-21T00:30:08.284000Z [196712.638200 Battery 25% (Display 22.9 %) / 1h:14 to empty]
+2026-05-21T00:30:19.276000Z [196723.645000 Battery 25% (Display 22.8 %) / 1h:28 to empty]
+2026-05-21T00:30:30.266000Z [196734.652000 Battery 25% (Display 22.7 %) / 1h:27 to empty]
+2026-05-21T00:30:39.254000Z [196743.657400 Battery 25% (Display 22.6 %) / 1h:22 to empty]
+2026-05-21T00:30:39.254000Z  S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T00:30:39.254000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-21T20:36:03.966000Z [269242.803800 lid open]
+2026-05-21T20:36:03.967000Z [269242.804700 KB disable_scanning_mask changed: 0x00000000]
+2026-05-21T20:36:03.968000Z [269242.806400 SW 0x01]
+2026-05-21T20:36:03.969000Z [269242.807200 mkbp switches: 1]
+2026-05-21T20:36:03.969000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-21T20:36:03.969000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-21T20:36:03.969000Z I: power state 6 = S0, in 0x38d87
+2026-05-21T20:36:04.046000Z [269242.884100 KS disable]
+2026-05-21T20:36:04.047000Z [269242.885000 KB Clear Buffer]
+2026-05-21T20:36:04.049000Z [269242.886900 KS enable]
+2026-05-21T20:36:04.050000Z [269242.887700 KB Clear Buffer]
+2026-05-21T20:36:04.050000Z I: host sleep event = 4
+2026-05-21T20:36:04.173000Z [269243.000200 Motion pre-resume; loops 1; last 2954833 ms ago; a=0x0, s=0x0]
+2026-05-21T20:36:04.181000Z [269243.007700 raa489000_init(0): DEVICE_ID=261]
+2026-05-21T20:36:04.183000Z [269243.009900 PD:S3->S0]
+2026-05-21T20:36:04.185000Z [269243.012200 USB charge p0 m2 i0]
+2026-05-21T20:36:04.201000Z [269243.027900 USB charge p1 m2 i0]
+2026-05-21T20:36:04.213000Z [269243.039900 C1: TCPC init ready]
+2026-05-21T20:36:04.279000Z [269243.106100 C0: Exit Low Power Mode]
+2026-05-21T20:36:04.283000Z [269243.109900 C1: Exit Low Power Mode]
+2026-05-21T20:36:04.333000Z [269243.160300 C0: TCPC Enter Low Power Mode]
+2026-05-21T20:36:04.336000Z [269243.163400 C1: TCPC Enter Low Power Mode]
+2026-05-21T20:36:08.210000Z [269247.037000 Battery 24% (Display 22.0 %) / 3h:2 to empty]
+2026-05-21T20:36:16.199000Z [269255.041000 Battery 24% (Display 21.9 %) / 2h:25 to empty]
+2026-05-21T20:36:29.817000Z [269268.049900 Battery 24% (Display 21.8 %) / 2h:19 to empty]
+2026-05-21T20:36:36.802000Z [269275.054400 Battery 24% (Display 21.7 %) / 1h:43 to empty]
+2026-05-21T20:36:42.305000Z [269280.557900 Battery 24% (Display 21.6 %) / 1h:31 to empty]
+2026-05-21T20:36:47.286000Z [269285.560400 Battery 24% (Display 21.5 %) / 1h:18 to empty]
+2026-05-21T20:36:54.291000Z [269292.565200 Battery 24% (Display 21.4 %) / 1h:21 to empty]
+2026-05-21T20:37:03.291000Z [269301.592200 Battery 24% (Display 21.3 %) / 1h:33 to empty]
+2026-05-21T20:37:15.254000Z [269313.585100 Battery 24% (Display 21.2 %) / 1h:46 to empty]
+2026-05-21T20:37:23.231000Z [269321.591800 Battery 24% (Display 21.1 %) / 1h:38 to empty]
+2026-05-21T20:37:33.211000Z [269331.601800 Battery 24% (Display 21.0 %) / 1h:55 to empty]
+2026-05-21T20:37:44.194000Z [269342.611900 Battery 23% (Display 21.0 %) / 2h:19 to empty]
+2026-05-21T20:37:48.173000Z [269346.615000 Battery 23% (Display 20.9 %) / 2h:24 to empty]
+2026-05-21T20:38:02.156000Z [269360.626300 Battery 23% (Display 20.8 %) / 2h:43 to empty]
+2026-05-21T20:38:18.121000Z [269376.639400 Battery 23% (Display 20.7 %) / 2h:59 to empty]
+2026-05-21T20:38:38.586000Z [269397.157200 Battery 23% (Display 20.6 %) / 3h:1 to empty]
+2026-05-21T20:38:46.592000Z [269405.163700 Battery 23% (Display 20.5 %) / 2h:1 to empty]
+2026-05-21T20:38:51.572000Z [269410.167500 Battery 23% (Display 20.4 %) / 1h:25 to empty]
+2026-05-21T20:38:56.576000Z [269415.171400 Battery 23% (Display 20.3 %) / 1h:22 to empty]
+2026-05-21T20:39:05.561000Z [269424.177700 Battery 23% (Display 20.2 %) / 1h:31 to empty]
+2026-05-21T20:39:12.562000Z [269431.199900 Battery 23% (Display 20.1 %) / 1h:22 to empty]
+2026-05-21T20:39:21.529000Z [269440.190200 Battery 23% (Display 20.0 %) / 1h:27 to empty]
+2026-05-21T20:39:30.511000Z [269449.196500 Battery 23% (Display 19.9 %) / 1h:35 to empty]
+2026-05-21T20:39:37.517000Z [269456.202300 Battery 22% (Display 19.9 %) / 1h:52 to empty]
+2026-05-21T20:39:45.501000Z [269464.208100 Battery 22% (Display 19.8 %) / 2h:8 to empty]
+2026-05-21T20:39:58.488000Z [269477.219800 Battery 22% (Display 19.7 %) / 2h:6 to empty]
+2026-05-21T20:40:04.467000Z [269483.224000 Battery 22% (Display 19.6 %) / 1h:40 to empty]
+2026-05-21T20:40:11.950000Z [269490.729800 Battery 22% (Display 19.5 %) / 1h:26 to empty]
+2026-05-21T20:40:22.944000Z [269501.740600 Battery 22% (Display 19.4 %) / 1h:39 to empty]
+2026-05-21T20:40:34.937000Z [269513.749700 Battery 22% (Display 19.3 %) / 1h:54 to empty]
+2026-05-21T20:40:47.950000Z [269526.778800 Battery 22% (Display 19.2 %) / 2h:10 to empty]
+2026-05-21T20:41:00.924000Z [269539.770500 Battery 22% (Display 19.1 %) / 2h:17 to empty]
+2026-05-21T20:41:11.898000Z [269550.777600 Battery 22% (Display 19.0 %) / 2h:14 to empty]
+2026-05-21T20:41:25.889000Z [269564.786900 Battery 22% (Display 18.9 %) / 1h:58 to empty]
+2026-05-21T20:41:31.892000Z [269570.789800 Battery 22% (Display 18.8 %) / 1h:31 to empty]
+2026-05-21T20:41:33.874000Z [269572.791200 Battery 21% (Display 18.8 %) / 1h:30 to empty]
+2026-05-21T20:41:39.878000Z [269578.795100 Battery 21% (Display 18.7 %) / 1h:33 to empty]
+2026-05-21T20:41:50.865000Z [269589.801900 Battery 21% (Display 18.6 %) / 1h:46 to empty]
+2026-05-21T20:42:01.851000Z [269600.810200 Battery 21% (Display 18.5 %) / 1h:51 to empty]
+2026-05-21T20:42:13.320000Z [269612.318200 Battery 21% (Display 18.4 %) / 1h:55 to empty]
+2026-05-21T20:42:28.310000Z [269627.330000 Battery 21% (Display 18.3 %) / 1h:58 to empty]
+2026-05-21T20:42:39.295000Z [269638.337000 Battery 21% (Display 18.2 %) / 1h:58 to empty]
+2026-05-21T20:42:50.282000Z [269649.345200 Battery 21% (Display 18.1 %) / 1h:58 to empty]
+2026-05-21T20:43:01.269000Z [269660.354500 Battery 21% (Display 18.0 %) / 1h:57 to empty]
+2026-05-21T20:43:12.254000Z [269671.362500 Battery 21% (Display 17.9 %) / 1h:56 to empty]
+2026-05-21T20:43:24.243000Z [269683.372800 Battery 21% (Display 17.8 %) / 1h:42 to empty]
+2026-05-21T20:43:33.229000Z [269692.378900 Battery 20% (Display 17.7 %) / 1h:38 to empty]
+2026-05-21T20:43:44.218000Z [269703.387700 Battery 20% (Display 17.6 %) / 1h:45 to empty]
+2026-05-21T20:43:52.199000Z [269711.393400 Battery 20% (Display 17.5 %) / 1h:36 to empty]
+2026-05-21T20:44:03.682000Z [269722.902500 Battery 20% (Display 17.4 %) / 1h:42 to empty]
+2026-05-21T20:44:14.664000Z [269733.910800 Battery 20% (Display 17.3 %) / 1h:47 to empty]
+2026-05-21T20:44:28.620000Z [269747.922000 Battery 20% (Display 17.2 %) / 1h:51 to empty]
+2026-05-21T20:44:39.603000Z [269758.932600 Battery 20% (Display 17.1 %) / 1h:53 to empty]
+2026-05-21T20:44:51.583000Z [269770.941800 Battery 20% (Display 17.0 %) / 1h:54 to empty]
+2026-05-21T20:45:03.566000Z [269782.951400 Battery 20% (Display 16.9 %) / 1h:56 to empty]
+2026-05-21T20:45:14.547000Z [269793.959800 Battery 20% (Display 16.8 %) / 1h:54 to empty]
+2026-05-21T20:45:26.027000Z [269805.468600 Battery 20% (Display 16.7 %) / 1h:53 to empty]
+2026-05-21T20:45:36.504000Z [269815.975100 Battery 19% (Display 16.7 %) / 1h:48 to empty]
+2026-05-21T20:45:39.981000Z [269819.477800 Battery 19% (Display 16.6 %) / 1h:49 to empty]
+2026-05-21T20:45:48.967000Z [269828.485400 Battery 19% (Display 16.5 %) / 1h:42 to empty]
+2026-05-21T20:45:59.950000Z [269839.492800 Battery 19% (Display 16.4 %) / 1h:44 to empty]
+2026-05-21T20:46:10.936000Z [269850.503500 Battery 19% (Display 16.3 %) / 1h:43 to empty]
+2026-05-21T20:46:21.919000Z [269861.511100 Battery 19% (Display 16.2 %) / 1h:43 to empty]
+2026-05-21T20:46:34.906000Z [269874.521500 Battery 19% (Display 16.1 %) / 1h:44 to empty]
+2026-05-21T20:46:45.891000Z [269885.530500 Battery 19% (Display 16.0 %) / 1h:45 to empty]
+2026-05-21T20:46:56.876000Z [269896.537900 Battery 19% (Display 15.9 %) / 1h:45 to empty]
+2026-05-21T20:47:06.863000Z [269906.546100 Battery 19% (Display 15.8 %) / 1h:39 to empty]
+2026-05-21T20:47:17.847000Z [269917.552800 Battery 19% (Display 15.7 %) / 1h:41 to empty]
+2026-05-21T20:47:29.836000Z [269929.562900 Battery 19% (Display 15.6 %) / 1h:43 to empty]
+2026-05-21T20:47:38.322000Z [269938.068800 Battery 18% (Display 15.6 %) / 1h:42 to empty]
+2026-05-21T20:47:44.307000Z [269944.073800 Battery 18% (Display 15.5 %) / 1h:43 to empty]
+2026-05-21T20:47:55.294000Z [269955.080600 Battery 18% (Display 15.4 %) / 1h:44 to empty]
+2026-05-21T20:48:06.282000Z [269966.088700 Battery 18% (Display 15.3 %) / 1h:43 to empty]
+2026-05-21T20:48:17.268000Z [269977.096000 Battery 18% (Display 15.2 %) / 1h:39 to empty]
+2026-05-21T20:48:26.256000Z [269986.104000 Battery 18% (Display 15.1 %) / 1h:30 to empty]
+2026-05-21T20:48:37.244000Z [269997.111300 Battery 18% (Display 15.0 %) / 1h:37 to empty]
+2026-05-21T20:48:52.231000Z [270012.122900 Battery 18% (Display 14.9 %) / 1h:43 to empty]
+2026-05-21T20:49:03.195000Z [270023.131200 Battery 18% (Display 14.8 %) / 1h:37 to empty]
+2026-05-21T20:49:13.178000Z [270033.137300 Battery 18% (Display 14.7 %) / 1h:37 to empty]
+2026-05-21T20:49:24.163000Z [270044.146200 Battery 18% (Display 14.6 %) / 1h:36 to empty]
+2026-05-21T20:49:36.649000Z [270056.655600 Battery 18% (Display 14.5 %) / 1h:36 to empty]
+2026-05-21T20:49:41.653000Z [270061.659100 Battery 17% (Display 14.5 %) / 1h:34 to empty]
+2026-05-21T20:49:50.635000Z [270070.663300 Battery 17% (Display 14.4 %) / 1h:36 to empty]
+2026-05-21T20:50:01.622000Z [270081.671800 Battery 17% (Display 14.3 %) / 1h:36 to empty]
+2026-05-21T20:50:12.606000Z [270092.679600 Battery 17% (Display 14.2 %) / 1h:35 to empty]
+2026-05-21T20:50:24.593000Z [270104.689100 Battery 17% (Display 14.1 %) / 1h:35 to empty]
+2026-05-21T20:50:35.556000Z [270115.698300 Battery 17% (Display 14.0 %) / 1h:37 to empty]
+2026-05-21T20:50:47.541000Z [270127.706800 Battery 17% (Display 13.9 %) / 1h:37 to empty]
+2026-05-21T20:51:02.531000Z [270142.719000 Battery 17% (Display 13.8 %) / 1h:37 to empty]
+2026-05-21T20:51:13.518000Z [270153.727700 Battery 17% (Display 13.7 %) / 1h:35 to empty]
+2026-05-21T20:51:26.004000Z [270166.236900 Battery 17% (Display 13.6 %) / 1h:31 to empty]
+2026-05-21T20:51:35.989000Z [270176.246100 Battery 17% (Display 13.5 %) / 1h:28 to empty]
+2026-05-21T20:51:46.953000Z [270187.253300 Battery 17% (Display 13.4 %) / 1h:28 to empty]
+2026-05-21T20:51:49.956000Z [270190.255800 Battery 16% (Display 13.4 %) / 1h:28 to empty]
+2026-05-21T20:51:58.940000Z [270199.263100 Battery 16% (Display 13.3 %) / 1h:27 to empty]
+2026-05-21T20:52:11.927000Z [270212.273200 Battery 16% (Display 13.2 %) / 1h:28 to empty]
+2026-05-21T20:52:23.915000Z [270224.281700 Battery 16% (Display 13.1 %) / 1h:31 to empty]
+2026-05-21T20:52:35.902000Z [270236.291000 Battery 16% (Display 13.0 %) / 1h:32 to empty]
+2026-05-21T20:52:47.890000Z [270248.299000 Battery 16% (Display 12.9 %) / 1h:32 to empty]
+2026-05-21T20:52:59.859000Z [270260.307600 Battery 16% (Display 12.8 %) / 1h:32 to empty]
+2026-05-21T20:53:10.845000Z [270271.315800 Battery 16% (Display 12.7 %) / 1h:28 to empty]
+2026-05-21T20:53:24.336000Z [270284.825400 Battery 16% (Display 12.6 %) / 1h:24 to empty]
+2026-05-21T20:53:35.328000Z [270295.833400 Battery 16% (Display 12.5 %) / 1h:24 to empty]
+2026-05-21T20:53:47.319000Z [270307.840600 Battery 16% (Display 12.4 %) / 1h:27
+2026-05-21T20:53:47.319000Z  to empty]
+2026-05-21T20:53:59.306000Z [270319.847900 Battery 15% (Display 12.3 %) / 1h:27 to empty]
+2026-05-21T20:54:11.274000Z [270331.856300 Battery 15% (Display 12.2 %) / 1h:29 to empty]
+2026-05-21T20:54:26.264000Z [270346.866800 Battery 15% (Display 12.1 %) / 1h:30 to empty]
+2026-05-21T20:54:38.252000Z [270358.874600 Battery 15% (Display 12.0 %) / 1h:30 to empty]
+2026-05-21T20:54:49.241000Z [270369.881100 Battery 15% (Display 11.9 %) / 1h:24 to empty]
+2026-05-21T20:55:00.230000Z [270380.887900 Battery 15% (Display 11.8 %) / 1h:25 to empty]
+2026-05-21T20:55:13.207000Z [270393.896400 Battery 15% (Display 11.7 %) / 1h:27 to empty]
+2026-05-21T20:55:24.197000Z [270404.902400 Battery 15% (Display 11.6 %) / 1h:25 to empty]
+2026-05-21T20:55:40.690000Z [270421.413200 Battery 15% (Display 11.5 %) / 1h:26 to empty]
+2026-05-21T20:55:52.662000Z [270433.420900 Battery 15% (Display 11.4 %) / 1h:27 to empty]
+2026-05-21T20:56:04.652000Z [270445.428300 Battery 15% (Display 11.3 %) / 1h:26 to empty]
+2026-05-21T20:56:10.657000Z [270451.433300 Battery 14% (Display 11.3 %) / 1h:27 to empty]
+2026-05-21T20:56:16.642000Z [270457.437500 Battery 14% (Display 11.2 %) / 1h:27 to empty]
+2026-05-21T20:56:29.628000Z [270470.446900 Battery 14% (Display 11.1 %) / 1h:25 to empty]
+2026-05-21T20:56:40.620000Z [270481.454900 Battery 14% (Display 11.0 %) / 1h:23 to empty]
+2026-05-21T20:56:55.588000Z [270496.467400 Battery 14% (Display 10.9 %) / 1h:22 to empty]
+2026-05-21T20:57:06.574000Z [270507.476100 Battery 14% (Display 10.8 %) / 1h:17 to empty]
+2026-05-21T20:57:18.561000Z [270519.486500 Battery 14% (Display 10.7 %) / 1h:20 to empty]
+2026-05-21T20:57:31.052000Z [270531.996100 Battery 14% (Display 10.6 %) / 1h:21 to empty]
+2026-05-21T20:57:44.044000Z [270545.004100 Battery 14% (Display 10.5 %) / 1h:22 to empty]
+2026-05-21T20:57:59.022000Z [270560.013900 Battery 14% (Display 10.4 %) / 1h:20 to empty]
+2026-05-21T20:58:11.011000Z [270572.020800 Battery 14% (Display 10.3 %) / 1h:19 to empty]
+2026-05-21T20:58:21.003000Z [270582.027900 Battery 14% (Display 10.2 %) / 1h:11 to empty]
+2026-05-21T20:58:23.003000Z [270584.028800 Battery 13% (Display 10.2 %) / 1h:12 to empty]
+2026-05-21T20:58:31.993000Z [270593.034600 Battery 13% (Display 10.1 %) / 1h:13 to empty]
+2026-05-21T20:58:44.007000Z [270605.067600 Battery 13% (Display 10.0 %) / 1h:15 to empty]
+2026-05-21T20:58:55.003000Z [270616.079800 Battery 13% (Display 9.9 %) / 1h:14 to empty]
+2026-05-21T20:59:08.962000Z [270630.076100 Battery 13% (Display 9.8 %) / 1h:14 to empty]
+2026-05-21T20:59:21.958000Z [270643.085500 Battery 13% (Display 9.7 %) / 1h:16 to empty]
+2026-05-21T20:59:33.947000Z [270655.092100 Battery 13% (Display 9.6 %) / 1h:16 to empty]
+2026-05-21T20:59:45.436000Z [270666.600300 Battery 13% (Display 9.5 %) / 1h:12 to empty]
+2026-05-21T20:59:57.428000Z [270678.609300 Battery 13% (Display 9.4 %) / 1h:13 to empty]
+2026-05-21T21:00:09.396000Z [270690.617000 Battery 13% (Display 9.3 %) / 1h:13 to empty]
+2026-05-21T21:00:24.388000Z [270705.627800 Battery 13% (Display 9.2 %) / 1h:14 to empty]
+2026-05-21T21:00:36.378000Z [270717.635100 Battery 12% (Display 9.1 %) / 1h:13 to empty]
+2026-05-21T21:00:49.368000Z [270730.643800 Battery 12% (Display 9.0 %) / 1h:15 to empty]
+2026-05-21T21:01:01.342000Z [270742.652400 Battery 12% (Display 8.9 %) / 1h:14 to empty]
+2026-05-21T21:01:13.332000Z [270754.659700 Battery 12% (Display 8.8 %) / 1h:13 to empty]
+2026-05-21T21:01:29.327000Z [270770.670900 Battery 12% (Display 8.7 %) / 1h:13 to empty]
+2026-05-21T21:01:39.317000Z [270780.677000 Battery 12% (Display 8.6 %) / 1h:7 to empty]
+2026-05-21T21:01:51.291000Z [270792.685500 Battery 12% (Display 8.5 %) / 1h:9 to empty]
+2026-05-21T21:02:03.782000Z [270805.193800 Battery 12% (Display 8.4 %) / 1h:6 to empty]
+2026-05-21T21:02:15.772000Z [270817.201600 Battery 12% (Display 8.3 %) / 1h:7 to empty]
+2026-05-21T21:02:27.763000Z [270829.209700 Battery 12% (Display 8.2 %) / 1h:8 to empty]
+2026-05-21T21:02:42.735000Z [270844.218400 Battery 12% (Display 8.1 %) / 1h:8 to empty]
+2026-05-21T21:02:50.740000Z [270852.223600 Battery 11% (Display 8.1 %) / 1h:5 to empty]
+2026-05-21T21:02:53.720000Z [270855.226000 Battery 11% (Display 8.0 %) / 1h:6 to empty]
+2026-05-21T21:03:05.721000Z [270867.250700 Battery 11% (Display 7.9 %) / 1h:2 to empty]
+2026-05-21T21:03:13.702000Z [270875.256000 Battery 11% (Display 7.8 %) / 0h:55 to empty]
+2026-05-21T21:03:23.671000Z [270885.248100 Battery 11% (Display 7.7 %) / 0h:54 to empty]
+2026-05-21T21:03:33.653000Z [270895.254400 Battery 11% (Display 7.6 %) / 0h:52 to empty]
+2026-05-21T21:03:45.641000Z [270907.264800 Battery 11% (Display 7.5 %) / 0h:53 to empty]
+2026-05-21T21:03:57.122000Z [270918.772500 Battery 11% (Display 7.4 %) / 0h:56 to empty]
+2026-05-21T21:04:08.104000Z [270929.781300 Battery 11% (Display 7.3 %) / 0h:57 to empty]
+2026-05-21T21:04:08.104000Z  power state 5 = S0ix, in 0x38d87
+2026-05-21T21:04:08.104000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-21T21:04:08.104000Z I: power state 6 = S0, in 0x38d97
+2026-05-21T21:04:08.104000Z I: power state 16 = S0S0ix, in 0x38d97
+2026-05-22T01:02:57.792000Z [285294.550200 Motion pre-suspend; loops 1; last 1826514 ms ago; a=0x0, s=0x0]
+2026-05-22T01:02:57.796000Z [285294.554100 raa489000_init(0): DEVICE_ID=261]
+2026-05-22T01:02:57.795000Z [285294.553400 PD:S0->S3]
+2026-05-22T01:02:57.795000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:02:57.810000Z [285294.568100 C0: TCPC init ready]
+2026-05-22T01:02:57.814000Z [285294.571900 raa489000_init(1): DEVICE_ID=261]
+2026-05-22T01:02:57.829000Z [285294.587000 C1: TCPC init ready]
+2026-05-22T01:02:57.895000Z [285294.653400 C1: Exit Low Power Mode]
+2026-05-22T01:02:57.895000Z [285294.652600 C0: Exit Low Power Mode]
+2026-05-22T01:02:57.959000Z [285294.716800 C1: TCPC Enter Low Power Mode]
+2026-05-22T01:02:57.972000Z [285294.730000 C0: TCPC Enter Low Power Mode]
+2026-05-22T01:02:57.972000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:02:57.972000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-22T01:02:57.972000Z I: power state 6 = S0, in 0x38d97
+2026-05-22T01:02:57.972000Z I: power state 16 = S0S0ix, in 0x38d97
+2026-05-22T01:05:57.200000Z [285473.958300 Motion pre-suspend; loops 1; last 2005922 ms ago; a=0x0, s=0x0]
+2026-05-22T01:05:57.204000Z [285473.962200 raa489000_init(0): DEVICE_ID=261]
+2026-05-22T01:05:57.203000Z [285473.961500 PD:S0->S3]
+2026-05-22T01:05:57.218000Z I: power state 5 = S0ix, in 0x38d97[285473.976300 C0: TCPC init ready]
+2026-05-22T01:05:57.222000Z [285473.980000 raa489000_init(1): DEVICE_ID=261]
+2026-05-22T01:05:57.222000Z 
+2026-05-22T01:05:57.237000Z [285473.994800 C1: TCPC init ready]
+2026-05-22T01:05:57.303000Z [285474.061500 C1: Exit Low Power Mode]
+2026-05-22T01:05:57.303000Z [285474.060700 C0: Exit Low Power Mode]
+2026-05-22T01:05:57.367000Z [285474.125400 C1: TCPC Enter Low Power Mode]
+2026-05-22T01:05:57.381000Z [285474.138700 C0: TCPC Enter Low Power Mode]
+2026-05-22T01:05:57.381000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:05:57.381000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-22T01:05:57.381000Z I: power state 6 = S0, in 0x38d97
+2026-05-22T01:05:57.381000Z I: power state 16 = S0S0ix, in 0x38d97
+2026-05-22T01:08:56.608000Z [285653.365600 Motion pre-suspend; loops 1; last 2185330 ms ago; a=0x0, s=0x0]
+2026-05-22T01:08:56.611000Z [285653.369500 raa489000_init(0): DEVICE_ID=261]
+2026-05-22T01:08:56.611000Z [285653.368800 PD:S0->S3]
+2026-05-22T01:08:56.611000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:08:56.626000Z [285653.383700 C0: TCPC init ready]
+2026-05-22T01:08:56.629000Z [285653.387300 raa489000_init(1): DEVICE_ID=261]
+2026-05-22T01:08:56.643000Z [285653.401300 C1: TCPC init ready]
+2026-05-22T01:08:56.711000Z [285653.468800 C1: Exit Low Power Mode]
+2026-05-22T01:08:56.710000Z [285653.468100 C0: Exit Low Power Mode]
+2026-05-22T01:08:56.774000Z [285653.531900 C1: TCPC Enter Low Power Mode]
+2026-05-22T01:08:56.789000Z [285653.547000 C0: TCPC Enter Low Power Mode]
+2026-05-22T01:08:56.789000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:08:56.789000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-22T01:08:56.789000Z I: power state 6 = S0, in 0x38d97
+2026-05-22T01:08:56.789000Z I: power state 16 = S0S0ix, in 0x38d97
+2026-05-22T01:11:56.022000Z [285832.780000 Motion pre-suspend; loops 1; last 2364744 ms ago; a=0x0, s=0x0]
+2026-05-22T01:11:56.026000Z [285832.783800 raa489000_init(0): DEVICE_ID=261]
+2026-05-22T01:11:56.025000Z [285832.783100 PD:S0->S3]
+2026-05-22T01:11:56.040000Z I: power state 5 = S0ix, in 0x38d9[285832.798000 C0: TCPC init ready]
+2026-05-22T01:11:56.044000Z [285832.801700 raa489000_init(1): DEVICE_ID=261]
+2026-05-22T01:11:56.044000Z 7
+2026-05-22T01:11:56.058000Z [285832.815800 C1: TCPC init ready]
+2026-05-22T01:11:56.125000Z [285832.883000 C1: Exit Low Power Mode]
+2026-05-22T01:11:56.124000Z [285832.882400 C0: Exit Low Power Mode]
+2026-05-22T01:11:56.190000Z [285832.948000 C1: TCPC Enter Low Power Mode]
+2026-05-22T01:11:56.203000Z [285832.961300 C0: TCPC Enter Low Power Mode]
+2026-05-22T01:11:56.203000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:11:56.203000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-22T01:11:56.203000Z I: power state 6 = S0, in 0x38d97
+2026-05-22T01:11:56.203000Z I: power state 16 = S0S0ix, in 0x38d97
+2026-05-22T01:14:55.436000Z [286012.194300 Motion pre-suspend; loops 1; last 2544158 ms ago; a=0x0, s=0x0]
+2026-05-22T01:14:55.440000Z [286012.198200 raa489000_init(0): DEVICE_ID=261]
+2026-05-22T01:14:55.439000Z [286012.197500 PD:S0->S3]
+2026-05-22T01:14:55.454000Z I: power state 5 = S0ix, in[286012.212400 C0: TCPC init ready]
+2026-05-22T01:14:55.458000Z [286012.216100 raa489000_init(1): DEVICE_ID=261]
+2026-05-22T01:14:55.458000Z  0x38d97
+2026-05-22T01:14:55.472000Z [286012.230200 C1: TCPC init ready]
+2026-05-22T01:14:55.539000Z [286012.297400 C1: Exit Low Power Mode]
+2026-05-22T01:14:55.539000Z [286012.296800 C0: Exit Low Power Mode]
+2026-05-22T01:14:55.604000Z [286012.362500 C1: TCPC Enter Low Power Mode]
+2026-05-22T01:14:55.618000Z [286012.375800 C0: TCPC Enter Low Power Mode]
+2026-05-22T01:14:55.618000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:14:55.618000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-22T01:14:55.618000Z I: power state 6 = S0, in 0x38d97
+2026-05-22T01:14:55.618000Z I: power state 16 = S0S0ix, in 0x38d97
+2026-05-22T01:17:54.846000Z [286191.604400 Motion pre-suspend; loops 1; last 2723568 ms ago; a=0x0, s=0x0]
+2026-05-22T01:17:54.850000Z [286191.608200 raa489000_init(0): DEVICE_ID=261]
+2026-05-22T01:17:54.849000Z [286191.607500 PD:S0->S3]
+2026-05-22T01:17:54.849000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:17:54.864000Z [286191.622500 C0: TCPC init ready]
+2026-05-22T01:17:54.868000Z [286191.626200 raa489000_init(1): DEVICE_ID=261]
+2026-05-22T01:17:54.883000Z [286191.641200 C1: TCPC init ready]
+2026-05-22T01:17:54.949000Z [286191.707500 C1: Exit Low Power Mode]
+2026-05-22T01:17:54.949000Z [286191.706900 C0: Exit Low Power Mode]
+2026-05-22T01:17:55.013000Z [286191.771400 C1: TCPC Enter Low Power Mode]
+2026-05-22T01:17:55.027000Z [286191.785300 C0: TCPC Enter Low Power Mode]
+2026-05-22T01:18:26.960000Z [286223.717700 lid open]
+2026-05-22T01:18:26.961000Z [286223.718600 KB disable_scanning_mask changed: 0x00000000]
+2026-05-22T01:18:26.962000Z [286223.720300 SW 0x01]
+2026-05-22T01:18:26.963000Z [286223.721200 mkbp switches: 1]
+2026-05-22T01:18:26.963000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:18:26.963000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-22T01:18:26.963000Z I: power state 6 = S0, in 0x38d87
+2026-05-22T01:18:27.038000Z [286223.796200 KS disable]
+2026-05-22T01:18:27.039000Z [286223.797100 KB Clear Buffer]
+2026-05-22T01:18:27.065000Z [286223.815600 KS enable]
+2026-05-22T01:18:27.066000Z [286223.816500 KB Clear Buffer]
+2026-05-22T01:18:27.066000Z I: host sleep event = 4
+2026-05-22T01:18:27.200000Z [286223.950400 Motion pre-resume; loops 1; last 2755914 ms ago; a=0x0, s=0x0]
+2026-05-22T01:18:27.207000Z [286223.957800 raa489000_init(0): DEVICE_ID=261]
+2026-05-22T01:18:27.209000Z [286223.960000 PD:S3->S0]
+2026-05-22T01:18:27.212000Z [286223.962500 USB charge p0 m2 i0]
+2026-05-22T01:18:27.227000Z [286223.977700 USB charge p1 m2 i0]
+2026-05-22T01:18:27.239000Z [286223.989700 C1: TCPC init ready]
+2026-05-22T01:18:27.306000Z [286224.056200 C0: Exit Low Power Mode]
+2026-05-22T01:18:27.309000Z [286224.059900 C1: Exit Low Power Mode]
+2026-05-22T01:18:27.360000Z [286224.110200 C0: TCPC Enter Low Power Mode]
+2026-05-22T01:18:27.363000Z [286224.113300 C1: TCPC Enter Low Power Mode]
+2026-05-22T01:18:36.243000Z [286232.993700 Battery 11% (Display 7.0 %) / 1h:43 to empty]
+2026-05-22T01:18:39.223000Z [286235.996800 Battery 10% (Display 7.0 %) / 1h:22 to empty]
+2026-05-22T01:18:42.225000Z [286238.998900 Battery 10% (Display 6.9 %) / 1h:14 to empty]
+2026-05-22T01:18:46.228000Z [286243.001900 Battery 10% (Display 6.8 %) / 0h:54 to empty]
+2026-05-22T01:18:50.205000Z [286247.004700 Battery 10% (Display 6.7 %) / 0h:43 to empty]
+2026-05-22T01:18:54.208000Z [286251.007600 Battery 10% (Display 6.6 %) / 0h:38 to empty]
+2026-05-22T01:19:00.193000Z [286257.012300 Battery 10% (Display 6.5 %) / 0h:41 to empty]
+2026-05-22T01:19:07.698000Z [286264.517800 Battery 10% (Display 6.4 %) / 0h:40 to empty]
+2026-05-22T01:19:12.685000Z [286269.521100 Battery 10% (Display 6.3 %) / 0h:37 to empty]
+2026-05-22T01:19:19.209000Z [286276.524400 Battery 10% (Display 6.2 %) / 0h:41 to empty]
+2026-05-22T01:19:27.214000Z [286284.529300 Battery 10% (Display 6.1 %) / 0h:47 to empty]
+2026-05-22T01:19:38.188000Z [286295.536000 Battery 10% (Display 6.0 %) / 0h:59 to empty]
+2026-05-22T01:19:49.178000Z [286306.544400 Battery 10% (Display 5.9 %) / 1h:6 to empty]
+2026-05-22T01:19:54.181000Z [286311.547100 Battery 9% (Display 5.9 %) / 1h:7 to empty]
+2026-05-22T01:20:02.169000Z [286319.552000 Battery 9% (Display 5.8 %) / 1h:10 to empty]
+2026-05-22T01:20:10.156000Z [286327.557100 Battery 9% (Display 5.7 %) / 1h:2 to empty]
+2026-05-22T01:20:19.140000Z [286336.561900 Battery 9% (Display 5.6 %) / 1h:1 to empty]
+2026-05-22T01:20:29.148000Z [286346.569600 Battery 9% (Display 5.5 %) / 1h:2 to empty]
+2026-05-22T01:20:38.133000Z [286355.574600 Battery 9% (Display 5.4 %) / 0h:57 to empty]
+2026-05-22T01:20:47.116000Z [286364.580000 Battery 9% (Display 5.3 %) / 0h:53 to empty]
+2026-05-22T01:20:55.602000Z [286373.085600 Battery 9% (Display 5.2 %) / 0h:50 to empty]
+2026-05-22T01:21:03.586000Z [286381.090600 Battery 9% (Display 5.1 %) / 0h:49 to empty]
+2026-05-22T01:21:11.569000Z [286389.095900 Battery 9% (Display 5.0 %) / 0h:49 to empty]
+2026-05-22T01:21:19.574000Z [286397.101000 Battery 9% (Display 4.9 %) / 0h:50 to empty]
+2026-05-22T01:21:27.556000Z [286405.107200 Battery 9% (Display 4.8 %) / 0h:49 to empty]
+2026-05-22T01:21:29.557000Z [286407.108900 Battery 8% (Display 4.8 %) / 0h:51 to empty]
+2026-05-22T01:21:30.531000Z [286408.083000 lid close]
+2026-05-22T01:21:30.533000Z [286408.084400 KB disable_scanning_mask changed: 0x00000001]
+2026-05-22T01:21:30.534000Z [286408.085700 KB Clear Buffer]
+2026-05-22T01:21:30.536000Z [286408.087300 SW 0x00]
+2026-05-22T01:21:30.538000Z [286408.089300 Tablet mode set while disabled (ignoring)!]
+2026-05-22T01:21:30.545000Z [286408.096200 mkbp switches: 0]
+2026-05-22T01:21:30.545000Z I: host sleep event = 3
+2026-05-22T01:21:21.563000Z [286409.427300 KB Clear Buffer]
+2026-05-22T01:21:21.563000Z I: power state 6 = S0, in 0x38d97
+2026-05-22T01:21:21.563000Z I: power state 16 = S0S0ix, in 0x38d97
+2026-05-22T01:21:21.788000Z [286409.651800 Motion pre-suspend; loops 1; last 2941616 ms ago; a=0x0, s=0x0]
+2026-05-22T01:21:21.795000Z [286409.658600 raa489000_init(0): DEVICE_ID=261]
+2026-05-22T01:21:21.794000Z [286409.657900 PD:S0->S3]
+2026-05-22T01:21:21.794000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.809000Z [286409.672600 C0: TCPC init ready]
+2026-05-22T01:21:21.813000Z [286409.676600 raa489000_init(1): DEVICE_ID=261]
+2026-05-22T01:21:21.813000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.827000Z [286409.691300 C1: TCPC init ready]
+2026-05-22T01:21:21.827000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-22T01:21:21.827000Z I: power state 6 = S0, in 0x38d97
+2026-05-22T01:21:21.827000Z I: power state 16 = S0S0ix, in 0x38d97
+2026-05-22T01:21:21.839000Z [286409.702600 Motion pre-suspend; loops 1; last 2941667 ms ago; a=0x0, s=0x0]
+2026-05-22T01:21:21.842000Z [286409.705500 PD:S0->S3]
+2026-05-22T01:21:21.842000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.894000Z [286409.757900 C1: Exit Low Power Mode]
+2026-05-22T01:21:21.893000Z [286409.757100 C0: Exit Low Power Mode]
+2026-05-22T01:21:21.957000Z [286409.821200 C1: TCPC Enter Low Power Mode]
+2026-05-22T01:21:21.970000Z [286409.834300 C0: TCPC Enter Low Power Mode]
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T01:21:21.970000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T02:40:02.966000Z [291130.830000 lid open]
+2026-05-22T02:40:02.967000Z [291130.830900 KB disable_scanning_mask changed: 0x00000000]
+2026-05-22T02:40:02.969000Z [291130.832600 SW 0x01]
+2026-05-22T02:40:02.969000Z [291130.833400 mkbp switches: 1]
+2026-05-22T02:40:02.969000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T02:40:02.969000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-22T02:40:02.969000Z I: power state 6 = S0, in 0x38d87
+2026-05-22T02:40:03.041000Z [291130.905200 KS disable]
+2026-05-22T02:40:03.042000Z [291130.906100 KB Clear Buffer]
+2026-05-22T02:40:02.485000Z [291130.915800 KS enable]
+2026-05-22T02:40:02.486000Z [291130.916600 KB Clear Buffer]
+2026-05-22T02:40:02.486000Z I: host sleep event = 4
+2026-05-22T02:40:02.625000Z [291131.055200 Motion pre-resume; loops 1; last 3368052 ms ago; a=0x0, s=0x0]
+2026-05-22T02:40:02.631000Z [291131.061700 raa489000_init(0): DEVICE_ID=261]
+2026-05-22T02:40:02.633000Z [291131.063800 PD:S3->S0]
+2026-05-22T02:40:02.645000Z [291131.075400 C0: TCPC init ready]
+2026-05-22T02:40:02.649000Z [291131.079900 raa489000_init(1): DEVICE_ID=261]
+2026-05-22T02:40:02.641000Z [291131.071800 USB charge p0 m2 i0]
+2026-05-22T02:40:02.651000Z [291131.082000 USB charge p1 m2 i0]
+2026-05-22T02:40:02.663000Z [291131.093900 C1: TCPC init ready]
+2026-05-22T02:40:02.731000Z [291131.161100 C0: Exit Low Power Mode]
+2026-05-22T02:40:02.734000Z [291131.164500 C1: Exit Low Power Mode]
+2026-05-22T02:40:02.784000Z [291131.214900 C0: TCPC Enter Low Power Mode]
+2026-05-22T02:40:02.787000Z [291131.217900 C1: TCPC Enter Low Power Mode]
+2026-05-22T02:40:05.414000Z [291133.844100 lid close]
+2026-05-22T02:40:05.415000Z [291133.845100 KB disable_scanning_mask changed: 0x00000001]
+2026-05-22T02:40:05.416000Z [291133.846300 KB Clear Buffer]
+2026-05-22T02:40:05.417000Z [291133.847500 SW 0x00]
+2026-05-22T02:40:05.420000Z [291133.850500 Tablet mode set while disabled (ignoring)!]
+2026-05-22T02:40:05.425000Z [291133.855800 mkbp switches: 0]
+2026-05-22T02:40:05.425000Z I: host sleep event = 3
+2026-05-22T02:40:06.295000Z [291134.725800 KB Clear Buffer]
+2026-05-22T02:40:06.295000Z I: power state 6 = S0, in 0x38d97
+2026-05-22T02:40:06.295000Z I: power state 16 = S0S0ix, in 0x38d97
+2026-05-22T02:40:06.656000Z [291135.086600 Motion pre-suspend; loops 1; last 3372083 ms ago; a=0x0, s=0x0]
+2026-05-22T02:40:06.664000Z [291135.095000 raa489000_init(0): DEVICE_ID=261]
+2026-05-22T02:40:06.664000Z [291135.094300 PD:S0->S3]
+2026-05-22T02:40:06.664000Z I: power state 5 = S0ix, in 0x38d97
+2026-05-22T02:40:06.679000Z [291135.109600 C0: TCPC init ready]
+2026-05-22T02:40:06.683000Z [291135.113400 raa489000_init(1): DEVICE_ID=261]
+2026-05-22T02:40:06.697000Z [291135.127500 C1: TCPC init ready]
+2026-05-22T02:40:06.764000Z [291135.194300 C1: Exit Low Power Mode]
+2026-05-22T02:40:06.763000Z [291135.193600 C0: Exit Low Power Mode]
+2026-05-22T02:40:06.829000Z [291135.259400 C1: TCPC Enter Low Power Mode]
+2026-05-22T02:40:06.843000Z [291135.273900 C0: TCPC Enter Low Power Mode]
+2026-05-22T02:40:44.760000Z [291173.190900 raa489000_init(0): DEVICE_ID=261]
+2026-05-22T02:40:44.776000Z [291173.206400 C0: TCPC init ready]
+2026-05-22T02:40:44.878000Z [291173.308400 C0: Exit Low Power Mode]
+2026-05-22T02:40:44.878000Z I: power state 5 = S0ix, in 0x38d87
+2026-05-22T02:40:44.878000Z I: power state 11 = S0ixS0, in 0x38d87
+2026-05-22T02:40:44.878000Z I: power state 6 = S0, in 0x38d87
+2026-05-22T02:40:45.010000Z [291173.440500 Act Chg: 0]
+2026-05-22T02:40:45.010000Z I: New chg p0
+2026-05-22T02:40:45.040000Z [291173.470400 raa489000_init(1): DEVICE_ID=261]
+2026-05-22T02:40:45.054000Z [291173.484600 C1: TCPC init ready]
+2026-05-22T02:40:45.067000Z [291173.497500 KS disable]
+2026-05-22T02:40:45.068000Z [291173.498400 KB Clear Buffer]
+2026-05-22T02:40:45.073000Z [291173.503600 KS enable]
+2026-05-22T02:40:45.074000Z [291173.504400 KB Clear Buffer]
+2026-05-22T02:40:45.049000Z [291173.494600 CL: p0 s1 i3000 v5000]
+2026-05-22T02:40:45.090000Z [291173.536200 Battery 8% (Display 4.7 %) / 41h:53 to empty]
+2026-05-22T02:40:45.090000Z C0: Req [2] 9000mV 2220mA
+2026-05-22T02:40:45.108000Z [291173.554000 CL: p0 s0 i277 v5000 (forced)]
+2026-05-22T02:40:45.107000Z [291173.552600 charge_request(13200mV, 5544mA)]
+2026-05-22T02:40:45.141000Z [291173.586400 C1: Exit Low Power Mode]
+2026-05-22T02:40:45.141000Z I: New chg p0
+2026-05-22T02:40:45.191000Z [291173.636900 CL: p0 s0 i277 v9000]
+2026-05-22T02:40:45.191000Z C0: Req [2] 9000mV 2220mA
+2026-05-22T02:40:45.205000Z [291173.650600 C1: TCPC Enter Low Power Mode]
+2026-05-22T02:40:45.205000Z I: host sleep event = 4
+2026-05-22T02:40:45.211000Z [291173.656700 Motion pre-resume; loops 1; last 3410653 ms ago; a=0x0, s=0x0]
+2026-05-22T02:40:45.223000Z [291173.669000 raa489000_init(1): DEVICE_ID=261]
+2026-05-22T02:40:45.225000Z [291173.670800 PD:S3->S0]
+2026-05-22T02:40:45.226000Z [291173.671800 USB charge p0 m2 i0]
+2026-05-22T02:40:45.240000Z [291173.685300 C1: TCPC init ready]
+2026-05-22T02:40:45.242000Z [291173.687400 USB charge p1 m2 i0]
+2026-05-22T02:40:45.281000Z [291173.727100 pi3usb9201[p0]: CDP_HOST mode]
+2026-05-22T02:40:45.273000Z [291173.719200 CL: p0 s0 i2220 v9000]
+2026-05-22T02:40:45.273000Z Unhandled DPM Request 4 received
+2026-05-22T02:40:45.322000Z [291173.768200 C1: Exit Low Power Mode]
+2026-05-22T02:40:45.376000Z [291173.822100 C1: TCPC Enter Low Power Mode]
+2026-05-22T02:40:45.602000Z [291174.047300 C0: No supported alt mode discovered]
+2026-05-22T02:40:49.105000Z [291177.550900 Battery 8% (Display 4.8 %) / 13h:41 to full]
+2026-05-22T02:40:53.630000Z [291182.076000 lid open]
+2026-05-22T02:40:53.631000Z [291182.076900 KB disable_scanning_mask changed: 0x00000000]
+2026-05-22T02:40:53.633000Z [291182.079000 SW 0x01]
+2026-05-22T02:40:53.634000Z [291182.079900 mkbp switches: 1]
+2026-05-22T02:41:01.358000Z [291189.818600 Battery 9% (Display 4.8 %) / 5h:30 to full]
+2026-05-22T02:41:04.362000Z [291192.822600 Battery 9% (Display 4.9 %) / 5h:11 to full]
+2026-05-22T02:41:19.342000Z [291207.840600 Battery 9% (Display 5.0 %) / 4h:54 to full]
+2026-05-22T02:41:27.476000Z [291216.001200 KB disable_scanning_mask changed: 0x00000002]
+2026-05-22T02:41:27.478000Z [291216.002600 KB Clear Buffer]
+2026-05-22T02:41:27.506000Z [291216.031400 power button pressed]
+2026-05-22T02:41:27.507000Z [291216.032500 mkbp buttons: 1]
+2026-05-22T02:41:27.508000Z [291216.033400 PB pressed]
+2026-05-22T02:41:27.510000Z [291216.034800 PB task 1 = pressed]
+2026-05-22T02:41:27.512000Z [291216.036600 PB PCH pwrbtn=LOW]
+2026-05-22T02:41:27.512000Z [291216.037200 SW 0x03]
+2026-05-22T02:41:27.515000Z [291216.040300 PB task 2 = t0, wait 26500]
+2026-05-22T02:41:27.550000Z [291216.0753
+2026-05-22T02:41:27.550000Z 00 PB task 2 = t0]
+2026-05-22T02:41:27.552000Z [291216.076300 PB PCH pwrbtn=HIGH]
+2026-05-22T02:41:27.553000Z [291216.077200 PB task 3 = t1, wait 3966100]
+2026-05-22T02:41:27.575000Z [291216.099300 KB disable_scanning_mask changed: 0x00000000]
+2026-05-22T02:41:27.577000Z [291216.100800 power button released]
+2026-05-22T02:41:27.578000Z [291216.102500 mkbp buttons: 0]
+2026-05-22T02:41:27.579000Z [291216.103500 PB released]
+2026-05-22T02:41:27.582000Z [291216.106500 PB task 6 = released]
+2026-05-22T02:41:27.584000Z [291216.108200 SW 0x01]
+2026-05-22T02:41:27.587000Z [291216.110600 PB PCH pwrbtn=HIGH]
+2026-05-22T02:41:27.595000Z [291216.119100 PB task 0 = idle, wait -1]
+2026-05-22T02:41:27.625000Z [291216.149300 KB disable_scanning_mask changed: 0x00000002]
+2026-05-22T02:41:27.627000Z [291216.150700 KB Clear Buffer]
+2026-05-22T02:41:27.655000Z [291216.179500 power button pressed]
+2026-05-22T02:41:27.657000Z [291216.180600 mkbp buttons: 1]
+2026-05-22T02:41:27.657000Z [291216.181500 PB pressed]
+2026-05-22T02:41:27.659000Z [291216.182900 PB task 1 = pressed]
+2026-05-22T02:41:27.661000Z [291216.185100 PB PCH pwrbtn=LOW]
+2026-05-22T02:41:27.661000Z [291216.184600 SW 0x03]
+2026-05-22T02:41:27.665000Z [291216.189200 PB task 2 = t0, wait 25700]
+2026-05-22T02:41:27.699000Z [291216.223300 PB task 2 = t0]
+2026-05-22T02:41:27.700000Z [291216.224300 PB PCH pwrbtn=HIGH]
+2026-05-22T02:41:27.701000Z [291216.225200 PB task 3 = t1, wait 3966100]
+2026-05-22T02:41:27.755000Z [291216.279200 KB disable_scanning_mask changed: 0x00000000]
+2026-05-22T02:41:27.759000Z [291216.282800 power button released]
+2026-05-22T02:41:27.762000Z [291216.285600 mkbp buttons: 0]
+2026-05-22T02:41:27.763000Z [291216.286600 PB released]
+2026-05-22T02:41:27.765000Z [291216.289400 PB task 6 = released]
+2026-05-22T02:41:27.768000Z [291216.292100 PB PCH pwrbtn=HIGH]
+2026-05-22T02:41:27.771000Z [291216.295500 PB task 0 = idle, wait -1]
+2026-05-22T02:41:27.775000Z [291216.298900 SW 0x01]
+2026-05-22T02:41:31.331000Z [291219.855000 Battery 9% (Display 5.1 %) / 4h:26 to full]
+2026-05-22T02:41:44.329000Z [291232.876500 Battery 9% (Display 5.2 %) / 4h:25 to full]
+2026-05-22T02:41:54.587000Z [291243.157200 Sustainer disabled]
+2026-05-22T02:42:04.309000Z [291252.902900 Battery 9% (Display 5.3 %) / 6h:7 to full]
+2026-05-22T02:42:20.524000Z [291269.177100 Battery 9% (Display 5.4 %) / 5h:22 to full]
+2026-05-22T02:42:57.489000Z [291306.221500 Battery 9% (Display 5.5 %) / 7h:45 to full]
+2026-05-22T02:43:17.728000Z [291326.495600 Battery 9% (Display 5.6 %) / 6h:5 to full]
+2026-05-22T02:43:31.704000Z [291340.511500 Battery 9% (Display 5.7 %) / 5h:3 to full]
+2026-05-22T02:43:44.704000Z [291353.529900 Battery 9% (Display 5.8 %) / 4h:30 to full]
+2026-05-22T02:44:10.924000Z [291379.811300 Battery 9% (Display 5.9 %) / 7h:10 to full]
+2026-05-22T02:44:29.929000Z [291398.839900 Battery 10% (Display 5.9 %) / 7h:3 to full]
+2026-05-22T02:44:38.911000Z [291407.848800 Battery 10% (Display 6.0 %) / 6h:3 to full]
+2026-05-22T02:44:51.887000Z [291420.867400 Battery 10% (Display 6.1 %) / 5h:4 to full]
+2026-05-22T02:45:05.901000Z [291434.904500 Battery 10% (Display 6.2 %) / 4h:40 to full]
+2026-05-22T02:45:19.136000Z [291448.162100 Battery 10% (Display 6.3 %) / 4h:24 to full]
+2026-05-22T02:45:30.130000Z [291459.176700 Battery 10% (Display 6.4 %) / 4h:13 to full]
+2026-05-22T02:45:42.099000Z [291471.188100 Battery 10% (Display 6.5 %) / 4h:8 to full]
+2026-05-22T02:45:58.115000Z [291487.231400 Battery 10% (Display 6.6 %) / 4h:10 to full]
+2026-05-22T02:46:06.442000Z [291495.585300 KB disable_scanning_mask changed: 0x00000002]
+2026-05-22T02:46:06.443000Z [291495.586700 KB Clear Buffer]
+2026-05-22T02:46:06.472000Z [291495.615500 power button pressed]
+2026-05-22T02:46:06.473000Z [291495.616500 mkbp buttons: 1]
+2026-05-22T02:46:06.474000Z [291495.617500 PB pressed]
+2026-05-22T02:46:06.475000Z [291495.618400 PB task 1 = pressed]
+2026-05-22T02:46:06.476000Z [291495.619800 SW 0x03]
+2026-05-22T02:46:06.477000Z [291495.621000 PB PCH pwrbtn=LOW]
+2026-05-22T02:46:06.484000Z [291495.627900 PB task 2 = t0, wait 22500]
+2026-05-22T02:46:06.512000Z [291495.655900 KB disable_scanning_mask changed: 0x00000000]
+2026-05-22T02:46:06.514000Z [291495.657500 PB task 2 = t0]
+2026-05-22T02:46:06.515000Z [291495.658400 PB PCH pwrbtn=HIGH]
+2026-05-22T02:46:06.516000Z [291495.660000 PB task 3 = t1, wait 3965500]
+2026-05-22T02:46:06.516000Z [291495.659700 power button released]
+2026-05-22T02:46:06.525000Z [291495.668900 mkbp buttons: 0]
+2026-05-22T02:46:06.530000Z [291495.673100 PB released]
+2026-05-22T02:46:06.533000Z [291495.677000 PB task 6 = released]
+2026-05-22T02:46:06.535000Z [291495.678100 SW 0x01]
+2026-05-22T02:46:06.538000Z [291495.681100 PB PCH pwrbtn=HIGH]
+2026-05-22T02:46:06.544000Z [291495.688000 PB task 0 = idle, wait -1]
+2026-05-22T02:46:06.604000Z [291495.747700 KB disable_scanning_mask changed: 0x00000002]
+2026-05-22T02:46:06.606000Z [291495.749100 KB Clear Buffer]
+2026-05-22T02:46:06.664000Z [291495.807300 KB disable_scanning_mask changed: 0x00000000]
+2026-05-22T02:46:11.091000Z [291500.235000 Battery 10% (Display 6.7 %) / 4h:24 to full]
+2026-05-22T02:46:25.306000Z [291514.504500 Battery 10% (Display 6.8 %) / 4h:25 to full]
+2026-05-22T02:46:39.295000Z [291528.521400 Battery 10% (Display 6.9 %) / 4h:22 to full]
+2026-05-22T02:46:52.283000Z [291541.535200 Battery 10% (Display 7.0 %) / 4h:21 to full]
+2026-05-22T02:46:58.267000Z [291547.543500 Battery 11% (Display 7.0 %) / 4h:20 to full]
+2026-05-22T02:47:07.252000Z [291556.553400 Battery 11% (Display 7.1 %) / 4h:43 to full]
+2026-05-22T02:47:24.506000Z [291573.856600 Battery 11% (Display 7.2 %) / 4h:32 to full]
+2026-05-22T02:47:39.474000Z [291588.852600 Battery 11% (Display 7.3 %) / 4h:30 to full]
+2026-05-22T02:47:51.462000Z [291600.867500 Battery 11% (Display 7.4 %) / 4h:22 to full]
+2026-05-22T02:48:04.448000Z [291613.881400 Battery 11% (Display 7.5 %) / 4h:16 to full]
+2026-05-22T02:48:16.409000Z [291625.896600 Battery 11% (Display 7.6 %) / 4h:11 to full]
+2026-05-22T02:48:31.653000Z [291641.165400 Battery 11% (Display 7.7 %) / 4h:6 to full]
+2026-05-22T02:48:44.644000Z [291654.180000 Battery 11% (Display 7.8 %) / 4h:13 to full]
+2026-05-22T02:48:57.612000Z [291667.194900 Battery 11% (Display 7.9 %) / 4h:15 to full]
+2026-05-22T02:49:10.606000Z [291680.207500 Battery 11% (Display 8.0 %) / 4h:23 to full]
+2026-05-22T02:49:24.853000Z [291694.477800 Battery 11% (Display 8.1 %) / 4h:19 to full]
+2026-05-22T02:49:27.832000Z [291697.480400 Battery 12% (Display 8.1 %) / 4h:20 to full]
+2026-05-22T02:49:37.818000Z [291707.492300 Battery 12% (Display 8.2 %) / 4h:16 to full]
+2026-05-22T02:49:52.813000Z [291722.511000 Battery 12% (Display 8.3 %) / 4h:6 to full]
+2026-05-22T02:50:04.803000Z [291734.525100 Battery 12% (Display 8.4 %) / 4h:8 to full]
+2026-05-22T02:50:16.792000Z [291746.539000 Battery 12% (Display 8.5 %) / 4h:9 to full]
+2026-05-22T02:50:30.009000Z [291759.805400 Battery 12% (Display 8.6 %) / 4h:8 to full]
+2026-05-22T02:50:43.000000Z [291772.823300 Battery 12% (Display 8.7 %) / 4h:14 to full]
+2026-05-22T02:50:54.989000Z [291784.837600 Battery 12% (Display 8.8 %) / 4h:6 to full]

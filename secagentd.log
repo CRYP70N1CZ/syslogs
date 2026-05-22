@@ -1,0 +1,22 @@
+2026-05-22T03:19:12.841492Z INFO secagentd[1843]: BypassPolicyForTesting:0,BypassEnqOkWaitForTesting:0,StopReportingForUnaffiliatedUsers:0,HeartbeatPeriodSeconds:300,PluginBatchIntervalSeconds:120,FeaturePollIntervalSeconds:600
+2026-05-22T03:19:12.843217Z INFO secagentd[1843]: Set device boot time to 1779419947
+2026-05-22T03:19:12.843245Z INFO secagentd[1843]: Device timezone set to America/Chicago
+2026-05-22T03:19:13.147464Z INFO secagentd[1843]: Feature CrOSLateBootSecagentdXDRReportingchanged to 1
+2026-05-22T03:19:13.147476Z INFO secagentd[1843]: Feature CrOSLateBootSecagentdCoalesceTerminateschanged to 1
+2026-05-22T03:19:13.147482Z INFO secagentd[1843]: Feature CrOSLateBootSecagentdXDRNetworkEventschanged to 1
+2026-05-22T03:19:13.147487Z INFO secagentd[1843]: Feature CrOSLateBootSecagentdXDRAuthenticateEventschanged to 1
+2026-05-22T03:19:13.147492Z INFO secagentd[1843]: Feature CrOSLateBootSecagentdXDRFileEventschanged to 1
+2026-05-22T03:19:13.147944Z INFO secagentd[1843]: Process filter rules created:
+2026-05-22T03:19:13.147953Z INFO secagentd[1843]: PARENT: SHA256:F34707B87C81A0F9A7E65BE44A94B602329FDAE6441A1D890E2399BF4416FB44 pathname:/bin/sh
+2026-05-22T03:19:13.147958Z INFO secagentd[1843]: Commands:
+2026-05-22T03:19:13.147963Z INFO secagentd[1843]: '/bin/sh' '/usr/share/cros/init/temp_logger.sh'
+2026-05-22T03:19:13.147967Z INFO secagentd[1843]: '/bin/sh' '/usr/local/libexec/recover-duts/recover_duts'
+2026-05-22T03:19:13.147971Z INFO secagentd[1843]: '/bin/sh' '/usr/local/libexec/recover-duts/hooks/check_ethernet.hook'
+2026-05-22T03:19:13.147976Z INFO secagentd[1843]: PROCESS: SHA256:5D2A8682407A7223DDFDD7680B3F274DABA67AA36B61B4E35733B5A5F18EF833 pathname:/sbin/dmsetup
+2026-05-22T03:19:13.147981Z INFO secagentd[1843]: PROCESS: SHA256:5FB587D081A0BAA58E033230BBB1D05D3878261C1ED2A1F23B64914B4FF23833 pathname:/usr/sbin/spaced_cli
+2026-05-22T03:19:13.148898Z WARNING secagentd[1843]: Store reporting data by a Missive daemon
+2026-05-22T03:19:13.148920Z INFO secagentd[1843]: DeviceReportXDREventsPolicy: 0
+2026-05-22T03:19:13.148990Z INFO secagentd[1843]: CrOSLateBootSecagentdXDRReporting: 1
+2026-05-22T03:19:13.148998Z INFO secagentd[1843]: Not reporting yet.
+2026-05-22T03:19:16.119677Z WARNING secagentd[1843]: Service became available
+2026-05-22T03:19:16.119703Z WARNING secagentd[1843]: Service became available

@@ -1,0 +1,250 @@
+2026-05-16T17:40:15.310576Z INFO btadapterd[3955]: gatt_api  stack/gatt/gatt_api.cc:1305 GATT_Deregister: gatt_if=46
+2026-05-16T17:40:15.310618Z INFO btadapterd[3955]: gatt_api  stack/gatt/gatt_api.cc:1305 GATT_Deregister: gatt_if=47
+2026-05-16T17:40:17.063986Z WARNING btmanagerd[3816]: Set Floss Enabeld=true
+2026-05-16T17:40:17.191695Z INFO btadapterd[3955]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-16T17:40:17.193878Z INFO btadapterd[3955]: bt_shim_scanner  main/shim/le_scanning_manager.cc:247 IsMsftSupported: in shim layer
+2026-05-16T17:40:17.194143Z WARNING btmanagerd[3816]: Set Floss LL Privacy=false
+2026-05-16T17:40:17.292467Z INFO btadapterd[3955]: gatt_api  stack/gatt/gatt_api.cc:1271 GATT_Register: Allocated name:rust_client uuid:66c48958-45ab-4a4f-2c71-4b3fd061a431 gatt_if:49 eatt_support:false
+2026-05-16T17:40:17.293056Z INFO btadapterd[3955]: bluetooth  bta/gatt/bta_gatts_act.cc:193 bta_gatts_register: register application first_unuse rcb_idx=1
+2026-05-16T17:40:17.293075Z INFO btadapterd[3955]: gatt_api  stack/gatt/gatt_api.cc:1271 GATT_Register: Allocated name:GattServer uuid:e060b902-508c-485f-8b0e-27639c7f2d41 gatt_if:50 eatt_support:false
+2026-05-16T17:40:17.360811Z INFO btadapterd[3955]: Bluetooth HID telephony mode enabled
+2026-05-16T17:40:18.901601Z INFO btadapterd[3955]: gatt_api  stack/gatt/gatt_api.cc:1305 GATT_Deregister: gatt_if=49
+2026-05-16T17:40:18.901723Z INFO btadapterd[3955]: gatt_api  stack/gatt/gatt_api.cc:1305 GATT_Deregister: gatt_if=50
+2026-05-18T17:59:53.224103Z INFO btmanagerd[3915]: Setting up unstable Aflags, mode: Auto, use_unstable: false
+2026-05-18T17:59:53.018883Z WARNING btmanagerd[3915]: Set Floss Enabeld=true
+2026-05-18T17:59:53.021855Z INFO btmanagerd[3915]: VirtHci0: Action=HciDevicePresence("/sys/devices/pci0000:00/0000:00:14.0/usb3/3-10/3-10:1.0", RealHciIndex(0), true), Previous State(Off), Next State(TurningOn)
+2026-05-18T17:59:53.087474Z WARNING btmanagerd[3915]: Set Floss LL Privacy=false
+2026-05-18T17:59:53.266423Z INFO btadapterd[3951]: bt_btif  btif/src/bluetooth.cc:414 init: start restricted = false ; common criteria mode = false, config compare result = 0 instance_name = default
+2026-05-18T17:59:53.270641Z INFO btadapterd[3951]: bluetooth  common/message_loop_thread.cc:184 Run: message loop starting for thread bt_stack_manager_thread
+2026-05-18T17:59:53.273300Z INFO btadapterd[3951]: bt_stack_manager  btif/src/stack_manager.cc:263 event_init_stack: is initializing the stack
+2026-05-18T17:59:53.273400Z INFO btadapterd[3951]: bluetooth  common/message_loop_thread.cc:184 Run: message loop starting for thread bt_main_thread
+2026-05-18T17:59:53.274913Z INFO btadapterd[3951]: device_iot_config  device/src/device_iot_config_int.cc:61 device_iot_config_module_init: 
+2026-05-18T17:59:53.275041Z ERR btadapterd[3951]: bluetooth  osi/src/config.cc:96 config_new: unable to open file 'bt_remote_dev_info.conf': No such file or directory
+2026-05-18T17:59:53.275050Z WARNING btadapterd[3951]: device_iot_config  device/src/device_iot_config_int.cc:75 device_iot_config_module_init: Unable to load config file: bt_remote_dev_info.conf; using backup.
+2026-05-18T17:59:53.275066Z ERR btadapterd[3951]: bluetooth  osi/src/config.cc:96 config_new: unable to open file 'bt_remote_dev_info.bak': No such file or directory
+2026-05-18T17:59:53.275073Z ERR btadapterd[3951]: device_iot_config  device/src/device_iot_config_int.cc:81 device_iot_config_module_init: Unable to load bak file; creating empty config.
+2026-05-18T17:59:53.275085Z INFO btadapterd[3951]: device_iot_config  device/src/device_iot_config_int.cc:121 device_iot_config_module_init: Devices loaded 0
+2026-05-18T17:59:53.275224Z ERR btadapterd[3951]: bt_osi_alarm  osi/src/alarm.cc:687 timer_create_internal: unable to create timer with clock 9: Operation not permitted
+2026-05-18T17:59:53.275232Z ERR btadapterd[3951]: bt_osi_alarm  osi/src/alarm.cc:689 timer_create_internal: The kernel might not have support for timer_create(CLOCK_BOOTTIME_ALARM): https://lwn.net/Articles/429925/
+2026-05-18T17:59:53.276234Z ERR btadapterd[3951]: bt_osi_alarm  osi/src/alarm.cc:693 timer_create_internal: See following patches: https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/log/?qt=grep&q=CLOCK_BOOTTIME_ALARM
+2026-05-18T17:59:53.276550Z INFO btadapterd[3951]: bt_osi_thread  osi/src/thread.cc:223 run_thread: thread id 4019, thread name alarm_default_ca started
+2026-05-18T17:59:53.276735Z INFO btadapterd[3951]: bt_osi_thread  osi/src/thread.cc:223 run_thread: thread id 4020, thread name alarm_dispatcher started
+2026-05-18T17:59:53.276820Z INFO btadapterd[3951]: bt_core_module  btcore/src/module.cc:84 module_start_up: Starting module "gd_shim_module"
+2026-05-18T17:59:53.276835Z INFO btadapterd[3951]: bt_gd_shim  main/shim/stack.cc:131 StartEverything: Starting Gd stack
+2026-05-18T17:59:53.276978Z INFO btadapterd[3951]: BtGdWakelockNative  gd/os/chromeos/wakelock_native.cc:31 Initialize: Linux native wakelock is not implemented
+2026-05-18T17:59:53.276985Z INFO btadapterd[3951]: BtGdWakelockNative  gd/os/chromeos/wakelock_native.cc:34 Acquire: Linux native wakelock is not implemented
+2026-05-18T17:59:53.280260Z INFO btadapterd[3951]: bluetooth  gd/hal/snoop_logger.cc:571 SnoopLogger: Snoop Logs disabled
+2026-05-18T17:59:53.280280Z INFO btadapterd[3951]: bluetooth  gd/hal/snoop_logger.cc:380 delete_btsnoop_files: Deleting logs if they exist
+2026-05-18T17:59:53.280321Z INFO btadapterd[3951]: bluetooth  gd/hal/snoop_logger.cc:386 delete_btsnoop_files: Main log file does not exist at "/var/log/bluetooth/btsnoop_hci.log.filtered"
+2026-05-18T17:59:53.280336Z INFO btadapterd[3951]: bluetooth  gd/hal/snoop_logger.cc:394 delete_btsnoop_files: Last log file does not exist at "/var/log/bluetooth/btsnoop_hci.log.filtered"
+2026-05-18T17:59:53.280343Z INFO btadapterd[3951]: bluetooth  gd/hal/snoop_logger.cc:380 delete_btsnoop_files: Deleting logs if they exist
+2026-05-18T17:59:53.280356Z INFO btadapterd[3951]: bluetooth  gd/hal/snoop_logger.cc:386 delete_btsnoop_files: Main log file does not exist at "/var/log/bluetooth/btsnoop_hci.log"
+2026-05-18T17:59:53.280369Z INFO btadapterd[3951]: bluetooth  gd/hal/snoop_logger.cc:394 delete_btsnoop_files: Last log file does not exist at "/var/log/bluetooth/btsnoop_hci.log"
+2026-05-18T17:59:53.280538Z INFO btadapterd[3951]: bluetooth  gd/hal/hci_hal_impl_host.cc:228 ConnectToSocket: HCI device ready
+2026-05-18T17:59:53.280557Z INFO btadapterd[3951]: bluetooth  gd/hal/hci_hal_impl_host.cc:321 HciHalImpl: HAL opened successfully
+2026-05-18T17:59:53.280613Z INFO btadapterd[3951]: bluetooth  gd/hal/hci_hal_impl_host.cc:238 registerIncomingPacketCallback: before
+2026-05-18T17:59:53.280619Z INFO btadapterd[3951]: bluetooth  gd/hal/hci_hal_impl_host.cc:250 registerIncomingPacketCallback: after
+2026-05-18T17:59:53.281455Z INFO btadapterd[3951]: bluetooth  gd/hci/hci_layer.cc:405 register_event: Registering test for CONNECTION_REQUEST, since there's no ACL
+2026-05-18T17:59:53.313428Z INFO btadapterd[3951]: bluetooth  gd/hci/controller_impl.cc:250 Start: LE_READ_PERIODIC_ADVERTISER_LIST_SIZE not supported, defaulting to 0
+2026-05-18T17:59:53.333902Z INFO btadapterd[3951]: bluetooth  gd/hci/controller_impl.cc:546 read_default_erroneous_data_reporting_handler: erroneous data reporting: 0
+2026-05-18T17:59:53.334889Z INFO btadapterd[3951]: bluetooth  gd/hci/controller_impl.cc:719 le_get_vendor_capabilities_handler: invalid data for hci requirements v0.96
+2026-05-18T17:59:53.337305Z INFO btadapterd[3951]: bluetooth  gd/hci/remote_name_request_impl.cc:32 RemoteNameRequestModuleImpl: Starting RemoteNameRequestModuleImpl
+2026-05-18T17:59:53.340929Z INFO btadapterd[3951]: bluetooth  gd/hci/le_scanning_manager_impl.cc:296 get_rx_path_loss_compensation: Rx path loss compensation: 0
+2026-05-18T17:59:53.340944Z INFO btadapterd[3951]: bluetooth  gd/hci/msft.cc:306 MsftExtensionManager: MsftExtensionManager()
+2026-05-18T17:59:53.340954Z INFO btadapterd[3951]: bluetooth  gd/hci/msft.cc:40 impl: MsftExtensionManager start()
+2026-05-18T17:59:53.341016Z INFO btadapterd[3951]: bluetooth  gd/hci/msft.cc:56 impl: MSFT opcode 0xfc1e
+2026-05-18T17:59:53.342239Z INFO btadapterd[3951]: bluetooth  gd/hci/msft.cc:236 on_msft_read_supported_features_complete: MSFT features 0x000000000000047f prefix length 2
+2026-05-18T17:59:53.342348Z INFO btadapterd[3951]: bluetooth  gd/hci/le_advertising_manager_impl.cc:199 get_tx_path_loss_compensation: Tx path loss compensation: 0
+2026-05-18T17:59:53.342379Z INFO btadapterd[3951]: bluetooth  gd/hci/distance_measurement_manager_impl.cc:336 impl: The controller doesn't support Channel Sounding feature.
+2026-05-18T17:59:53.342394Z INFO btadapterd[3951]: bluetooth  gd/lpp/lpp_offload_manager.cc:31 impl: 
+2026-05-18T17:59:53.342697Z INFO btadapterd[3951]: bt_gd_shim  main/shim/stack.cc:149 StartEverything: init_status == 0
+2026-05-18T17:59:53.342710Z INFO btadapterd[3951]: BtGdWakelockNative  gd/os/chromeos/wakelock_native.cc:39 Release: Linux native wakelock is not implemented
+2026-05-18T17:59:53.342717Z INFO btadapterd[3951]: bt_gd_shim  main/shim/stack.cc:171 StartEverything: Successfully toggled Gd stack
+2026-05-18T17:59:53.351333Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:126 Init: init BleScannerInterfaceImpl
+2026-05-18T17:59:53.351499Z INFO btadapterd[3951]: bt_core_module  btcore/src/module.cc:89 module_start_up: Started module "gd_shim_module"
+2026-05-18T17:59:53.351535Z INFO btadapterd[3951]: bt_btif_core  btif/src/btif_core.cc:152 btif_init_bluetooth: entered
+2026-05-18T17:59:53.352277Z INFO btadapterd[3951]: bluetooth  common/message_loop_thread.cc:184 Run: message loop starting for thread bt_jni_thread
+2026-05-18T17:59:53.352408Z INFO btadapterd[3951]: bt_btif_core  btif/src/btif_core.cc:156 btif_init_bluetooth: finished
+2026-05-18T17:59:53.352657Z INFO btadapterd[3951]: bt_stack_config  main/stack_config.cc:70 init: attempt to load stack conf from /etc/bluetooth/bt_stack.conf
+2026-05-18T17:59:53.352706Z INFO btadapterd[3951]: bt_stack_manager  btif/src/stack_manager.cc:271 event_init_stack: finished
+2026-05-18T17:59:53.352759Z INFO btadapterd[3951]: bt_osi_wakelock  osi/src/wakelock.cc:91 wakelock_set_os_callouts: set to non-native
+2026-05-18T17:59:53.352860Z INFO btadapterd[3951]: bt_btif  btif/src/bluetooth.cc:914 get_profile_interface: id = socket
+2026-05-18T17:59:53.353045Z INFO btadapterd[3951]: bt_stack_manager  btif/src/stack_manager.cc:291 event_start_up_stack: is bringing up the stack
+2026-05-18T17:59:53.353062Z INFO btadapterd[3951]: bt_stack_manager  btif/src/stack_manager.cc:295 event_start_up_stack: Gd shim module enabled
+2026-05-18T17:59:53.354900Z INFO btadapterd[3951]: bluetooth  stack/btm/btm_sco_hfp_hal_linux.cc:112 cache_codec_capabilities: Caching HFP codec 1, data path 0, pkt_size 0
+2026-05-18T17:59:53.354912Z INFO btadapterd[3951]: bluetooth  stack/btm/btm_sco_hfp_hal_linux.cc:112 cache_codec_capabilities: Caching HFP codec 2, data path 0, pkt_size 60
+2026-05-18T17:59:53.354919Z INFO btadapterd[3951]: bluetooth  stack/btm/btm_sco_hfp_hal_linux.cc:112 cache_codec_capabilities: Caching HFP codec 4, data path 1, pkt_size 60
+2026-05-18T17:59:53.354927Z INFO btadapterd[3951]: bluetooth  stack/btm/btm_sco_hfp_hal_linux.cc:286 init: Successfully queried SCO codec capabilities.
+2026-05-18T17:59:53.354956Z INFO btadapterd[3951]: bluetooth  device/src/esco_parameters.cc:420 esco_parameters_for_codec: Applying restricted packet types for codec 2: 0x03bf -> 0x0380
+2026-05-18T17:59:53.355008Z INFO btadapterd[3951]: bt_core_module  btcore/src/module.cc:84 module_start_up: Starting module "btif_config_module"
+2026-05-18T17:59:53.355015Z INFO btadapterd[3951]: bt_core_module  btcore/src/module.cc:89 module_start_up: Started module "btif_config_module"
+2026-05-18T17:59:53.355094Z INFO btadapterd[3951]: bt_l2cap  stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x0001
+2026-05-18T17:59:53.355127Z INFO btadapterd[3951]: bt_l2cap  stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x001f
+2026-05-18T17:59:53.355156Z INFO btadapterd[3951]: gatt_api  stack/gatt/gatt_api.cc:1271 GATT_Register: Allocated name:GattProfileDb uuid:81818181-8181-8181-8181-818181818181 gatt_if:41 eatt_support:false
+2026-05-18T17:59:53.355265Z INFO btadapterd[3951]: gatt_api  stack/gatt/gatt_api.cc:198 GATTS_AddService: 
+2026-05-18T17:59:53.355774Z INFO btadapterd[3951]: gatt_api  stack/gatt/gatt_api.cc:313 GATTS_AddService: service parsed correctly, now starting
+2026-05-18T17:59:53.355849Z INFO btadapterd[3951]: bt_btif  btif/src/bluetooth.cc:914 get_profile_interface: id = handsfree
+2026-05-18T17:59:53.355870Z INFO btadapterd[3951]: bt_btif  btif/src/bluetooth.cc:914 get_profile_interface: id = le_audio
+2026-05-18T17:59:53.355880Z INFO btadapterd[3951]: bt_btif  btif/src/bluetooth.cc:914 get_profile_interface: id = volume_control
+2026-05-18T17:59:53.355891Z INFO btadapterd[3951]: bt_btif  btif/src/bluetooth.cc:914 get_profile_interface: id = csis_client
+2026-05-18T17:59:53.355997Z INFO btadapterd[3951]: bluetooth  stack/gatt/gatt_sr_hash.cc:128 gatts_calculate_database_hash: hash=80AEB10BC70DCCEFA207489DCED98FED
+2026-05-18T17:59:53.356014Z INFO btadapterd[3951]: bt_l2cap  stack/l2cap/l2c_api.cc:427 L2CA_RegisterLECoc: Registered service LE COC PSM: 0x0027
+2026-05-18T17:59:53.357196Z INFO btadapterd[3951]: bt_l2cap  stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x0003
+2026-05-18T17:59:53.357228Z INFO btadapterd[3951]: gatt_api  stack/gatt/gatt_api.cc:1271 GATT_Register: Allocated name:Gap uuid:82828282-8282-8282-8282-828282828282 gatt_if:42 eatt_support:false
+2026-05-18T17:59:53.357237Z INFO btadapterd[3951]: gatt_api  stack/gatt/gatt_api.cc:198 GATTS_AddService: 
+2026-05-18T17:59:53.357247Z INFO btadapterd[3951]: gatt_api  stack/gatt/gatt_api.cc:313 GATTS_AddService: service parsed correctly, now starting
+2026-05-18T17:59:53.357275Z INFO btadapterd[3951]: bluetooth  stack/gatt/gatt_sr_hash.cc:128 gatts_calculate_database_hash: hash=8991C462EBE9D90B9EA0DA3E16D0F513
+2026-05-18T17:59:53.357325Z WARNING btadapterd[3951]: bluetooth  stack/btm/btm_inq.cc:1030 btm_clr_inq_result_flt: Memory being reset multiple times
+2026-05-18T17:59:53.357335Z INFO btadapterd[3951]: bt_btm_pm  stack/acl/btm_pm.cc:369 btm_pm_reset: reset pm
+2026-05-18T17:59:53.357375Z INFO btadapterd[3951]: btm_acl  stack/acl/btm_acl.cc:652 check_link_policy: hold not supported (settings: 0x000d)
+2026-05-18T17:59:53.357382Z INFO btadapterd[3951]: btm_acl  stack/acl/btm_acl.cc:662 check_link_policy: park not supported (settings: 0x0005)
+2026-05-18T17:59:53.357440Z INFO btadapterd[3951]: bt_bta_dm  bta/dm/bta_dm_act.cc:250 BTA_dm_on_hw_on: Read default class of device [0x0, 0x1, 0xc]
+2026-05-18T17:59:53.357458Z INFO btadapterd[3951]: bt_btm_sec  stack/btm/btm_sec.cc:232 BTM_SecRegister: p_cb_info->p_le_callback == 0x0x5a35dee624b0
+2026-05-18T17:59:53.357649Z INFO btadapterd[3951]: bt_btm_sec  stack/btm/btm_sec.cc:246 BTM_SecRegister: btm_sec_cb.api.p_le_callback = 0x0x5a35dee624b0
+2026-05-18T17:59:53.357711Z INFO btadapterd[3951]: bluetooth  gd/lpp/lpp_offload_manager.cc:41 get_socket_capabilities: 
+2026-05-18T17:59:53.358790Z INFO btadapterd[3951]: bt_btif  btif/src/bluetooth.cc:914 get_profile_interface: id = gatt
+2026-05-18T17:59:53.362319Z INFO btadapterd[3951]: gatt_api  stack/gatt/gatt_api.cc:1271 GATT_Register: Allocated name:bta_dm_disc_gatt uuid:a98e5733-540c-2e4f-387f-ee7f330035db gatt_if:43 eatt_support:false
+2026-05-18T17:59:53.362351Z INFO btadapterd[3951]: bt_bta_dm  bta/dm/bta_dm_disc.cc:474 operator(): Registered device discovery search gatt client tGATT_IF:43
+2026-05-18T17:59:53.364927Z INFO btadapterd[3951]: bt_btif_dm  btif/src/btif_dm.cc:2304 BTIF_dm_enable: Local BLE Privacy enabled:false
+2026-05-18T17:59:53.364942Z WARNING btadapterd[3951]: bt_btm_ble  stack/btm/btm_ble_gap.cc:741 BTM_BleConfigPrivacy: 0
+2026-05-18T17:59:53.364995Z INFO btadapterd[3951]: bt_btif_storage  btif/src/btif_storage.cc:607 btif_storage_get_adapter_property: Controller ready!
+2026-05-18T17:59:53.365012Z INFO btadapterd[3951]: bluetooth  gd/hci/le_address_manager.cc:115 SetPrivacyPolicyForInitiatorAddress: New policy: LeAddressManager::AddressPolicy::USE_PUBLIC_ADDRESS(0x1)
+2026-05-18T17:59:53.365026Z INFO btadapterd[3951]: bt_btif_storage  btif/src/btif_storage.cc:636 btif_storage_get_adapter_property: Service_mask=0x0
+2026-05-18T17:59:53.365040Z INFO btadapterd[3951]: bluetooth  gd/hci/le_address_manager.cc:120 SetPrivacyPolicyForInitiatorAddress: minimum_rotation_time_=420000ms, maximum_rotation_time_=900000ms
+2026-05-18T17:59:53.365054Z INFO btadapterd[3951]: bluetooth  btif/src/btif_bqr.cc:471 EnableBtQualityReport: 
+2026-05-18T17:59:53.365067Z INFO btadapterd[3951]: bluetooth  gd/hci/le_address_manager.cc:391 resume_registered_clients: Resuming registered clients
+2026-05-18T17:59:53.365073Z WARNING btadapterd[3951]: bluetooth  btif/src/btif_bqr.cc:432 EnableDisableBtQualityReport: Bluetooth Quality Report is disabled. bqr_prop_evtmask: 
+2026-05-18T17:59:53.365346Z INFO btadapterd[3951]: bt_osi_thread  osi/src/thread.cc:223 run_thread: thread id 4045, thread name btif_sock
+2026-05-18T17:59:53.365379Z INFO btadapterd[3951]: bt_btif_sock_hal  btif/src/btif_sock_hal.cc:59 btsock_hal_init: 
+2026-05-18T17:59:53.365388Z INFO btadapterd[3951]: bluetooth  gd/lpp/lpp_offload_manager.cc:36 register_socket_hal_callbacks: 
+2026-05-18T17:59:53.365430Z INFO btadapterd[3951]: bt_bta_dm  bta/dm/bta_dm_act.cc:1351 bta_dm_eir_update_uuid: EIR Adding UUID=0x1200 into extended inquiry response
+2026-05-18T17:59:53.365467Z INFO btadapterd[3951]: bt_bta_dm  bta/dm/bta_dm_act.cc:1082 bta_dm_set_eir: Generating extended inquiry response packet EIR
+2026-05-18T17:59:53.365520Z INFO btadapterd[3951]: bt_btif_core  btif/src/btif_core.cc:229 btif_enable_bluetooth_evt: Bluetooth enable event completed
+2026-05-18T17:59:53.365572Z INFO btadapterd[3951]: bt_bta_dm  bta/dm/bta_dm_act.cc:1082 bta_dm_set_eir: Generating extended inquiry response packet EIR
+2026-05-18T17:59:53.365617Z INFO btadapterd[3951]: bt_btif_sock_rfcomm  btif/src/btif_sock_rfc.cc:1014 jv_dm_cback: handling event:BTA_JV_ENABLE_EVT, slot_id:0
+2026-05-18T17:59:53.365708Z INFO btadapterd[3951]: bt_stack_manager  btif/src/stack_manager.cc:335 event_start_up_stack: finished
+2026-05-18T17:59:53.365723Z INFO btadapterd[3951]: bluetooth  bta/ras/ras_server.cc:98 do_initialize: controller does not support channel sounding.
+2026-05-18T17:59:53.365736Z INFO btadapterd[3951]: bluetooth  bta/ras/ras_client.cc:158 do_initialize: controller does not support channel sounding.
+2026-05-18T17:59:53.366989Z INFO btadapterd[3951]: bt_btif  btif/src/bluetooth.cc:914 get_profile_interface: id = sdp
+2026-05-18T17:59:53.367029Z INFO btadapterd[3951]: bt_btif_storage  btif/src/btif_storage.cc:636 btif_storage_get_adapter_property: Service_mask=0x20000000
+2026-05-18T17:59:53.367052Z INFO btadapterd[3951]: bt_btif  btif/src/bluetooth.cc:914 get_profile_interface: id = hidhost
+2026-05-18T17:59:53.367087Z INFO btadapterd[3951]: bt_btif_storage  btif/src/btif_storage.cc:607 btif_storage_get_adapter_property: Controller ready!
+2026-05-18T17:59:53.367103Z INFO btadapterd[3951]: bt_btif_storage  btif/src/btif_storage.cc:636 btif_storage_get_adapter_property: Service_mask=0x20000000
+2026-05-18T17:59:53.371371Z WARNING btmanagerd[3915]: Presence added: VirtHci0
+2026-05-18T17:59:53.371517Z INFO btmanagerd[3915]: VirtHci0: Action=BluetoothStarted(3951, VirtualHciIndex(0)), Previous State(TurningOn), Next State(On)
+2026-05-18T17:59:53.371526Z WARNING btmanagerd[3915]: Started VirtHci0
+2026-05-18T17:59:53.383882Z INFO btadapterd[3951]: bluetooth  bta/gatt/bta_gatts_api.cc:371 BTA_GATTS_InitBonded: 
+2026-05-18T17:59:53.383925Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:443 RegisterCallbacks: in shim layer
+2026-05-18T17:59:53.383962Z INFO btadapterd[3951]: bt_bta_sys_main  bta/sys/bta_sys_main.cc:80 bta_sys_event: Ignoring receipt of unregistered event id:BTA_ID_GATTS[32]
+2026-05-18T17:59:53.384467Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:137 RegisterScanner: in shim layer, UUID=0e38edba-a012-c09b-05ad-d5e8ee6c90dd
+2026-05-18T17:59:53.384525Z INFO btadapterd[3951]: AdvertiseManager: Selected extended advertising stack
+2026-05-18T17:59:53.384885Z INFO btadapterd[3951]: gatt_api  stack/gatt/gatt_api.cc:1682 gatt_load_bonded: load bonded: False
+2026-05-18T17:59:53.384895Z INFO btadapterd[3951]: bluetooth  bta/gatt/bta_gatts_act.cc:193 bta_gatts_register: register application first_unuse rcb_idx=0
+2026-05-18T17:59:53.384922Z INFO btadapterd[3951]: gatt_api  stack/gatt/gatt_api.cc:1271 GATT_Register: Allocated name:GattServer uuid:1b518948-fd77-4459-906f-4923104bb639 gatt_if:44 eatt_support:true
+2026-05-18T17:59:53.384959Z INFO btadapterd[3951]: gatt_api  stack/gatt/gatt_api.cc:1271 GATT_Register: Allocated name:rust_client uuid:228f7f71-c3df-5406-adca-17ffe2f99463 gatt_if:45 eatt_support:false
+2026-05-18T17:59:53.385111Z INFO btadapterd[3951]: Admin: load_config: allowed service unchanged
+2026-05-18T17:59:53.385121Z INFO btadapterd[3951]: Admin: load_config: ssp policy unchanged
+2026-05-18T17:59:53.385762Z INFO btadapterd[3951]: Admin: Load settings from /var/lib/bluetooth/admin_policy.json successfully
+2026-05-18T17:59:53.385843Z WARNING btadapterd[3951]: Tried to disable but internal hasn't been enabled
+2026-05-18T17:59:53.385883Z INFO btadapterd[3951]: bluetooth-a2dp  btif/src/btif_av.cc:3377 btif_av_source_init: 
+2026-05-18T17:59:53.385930Z INFO btadapterd[3951]: bluetooth-a2dp  btif/src/btif_av.cc:1131 Init: max_connected_audio_devices=1
+2026-05-18T17:59:53.385937Z INFO btadapterd[3951]: bluetooth-a2dp  btif/src/btif_av.cc:1161 Cleanup: 
+2026-05-18T17:59:53.385944Z INFO btadapterd[3951]: bluetooth-a2dp  btif/src/btif_av.cc:1335 CleanupAllPeers: 
+2026-05-18T17:59:53.385956Z INFO btadapterd[3951]: bluetooth-a2dp  btif/src/btif_av.cc:1137 Init: a2dp_offload.enable=false
+2026-05-18T17:59:53.385981Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:667 init: 
+2026-05-18T17:59:53.385997Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:695 init: OPUS codec disabled, updated priority to -1
+2026-05-18T17:59:53.386011Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:724 init: initialized Source codec SBC, idx 0
+2026-05-18T17:59:53.386017Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:731 init: initialized Sink codec SBC SINK, idx 11
+2026-05-18T17:59:53.387244Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:667 init: 
+2026-05-18T17:59:53.387283Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:695 init: OPUS codec disabled, updated priority to -1
+2026-05-18T17:59:53.387295Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:724 init: initialized Source codec SBC, idx 0
+2026-05-18T17:59:53.387308Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:731 init: initialized Sink codec SBC SINK, idx 11
+2026-05-18T17:59:53.387318Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:667 init: 
+2026-05-18T17:59:53.387327Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:695 init: OPUS codec disabled, updated priority to -1
+2026-05-18T17:59:53.387341Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:724 init: initialized Source codec SBC, idx 0
+2026-05-18T17:59:53.387349Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:731 init: initialized Sink codec SBC SINK, idx 11
+2026-05-18T17:59:53.387363Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:667 init: 
+2026-05-18T17:59:53.387372Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:695 init: OPUS codec disabled, updated priority to -1
+2026-05-18T17:59:53.387392Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:724 init: initialized Source codec SBC, idx 0
+2026-05-18T17:59:53.387400Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:731 init: initialized Sink codec SBC SINK, idx 11
+2026-05-18T17:59:53.387414Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:667 init: 
+2026-05-18T17:59:53.387424Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:695 init: OPUS codec disabled, updated priority to -1
+2026-05-18T17:59:53.387438Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:724 init: initialized Source codec SBC, idx 0
+2026-05-18T17:59:53.387445Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:731 init: initialized Sink codec SBC SINK, idx 11
+2026-05-18T17:59:53.387460Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:667 init: 
+2026-05-18T17:59:53.387470Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:695 init: OPUS codec disabled, updated priority to -1
+2026-05-18T17:59:53.387483Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:724 init: initialized Source codec SBC, idx 0
+2026-05-18T17:59:53.387490Z INFO btadapterd[3951]: bluetooth-a2dp  stack/a2dp/a2dp_codec_config.cc:731 init: initialized Sink codec SBC SINK, idx 11
+2026-05-18T17:59:53.387501Z INFO btadapterd[3951]: bluetooth-a2dp  btif/src/btif_a2dp_source.cc:338 btif_a2dp_source_init: 
+2026-05-18T17:59:53.387617Z INFO btadapterd[3951]: bluetooth  common/message_loop_thread.cc:184 Run: message loop starting for thread bt_a2dp_source_worker_thread
+2026-05-18T17:59:53.387739Z INFO btadapterd[3951]: bluetooth-a2dp  btif/src/btif_av.cc:3779 btif_av_source_execute_service: enable=true
+2026-05-18T17:59:53.387754Z INFO btadapterd[3951]: bluetooth-a2dp  btif/src/btif_a2dp_source.cc:419 btif_a2dp_source_init_delayed: 
+2026-05-18T17:59:53.387767Z INFO btadapterd[3951]: bt_btif_storage  btif/src/btif_storage.cc:636 btif_storage_get_adapter_property: Service_mask=0x20000008
+2026-05-18T17:59:53.387830Z INFO btadapterd[3951]: bt_btif_hf  btif/src/btif_hf.cc:1678 ExecuteService: service starts to: Initialize
+2026-05-18T17:59:53.387847Z INFO btadapterd[3951]: bluetooth-a2dp  bta/av/bta_av_main.cc:460 bta_av_api_register: AVRCP version used for sdp: 0x105
+2026-05-18T17:59:53.387856Z INFO btadapterd[3951]: bt_btif_storage  btif/src/btif_storage.cc:636 btif_storage_get_adapter_property: Service_mask=0x20000048
+2026-05-18T17:59:53.387864Z INFO btadapterd[3951]: bt_l2cap  stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x0019
+2026-05-18T17:59:53.387886Z INFO btadapterd[3951]: bt_l2cap  stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x0017
+2026-05-18T17:59:53.387893Z INFO btadapterd[3951]: bt_l2cap  stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x001b
+2026-05-18T17:59:53.387894Z INFO btadapterd[3951]: LeAudioEnableLeAudioOnly is not set, skip enabling LeAudio
+2026-05-18T17:59:53.387906Z INFO btadapterd[3951]: LeAudioEnableLeAudioOnly is not set, skip enabling VolumeControl
+2026-05-18T17:59:53.387914Z INFO btadapterd[3951]: LeAudioEnableLeAudioOnly is not set, skip enabling CoordinatedSet
+2026-05-18T17:59:53.387942Z INFO btadapterd[3951]: bt_bta_dm  bta/dm/bta_dm_act.cc:1351 bta_dm_eir_update_uuid: EIR Adding UUID=0x110A into extended inquiry response
+2026-05-18T17:59:53.387950Z INFO btadapterd[3951]: bt_bta_dm  bta/dm/bta_dm_act.cc:1082 bta_dm_set_eir: Generating extended inquiry response packet EIR
+2026-05-18T17:59:53.388020Z INFO btadapterd[3951]: bluetooth-a2dp  bta/av/bta_av_act.cc:345 bta_av_rc_create: Skipping RC creation for the old AVRCP profile
+2026-05-18T17:59:53.388055Z INFO btadapterd[3951]: bluetooth-a2dp  bta/av/bta_av_main.cc:460 bta_av_api_register: AVRCP version used for sdp: 0x105
+2026-05-18T17:59:53.388137Z INFO btadapterd[3951]: message repeated 4 times: [ bluetooth-a2dp  bta/av/bta_av_main.cc:460 bta_av_api_register: AVRCP version used for sdp: 0x105]
+2026-05-18T17:59:53.388158Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:396 Init: AVRCP Target Service started
+2026-05-18T17:59:53.388180Z INFO btadapterd[3951]: bt_bta_dm  bta/dm/bta_dm_act.cc:1351 bta_dm_eir_update_uuid: EIR Adding UUID=0x110C into extended inquiry response
+2026-05-18T17:59:53.388187Z INFO btadapterd[3951]: bt_bta_dm  bta/dm/bta_dm_act.cc:1082 bta_dm_set_eir: Generating extended inquiry response packet EIR
+2026-05-18T17:59:53.388219Z INFO btadapterd[3951]: bt_bta_dm  bta/dm/bta_dm_act.cc:1351 bta_dm_eir_update_uuid: EIR Adding UUID=0x110E into extended inquiry response
+2026-05-18T17:59:53.388226Z INFO btadapterd[3951]: bt_bta_dm  bta/dm/bta_dm_act.cc:1082 bta_dm_set_eir: Generating extended inquiry response packet EIR
+2026-05-18T17:59:53.388254Z INFO btadapterd[3951]: avrcp  profile/avrcp/connection_handler.cc:221 AvrcpConnect: Connect to device ff:ff:ff:ff:ff:ff
+2026-05-18T17:59:53.388286Z INFO btadapterd[3951]: avrcp  profile/avrcp/connection_handler.cc:240 AvrcpConnect: handle=0x0 status=0x0
+2026-05-18T17:59:53.388304Z INFO btadapterd[3951]: bluetooth  bta/ag/bta_ag_main.cc:408 bta_ag_api_enable: AG api enable
+2026-05-18T17:59:53.388348Z INFO btadapterd[3951]: bt_btif_hf  btif/src/btif_hf.cc:369 btif_hf_upstreams_evt: AG enable/disable event 0
+2026-05-18T17:59:53.388362Z INFO btadapterd[3951]: bluetooth  bta/ag/bta_ag_sdp.cc:178 bta_ag_add_record: features: 396864
+2026-05-18T17:59:53.388377Z INFO btadapterd[3951]: bt_bta_dm  bta/dm/bta_dm_act.cc:1351 bta_dm_eir_update_uuid: EIR Adding UUID=0x1112 into extended inquiry response
+2026-05-18T17:59:53.388383Z INFO btadapterd[3951]: bt_bta_dm  bta/dm/bta_dm_act.cc:1082 bta_dm_set_eir: Generating extended inquiry response packet EIR
+2026-05-18T17:59:53.388403Z INFO btadapterd[3951]: bluetooth  bta/ag/bta_ag_sdp.cc:178 bta_ag_add_record: features: 396864
+2026-05-18T17:59:53.388416Z INFO btadapterd[3951]: bt_bta_dm  bta/dm/bta_dm_act.cc:1351 bta_dm_eir_update_uuid: EIR Adding UUID=0x111F into extended inquiry response
+2026-05-18T17:59:53.388422Z INFO btadapterd[3951]: bt_bta_dm  bta/dm/bta_dm_act.cc:1082 bta_dm_set_eir: Generating extended inquiry response packet EIR
+2026-05-18T17:59:53.388443Z WARNING btadapterd[3951]: rfcomm_port_utils  stack/rfcomm/port_utils.cc:289 port_find_mcb: not found, bd_addr:ff:ff:ff:ff:ff:ff
+2026-05-18T17:59:53.388497Z INFO btadapterd[3951]: bt_port_api  stack/rfcomm/port_api.cc:226 RFCOMM_CreateConnectionWithSecurity: bd_addr=ff:ff:ff:ff:ff:ff, scn=2, is_server=true, mtu=256, uuid=0x1112, dlci=4, signal_state=0xb, p_port=0x5a35df4aeb08
+2026-05-18T17:59:53.388519Z WARNING btadapterd[3951]: rfcomm_port_utils  stack/rfcomm/port_utils.cc:289 port_find_mcb: not found, bd_addr:ff:ff:ff:ff:ff:ff
+2026-05-18T17:59:53.388539Z INFO btadapterd[3951]: bt_port_api  stack/rfcomm/port_api.cc:226 RFCOMM_CreateConnectionWithSecurity: bd_addr=ff:ff:ff:ff:ff:ff, scn=3, is_server=true, mtu=256, uuid=0x111f, dlci=6, signal_state=0xb, p_port=0x5a35df4aebf8
+2026-05-18T17:59:53.388828Z INFO btadapterd[3951]: bluetooth  bta/gatt/bta_gatts_api.cc:127 bta_gatts_add_service_impl: rcb_idx=0
+2026-05-18T17:59:53.388839Z INFO btadapterd[3951]: gatt_api  stack/gatt/gatt_api.cc:198 GATTS_AddService: 
+2026-05-18T17:59:53.388850Z INFO btadapterd[3951]: gatt_api  stack/gatt/gatt_api.cc:313 GATTS_AddService: service parsed correctly, now starting
+2026-05-18T17:59:53.388878Z INFO btadapterd[3951]: bluetooth  stack/gatt/gatt_sr_hash.cc:128 gatts_calculate_database_hash: hash=57F0E506B31337D2D9144E711EFD58B6
+2026-05-18T17:59:53.407499Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:247 IsMsftSupported: in shim layer
+2026-05-18T17:59:53.426807Z INFO btadapterd[3951]: gatt_api  stack/gatt/gatt_api.cc:1271 GATT_Register: Allocated name:rust_client uuid:4d7e282d-d9cd-31c7-bafe-75822096f2d5 gatt_if:46 eatt_support:false
+2026-05-18T17:59:53.426864Z INFO btadapterd[3951]: bluetooth  bta/gatt/bta_gatts_act.cc:193 bta_gatts_register: register application first_unuse rcb_idx=1
+2026-05-18T17:59:53.426880Z INFO btadapterd[3951]: gatt_api  stack/gatt/gatt_api.cc:1271 GATT_Register: Allocated name:GattServer uuid:e060b902-508c-485f-8b0e-27639c7f2d41 gatt_if:47 eatt_support:false
+2026-05-18T17:59:53.433992Z INFO btadapterd[3951]: Bluetooth HID telephony mode enabled
+2026-05-18T17:59:53.489777Z INFO btadapterd[3951]: bt_btif_storage  btif/src/btif_storage.cc:636 btif_storage_get_adapter_property: Service_mask=0x20100048
+2026-05-18T17:59:53.489809Z INFO btadapterd[3951]: bt_l2cap  stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x0011
+2026-05-18T17:59:53.489822Z INFO btadapterd[3951]: bt_l2cap  stack/l2cap/l2c_api.cc:158 L2CA_Register: L2CAP Registered service classic PSM: 0x0013
+2026-05-18T17:59:53.489913Z INFO btadapterd[3951]: bluetooth  bta/le_audio/client.cc:7654 RegisterIsoDataConsumer: ISO data consumer changed
+2026-05-18T17:59:53.489959Z INFO btadapterd[3951]: gatt_api  stack/gatt/gatt_api.cc:1271 GATT_Register: Allocated name:hid uuid:d30aaaef-cc7b-4c41-68c2-f881802004b4 gatt_if:48 eatt_support:false
+2026-05-18T18:00:00.770014Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:137 RegisterScanner: in shim layer, UUID=ce198077-86e6-0c55-4d56-f799879ac00b
+2026-05-18T18:00:00.773950Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:247 IsMsftSupported: in shim layer
+2026-05-18T18:00:00.773978Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:255 MsftAdvMonitorAdd: in shim layer
+2026-05-18T18:00:00.883609Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:284 OnMsftAdvMonitorAdd: in shim layer
+2026-05-18T18:00:00.883705Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:274 MsftAdvMonitorEnable: in shim layer
+2026-05-18T18:00:00.884568Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:297 OnMsftAdvMonitorEnable: in shim layer
+2026-05-18T18:00:00.884627Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:313 SetScanParameters: in shim layer, scannerId1m=2, scannerIdCoded=0
+2026-05-18T18:00:00.884636Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:149 Scan: in shim layer started
+2026-05-18T18:00:00.884660Z INFO btadapterd[3951]: bluetooth  gd/hci/le_scanning_manager_impl.cc:595 stop_scan: Scanning already stopped, return!
+2026-05-18T18:00:00.884692Z INFO btadapterd[3951]: bluetooth  gd/hci/le_address_manager.cc:262 register_client: Client registered
+2026-05-18T18:00:05.364933Z INFO btadapterd[3951]: device_iot_config  device/src/device_iot_config_int.cc:190 device_iot_config_write: evt=1
+2026-05-18T18:00:05.365126Z ERR btadapterd[3951]: bluetooth  osi/src/config.cc:298 config_save: unable to write to file 'bt_remote_dev_info.conf.new': Read-only file system
+2026-05-18T18:00:06.775195Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:143 Unregister: in shim layer, scannerId=2
+2026-05-18T18:00:06.775305Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:247 IsMsftSupported: in shim layer
+2026-05-18T18:00:06.775315Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:265 MsftAdvMonitorRemove: in shim layer
+2026-05-18T18:00:06.887853Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:290 OnMsftAdvMonitorRemove: in shim layer
+2026-05-18T18:00:06.888083Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:274 MsftAdvMonitorEnable: in shim layer
+2026-05-18T18:00:06.888798Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:297 OnMsftAdvMonitorEnable: in shim layer
+2026-05-18T18:00:06.889045Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:149 Scan: in shim layer stopped
+2026-05-18T18:00:06.889092Z INFO btadapterd[3951]: bluetooth  gd/hci/le_address_manager.cc:277 unregister_client: Client unregistered
+2026-05-18T18:00:06.889101Z INFO btadapterd[3951]: bluetooth  gd/hci/le_address_manager.cc:292 unregister_client: Cancelled address rotation alarm

@@ -1,0 +1,23 @@
+2026-05-16T17:40:15.478922Z WARNING kernel: [86124.274593] init: ui_stop_waiter main process (24007) killed by TERM signal
+2026-05-16T17:40:18.710994Z WARNING kernel: [86127.506368] init: ui_stop_waiter main process (24759) killed by TERM signal
+2026-05-16T17:40:18.712178Z WARNING kernel: [86127.507202] init: shill_stop_waiter main process (24768) killed by TERM signal
+2026-05-18T17:59:47.301653Z WARNING kernel: [    2.378092] init: console-ttyS0 main process (466) killed by TERM signal
+2026-05-18T17:59:47.301655Z WARNING kernel: [    2.378743] init: lvm-migration-trim main process (461) killed by TERM signal
+2026-05-18T17:59:47.404627Z WARNING kernel: [    2.505609] init: bluetoothd pre-start process (610) terminated with status 1
+2026-05-18T17:59:48.571994Z WARNING kernel: [    3.675373] init: regulatory-domain main process (805) killed by TERM signal
+2026-05-18T17:59:49.456002Z WARNING kernel: [    4.559447] init: failsafe-delay main process (597) killed by TERM signal
+2026-05-18T17:59:49.534401Z WARNING kernel: [    4.637435] init: modemfwd main process (1792) terminated with status 69
+2026-05-18T17:59:49.545132Z WARNING kernel: [    4.648789] init: secagentd post-start process (1781) terminated with status 2
+2026-05-18T17:59:52.501227Z WARNING kernel: [    7.604760] init: send-boot-elog-metrics main process (3537) terminated with status 1
+2026-05-18T17:59:52.917311Z WARNING kernel: [    8.020575] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-18T17:59:52.917335Z WARNING kernel: [    8.021380] init: cros-camera-algo main process ended, respawning
+2026-05-18T17:59:53.052192Z WARNING kernel: [    8.154799] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-18T17:59:53.157319Z WARNING kernel: [    8.257005] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-18T17:59:53.235243Z WARNING kernel: [    8.337873] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-18T17:59:53.047420Z WARNING kernel: [    8.401890] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-18T17:59:53.111983Z WARNING kernel: [    8.466039] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-18T17:59:53.175872Z WARNING kernel: [    8.531143] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-18T17:59:53.250196Z WARNING kernel: [    8.605484] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-18T17:59:53.318229Z WARNING kernel: [    8.674083] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-18T17:59:53.375259Z WARNING kernel: [    8.730785] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-18T17:59:53.453103Z WARNING kernel: [    8.808192] init: cros-camera-gpu-algo respawning too fast, stopped

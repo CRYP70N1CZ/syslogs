@@ -1,0 +1,183 @@
+2026-05-18T18:07:23.901980Z INFO fwupd[3766]: FuContext            battery level now 46
+2026-05-18T18:10:53.928019Z INFO fwupd[3766]: FuContext            battery level now 45
+2026-05-18T18:15:23.970903Z INFO fwupd[3766]: FuContext            battery level now 44
+2026-05-18T18:19:54.006632Z INFO fwupd[3766]: FuContext            battery level now 43
+2026-05-18T18:23:54.036041Z INFO fwupd[3766]: FuContext            battery level now 42
+2026-05-18T18:28:24.076537Z INFO fwupd[3766]: FuContext            battery level now 41
+2026-05-18T18:32:54.112402Z INFO fwupd[3766]: FuContext            battery level now 40
+2026-05-18T18:38:24.161044Z INFO fwupd[3766]: FuContext            battery level now 39
+2026-05-18T20:17:10.273278Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-6861ec7b-d07a-4673-856c-7f22b4d55769: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-18T20:17:10.276633Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-6861ec7b-d07a-4673-856c-7f22b4d55769: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-18T20:17:10.282838Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-18T20:17:10.285996Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-18T20:17:10.293783Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-42b3ce2f-bd9f-485a-96ae-26406230b1ff: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-18T20:17:10.297515Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-42b3ce2f-bd9f-485a-96ae-26406230b1ff: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-18T20:17:10.305099Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-fbf6fcf1-96cf-4e2e-a6a6-1bab8cbe36b1: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-18T20:17:10.308776Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-fbf6fcf1-96cf-4e2e-a6a6-1bab8cbe36b1: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-18T20:17:10.316213Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-8c2f4425-77d6-4755-aca3-891fdbc66a58: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-18T20:17:10.320107Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-8c2f4425-77d6-4755-aca3-891fdbc66a58: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-18T20:17:10.329457Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-082ee5a7-7c25-470a-9643-0c06f0466ea1: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-18T20:17:10.333607Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-082ee5a7-7c25-470a-9643-0c06f0466ea1: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-18T20:17:10.342275Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-55213584-9a29-4916-badf-0fb7ed682aeb: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-18T20:17:10.346696Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-55213584-9a29-4916-badf-0fb7ed682aeb: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-18T20:17:10.356250Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-8e6a6715-9abc-4043-88ef-9e39c6f63e0f: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-18T20:17:10.363017Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-8e6a6715-9abc-4043-88ef-9e39c6f63e0f: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-18T20:17:10.371355Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-dd17041c-09ea-4b17-a271-5b989867ec65: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-18T20:17:10.375729Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-dd17041c-09ea-4b17-a271-5b989867ec65: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-18T23:35:11.294748Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-18T23:35:11.311401Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-18T23:35:11.330889Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-8e6a6715-9abc-4043-88ef-9e39c6f63e0f: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-18T23:35:11.344550Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-8e6a6715-9abc-4043-88ef-9e39c6f63e0f: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-18T23:35:11.362230Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-082ee5a7-7c25-470a-9643-0c06f0466ea1: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-18T23:35:11.374967Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-082ee5a7-7c25-470a-9643-0c06f0466ea1: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-18T23:35:11.374967Z INFO fwupd[3766]: FuContext            battery level now 38
+2026-05-18T23:35:11.397140Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-fbf6fcf1-96cf-4e2e-a6a6-1bab8cbe36b1: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-18T23:35:11.405390Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-fbf6fcf1-96cf-4e2e-a6a6-1bab8cbe36b1: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-18T23:35:11.425893Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-8c2f4425-77d6-4755-aca3-891fdbc66a58: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-18T23:35:11.431780Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-8c2f4425-77d6-4755-aca3-891fdbc66a58: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-18T23:35:11.448503Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-55213584-9a29-4916-badf-0fb7ed682aeb: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-18T23:35:11.456530Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-55213584-9a29-4916-badf-0fb7ed682aeb: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-18T23:35:11.480546Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-dd17041c-09ea-4b17-a271-5b989867ec65: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-18T23:35:11.484137Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-dd17041c-09ea-4b17-a271-5b989867ec65: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-18T23:35:11.494326Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-6861ec7b-d07a-4673-856c-7f22b4d55769: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-18T23:35:11.499210Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-6861ec7b-d07a-4673-856c-7f22b4d55769: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-18T23:35:11.508223Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-42b3ce2f-bd9f-485a-96ae-26406230b1ff: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-18T23:35:11.512281Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-42b3ce2f-bd9f-485a-96ae-26406230b1ff: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-18T23:39:46.005665Z INFO fwupd[3766]: FuContext            battery level now 37
+2026-05-18T23:44:46.054021Z INFO fwupd[3766]: FuContext            battery level now 36
+2026-05-18T23:49:16.094439Z INFO fwupd[3766]: FuContext            battery level now 35
+2026-05-18T23:53:16.128051Z INFO fwupd[3766]: FuContext            battery level now 34
+2026-05-18T23:58:16.169493Z INFO fwupd[3766]: FuContext            battery level now 33
+2026-05-19T00:03:16.218561Z INFO fwupd[3766]: FuContext            battery level now 32
+2026-05-19T00:09:16.282796Z INFO fwupd[3766]: FuContext            battery level now 31
+2026-05-19T00:15:16.341370Z INFO fwupd[3766]: FuContext            battery level now 30
+2026-05-19T00:20:16.388642Z INFO fwupd[3766]: FuContext            battery level now 29
+2026-05-19T00:24:46.430747Z INFO fwupd[3766]: FuContext            battery level now 28
+2026-05-20T17:52:44.315000Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-55213584-9a29-4916-badf-0fb7ed682aeb: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-20T17:52:44.328710Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-55213584-9a29-4916-badf-0fb7ed682aeb: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-20T17:52:44.356487Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-dd17041c-09ea-4b17-a271-5b989867ec65: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-20T17:52:44.361627Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-dd17041c-09ea-4b17-a271-5b989867ec65: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-20T17:52:44.406698Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-20T17:52:44.422836Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-20T17:52:44.423974Z INFO fwupd[3766]: FuContext            battery level now 27
+2026-05-20T17:52:44.444581Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-8c2f4425-77d6-4755-aca3-891fdbc66a58: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-20T17:52:44.452444Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-8c2f4425-77d6-4755-aca3-891fdbc66a58: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-20T17:52:44.475368Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-fbf6fcf1-96cf-4e2e-a6a6-1bab8cbe36b1: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-20T17:52:44.487809Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-fbf6fcf1-96cf-4e2e-a6a6-1bab8cbe36b1: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-20T17:52:44.496837Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-6861ec7b-d07a-4673-856c-7f22b4d55769: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-20T17:52:44.501393Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-6861ec7b-d07a-4673-856c-7f22b4d55769: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-20T17:52:44.509193Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-8e6a6715-9abc-4043-88ef-9e39c6f63e0f: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-20T17:52:44.513169Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-8e6a6715-9abc-4043-88ef-9e39c6f63e0f: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-20T17:52:44.521472Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-082ee5a7-7c25-470a-9643-0c06f0466ea1: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-20T17:52:44.525655Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-082ee5a7-7c25-470a-9643-0c06f0466ea1: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-20T17:52:44.537389Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-42b3ce2f-bd9f-485a-96ae-26406230b1ff: failed to setup: failed to connect to MCHI: 00cbe07e8537eec788c9f80b2d9f40e4bf5e16d2 [BootGuard Configuration] has not been opened
+2026-05-20T17:52:44.538634Z INFO fwupd[3766]: FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-42b3ce2f-bd9f-485a-96ae-26406230b1ff: failed to setup: failed to connect to MKHI: 1d10887a051b3991a3314f760163248231628504 [BootGuard Configuration] has not been opened
+2026-05-20T17:53:16.679616Z WARNING fwupdtool-activate[27342]: Decompressing…: 0%
+2026-05-20T17:53:16.683281Z WARNING fwupdtool-activate[27342]: [31m[1mWARNING[0m: UEFI ESP partition not detected or configured
+2026-05-20T17:53:16.683281Z WARNING fwupdtool-activate[27342]: See https://github.com/fwupd/fwupd/wiki/PluginFlag:esp-not-found for more information.
+2026-05-20T17:53:16.684711Z WARNING fwupdtool-activate[27342]: No firmware to activate
+2026-05-20T17:53:54.260070Z INFO fwupd[3766]: FuEngine             timestamp increased, so no rollback
+2026-05-20T17:53:54.283739Z INFO fwupd[3766]: FuEngine             loading metadata for remote 'vendor-directory'
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/20250822_CHICONY_LENOVO_CKFO518_RTS5862_GC05A2_V9808.0011.cab as metadata source
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/20250505_Shinetech_ASUS_DK235C-1C_RTS5859_GC2607_v0008.5051.cab as metadata source
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/BBF503N3B_V0018_20250409.cab as metadata source
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/YHVA-5_V0038.cab as metadata source
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             ignoring: /usr/share/fwupd/remotes.d/vendor/firmware/README.md
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/20250823_BNN755UBP_RTS5862FL_SC521PC_v2510.cab as metadata source
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/b98f12abc69cae57e65f2f436cb31a4562766fbbc1539aef563feec42756809b-FW0_v1112_CAP.cab as metadata source
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/C7FMF11-3_v0015.cab as metadata source
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/9cfa3af86e5e72df127fecd43c6255ee7bf3b3516a26c94bad0e3a21038baefd-firmware_v0004_1.cab as metadata source
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/2SF202N3B_v0005.cab as metadata source
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/303bef0da8ff6acd8590bfcebdbdbc8e13bfebd63ca81df5bb6796b8b68c45d5-20230724_YHVA-3_RTS5856_OV2740_Chrome_acerR1-15_cache.cab as metadata source
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/YHVN-5_v0010.cab as metadata source
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/unsigned_SOLVIT_V6_TLC_256Gb_UFS31_GEN1_128GB_P21_FW01_e52a9b8_241106_13h23m.cab as metadata source
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/YHVA-3_V0038.cab as metadata source
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/C7FOF10-1_V0011_20250225.cab as metadata source
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/HAA-N1H8D3-00Z_V0021_20250409.cab as metadata source
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             ignoring: Error opening directory "/var/lib/fwupd/local.d": No such file or directory
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             loading local metadata: /usr/share/fwupd/local.d/fwupd-camera-bkc.xml
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             loading local metadata: /usr/share/fwupd/local.d/fwupd-camera-nissa-bkc.xml
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             loading local metadata: /usr/share/fwupd/local.d/fwupd-storage-bkc.xml
+2026-05-20T17:53:54.286548Z INFO fwupd[3766]: FuEngine             loading local metadata: /usr/share/fwupd/local.d/mmc-firmware-bkc.xml
+2026-05-20T17:53:54.288632Z INFO fwupd[3766]: FuCabinet            failed to verify FW.metainfo.xml: no JcatItem
+2026-05-20T17:53:54.288682Z INFO fwupd[3766]: FuCabinet            processing file: FW.metainfo.xml
+2026-05-20T17:53:54.288906Z INFO fwupd[3766]: FuCabinet            processing release: 98.08
+2026-05-20T17:53:54.290843Z INFO fwupd[3766]: FuCabinet            failed to verify FW.metainfo.xml: no JcatItem
+2026-05-20T17:53:54.290843Z INFO fwupd[3766]: FuCabinet            processing file: FW.metainfo.xml
+2026-05-20T17:53:54.290994Z INFO fwupd[3766]: FuCabinet            processing release: 00.08
+2026-05-20T17:53:54.293114Z INFO fwupd[3766]: FuCabinet            failed to verify USB camera updater.metainfo.xml: no JcatItem
+2026-05-20T17:53:54.293114Z INFO fwupd[3766]: FuCabinet            processing file: USB camera updater.metainfo.xml
+2026-05-20T17:53:54.293289Z INFO fwupd[3766]: FuCabinet            processing release: 00.18
+2026-05-20T17:53:54.294978Z INFO fwupd[3766]: FuCabinet            failed to verify FW.metainfo.xml: no JcatItem
+2026-05-20T17:53:54.294978Z INFO fwupd[3766]: FuCabinet            processing file: FW.metainfo.xml
+2026-05-20T17:53:54.295122Z INFO fwupd[3766]: FuCabinet            processing release: 0.38
+2026-05-20T17:53:54.296951Z INFO fwupd[3766]: FuCabinet            failed to verify FW.metainfo.xml: no JcatItem
+2026-05-20T17:53:54.296951Z INFO fwupd[3766]: FuCabinet            processing file: FW.metainfo.xml
+2026-05-20T17:53:54.297087Z INFO fwupd[3766]: FuCabinet            processing release: 25.10
+2026-05-20T17:53:54.299211Z INFO fwupd[3766]: FuCabinet            verified metadata FW.metainfo.xml: 2
+2026-05-20T17:53:54.299211Z INFO fwupd[3766]: FuCabinet            processing file: FW.metainfo.xml
+2026-05-20T17:53:54.299403Z INFO fwupd[3766]: FuCabinet            processing release: 11.12
+2026-05-20T17:53:54.301253Z INFO fwupd[3766]: FuCabinet            verified payload FW0_v1112_CAP.bin: 2
+2026-05-20T17:53:54.302623Z INFO fwupd[3766]: FuCabinet            failed to verify FW.metainfo.xml: no JcatItem
+2026-05-20T17:53:54.302623Z INFO fwupd[3766]: FuCabinet            processing file: FW.metainfo.xml
+2026-05-20T17:53:54.302764Z INFO fwupd[3766]: FuCabinet            processing release: 0.15
+2026-05-20T17:53:54.305592Z INFO fwupd[3766]: FuCabinet            verified metadata FW.metainfo.xml: 2
+2026-05-20T17:53:54.305592Z INFO fwupd[3766]: FuCabinet            processing file: FW.metainfo.xml
+2026-05-20T17:53:54.305782Z INFO fwupd[3766]: FuCabinet            processing release: 0.04
+2026-05-20T17:53:54.308695Z INFO fwupd[3766]: FuCabinet            verified payload FW0_v0004_CAP.bin: 2
+2026-05-20T17:53:54.309986Z INFO fwupd[3766]: FuCabinet            failed to verify USB camera updater.metainfo.xml: no JcatItem
+2026-05-20T17:53:54.309986Z INFO fwupd[3766]: FuCabinet            processing file: USB camera updater.metainfo.xml
+2026-05-20T17:53:54.310156Z INFO fwupd[3766]: FuCabinet            processing release: 0.5
+2026-05-20T17:53:54.312483Z INFO fwupd[3766]: FuCabinet            verified metadata FW.metainfo.xml: 2
+2026-05-20T17:53:54.312483Z INFO fwupd[3766]: FuCabinet            processing file: FW.metainfo.xml
+2026-05-20T17:53:54.312676Z INFO fwupd[3766]: FuCabinet            processing release: 0.15
+2026-05-20T17:53:54.314466Z INFO fwupd[3766]: FuCabinet            verified payload 20230724_YHVA-3_RTS5856_OV2740_Chrome_acerR1-15_cache.dfu: 2
+2026-05-20T17:53:54.315695Z INFO fwupd[3766]: FuCabinet            failed to verify FW.metainfo.xml: no JcatItem
+2026-05-20T17:53:54.315695Z INFO fwupd[3766]: FuCabinet            processing file: FW.metainfo.xml
+2026-05-20T17:53:54.315836Z INFO fwupd[3766]: FuCabinet            processing release: 0.10
+2026-05-20T17:53:54.321044Z INFO fwupd[3766]: FuCabinet            failed to verify firmware.metainfo.xml: no JcatItem
+2026-05-20T17:53:54.321044Z INFO fwupd[3766]: FuCabinet            processing file: firmware.metainfo.xml
+2026-05-20T17:53:54.321222Z INFO fwupd[3766]: FuCabinet            processing release: 2101
+2026-05-20T17:53:54.325620Z INFO fwupd[3766]: FuCabinet            failed to verify FW.metainfo.xml: no JcatItem
+2026-05-20T17:53:54.325620Z INFO fwupd[3766]: FuCabinet            processing file: FW.metainfo.xml
+2026-05-20T17:53:54.325734Z INFO fwupd[3766]: FuCabinet            processing release: 0.38
+2026-05-20T17:53:54.327680Z INFO fwupd[3766]: FuCabinet            failed to verify USB camera updater.metainfo.xml: no JcatItem
+2026-05-20T17:53:54.327680Z INFO fwupd[3766]: FuCabinet            processing file: USB camera updater.metainfo.xml
+2026-05-20T17:53:54.327831Z INFO fwupd[3766]: FuCabinet            processing release: 0.11
+2026-05-20T17:53:54.330215Z INFO fwupd[3766]: FuCabinet            failed to verify USB camera updater.metainfo.xml: no JcatItem
+2026-05-20T17:53:54.330215Z INFO fwupd[3766]: FuCabinet            processing file: USB camera updater.metainfo.xml
+2026-05-20T17:53:54.330369Z INFO fwupd[3766]: FuCabinet            processing release: 00.21
+2026-05-20T17:53:55.181464Z INFO fwupd[3766]: FuEngine             4014 components now in silo
+2026-05-20T17:53:55.190820Z INFO fwupd[3766]: FuEngine             resetting update motd timeout
+2026-05-20T17:53:55.191253Z INFO fwupd[3766]: FuRemoteList         /var/lib/fwupd/metadata/lvfs/firmware.xml.zst.QDXMP3 changed, reloading all remotes
+2026-05-20T17:53:55.192072Z INFO fwupd[3766]: FuRemoteList         loading remote from /etc/fwupd/remotes.d/fwupd-peripherals.conf
+2026-05-20T17:53:55.192072Z INFO fwupd[3766]: FuRemoteList         loading remote from /etc/fwupd/remotes.d/lvfs-testing.conf
+2026-05-20T17:53:55.192072Z INFO fwupd[3766]: FuRemoteList         loading remote from /etc/fwupd/remotes.d/lvfs.conf
+2026-05-20T17:53:55.192072Z INFO fwupd[3766]: FuRemoteList         auto-fixing remote lvfs MetadataURI from https://storage.googleapis.com/chromeos-localmirror/lvfs/firmware.xml.xz to https://storage.googleapis.com/chromeos-localmirror/lvfs/firmware.xml.zst
+2026-05-20T17:53:55.192406Z INFO fwupd[3766]: FuRemoteList         loading remote from /etc/fwupd/remotes.d/vendor-directory.conf
+2026-05-20T17:53:55.192567Z INFO fwupd[3766]: FuRemoteList         enabled remotes: fwupd-peripherals[1000], vendor-directory[1000], lvfs[0]
+2026-05-20T17:53:55.193112Z INFO fwupd[3766]: FuEngine             loading metadata for remote 'vendor-directory'
+2026-05-20T17:53:55.193705Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/20250822_CHICONY_LENOVO_CKFO518_RTS5862_GC05A2_V9808.0011.cab as metadata source
+2026-05-20T17:53:55.193705Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/20250505_Shinetech_ASUS_DK235C-1C_RTS5859_GC2607_v0008.5051.cab as metadata source
+2026-05-20T17:53:55.193705Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/BBF503N3B_V0018_20250409.cab as metadata source
+2026-05-20T17:53:55.193705Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/YHVA-5_V0038.cab as metadata source
+2026-05-20T17:53:55.193705Z INFO fwupd[3766]: FuEngine             ignoring: /usr/share/fwupd/remotes.d/vendor/firmware/README.md
+2026-05-20T17:53:55.193705Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/20250823_BNN755UBP_RTS5862FL_SC521PC_v2510.cab as metadata source
+2026-05-20T17:53:55.193705Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/b98f12abc69cae57e65f2f436cb31a4562766fbbc1539aef563feec42756809b-FW0_v1112_CAP.cab as metadata source
+2026-05-20T17:53:55.193705Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/C7FMF11-3_v0015.cab as metadata source
+2026-05-20T17:53:55.193705Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/9cfa3af86e5e72df127fecd43c6255ee7bf3b3516a26c94bad0e3a21038baefd-firmware_v0004_1.cab as metadata source
+2026-05-20T17:53:55.193705Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/2SF202N3B_v0005.cab as metadata source
+2026-05-20T17:53:55.193705Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/303bef0da8ff6acd8590bfcebdbdbc8e13bfebd63ca81df5bb6796b8b68c45d5-20230724_YHVA-3_RTS5856_OV2740_Chrome_acerR1-15_cache.cab as metadata source
+2026-05-20T17:53:55.193705Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/YHVN-5_v0010.cab as metadata source
+2026-05-20T17:53:55.193705Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/unsigned_SOLVIT_V6_TLC_256Gb_UFS31_GEN1_128GB_P21_FW01_e52a9b8_241106_13h23m.cab as metadata source
+2026-05-20T17:53:55.193742Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/YHVA-3_V0038.cab as metadata source
+2026-05-20T17:53:55.193757Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/C7FOF10-1_V0011_20250225.cab as metadata source
+2026-05-20T17:53:55.194130Z INFO fwupd[3766]: FuEngine             using /usr/share/fwupd/remotes.d/vendor/firmware/HAA-N1H8D3-00Z_V0021_20250409.cab as metadata source
+2026-05-20T17:53:55.194130Z INFO fwupd[3766]: FuEngine             ignoring: Error opening directory "/var/lib/fwupd/local.d": No such file or directory
+2026-05-20T17:53:55.194130Z INFO fwupd[3766]: FuEngine             loading local metadata: /usr/share/fwupd/local.d/fwupd-camera-bkc.xml
+2026-05-20T17:53:55.194130Z INFO fwupd[3766]: FuEngine             loading local metadata: /usr/share/fwupd/local.d/fwupd-camera-nissa-bkc.xml
+2026-05-20T17:53:55.194130Z INFO fwupd[3766]: FuEngine             loading local metadata: /usr/share/fwupd/local.d/fwupd-storage-bkc.xml
+2026-05-20T17:53:55.194130Z INFO fwupd[3766]: FuEngine             loading local metadata: /usr/share/fwupd/local.d/mmc-firmware-bkc.xml
+2026-05-20T17:53:55.197332Z INFO fwupd[3766]: FuEngine             4014 components now in silo
+2026-05-20T17:53:55.206138Z INFO fwupd[3766]: FuEngine             resetting update motd timeout
+2026-05-20T17:54:51.000057Z INFO fwupd[3766]: FuContext            battery level now 26

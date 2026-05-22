@@ -1,0 +1,315 @@
+2026-05-22T02:41:06.063425Z NOTICE arc-keymintd[39478]: Post-stop arc-keymint
+2026-05-22T02:41:07.882087Z INFO arc-prepare-host-generated-dir[39940]: INFO arc-prepare-host-generated-dir: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_prepare_host_generated_dir_main.cc:34] Starting /usr/sbin/arc-prepare-host-generated-dir --log_tag=arc-prepare-host-generated-dir
+2026-05-22T02:41:07.882208Z INFO arc-prepare-host-generated-dir[39940]: INFO arc-prepare-host-generated-dir: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:2695] Debuggable is 0
+2026-05-22T02:41:07.885289Z INFO arc-prepare-host-generated-dir[39940]: INFO arc-prepare-host-generated-dir: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:2719] Running !ExpandPropertyFiles(property_files_source_dir, property_files_dest_path, modified_properties_dest_path, USE_ARCVM, hw_oemcrypto_support, true, debuggable, bus)...
+2026-05-22T02:41:07.887621Z INFO arc-prepare-host-generated-dir[39940]: INFO arc-prepare-host-generated-dir: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:2733] Running !GenerateFirstStageFstab( base::FilePath(kGeneratedPropertyFilesPathVm).Append("fstab"), base::FilePath(kArcVmVendorImagePath), cache_partition)...
+2026-05-22T02:41:07.890784Z INFO arc-prepare-host-generated-dir[39940]: INFO arc-prepare-host-generated-dir: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_prepare_host_generated_dir_main.cc:39] /usr/sbin/arc-prepare-host-generated-dir --log_tag=arc-prepare-host-generated-dir took 9ms
+2026-05-22T02:41:54.772563Z NOTICE arc-keymintd[40772]: Start arc-keymint
+2026-05-22T02:41:54.773030Z NOTICE arc-keymintd[40774]: arc-keymint claiming its D-Bus name
+2026-05-22T02:41:54.773462Z NOTICE arc-keymintd[40775]: Executing: minijail0  -p -N -n --uts -l -e -S /usr/share/policy/arc-keymintd-seccomp.policy -u arc-keymintd -g arc-keymintd --profile minimalistic-mountns -k tmpfs,/sys,tmpfs,MS_NOEXEC|MS_NOSUID|MS_NODEV,mode=755,size=10M -k tmpfs,/var,tmpfs,MS_NOSUID|MS_NODEV|MS_NOEXEC,mode=755,size=10M -b /var/lib/metrics,,1 -k tmpfs,/run,tmpfs,MS_NODEV|MS_NOEXEC|MS_NOSUID,mode=755,size=10M -b /run/lock,,1 -b /run/dbus -- /usr/sbin/arc-keymintd
+2026-05-22T02:41:54.794400Z INFO arc-keymintd[40779]: Running Daemon
+2026-05-22T02:41:54.796108Z INFO arc-keymintd[40779]: Mojo init succeeded.
+2026-05-22T02:41:54.796802Z INFO arc-keymintd[40779]: D-Bus registration succeeded
+2026-05-22T02:41:54.796876Z INFO arc-keymintd[40779]: Receiving bootstrap mojo call from D-Bus client.
+2026-05-22T02:41:54.800994Z INFO arc-keymintd[40779]: Mojo connection established.
+2026-05-22T02:41:54.892469Z INFO arc-apply-per-board-config[40809]: INFO arc-apply-per-board-config: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_apply_per_board_config_main.cc:34] Starting /usr/sbin/arc-apply-per-board-config --log_tag=arc-apply-per-board-config
+2026-05-22T02:41:54.893775Z INFO arc-apply-per-board-config[40809]: INFO arc-apply-per-board-config: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:1051] Running !base::WriteFileDescriptor(dest_fd.get(), content.value())...
+2026-05-22T02:41:54.894650Z INFO arc-apply-per-board-config[40809]: INFO arc-apply-per-board-config: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:1078] Running !base::WriteFileDescriptor(dest_fd.get(), content.value())...
+2026-05-22T02:41:54.894727Z INFO arc-apply-per-board-config[40809]: INFO arc-apply-per-board-config: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:1721] Running !brillo::MkdirRecursively(camera_prop_directory, 0755).is_valid()...
+2026-05-22T02:41:54.894762Z INFO arc-apply-per-board-config[40809]: INFO arc-apply-per-board-config: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:1724] Running !base::ReadFileToString(build_prop, &content)...
+2026-05-22T02:41:54.894851Z INFO arc-apply-per-board-config[40809]: INFO arc-apply-per-board-config: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:1752] Running !WriteToFile(camera_prop_file, 0644, camera_properties)...
+2026-05-22T02:41:54.895006Z INFO arc-apply-per-board-config[40809]: INFO arc-apply-per-board-config: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:2750] Running !fd.is_valid()...
+2026-05-22T02:41:54.895012Z INFO arc-apply-per-board-config[40809]: INFO arc-apply-per-board-config: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:2754] Running !GetUserId("crosvm", &crosvm_uid, &crosvm_gid)...
+2026-05-22T02:41:54.895099Z INFO arc-apply-per-board-config[40809]: INFO arc-apply-per-board-config: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:2755] Running fchown(fd.get(), crosvm_uid, crosvm_gid)...
+2026-05-22T02:41:54.895250Z INFO arc-apply-per-board-config[40809]: INFO arc-apply-per-board-config: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:2765] Running !SafeCopyFile(*media_codecs_c2_xml, brillo::SafeFD::Root().first, arc_paths_->media_codecs_relative, brillo::SafeFD::Root() .first.OpenExistingDir(per_board_config_path) .first, 0644, crosvm_uid, crosvm_gid)...
+2026-05-22T02:41:54.895837Z INFO arc-apply-per-board-config[40809]: INFO arc-apply-per-board-config: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:2778] Running !SafeCopyFile(*media_codecs_performance_c2_xml, brillo::SafeFD::Root().first, arc_paths_->media_codecs_performance_relative, brillo::SafeFD::Root() .first.OpenExistingDir(per_board_config_path) .first, 0644, crosvm_uid, crosvm_gid)...
+2026-05-22T02:41:54.896336Z INFO arc-apply-per-board-config[40809]: INFO arc-apply-per-board-config: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_apply_per_board_config_main.cc:36] /usr/sbin/arc-apply-per-board-config --log_tag=arc-apply-per-board-config took 5ms
+2026-05-22T02:41:54.994276Z INFO arcvm_boot_notification_server[40847]: INFO arcvm_boot_notification_server: [../../../../../tmp/portage/chromeos-base/arcvm-boot-notification-server-0.0.1-r489/work/arcvm-boot-notification-server-0.0.1/arc/vm/boot_notification_server/util.cc:35] Creating socket
+2026-05-22T02:41:54.994301Z INFO arcvm_boot_notification_server[40847]: INFO arcvm_boot_notification_server: [../../../../../tmp/portage/chromeos-base/arcvm-boot-notification-server-0.0.1-r489/work/arcvm-boot-notification-server-0.0.1/arc/vm/boot_notification_server/util.cc:43] Binding socket
+2026-05-22T02:41:54.994309Z INFO arcvm_boot_notification_server[40847]: INFO arcvm_boot_notification_server: [../../../../../tmp/portage/chromeos-base/arcvm-boot-notification-server-0.0.1-r489/work/arcvm-boot-notification-server-0.0.1/arc/vm/boot_notification_server/util.cc:49] Listening on socket
+2026-05-22T02:41:54.994365Z INFO arcvm_boot_notification_server[40847]: INFO arcvm_boot_notification_server: [../../../../../tmp/portage/chromeos-base/arcvm-boot-notification-server-0.0.1-r489/work/arcvm-boot-notification-server-0.0.1/arc/vm/boot_notification_server/util.cc:35] Creating socket
+2026-05-22T02:41:54.994385Z INFO arcvm_boot_notification_server[40847]: INFO arcvm_boot_notification_server: [../../../../../tmp/portage/chromeos-base/arcvm-boot-notification-server-0.0.1-r489/work/arcvm-boot-notification-server-0.0.1/arc/vm/boot_notification_server/util.cc:43] Binding socket
+2026-05-22T02:41:54.994420Z INFO arcvm_boot_notification_server[40847]: INFO arcvm_boot_notification_server: [../../../../../tmp/portage/chromeos-base/arcvm-boot-notification-server-0.0.1-r489/work/arcvm-boot-notification-server-0.0.1/arc/vm/boot_notification_server/util.cc:49] Listening on socket
+2026-05-22T02:41:54.994456Z INFO arcvm_boot_notification_server[40847]: INFO arcvm_boot_notification_server: [../../../../../tmp/portage/chromeos-base/arcvm-boot-notification-server-0.0.1-r489/work/arcvm-boot-notification-server-0.0.1/arc/vm/boot_notification_server/util.cc:59] Waiting for client to connect
+2026-05-22T02:41:55.048200Z INFO arcvm_boot_notification_server[40847]: INFO arcvm_boot_notification_server: [../../../../../tmp/portage/chromeos-base/arcvm-boot-notification-server-0.0.1-r489/work/arcvm-boot-notification-server-0.0.1/arc/vm/boot_notification_server/util.cc:66] Client connected
+2026-05-22T02:41:55.048289Z INFO arcvm_boot_notification_server[40847]: INFO arcvm_boot_notification_server: [../../../../../tmp/portage/chromeos-base/arcvm-boot-notification-server-0.0.1-r489/work/arcvm-boot-notification-server-0.0.1/arc/vm/boot_notification_server/util.cc:59] Waiting for client to connect
+2026-05-22T02:41:55.302080Z INFO arcvm_server_proxy[41014]: INFO arcvm_server_proxy: [../../../../../tmp/portage/chromeos-base/arcvm-mojo-proxy-0.0.1-r436/work/arcvm-mojo-proxy-0.0.1/arc/vm/mojo_proxy/server_proxy.cc:121] Accepting guest virtwl connection...
+2026-05-22T02:41:55.318742Z INFO arcvm-prepare-data[41024]: INFO arcvm-prepare-data: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arcvm_prepare_data_main.cc:49] Starting /usr/sbin/arcvm-prepare-data --log_tag=arcvm-prepare-data --data_type=lvm_volume
+2026-05-22T02:41:55.318899Z INFO arcvm-prepare-data[41024]: INFO arcvm-prepare-data: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:692] Running root_path.empty() || !base::DirectoryExists(root_path)...
+2026-05-22T02:41:55.318921Z INFO arcvm-prepare-data[41024]: INFO arcvm-prepare-data: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:693] Running user_path.empty() || !base::DirectoryExists(user_path)...
+2026-05-22T02:41:55.318992Z INFO arcvm-prepare-data[41024]: INFO arcvm-prepare-data: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:1962] Running !temp_android_data_dir.CreateUniqueTempDir()...
+2026-05-22T02:41:55.319034Z INFO arcvm-prepare-data[41024]: INFO arcvm-prepare-data: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:1965] Running !InstallDirectory(0700, kRootUid, kRootGid, data_mount_path)...
+2026-05-22T02:41:55.327800Z ERR arcvm-prepare-data[41024]: ERROR arcvm-prepare-data: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup_util.cc:202] Failed to mount /dev/loop14 to /tmp/org.chromium.Chromium.scoped_dir.aisoIr/data: Invalid argument (22)
+2026-05-22T02:41:55.327814Z ERR arcvm-prepare-data[41024]: ERROR arcvm-prepare-data: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup_util.cc:447] Failed to mount /dev/mapper/vm/dmcrypt-fe955082-arcvm as ext4: Invalid argument (22)
+2026-05-22T02:41:55.327830Z ERR arcvm-prepare-data[41024]: ERROR arcvm-prepare-data: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup_util.cc:95] Failed to remove /dev/mapper/vm/dmcrypt-fe955082-arcvm from /dev/loop14: Bad file descriptor (9)
+2026-05-22T02:41:55.327841Z INFO arcvm-prepare-data[41024]: INFO arcvm-prepare-data: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:1974] Failed to mount /dev/mapper/vm/dmcrypt-fe955082-arcvm on /tmp/org.chromium.Chromium.scoped_dir.aisoIr/data. Assuming the first boot after opt-in
+2026-05-22T02:41:55.327943Z INFO arcvm-prepare-data[41024]: INFO arcvm-prepare-data: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:2373] Sending upgrade metrics
+2026-05-22T02:41:55.327972Z WARNING arcvm-prepare-data[41024]: WARNING arcvm-prepare-data: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/xml/android_xml_util.cc:120] Cannot open /run/arc/host_generated/build.prop: No such file or directory (2)
+2026-05-22T02:41:55.328116Z INFO arcvm-prepare-data[41024]: INFO arcvm-prepare-data: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:1819] SDK version string: 33
+2026-05-22T02:41:55.328182Z INFO arcvm-prepare-data[41024]: INFO arcvm-prepare-data: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:1819] SDK version string: 33
+2026-05-22T02:41:55.328204Z INFO arcvm-prepare-data[41024]: INFO arcvm-prepare-data: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arcvm_prepare_data_main.cc:51] /usr/sbin/arcvm-prepare-data --log_tag=arcvm-prepare-data --data_type=lvm_volume took 10ms
+2026-05-22T02:41:55.349581Z INFO arcvm_boot_notification_server[40847]: INFO arcvm_boot_notification_server: [../../../../../tmp/portage/chromeos-base/arcvm-boot-notification-server-0.0.1-r489/work/arcvm-boot-notification-server-0.0.1/arc/vm/boot_notification_server/util.cc:66] Client connected
+2026-05-22T02:41:55.350144Z INFO arcvm_boot_notification_server[40847]: INFO arcvm_boot_notification_server: [../../../../../tmp/portage/chromeos-base/arcvm-boot-notification-server-0.0.1-r489/work/arcvm-boot-notification-server-0.0.1/arc/vm/boot_notification_server/main.cc:98] Received CID=32#012ro.boot.disable_boot_completed=0#012ro.boot.enable_adb_sideloading=0#012ro.boot.copy_packages_cache=0#012ro.boot.skip_gms_core_cache=0#012ro.boot.arc_demo_mode=0#012ro.boot.enable_arc_nearby_share=1#012ro.boot.supervision.transition=0#012ro.boot.serialno=098A3BF8BF3391402A80#012ro.boot.skip_tts_cache=0#012ro.boot.locale=en-US#012ro.boot.preferred_languages=en-US,en#012ro.boot.arc.lmk.perceptible_min_state_update=1 from host.
+2026-05-22T02:41:55.350231Z INFO arcvm_boot_notification_server[40847]: INFO arcvm_boot_notification_server: [../../../../../tmp/portage/chromeos-base/arcvm-boot-notification-server-0.0.1-r489/work/arcvm-boot-notification-server-0.0.1/arc/vm/boot_notification_server/main.cc:109] Waiting for connection from ARCVM(32).
+2026-05-22T02:41:55.350235Z INFO arcvm_boot_notification_server[40847]: INFO arcvm_boot_notification_server: [../../../../../tmp/portage/chromeos-base/arcvm-boot-notification-server-0.0.1-r489/work/arcvm-boot-notification-server-0.0.1/arc/vm/boot_notification_server/util.cc:59] Waiting for client to connect
+2026-05-22T02:42:01.332548Z INFO arcvm_boot_notification_server[40847]: INFO arcvm_boot_notification_server: [../../../../../tmp/portage/chromeos-base/arcvm-boot-notification-server-0.0.1-r489/work/arcvm-boot-notification-server-0.0.1/arc/vm/boot_notification_server/util.cc:66] Client connected
+2026-05-22T02:42:01.332577Z INFO arcvm_boot_notification_server[40847]: INFO arcvm_boot_notification_server: [../../../../../tmp/portage/chromeos-base/arcvm-boot-notification-server-0.0.1-r489/work/arcvm-boot-notification-server-0.0.1/arc/vm/boot_notification_server/main.cc:137] Sending DATA_READY to ARCVM(32).
+2026-05-22T02:42:15.599465Z INFO arcvm_server_proxy[41014]: INFO arcvm_server_proxy: [../../../../../tmp/portage/chromeos-base/arcvm-mojo-proxy-0.0.1-r436/work/arcvm-mojo-proxy-0.0.1/arc/vm/mojo_proxy/server_proxy.cc:129] Using virtwl to receive messages.
+2026-05-22T02:42:15.599706Z INFO arcvm_server_proxy[41014]: INFO arcvm_server_proxy: [../../../../../tmp/portage/chromeos-base/arcvm-mojo-proxy-0.0.1-r436/work/arcvm-mojo-proxy-0.0.1/arc/vm/mojo_proxy/server_proxy.cc:133] ServerProxy has started to work.
+2026-05-22T02:42:15.633678Z INFO arcvm_server_proxy[41014]: INFO arcvm_server_proxy: [../../../../../tmp/portage/chromeos-base/arcvm-mojo-proxy-0.0.1-r436/work/arcvm-mojo-proxy-0.0.1/arc/vm/mojo_proxy/file_descriptor_util.cc:122] Connecting to /run/chrome/arc_bridge.sock
+2026-05-22T02:42:15.633823Z INFO arcvm_server_proxy[41014]: INFO arcvm_server_proxy: [../../../../../tmp/portage/chromeos-base/arcvm-mojo-proxy-0.0.1-r436/work/arcvm-mojo-proxy-0.0.1/arc/vm/mojo_proxy/file_descriptor_util.cc:145] Connected to /run/chrome/arc_bridge.sock
+2026-05-22T02:42:16.460893Z INFO arc-keymintd[40779]: No objects found with label=arc-keymasterd_AES_key
+2026-05-22T02:42:16.472777Z INFO arc-keymintd[40779]: Encryption key generated successfully.
+2026-05-22T02:42:16.503758Z INFO arc-keymintd[40779]: Provisioning the Lib Arc-Attestation DK Certificate
+2026-05-22T02:42:21.090573Z INFO arc-remove-stale-data[43040]: INFO arc-remove-stale-data: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_remove_stale_data_main.cc:19] Starting arc-remove-stale-data
+2026-05-22T02:42:21.090845Z INFO arc-remove-stale-data[43040]: INFO arc-remove-stale-data: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:692] Running root_path.empty() || !base::DirectoryExists(root_path)...
+2026-05-22T02:42:21.090872Z INFO arc-remove-stale-data[43040]: INFO arc-remove-stale-data: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:693] Running user_path.empty() || !base::DirectoryExists(user_path)...
+2026-05-22T02:42:21.091032Z INFO arc-remove-stale-data[43040]: INFO arc-remove-stale-data: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_remove_stale_data_main.cc:23] arc-remove-stale-data took 1ms
+2026-05-22T02:42:29.025903Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:29.025943Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:29.025951Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:29.026049Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:29.026060Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:42:29.363092Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:29.363108Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:29.363113Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:29.363155Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:29.363164Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:29.429971Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:29.429989Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:29.429995Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:29.430039Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:29.430046Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:29.466861Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:29.466874Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:29.466880Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:29.466923Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:29.466931Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:29.493205Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:29.493220Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:29.493226Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:29.493270Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:29.493278Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:29.510021Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:29.510037Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:29.510042Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:29.510085Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:29.510093Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:29.542336Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:29.542352Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:29.542358Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:29.542401Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:29.542409Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:30.187896Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:30.187912Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:30.187918Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:30.187958Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:30.187966Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:31.226588Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:31.226604Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:31.226609Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:31.226651Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:31.226659Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:32.461439Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:32.461457Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:32.461463Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:32.461508Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:32.461516Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:33.550348Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:33.550386Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:33.550392Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:33.550443Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:33.550451Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:34.596943Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:34.598402Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:34.598414Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:34.598466Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:34.598474Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:34.795306Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:34.795334Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:34.795340Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:34.795389Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:34.795397Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:42:34.887395Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:34.887411Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:34.887416Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:34.887464Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:34.887472Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:34.993535Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:34.993551Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:34.993557Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:34.993604Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:34.993612Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:42:35.699072Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:35.699092Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:35.699098Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:35.699144Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:35.699152Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:36.494608Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:36.494625Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:36.494631Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:36.494683Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:36.494692Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:37.938851Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:37.938866Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:37.938873Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:37.938919Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:37.938926Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:38.500648Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:38.501232Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:38.501336Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:38.501613Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:38.501696Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:42:39.035728Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:39.035744Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:39.035750Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:39.035797Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:39.035865Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:40.066716Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:40.067554Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:40.067564Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:40.067621Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:40.067629Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:41.155349Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:41.155371Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:41.155379Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:41.155434Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:41.155444Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:41.997468Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:41.997659Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:41.997728Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:41.997831Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:41.997885Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:42:42.227626Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:42.227647Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:42.227655Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:42.227708Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:42.227719Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:43.249730Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:43.249750Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 0
+2026-05-22T02:42:43.249758Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 0
+2026-05-22T02:42:43.249814Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:43.249828Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 0: 
+2026-05-22T02:42:43.386494Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:43.386515Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:43.386524Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:43.386584Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:43.386595Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:42:47.444363Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:47.444402Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:47.444411Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:47.444468Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:47.444479Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:42:49.164303Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:49.164335Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:49.164345Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:49.164413Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:49.164424Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:42:49.252489Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:49.252509Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:49.252518Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:49.252574Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:49.252585Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:42:52.809176Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:52.809345Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:52.809396Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:52.809465Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:52.809499Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:42:54.080685Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:54.080707Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:54.080715Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:54.080763Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:54.080772Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:42:54.220914Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:54.220949Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:54.220956Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:54.221007Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:54.221015Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:42:54.967218Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:54.967243Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:54.967252Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:54.967307Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:54.967318Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:42:55.137357Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:55.137377Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:55.137384Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:55.137436Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:55.137445Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:42:55.526797Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:55.526819Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:55.526827Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:55.526881Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:55.526892Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:42:55.879952Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:55.879971Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:55.879979Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:55.880019Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:55.880028Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:42:56.385588Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:56.385605Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:56.385614Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:56.385668Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:56.385679Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:42:57.447581Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:57.448797Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:57.448809Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:57.448873Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:57.448885Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:42:57.980755Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:57.980774Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:57.980782Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:57.980837Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:57.980848Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:42:59.082794Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:42:59.082816Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:42:59.082823Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:42:59.082877Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:42:59.082887Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:43:05.779189Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:43:05.779220Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:43:05.779227Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:43:05.779276Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:43:05.779285Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:43:06.689227Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:43:06.689253Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:43:06.689264Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:43:06.689345Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:43:06.689359Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:43:11.742433Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:43:11.742456Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:43:11.742467Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:43:11.742584Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:43:11.742598Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:43:12.487877Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:43:12.487893Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:43:12.487899Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:43:12.487949Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:43:12.487958Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:43:51.996788Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:43:51.996831Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:43:51.996837Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:43:51.996884Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:43:51.996893Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:44:27.965937Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:44:27.965969Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:44:27.965975Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:44:27.966025Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:44:27.966036Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T02:44:37.727748Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 146: Using TAG_CERTIFICATE_NOT_BEFORE: 0
+2026-05-22T02:44:37.727768Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 152: Using TAG_CERTIFICATE_NOT_AFTER: 2461449600000
+2026-05-22T02:44:37.727774Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 157: Got certificate date params:  NotBefore = 0, NotAfter = 2461449600000
+2026-05-22T02:44:37.727817Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 271: Setting notBefore to 0: 
+2026-05-22T02:44:37.727824Z INFO arc-keymintd[40779]: ArcKeyMint certificate_utils.cpp, Line 280: Setting notAfter to 2461449600: 
+2026-05-22T03:19:13.351581Z INFO arc-prepare-host-generated-dir[2297]: INFO arc-prepare-host-generated-dir: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_prepare_host_generated_dir_main.cc:34] Starting /usr/sbin/arc-prepare-host-generated-dir --log_tag=arc-prepare-host-generated-dir
+2026-05-22T03:19:13.356788Z INFO arc-prepare-host-generated-dir[2297]: INFO arc-prepare-host-generated-dir: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:2695] Debuggable is 0
+2026-05-22T03:19:13.357724Z INFO arc-prepare-host-generated-dir[2297]: INFO arc-prepare-host-generated-dir: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:2719] Running !ExpandPropertyFiles(property_files_source_dir, property_files_dest_path, modified_properties_dest_path, USE_ARCVM, hw_oemcrypto_support, true, debuggable, bus)...
+2026-05-22T03:19:13.371400Z INFO arc-prepare-host-generated-dir[2297]: INFO arc-prepare-host-generated-dir: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_setup.cc:2733] Running !GenerateFirstStageFstab( base::FilePath(kGeneratedPropertyFilesPathVm).Append("fstab"), base::FilePath(kArcVmVendorImagePath), cache_partition)...
+2026-05-22T03:19:13.378551Z INFO arc-prepare-host-generated-dir[2297]: INFO arc-prepare-host-generated-dir: [../../../../../tmp/portage/chromeos-base/arc-setup-0.0.1-r2482/work/arc-setup-0.0.1/arc/setup/arc_prepare_host_generated_dir_main.cc:39] /usr/sbin/arc-prepare-host-generated-dir --log_tag=arc-prepare-host-generated-dir took 28ms
+2026-05-22T03:19:40.799512Z NOTICE arc-keymintd[4955]: arc-keymint claiming its D-Bus name
+2026-05-22T03:19:40.799513Z NOTICE arc-keymintd[4956]: Start arc-keymint
+2026-05-22T03:19:40.800048Z NOTICE arc-keymintd[4957]: Executing: minijail0  -p -N -n --uts -l -e -S /usr/share/policy/arc-keymintd-seccomp.policy -u arc-keymintd -g arc-keymintd --profile minimalistic-mountns -k tmpfs,/sys,tmpfs,MS_NOEXEC|MS_NOSUID|MS_NODEV,mode=755,size=10M -k tmpfs,/var,tmpfs,MS_NOSUID|MS_NODEV|MS_NOEXEC,mode=755,size=10M -b /var/lib/metrics,,1 -k tmpfs,/run,tmpfs,MS_NODEV|MS_NOEXEC|MS_NOSUID,mode=755,size=10M -b /run/lock,,1 -b /run/dbus -- /usr/sbin/arc-keymintd
+2026-05-22T03:19:41.516058Z INFO arc-keymintd[4965]: Running Daemon
+2026-05-22T03:19:41.519170Z INFO arc-keymintd[4965]: Mojo init succeeded.
+2026-05-22T03:19:41.522697Z INFO arc-keymintd[4965]: D-Bus registration succeeded
+2026-05-22T03:19:41.522826Z INFO arc-keymintd[4965]: Receiving bootstrap mojo call from D-Bus client.
+2026-05-22T03:19:41.531965Z INFO arc-keymintd[4965]: Mojo connection established.

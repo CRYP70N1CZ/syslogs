@@ -1,0 +1,222 @@
+2026-05-18T18:08:01.881138Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:08:01.881277Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-18T18:08:01.881740Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:08:01.881818Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:08:02.141538Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:08:03.234814Z INFO btadapterd[3951]: message repeated 4 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T18:08:03.236466Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-18T18:08:03.236528Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:08:03.789210Z INFO btadapterd[3951]: message repeated 5 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T18:08:03.789385Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-18T18:08:03.789628Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:08:05.160900Z INFO btadapterd[3951]: message repeated 3 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T18:09:18.876841Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:09:18.878491Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-18T18:09:18.878733Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:09:24.079863Z INFO btadapterd[3951]: message repeated 9 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T18:09:24.919036Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:09:31.435285Z INFO btadapterd[3951]: message repeated 9 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T18:10:02.303816Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:10:05.428878Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:10:05.430530Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-18T18:10:05.431384Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:10:06.399598Z INFO btadapterd[3951]: message repeated 6 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T18:10:06.441034Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:10:12.186016Z INFO btadapterd[3951]: message repeated 4 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T18:10:33.476377Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:10:33.476429Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-18T18:10:33.476481Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:10:33.669863Z INFO btadapterd[3951]: message repeated 2 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T18:12:04.213205Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:12:04.213299Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:12:09.437008Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:12:09.437045Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:12:09.698860Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:12:22.858607Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:12:40.369804Z INFO btadapterd[3951]: message repeated 11 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T18:13:17.734793Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:13:17.735170Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:15:06.667747Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:15:06.667794Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:33:04.816183Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:33:04.816250Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T18:43:15.093662Z INFO btadapterd[3951]: bt_btif_core  btif/src/btif_core.cc:568 btif_set_scan_mode: set scan mode : 0
+2026-05-18T18:43:15.093950Z INFO btadapterd[3951]: bluetooth  gd/hci/le_address_manager.cc:262 register_client: Client registered
+2026-05-18T18:43:15.100955Z INFO btadapterd[3951]: bluetooth  gd/hci/le_address_manager.cc:776 OnCommandComplete: Received command complete with op_code LE_CLEAR_FILTER_ACCEPT_LIST(0x2010)
+2026-05-18T18:43:15.100994Z INFO btadapterd[3951]: bluetooth  gd/hci/le_address_manager.cc:391 resume_registered_clients: Resuming registered clients
+2026-05-18T18:43:15.286619Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T20:17:10.231824Z ERR btadapterd[3951]: bluetooth  gd/os/linux_generic/files.cc:223 FileCreatedTime: unable to read '/var/log/bluetooth/btsnooz_hci.log' file metadata, error: No such file or directory
+2026-05-18T20:17:10.364823Z INFO btadapterd[3951]: bt_btif_core  btif/src/btif_core.cc:568 btif_set_scan_mode: set scan mode : 0
+2026-05-18T20:17:23.523870Z INFO btadapterd[3951]: bt_btif_core  btif/src/btif_core.cc:568 btif_set_scan_mode: set scan mode : 0
+2026-05-18T20:17:23.529171Z INFO btadapterd[3951]: bluetooth  gd/hci/le_address_manager.cc:776 OnCommandComplete: Received command complete with op_code LE_CLEAR_FILTER_ACCEPT_LIST(0x2010)
+2026-05-18T20:17:23.529188Z INFO btadapterd[3951]: bluetooth  gd/hci/le_address_manager.cc:391 resume_registered_clients: Resuming registered clients
+2026-05-18T23:35:11.242061Z ERR btadapterd[3951]: bluetooth  gd/os/linux_generic/files.cc:223 FileCreatedTime: unable to read '/var/log/bluetooth/btsnooz_hci.log' file metadata, error: No such file or directory
+2026-05-18T23:35:11.301294Z INFO btadapterd[3951]: bt_btif_core  btif/src/btif_core.cc:568 btif_set_scan_mode: set scan mode : 0
+2026-05-18T23:37:34.638514Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:37:34.638977Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-18T23:37:34.639038Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:37:36.366910Z INFO btadapterd[3951]: message repeated 6 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T23:37:36.366970Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-18T23:37:36.367007Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:37:36.881766Z INFO btadapterd[3951]: message repeated 5 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T23:37:36.881942Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-18T23:37:36.882865Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:37:37.311253Z INFO btadapterd[3951]: message repeated 2 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T23:37:39.924222Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:37:39.989550Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:37:39.989628Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-18T23:37:39.989713Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:37:40.223572Z INFO btadapterd[3951]: message repeated 2 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T23:40:30.279526Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:40:30.546535Z INFO btadapterd[3951]: message repeated 3 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T23:40:33.719177Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:40:33.789705Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:40:33.789846Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-18T23:40:33.791876Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:40:35.075192Z INFO btadapterd[3951]: message repeated 6 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T23:40:35.075257Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-18T23:40:35.075301Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:40:35.296168Z INFO btadapterd[3951]: message repeated 2 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T23:40:56.472352Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:41:05.757989Z INFO btadapterd[3951]: message repeated 5 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T23:41:05.758143Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-18T23:41:05.760435Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:41:06.002938Z INFO btadapterd[3951]: message repeated 2 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T23:41:14.968243Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:41:15.042988Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:41:15.043341Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-18T23:41:15.043987Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:41:17.411147Z INFO btadapterd[3951]: message repeated 4 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T23:41:17.411268Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-18T23:41:17.411330Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:41:18.982130Z INFO btadapterd[3951]: message repeated 6 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T23:41:18.982220Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-18T23:41:18.982566Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:41:29.035359Z INFO btadapterd[3951]: message repeated 3 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T23:42:55.988061Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:42:58.078451Z INFO btadapterd[3951]: message repeated 5 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T23:42:58.080049Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-18T23:42:58.080246Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:42:58.310946Z INFO btadapterd[3951]: message repeated 2 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T23:43:53.235473Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:58:34.881539Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:58:34.881592Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-18T23:58:34.881647Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-18T23:58:37.435437Z INFO btadapterd[3951]: message repeated 4 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-18T23:59:55.272432Z ERR btadapterd[3951]: bluetooth  gd/os/linux_generic/files.cc:223 FileCreatedTime: unable to read '/var/log/bluetooth/btsnooz_hci.log' file metadata, error: No such file or directory
+2026-05-19T00:18:27.061565Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:18:27.290317Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:18:27.290692Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:18:27.290959Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:18:27.734848Z INFO btadapterd[3951]: message repeated 2 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:05.137086Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:05.137231Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:05.137291Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:05.137324Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:05.425097Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:06.817850Z INFO btadapterd[3951]: message repeated 6 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:06.818178Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:06.818248Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:08.233527Z INFO btadapterd[3951]: message repeated 6 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:08.233727Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:08.235066Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:09.114842Z INFO btadapterd[3951]: message repeated 7 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:09.115031Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:09.115570Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:10.217316Z INFO btadapterd[3951]: message repeated 6 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:10.219478Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:10.219608Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:14.047078Z INFO btadapterd[3951]: message repeated 4 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:14.047187Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:14.047438Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:15.245792Z INFO btadapterd[3951]: message repeated 6 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:15.247296Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:15.247408Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:16.082043Z INFO btadapterd[3951]: message repeated 6 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:16.082189Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:16.082274Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:17.251648Z INFO btadapterd[3951]: message repeated 6 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:17.251866Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:17.252351Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:18.499155Z INFO btadapterd[3951]: message repeated 7 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:18.499328Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:18.499509Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:19.657050Z INFO btadapterd[3951]: message repeated 5 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:19.878566Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:19.879003Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:19.879071Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:21.436875Z INFO btadapterd[3951]: message repeated 4 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:21.436982Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:21.437050Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:39.207123Z INFO btadapterd[3951]: message repeated 8 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:39.207484Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:39.207951Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:39.443842Z INFO btadapterd[3951]: message repeated 2 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:45.067533Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:45.158226Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:45.158284Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:45.158351Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:46.873295Z INFO btadapterd[3951]: message repeated 6 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:46.875428Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:46.875832Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:47.646149Z INFO btadapterd[3951]: message repeated 6 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:47.922534Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:47.923540Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:47.923665Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:48.760031Z INFO btadapterd[3951]: message repeated 6 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:48.760285Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:48.761036Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:52.477597Z INFO btadapterd[3951]: message repeated 4 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:52.477662Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:52.477701Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:54.567067Z INFO btadapterd[3951]: message repeated 4 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:54.567359Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:54.567878Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:56.180248Z INFO btadapterd[3951]: message repeated 6 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:56.181293Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:56.182157Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:20:58.164368Z INFO btadapterd[3951]: message repeated 4 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:20:58.164430Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:20:58.164501Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:21:13.248081Z INFO btadapterd[3951]: message repeated 4 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:21:13.248171Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=true :  play_state=false :  queue=false
+2026-05-19T00:21:13.250247Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:21:13.489471Z INFO btadapterd[3951]: message repeated 2 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:22:02.384331Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:22:02.654803Z INFO btadapterd[3951]: message repeated 3 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:22:51.537974Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:22:51.819240Z INFO btadapterd[3951]: message repeated 3 times: [ bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false]
+2026-05-19T00:23:15.718951Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-19T00:26:04.280505Z INFO btadapterd[3951]: bt_btif_core  btif/src/btif_core.cc:568 btif_set_scan_mode: set scan mode : 0
+2026-05-19T00:26:04.286889Z INFO btadapterd[3951]: bluetooth  gd/hci/le_address_manager.cc:776 OnCommandComplete: Received command complete with op_code LE_CLEAR_FILTER_ACCEPT_LIST(0x2010)
+2026-05-19T00:26:04.286926Z INFO btadapterd[3951]: bluetooth  gd/hci/le_address_manager.cc:391 resume_registered_clients: Resuming registered clients
+2026-05-20T17:52:44.235254Z ERR btadapterd[3951]: bluetooth  gd/os/linux_generic/files.cc:223 FileCreatedTime: unable to read '/var/log/bluetooth/btsnooz_hci.log' file metadata, error: No such file or directory
+2026-05-20T17:52:44.287668Z INFO btadapterd[3951]: bt_btif_core  btif/src/btif_core.cc:568 btif_set_scan_mode: set scan mode : 0
+2026-05-20T17:53:16.436738Z INFO btadapterd[3951]: gatt_api  stack/gatt/gatt_api.cc:1305 GATT_Deregister: gatt_if=46
+2026-05-20T17:53:16.436787Z INFO btadapterd[3951]: gatt_api  stack/gatt/gatt_api.cc:1305 GATT_Deregister: gatt_if=47
+2026-05-20T17:53:17.985568Z WARNING btmanagerd[3915]: Set Floss Enabeld=true
+2026-05-20T17:53:18.113112Z WARNING btmanagerd[3915]: Set Floss LL Privacy=false
+2026-05-20T17:53:18.113219Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:247 IsMsftSupported: in shim layer
+2026-05-20T17:53:18.115440Z INFO btadapterd[3951]: bluetooth  btif/avrcp/avrcp_service.cc:532 SendMediaUpdate: track_changed=false :  play_state=true :  queue=false
+2026-05-20T17:53:18.239481Z INFO btadapterd[3951]: gatt_api  stack/gatt/gatt_api.cc:1271 GATT_Register: Allocated name:rust_client uuid:3cb2f302-b12c-f448-a3d5-a5a927b7cee9 gatt_if:49 eatt_support:false
+2026-05-20T17:53:18.239536Z INFO btadapterd[3951]: bluetooth  bta/gatt/bta_gatts_act.cc:193 bta_gatts_register: register application first_unuse rcb_idx=1
+2026-05-20T17:53:18.239547Z INFO btadapterd[3951]: gatt_api  stack/gatt/gatt_api.cc:1271 GATT_Register: Allocated name:GattServer uuid:e060b902-508c-485f-8b0e-27639c7f2d41 gatt_if:50 eatt_support:false
+2026-05-20T17:53:18.277244Z INFO btadapterd[3951]: Bluetooth HID telephony mode enabled
+2026-05-20T17:53:21.164608Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:137 RegisterScanner: in shim layer, UUID=022bfc8f-3556-30bd-51b2-ec050c21af3e
+2026-05-20T17:53:21.165567Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:247 IsMsftSupported: in shim layer
+2026-05-20T17:53:21.165591Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:255 MsftAdvMonitorAdd: in shim layer
+2026-05-20T17:53:21.275901Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:284 OnMsftAdvMonitorAdd: in shim layer
+2026-05-20T17:53:21.276013Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:274 MsftAdvMonitorEnable: in shim layer
+2026-05-20T17:53:21.276825Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:297 OnMsftAdvMonitorEnable: in shim layer
+2026-05-20T17:53:21.276913Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:313 SetScanParameters: in shim layer, scannerId1m=2, scannerIdCoded=0
+2026-05-20T17:53:21.276936Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:149 Scan: in shim layer started
+2026-05-20T17:53:21.276947Z INFO btadapterd[3951]: bluetooth  gd/hci/le_scanning_manager_impl.cc:595 stop_scan: Scanning already stopped, return!
+2026-05-20T17:53:21.276979Z INFO btadapterd[3951]: bluetooth  gd/hci/le_address_manager.cc:262 register_client: Client registered
+2026-05-20T17:53:34.111163Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:143 Unregister: in shim layer, scannerId=2
+2026-05-20T17:53:34.111210Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:247 IsMsftSupported: in shim layer
+2026-05-20T17:53:34.111219Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:265 MsftAdvMonitorRemove: in shim layer
+2026-05-20T17:53:34.225910Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:290 OnMsftAdvMonitorRemove: in shim layer
+2026-05-20T17:53:34.226133Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:274 MsftAdvMonitorEnable: in shim layer
+2026-05-20T17:53:34.226761Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:297 OnMsftAdvMonitorEnable: in shim layer
+2026-05-20T17:53:34.226994Z INFO btadapterd[3951]: bt_shim_scanner  main/shim/le_scanning_manager.cc:149 Scan: in shim layer stopped
+2026-05-20T17:53:34.227035Z INFO btadapterd[3951]: bluetooth  gd/hci/le_address_manager.cc:277 unregister_client: Client unregistered

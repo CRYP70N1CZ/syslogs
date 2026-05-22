@@ -1,0 +1,5 @@
+2026-05-21T20:38:34.476240Z INFO arc-apk-cache-cleaner[32328]: Found outdated file 59
+2026-05-21T20:38:34.479563Z INFO arc-apk-cache-cleaner[32328]: Deleted 1 files in package android version 33
+2026-05-21T20:38:34.482898Z INFO arc-apk-cache-cleaner[32328]: Deleted 2 sessions
+2026-05-21T20:38:34.483216Z INFO arc-apk-cache-cleaner[32328]: Deleting /mnt/stateful_partition/unencrypted/apkcache/files/000000000000003b
+2026-05-21T20:38:34.636062Z INFO arc-apk-cache-cleaner[32328]: APK Cache cleaner succeeded.

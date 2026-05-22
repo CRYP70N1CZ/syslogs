@@ -1,0 +1,4 @@
+2026-05-18T20:17:10.240246Z WARNING kernel: [ 8243.313858] init: cupsd main process ended, respawning
+2026-05-18T23:35:11.249578Z WARNING kernel: [20124.260939] init: cupsd main process ended, respawning
+2026-05-20T17:52:44.241100Z WARNING kernel: [172378.326912] init: cupsd main process ended, respawning
+2026-05-20T17:53:16.595376Z WARNING kernel: [172410.682896] init: ui_stop_waiter main process (27344) killed by TERM signal

@@ -1,0 +1,38 @@
+2026-05-15T13:05:01.323078Z WARNING kernel: [156104.224147] init: cupsd main process ended, respawning
+2026-05-15T13:12:09.236205Z WARNING kernel: [156531.767891] init: cupsd main process ended, respawning
+2026-05-15T13:45:20.237510Z WARNING kernel: [158522.413257] init: cupsd main process ended, respawning
+2026-05-15T14:51:36.261707Z WARNING kernel: [162498.560588] init: cupsd main process ended, respawning
+2026-05-15T15:30:34.261096Z WARNING kernel: [164837.102038] init: cupsd main process ended, respawning
+2026-05-15T16:07:27.276185Z WARNING kernel: [167050.384740] init: cupsd main process ended, respawning
+2026-05-15T16:19:37.411744Z WARNING kernel: [167780.539950] init: ui_stop_waiter main process (49708) killed by TERM signal
+2026-05-15T16:19:37.411778Z WARNING kernel: [167780.540206] init: shill_stop_waiter main process (49720) killed by TERM signal
+2026-05-15T17:44:53.175177Z WARNING kernel: [    2.245543] init: lvm-migration-trim main process (458) killed by TERM signal
+2026-05-15T17:44:53.175183Z WARNING kernel: [    2.245674] init: console-ttyS0 main process (463) killed by TERM signal
+2026-05-15T17:44:53.277239Z WARNING kernel: [    2.377777] init: bluetoothd pre-start process (606) terminated with status 1
+2026-05-15T17:44:54.476062Z WARNING kernel: [    3.576594] init: regulatory-domain main process (744) killed by TERM signal
+2026-05-15T17:44:55.453019Z WARNING kernel: [    4.553955] init: failsafe-delay main process (591) killed by TERM signal
+2026-05-15T17:44:55.521016Z WARNING kernel: [    4.621950] init: secagentd post-start process (1777) terminated with status 2
+2026-05-15T17:44:55.545014Z WARNING kernel: [    4.646270] init: modemfwd main process (1785) terminated with status 69
+2026-05-15T17:44:55.677088Z WARNING kernel: [    4.776555] init: p2p main process (1957) terminated with status 1
+2026-05-15T17:44:55.677109Z WARNING kernel: [    4.776572] init: p2p main process ended, respawning
+2026-05-15T17:44:55.867017Z WARNING kernel: [    4.968287] init: p2p post-stop process (1973) terminated with status 1
+2026-05-15T17:44:58.458858Z WARNING kernel: [    7.556675] init: send-boot-elog-metrics main process (3556) terminated with status 1
+2026-05-15T17:44:58.974980Z WARNING kernel: [    8.073288] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-15T17:44:58.991170Z WARNING kernel: [    8.089951] init: cros-camera-algo main process ended, respawning
+2026-05-15T17:44:59.065026Z WARNING kernel: [    8.165891] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-15T17:44:59.109252Z WARNING kernel: [    8.207719] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-15T17:44:59.173139Z WARNING kernel: [    8.272616] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-15T17:44:59.229027Z WARNING kernel: [    8.324489] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-15T17:44:59.309989Z WARNING kernel: [    8.409786] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-15T17:44:59.371021Z WARNING kernel: [    8.472123] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-15T17:44:59.412022Z WARNING kernel: [    8.512855] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-15T17:44:59.471546Z WARNING kernel: [    8.570826] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-15T17:44:59.533041Z WARNING kernel: [    8.633290] init: cros-camera-gpu-algo main process ended, respawning
+2026-05-15T17:44:59.584134Z WARNING kernel: [    8.685144] init: cros-camera-gpu-algo respawning too fast, stopped
+2026-05-15T18:48:24.254794Z WARNING kernel: [ 3813.155949] init: cupsd main process ended, respawning
+2026-05-15T19:21:39.252402Z WARNING kernel: [ 5807.860068] init: cupsd main process ended, respawning
+2026-05-15T19:55:19.252525Z WARNING kernel: [ 7827.834981] init: cupsd main process ended, respawning
+2026-05-15T20:25:29.263344Z WARNING kernel: [ 9637.857988] init: cupsd main process ended, respawning
+2026-05-15T20:55:39.246348Z WARNING kernel: [11447.849491] init: cupsd main process ended, respawning
+2026-05-15T21:25:49.263644Z WARNING kernel: [13257.866392] init: cupsd main process ended, respawning
+2026-05-16T17:38:58.248155Z WARNING kernel: [86047.518083] init: cupsd main process ended, respawning

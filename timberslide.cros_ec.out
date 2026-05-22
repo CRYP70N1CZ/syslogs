@@ -1,0 +1,4 @@
+2026-05-22T03:19:16.348632Z INFO timberslide: [../../../../../tmp/portage/chromeos-base/timberslide-0.0.1-r3470/work/timberslide-0.0.1/platform2/timberslide/main.cc:33] Found Token DB: /usr/share/cros_ec/tokens.bin
+2026-05-22T03:19:16.348963Z INFO timberslide: [../../../../../tmp/portage/chromeos-base/timberslide-0.0.1-r3470/work/timberslide-0.0.1/platform2/timberslide/timberslide.cc:84] Starting timberslide daemon
+2026-05-22T03:19:16.348996Z INFO timberslide: [../../../../../tmp/portage/chromeos-base/timberslide-0.0.1-r3470/work/timberslide-0.0.1/platform2/timberslide/timberslide.cc:92] EC uptime file is valid
+2026-05-22T03:19:16.355042Z INFO timberslide: [../../../../../tmp/portage/chromeos-base/timberslide-0.0.1-r3470/work/timberslide-0.0.1/platform2/timberslide/timberslide.cc:123] EC logging: raw text

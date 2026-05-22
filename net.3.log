@@ -1,0 +1,972 @@
+2026-05-16T17:40:15.483283Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:638] Pop user profile: chronos
+2026-05-16T17:40:15.483415Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:658] Skipping unload of service wifi_psk_1: re-configured from another profile.
+2026-05-16T17:40:15.483422Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:651] Skipping unload of service ethernet_7: wasn't using this profile.
+2026-05-16T17:40:15.483427Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:651] Skipping unload of service wifi_802_1x_5: wasn't using this profile.
+2026-05-16T17:40:15.483431Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:651] Skipping unload of service wifi_802_1x_6: wasn't using this profile.
+2026-05-16T17:40:15.483437Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:651] Skipping unload of service wifi_psk_0: wasn't using this profile.
+2026-05-16T17:40:15.483672Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:658] Skipping unload of service wifi_psk_2: re-configured from another profile.
+2026-05-16T17:40:15.483790Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:651] Skipping unload of service wifi_psk_3: wasn't using this profile.
+2026-05-16T17:40:15.483801Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:651] Skipping unload of service wifi_none_4: wasn't using this profile.
+2026-05-16T17:40:15.483950Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:685] PopProfileInternal finished; 1 profile(s) still present.
+2026-05-16T17:40:16.948333Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:2786] The size of the WiFi AP list is 24
+2026-05-16T17:40:16.948352Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:2788] The oldest endpoint was seen at 2026-05-16 17:38:59.000000 UTC, the newest endpoint was seen at 2026-05-16 17:39:05.000000 UTC
+2026-05-16T17:40:16.975070Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:3273] Received command for network throttling disabling
+2026-05-16T17:40:17.050767Z INFO patchpaneld[1916]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/manager.cc:1181] SetFeatureFlag: set WiFi QoS to 0 from 0
+2026-05-16T17:40:17.322593Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/service.cc:2361] unselected wifi_psk_0 sid=none SetAutoConnectFull: AutoConnect=1->1
+2026-05-16T17:40:17.329514Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/service.cc:2361] unselected wifi_802_1x_5 sid=none SetAutoConnectFull: AutoConnect=1->1
+2026-05-16T17:40:17.333498Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/service.cc:2361] unselected wifi_802_1x_6 sid=none SetAutoConnectFull: AutoConnect=1->1
+2026-05-16T17:40:17.429589Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:2181] ScanAndConnectToBestServices: ensure scan
+2026-05-16T17:40:17.429907Z DEBUG wpa_supplicant[691]: WPS: Building WPS IE for Probe Request
+2026-05-16T17:40:17.429942Z DEBUG wpa_supplicant[691]: WPS:  * Version (hardcoded 0x10)
+2026-05-16T17:40:17.429958Z DEBUG wpa_supplicant[691]: WPS:  * Request Type
+2026-05-16T17:40:17.429972Z DEBUG wpa_supplicant[691]: WPS:  * Config Methods (3108)
+2026-05-16T17:40:17.429988Z DEBUG wpa_supplicant[691]: WPS:  * UUID-E
+2026-05-16T17:40:17.430003Z DEBUG wpa_supplicant[691]: WPS:  * Primary Device Type
+2026-05-16T17:40:17.430018Z DEBUG wpa_supplicant[691]: WPS:  * RF Bands (3)
+2026-05-16T17:40:17.430033Z DEBUG wpa_supplicant[691]: WPS:  * Association State
+2026-05-16T17:40:17.430048Z DEBUG wpa_supplicant[691]: WPS:  * Configuration Error (0)
+2026-05-16T17:40:17.430063Z DEBUG wpa_supplicant[691]: WPS:  * Device Password ID (0)
+2026-05-16T17:40:17.430078Z DEBUG wpa_supplicant[691]: WPS:  * Manufacturer
+2026-05-16T17:40:17.430093Z DEBUG wpa_supplicant[691]: WPS:  * Model Name
+2026-05-16T17:40:17.430108Z DEBUG wpa_supplicant[691]: WPS:  * Model Number
+2026-05-16T17:40:17.430122Z DEBUG wpa_supplicant[691]: WPS:  * Device Name
+2026-05-16T17:40:17.430137Z DEBUG wpa_supplicant[691]: WPS:  * Version2 (0x20)
+2026-05-16T17:40:17.430155Z DEBUG wpa_supplicant[691]: P2P: * P2P IE header
+2026-05-16T17:40:17.430172Z DEBUG wpa_supplicant[691]: P2P: * Capability dev=25 group=00
+2026-05-16T17:40:17.430187Z DEBUG wpa_supplicant[691]: P2P: * Listen Channel: Regulatory Class 81 Channel 6
+2026-05-16T17:40:17.430205Z DEBUG wpa_supplicant[691]: wlan0: Add radio work 'scan'@0x5739f7e9cee0
+2026-05-16T17:40:17.430232Z DEBUG wpa_supplicant[691]: wlan0: First radio work item in the queue - schedule start immediately
+2026-05-16T17:40:17.430333Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:3970] ScanTask - wlan0: Scan state: IDLE -> BACKGROUND_START ensured scan: Scanning
+2026-05-16T17:40:17.430637Z DEBUG wpa_supplicant[691]: wlan0: Starting radio work 'scan'@0x5739f7e9cee0 after 0.000398 second wait
+2026-05-16T17:40:17.430672Z DEBUG wpa_supplicant[691]: wlan0: nl80211: scan request
+2026-05-16T17:40:17.430699Z DEBUG wpa_supplicant[691]: nl80211: Scan co-located APs on 6 GHz
+2026-05-16T17:40:17.433388Z DEBUG wpa_supplicant[691]: Scan requested (ret=0) - scan timeout 30 seconds
+2026-05-16T17:40:17.433587Z DEBUG wpa_supplicant[691]: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+2026-05-16T17:40:17.433621Z DEBUG wpa_supplicant[691]: wlan0: nl80211: Scan trigger
+2026-05-16T17:40:17.433648Z DEBUG wpa_supplicant[691]: wlan0: Event SCAN_STARTED (47) received
+2026-05-16T17:40:17.433669Z DEBUG wpa_supplicant[691]: wlan0: Own scan request started a scan in 0.000107 seconds
+2026-05-16T17:40:18.653009Z INFO hermes[767]: Shutdown
+2026-05-16T17:40:18.653029Z INFO hermes[767]: Transitioning from state Uninitialized to state Uninitialized
+2026-05-16T17:40:18.653042Z INFO hermes[767]: Uninhibiting in 0 seconds.
+2026-05-16T17:40:18.708888Z INFO dhcpcd[23299]: received SIGTERM, stopping
+2026-05-16T17:40:18.708897Z INFO dhcpcd[23299]: wlan0: removing interface
+2026-05-16T17:40:18.708922Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/shill_daemon.cc:32] ShillDaemon received shutdown.
+2026-05-16T17:40:18.709122Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1566] Device wlan0 updated: enabled
+2026-05-16T17:40:18.722253Z INFO dhcpcd[23299]: dhcpcd exited
+2026-05-16T17:40:18.722547Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/service.cc:424] wlan0 wifi_psk_1 sid=7 Disconnect: Stop
+2026-05-16T17:40:18.722559Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/service.cc:561] wlan0 wifi_psk_1 sid=7 SetState: state Online -> Disconnecting
+2026-05-16T17:40:18.722569Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_1 updated; state: Disconnecting
+2026-05-16T17:40:18.724938Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:3970] SetPendingService - wlan0: Scan state: BACKGROUND_START -> IDLE ensured scan: Scanning
+2026-05-16T17:40:18.725404Z INFO dnsproxyd[1807]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/shill-dbus-client-0.0.1-r2734/work/shill-dbus-client-0.0.1/shill/dbus/client/client.cc:701] Device [/device/wlan0] connection state changed from [online] to [disconnecting]
+2026-05-16T17:40:18.725421Z INFO dnsproxyd[1807]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolv_conf.cc:62] Setting resolv.conf to [127.0.0.2]
+2026-05-16T17:40:18.725767Z INFO dnsproxyd[1996]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/shill-dbus-client-0.0.1-r2734/work/shill-dbus-client-0.0.1/shill/dbus/client/client.cc:701] Device [/device/wlan0] connection state changed from [online] to [disconnecting]
+2026-05-16T17:40:18.725782Z WARNING dnsproxyd[1996]: WARNING dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/proxy.cc:564] {system:wlan0 sid=7} is stopping because the default device [wlan0] is offline
+2026-05-16T17:40:18.725934Z INFO dnsproxyd[1807]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolv_conf.cc:62] Setting resolv.conf to [192.168.40.1]
+2026-05-16T17:40:18.726299Z INFO patchpaneld[1916]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/manager.cc:888] OnDnsRedirectionRulesAutoclose: { type: EXCLUDE_DESTINATION, proxy_address: fd64:ffff::2 }
+2026-05-16T17:40:18.726979Z INFO dnsproxyd[1993]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/shill-dbus-client-0.0.1-r2734/work/shill-dbus-client-0.0.1/shill/dbus/client/client.cc:701] Device [/device/wlan0] connection state changed from [online] to [disconnecting]
+2026-05-16T17:40:18.726995Z WARNING dnsproxyd[1993]: WARNING dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/proxy.cc:564] {default:wlan0 sid=7} is stopping because the default device [wlan0] is offline
+2026-05-16T17:40:18.727279Z DEBUG wpa_supplicant[691]: wlan0: Cancelling scan request
+2026-05-16T17:40:18.727296Z DEBUG wpa_supplicant[691]: wlan0: Abort an ongoing scan
+2026-05-16T17:40:18.727303Z DEBUG wpa_supplicant[691]: nl80211: Abort scan
+2026-05-16T17:40:18.728956Z DEBUG wpa_supplicant[691]: wlan0: Request to deauthenticate - bssid=02:e4:ce:e6:2e:b1 pending_bssid=00:00:00:00:00:00 reason=3 (DEAUTH_LEAVING) state=COMPLETED valid_links=0x0 ap_mld_addr=00:00:00:00:00:00
+2026-05-16T17:40:18.728972Z DEBUG wpa_supplicant[691]: wpa_driver_nl80211_deauthenticate(addr=02:e4:ce:e6:2e:b1 reason_code=3)
+2026-05-16T17:40:18.729203Z INFO patchpaneld[1916]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/manager.cc:888] OnDnsRedirectionRulesAutoclose: { type: EXCLUDE_DESTINATION, proxy_address: 127.0.0.2 }
+2026-05-16T17:40:18.736627Z INFO patchpaneld[1916]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/manager.cc:888] OnDnsRedirectionRulesAutoclose: { type: USER, proxy_address: fd64:ffff::3 }
+2026-05-16T17:40:18.739223Z INFO patchpaneld[1916]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/manager.cc:888] OnDnsRedirectionRulesAutoclose: { type: USER, proxy_address: 127.0.0.3, nameserver(s): 192.168.40.1, }
+2026-05-16T17:40:18.742375Z INFO patchpaneld[1916]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/network_monitor_service.cc:339] NUD state changed on wlan0 for { addr: 192.168.40.1, role: gateway and dns_server, state: NUD_NONE }, old_state=NUD_REACHABLE
+2026-05-16T17:40:18.786318Z NOTICE wpa_supplicant[691]: nl80211: send_event_marker failed: Source based routing not supported
+2026-05-16T17:40:18.786327Z DEBUG wpa_supplicant[691]: wlan0: Event DEAUTH (11) received
+2026-05-16T17:40:18.786338Z DEBUG wpa_supplicant[691]: wlan0: Deauthentication notification
+2026-05-16T17:40:18.786344Z DEBUG wpa_supplicant[691]: wlan0:  * reason 3 (DEAUTH_LEAVING) locally_generated=1
+2026-05-16T17:40:18.786349Z DEBUG wpa_supplicant[691]: Deauthentication frame IE(s) - hexdump(len=0): [NULL]
+2026-05-16T17:40:18.786355Z NOTICE wpa_supplicant[691]: wlan0: CTRL-EVENT-DISCONNECTED bssid=02:e4:ce:e6:2e:b1 reason=3 locally_generated=1
+2026-05-16T17:40:18.786359Z DEBUG wpa_supplicant[691]: wlan0: Auto connect disabled: do not try to re-connect
+2026-05-16T17:40:18.786366Z DEBUG wpa_supplicant[691]: wlan0: Ignore connection failure indication since interface has been put into disconnected state
+2026-05-16T17:40:18.786370Z DEBUG wpa_supplicant[691]: RSN: Clear current PMKSA entry selection
+2026-05-16T17:40:18.786374Z DEBUG wpa_supplicant[691]: wlan0: WPA: Clear old PMK and PTK
+2026-05-16T17:40:18.786435Z DEBUG wpa_supplicant[691]: wlan0: Disconnect event - remove keys
+2026-05-16T17:40:18.786510Z DEBUG wpa_supplicant[691]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=0 set_tx=0 seq_len=0 key_len=0 key_flag=0x10 link_id=-1
+2026-05-16T17:40:18.786517Z DEBUG wpa_supplicant[691]: nl80211: DEL_KEY
+2026-05-16T17:40:18.786626Z DEBUG wpa_supplicant[691]:    broadcast key
+2026-05-16T17:40:18.794027Z DEBUG wpa_supplicant[691]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=2 set_tx=0 seq_len=0 key_len=0 key_flag=0x10 link_id=-1
+2026-05-16T17:40:18.794036Z DEBUG wpa_supplicant[691]: nl80211: DEL_KEY
+2026-05-16T17:40:18.794042Z DEBUG wpa_supplicant[691]:    broadcast key
+2026-05-16T17:40:18.794080Z DEBUG wpa_supplicant[691]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=(nil) key_idx=5 set_tx=0 seq_len=0 key_len=0 key_flag=0x10 link_id=-1
+2026-05-16T17:40:18.794083Z DEBUG wpa_supplicant[691]: nl80211: DEL_KEY
+2026-05-16T17:40:18.794086Z DEBUG wpa_supplicant[691]:    broadcast key
+2026-05-16T17:40:18.794103Z DEBUG wpa_supplicant[691]: wpa_driver_nl80211_set_key: ifindex=2 (wlan0) alg=0 addr=0x5739f7dfda08 key_idx=0 set_tx=0 seq_len=0 key_len=0 key_flag=0x20 link_id=-1
+2026-05-16T17:40:18.794106Z DEBUG wpa_supplicant[691]: nl80211: DEL_KEY
+2026-05-16T17:40:18.794110Z DEBUG wpa_supplicant[691]:    addr=02:e4:ce:e6:2e:b1
+2026-05-16T17:40:18.794113Z DEBUG wpa_supplicant[691]:    pairwise key
+2026-05-16T17:40:18.794143Z DEBUG wpa_supplicant[691]: nl80211: Data frame filter flags=0x0
+2026-05-16T17:40:18.794410Z DEBUG wpa_supplicant[691]: wlan0: State: COMPLETED -> DISCONNECTED
+2026-05-16T17:40:18.794461Z DEBUG wpa_supplicant[691]: nl80211: Set wlan0 operstate 1->0 (DORMANT)
+2026-05-16T17:40:18.794480Z DEBUG wpa_supplicant[691]: netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+2026-05-16T17:40:18.794503Z DEBUG wpa_supplicant[691]: bgscan: Deinitializing module 'simple'
+2026-05-16T17:40:18.794507Z DEBUG wpa_supplicant[691]: nl80211: Signal monitor threshold=0 hysteresis=0
+2026-05-16T17:40:18.794527Z DEBUG wpa_supplicant[691]: WMM AC: WMM AC is disabled
+2026-05-16T17:40:18.794534Z DEBUG wpa_supplicant[691]: wlan0: Determining shared radio frequencies (max len 2)
+2026-05-16T17:40:18.794540Z DEBUG wpa_supplicant[691]: wlan0: Shared frequencies (len=0): completed iteration
+2026-05-16T17:40:18.794547Z DEBUG wpa_supplicant[691]: P2P: Add operating class 81
+2026-05-16T17:40:18.794552Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+2026-05-16T17:40:18.794555Z DEBUG wpa_supplicant[691]: P2P: Add operating class 115
+2026-05-16T17:40:18.794558Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=4): 24 28 2c 30
+2026-05-16T17:40:18.794561Z DEBUG wpa_supplicant[691]: P2P: Add operating class 116
+2026-05-16T17:40:18.794710Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=2): 24 2c
+2026-05-16T17:40:18.794719Z DEBUG wpa_supplicant[691]: P2P: Add operating class 117
+2026-05-16T17:40:18.794722Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=2): 28 30
+2026-05-16T17:40:18.794725Z DEBUG wpa_supplicant[691]: P2P: Add operating class 124
+2026-05-16T17:40:18.794728Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+2026-05-16T17:40:18.794731Z DEBUG wpa_supplicant[691]: P2P: Add operating class 125
+2026-05-16T17:40:18.794735Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+2026-05-16T17:40:18.794738Z DEBUG wpa_supplicant[691]: P2P: Add operating class 126
+2026-05-16T17:40:18.794741Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=2): 95 9d
+2026-05-16T17:40:18.794744Z DEBUG wpa_supplicant[691]: P2P: Add operating class 127
+2026-05-16T17:40:18.794747Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=2): 99 a1
+2026-05-16T17:40:18.794790Z DEBUG wpa_supplicant[691]: P2P: Add operating class 128
+2026-05-16T17:40:18.794799Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=8): 24 28 2c 30 95 99 9d a1
+2026-05-16T17:40:18.794901Z DEBUG wpa_supplicant[691]: P2P: Add operating class 130
+2026-05-16T17:40:18.794909Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=9): 24 28 2c 30 95 99 9d a1 a5
+2026-05-16T17:40:18.794917Z DEBUG wpa_supplicant[691]: P2P: Update channel list
+2026-05-16T17:40:18.794930Z DEBUG wpa_supplicant[691]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 115:36,40,44,48 116:36,44 117:40,48 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161 128:36,40,44,48,149,153,157,161 130:36,40,44,48,149,153,157,161,165
+2026-05-16T17:40:18.794935Z DEBUG wpa_supplicant[691]: P2P: cli_channels:
+2026-05-16T17:40:18.794946Z DEBUG wpa_supplicant[691]: EAPOL: External notification - portEnabled=0
+2026-05-16T17:40:18.794949Z DEBUG wpa_supplicant[691]: EAPOL: SUPP_PAE entering state DISCONNECTED
+2026-05-16T17:40:18.794953Z DEBUG wpa_supplicant[691]: EAPOL: Supplicant port status: Unauthorized
+2026-05-16T17:40:18.794956Z DEBUG wpa_supplicant[691]: nl80211: Skip set_supp_port(unauthorized) while not associated
+2026-05-16T17:40:18.794958Z DEBUG wpa_supplicant[691]: EAPOL: SUPP_BE entering state INITIALIZE
+2026-05-16T17:40:18.794963Z DEBUG wpa_supplicant[691]: EAPOL: External notification - portValid=0
+2026-05-16T17:40:18.795144Z DEBUG wpa_supplicant[691]: EAPOL: External notification - EAP success=0
+2026-05-16T17:40:18.795178Z DEBUG wpa_supplicant[691]: nl80211: Data frame filter flags=0x0
+2026-05-16T17:40:18.795216Z DEBUG wpa_supplicant[691]: wlan0: State: DISCONNECTED -> DISCONNECTED
+2026-05-16T17:40:18.795222Z DEBUG wpa_supplicant[691]: nl80211: Set wlan0 operstate 0->0 (DORMANT)
+2026-05-16T17:40:18.795226Z DEBUG wpa_supplicant[691]: netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+2026-05-16T17:40:18.795234Z DEBUG wpa_supplicant[691]: EAPOL: External notification - portEnabled=0
+2026-05-16T17:40:18.795237Z DEBUG wpa_supplicant[691]: EAPOL: External notification - portValid=0
+2026-05-16T17:40:18.795241Z DEBUG wpa_supplicant[691]: QM: Clear all active DSCP policies
+2026-05-16T17:40:18.795245Z NOTICE wpa_supplicant[691]: wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+2026-05-16T17:40:18.795378Z DEBUG wpa_supplicant[691]: RTM_NEWLINK: ifi_index=2 ifname=wlan0 operstate=2 linkmode=1 ifi_family=0 ifi_flags=0x1003 ([UP])
+2026-05-16T17:40:18.795401Z DEBUG wpa_supplicant[691]: RTM_NEWLINK: ifi_index=2 ifname=wlan0 wext ifi_family=0 ifi_flags=0x1003 ([UP])
+2026-05-16T17:40:18.795481Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/device.cc:585] wlan0 wifi_psk_1 sid=7 SetEnabled(0)
+2026-05-16T17:40:18.795490Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/device.cc:604] wlan0 wifi_psk_1 sid=7 SetEnabledChecked:  stopping
+2026-05-16T17:40:18.795496Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/device.cc:659] wlan0 wifi_psk_1 sid=7 SetEnabledUnchecked(false)
+2026-05-16T17:40:18.795512Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/network.cc:430] wlan0 wifi_psk_1 sid=7 StopInternal: is_failure: 0, network config: {IPv4 address: 192.168.40.207/24, IPv4 broadcast: 192.168.40.255, IPv4 gateway: 192.168.40.1, IPv6 addresses: [], DNS: [192.168.40.1], search domains: 1, mtu: 1500}
+2026-05-16T17:40:18.795627Z DEBUG wpa_supplicant[691]: nl80211: Drv Event 20 (NL80211_CMD_DEL_STATION) received for wlan0
+2026-05-16T17:40:18.795656Z DEBUG wpa_supplicant[691]: nl80211: Delete station 02:e4:ce:e6:2e:b1
+2026-05-16T17:40:18.795689Z DEBUG wpa_supplicant[691]: nl80211: Drv Event 103 (NL80211_CMD_VENDOR) received for wlan0
+2026-05-16T17:40:18.795713Z DEBUG wpa_supplicant[691]: nl80211: Vendor event: wiphy=0 vendor_id=0x1735 subcmd=57
+2026-05-16T17:40:18.795759Z DEBUG wpa_supplicant[691]: nl80211: Ignore unsupported vendor event
+2026-05-16T17:40:18.795796Z DEBUG wpa_supplicant[691]: nl80211: Drv Event 39 (NL80211_CMD_DEAUTHENTICATE) received for wlan0
+2026-05-16T17:40:18.795825Z DEBUG wpa_supplicant[691]: nl80211: Deauthenticate event
+2026-05-16T17:40:18.795852Z DEBUG wpa_supplicant[691]: nl80211: Ignore deauth event triggered due to own deauth request
+2026-05-16T17:40:18.795866Z DEBUG wpa_supplicant[691]: nl80211: Drv Event 48 (NL80211_CMD_DISCONNECT) received for wlan0
+2026-05-16T17:40:18.795869Z DEBUG wpa_supplicant[691]: nl80211: Ignore disconnect event when using userspace SME
+2026-05-16T17:40:18.795885Z DEBUG wpa_supplicant[691]: nl80211: Drv Event 35 (NL80211_CMD_SCAN_ABORTED) received for wlan0
+2026-05-16T17:40:18.795888Z DEBUG wpa_supplicant[691]: wlan0: nl80211: Scan aborted
+2026-05-16T17:40:18.795914Z DEBUG wpa_supplicant[691]: nl80211: Scan probed for SSID '75effe4c55ab'
+2026-05-16T17:40:18.795924Z DEBUG wpa_supplicant[691]: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5500 5520 5540 5560 5580 5600 5620 5640 5660 5680 5700 5720 5745 5765 5785 5805 5825 5955 5975 5995 6015 6035 6055 6075 6095 6115 6135 6155 6175 6195 6215 6235 6255 6275 6295 6315 6335 6355 6375 6395 6415 6435 6455 6475 6495 6515 6535 6555 6575 6595 6615 6635 6655 6675 6695 6715 6735 6755 6775 6795 6815 6835 6855 6875 6895 6915 6935 6955 6975 6995 7015 7035 7055 7075 7095 7115
+2026-05-16T17:40:18.795928Z DEBUG wpa_supplicant[691]: wlan0: Event SCAN_RESULTS (3) received
+2026-05-16T17:40:18.795933Z DEBUG wpa_supplicant[691]: wlan0: Scan completed in 1.362265 seconds
+2026-05-16T17:40:18.795965Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/device.cc:445] wlan0 wifi_psk_1 sid=none SelectService(*reset*)
+2026-05-16T17:40:18.795973Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/service.cc:561] wlan0 wifi_psk_1 sid=none SetState: state Disconnecting -> Idle
+2026-05-16T17:40:18.796119Z DEBUG wpa_supplicant[691]: nl80211: Received scan results (11 BSSes)
+2026-05-16T17:40:18.796159Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_1 updated; state: Idle
+2026-05-16T17:40:18.797020Z DEBUG wpa_supplicant[691]: wlan0: BSS: Start scan result update 42
+2026-05-16T17:40:18.797057Z DEBUG wpa_supplicant[691]: wlan0: BSS: Add new id 346 BSSID 48:41:7b:06:59:54 SSID '44a46c9d7b14' freq 2437
+2026-05-16T17:40:18.797063Z DEBUG wpa_supplicant[691]: dbus: Register BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/346'
+2026-05-16T17:40:18.797149Z DEBUG wpa_supplicant[691]: wlan0: BSS: Add new id 347 BSSID f4:05:95:8b:20:ab SSID '88338be3994e' freq 2437
+2026-05-16T17:40:18.797154Z DEBUG wpa_supplicant[691]: dbus: Register BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/347'
+2026-05-16T17:40:18.797202Z DEBUG wpa_supplicant[691]: wlan0: BSS: Add new id 348 BSSID a0:40:a0:96:aa:7c SSID 'a0ada88cef73' freq 2412
+2026-05-16T17:40:18.797206Z DEBUG wpa_supplicant[691]: dbus: Register BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/348'
+2026-05-16T17:40:18.797250Z DEBUG wpa_supplicant[691]: wlan0: BSS: Add new id 349 BSSID 34:64:a9:83:45:e1 SSID 'b88ff32ad5ed' freq 2412
+2026-05-16T17:40:18.797254Z DEBUG wpa_supplicant[691]: dbus: Register BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/349'
+2026-05-16T17:40:18.797299Z DEBUG wpa_supplicant[691]: wlan0: New scan results available (own=1 ext=0)
+2026-05-16T17:40:18.797313Z DEBUG wpa_supplicant[691]: wlan0: State: DISCONNECTED -> DISCONNECTED
+2026-05-16T17:40:18.797846Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/device.cc:445] wlan0 no_service sid=none SelectService(*reset*)
+2026-05-16T17:40:18.797904Z DEBUG wpa_supplicant[691]: nl80211: Set wlan0 operstate 0->0 (DORMANT)
+2026-05-16T17:40:18.797915Z DEBUG wpa_supplicant[691]: netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+2026-05-16T17:40:18.797933Z DEBUG wpa_supplicant[691]: wlan0: Radio work 'scan'@0x5739f7e9cee0 done in 1.367302 seconds
+2026-05-16T17:40:18.797940Z DEBUG wpa_supplicant[691]: wlan0: radio_work_free('scan'@0x5739f7e9cee0): num_active_works --> 0
+2026-05-16T17:40:18.797944Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: Updating scan results from sibling
+2026-05-16T17:40:18.798004Z DEBUG wpa_supplicant[691]: nl80211: Received scan results (11 BSSes)
+2026-05-16T17:40:18.798055Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Start scan result update 18
+2026-05-16T17:40:18.798073Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Add new id 355 BSSID 48:41:7b:06:59:54 SSID '44a46c9d7b14' freq 2437
+2026-05-16T17:40:18.798089Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Add new id 356 BSSID f4:05:95:8b:20:ab SSID '88338be3994e' freq 2437
+2026-05-16T17:40:18.798096Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Add new id 357 BSSID a0:40:a0:96:aa:7c SSID 'a0ada88cef73' freq 2412
+2026-05-16T17:40:18.798104Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Add new id 358 BSSID 34:64:a9:83:45:e1 SSID 'b88ff32ad5ed' freq 2412
+2026-05-16T17:40:18.798229Z WARNING dnsproxyd[1807]: WARNING dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolv_conf.cc:58] Setting resolv.conf to []
+2026-05-16T17:40:18.798392Z WARNING dnsproxyd[1807]: message repeated 2 times: [ WARNING dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolv_conf.cc:58] Setting resolv.conf to []]
+2026-05-16T17:40:18.798511Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: New scan results available (own=0 ext=0)
+2026-05-16T17:40:18.798584Z DEBUG wpa_supplicant[691]: WPS: AP[0] 42:9e:9d:11:ed:ca type=1 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.799487Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_provider.cc:543] Removed endpoint 14:91:82:91:59:8a from service wifi_psk_3
+2026-05-16T17:40:18.799650Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_70 sid=none UpdateFromEndpoints: sig: -91, sec: wpa2, freq: 5300
+2026-05-16T17:40:18.800906Z DEBUG wpa_supplicant[691]: WPS: AP[1] d6:97:58:34:ad:bb type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.800912Z DEBUG wpa_supplicant[691]: WPS: AP[2] 02:e4:ce:e6:2e:b1 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.800915Z DEBUG wpa_supplicant[691]: WPS: AP[3] 06:e4:ce:e6:2e:b2 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.800918Z DEBUG wpa_supplicant[691]: WPS: AP[4] 14:91:82:91:59:8a type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.800921Z DEBUG wpa_supplicant[691]: WPS: AP[5] 48:41:7b:08:4f:f4 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.800925Z DEBUG wpa_supplicant[691]: WPS: AP[6] 14:91:82:91:5a:50 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.800928Z DEBUG wpa_supplicant[691]: WPS: AP[7] 38:94:ed:ed:e2:f2 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.800930Z DEBUG wpa_supplicant[691]: WPS: AP[8] 48:41:7b:30:91:f4 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.800933Z DEBUG wpa_supplicant[691]: WPS: AP[9] 12:59:32:57:3d:3c type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.800937Z DEBUG wpa_supplicant[691]: WPS: AP[10] 0a:e4:ce:e6:2e:b3 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.800940Z DEBUG wpa_supplicant[691]: WPS: AP[11] 48:41:7b:08:4f:f8 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.801009Z DEBUG wpa_supplicant[691]: WPS: AP[12] 48:41:7b:06:59:58 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.801014Z DEBUG wpa_supplicant[691]: WPS: AP[13] 48:41:7b:08:4f:fc type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.801017Z DEBUG wpa_supplicant[691]: WPS: AP[14] 48:41:7b:06:59:54 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.801020Z DEBUG wpa_supplicant[691]: WPS: AP[15] a4:22:49:b8:88:f7 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.801023Z DEBUG wpa_supplicant[691]: WPS: AP[16] 80:ab:4d:b8:ee:74 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.801026Z DEBUG wpa_supplicant[691]: WPS: AP[17] 2c:c1:f4:06:92:a4 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.801029Z DEBUG wpa_supplicant[691]: WPS: AP[18] f0:a7:31:68:8d:8c type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.801032Z DEBUG wpa_supplicant[691]: WPS: AP[19] e2:73:e7:fb:77:b1 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.801035Z DEBUG wpa_supplicant[691]: WPS: AP[20] 3c:37:86:82:25:41 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.801038Z DEBUG wpa_supplicant[691]: WPS: AP[21] fc:34:97:05:b1:e8 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.801041Z DEBUG wpa_supplicant[691]: WPS: AP[22] 12:59:32:3c:94:b7 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.801107Z DEBUG wpa_supplicant[691]: WPS: AP[23] 9c:7b:ef:ee:a5:ad type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.801113Z DEBUG wpa_supplicant[691]: WPS: AP[24] a0:40:a0:96:aa:7c type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.801116Z DEBUG wpa_supplicant[691]: WPS: AP[25] 48:41:7b:07:d8:74 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.801119Z DEBUG wpa_supplicant[691]: WPS: AP[26] 48:41:7b:06:59:5c type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.801122Z DEBUG wpa_supplicant[691]: WPS: AP[27] 12:59:32:68:8a:b1 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.801125Z DEBUG wpa_supplicant[691]: WPS: AP[28] 6c:0b:5e:28:2e:0f type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.801128Z DEBUG wpa_supplicant[691]: WPS: AP[29] f4:17:b8:da:f4:7d type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.801131Z DEBUG wpa_supplicant[691]: WPS: AP[30] 28:74:f5:b6:04:14 type=0 tries=0 last_attempt=-1 sec ago bssid_ignore=0
+2026-05-16T17:40:18.804920Z ERR shill[824]: ERROR shill: [../libchrome-0.0.1/platform2/libchrome/dbus/object_proxy.cc:572] Failed to call method: fi.w1.wpa_supplicant1.Interface.Disconnect: object_path= /fi/w1/wpa_supplicant1/Interfaces/0: fi.w1.wpa_supplicant1.NotConnected: This interface is not connected
+2026-05-16T17:40:18.805034Z ERR shill[824]: ERROR shill: [/build/nissa/usr/include/brillo/dbus/dbus_method_invoker.h:114] CallMethodAndBlockWithTimeout(...): Domain=dbus, Code=fi.w1.wpa_supplicant1.NotConnected, Message=Error calling D-Bus method: fi.w1.wpa_supplicant1.Interface.Disconnect: This interface is not connected
+2026-05-16T17:40:18.805044Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/dbus/supplicant_interface_proxy.cc:197] Failed to disconnect: fi.w1.wpa_supplicant1.NotConnected Error calling D-Bus method: fi.w1.wpa_supplicant1.Interface.Disconnect: This interface is not connected
+2026-05-16T17:40:18.805203Z DEBUG wpa_supplicant[691]: RSN: Flush PMKSA cache entry for 02:e4:ce:e6:2e:b1
+2026-05-16T17:40:18.805209Z NOTICE wpa_supplicant[691]: wlan0: PMKSA-CACHE-REMOVED 02:e4:ce:e6:2e:b1 0
+2026-05-16T17:40:18.805219Z DEBUG wpa_supplicant[691]: nl80211: Delete PMKID for 02:e4:ce:e6:2e:b1
+2026-05-16T17:40:18.805263Z DEBUG wpa_supplicant[691]: nl80211: NL80211_CMD_DEL_PMKSA failed: -95 (Operation not supported)
+2026-05-16T17:40:18.805267Z DEBUG wpa_supplicant[691]: wlan0: RSN: PMKSA cache entry free_cb: 02:e4:ce:e6:2e:b1 reason=0
+2026-05-16T17:40:18.805272Z DEBUG wpa_supplicant[691]: RSN: Flush PMKSA cache entry for 06:e4:ce:e6:2e:b2
+2026-05-16T17:40:18.805276Z NOTICE wpa_supplicant[691]: wlan0: PMKSA-CACHE-REMOVED 06:e4:ce:e6:2e:b2 0
+2026-05-16T17:40:18.805280Z DEBUG wpa_supplicant[691]: nl80211: Delete PMKID for 06:e4:ce:e6:2e:b2
+2026-05-16T17:40:18.805291Z DEBUG wpa_supplicant[691]: nl80211: NL80211_CMD_DEL_PMKSA failed: -95 (Operation not supported)
+2026-05-16T17:40:18.805294Z DEBUG wpa_supplicant[691]: wlan0: RSN: PMKSA cache entry free_cb: 06:e4:ce:e6:2e:b2 reason=0
+2026-05-16T17:40:18.805299Z DEBUG wpa_supplicant[691]: dbus: Unregister network object '/fi/w1/wpa_supplicant1/Interfaces/0/Networks/0'
+2026-05-16T17:40:18.805849Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_provider.cc:543] Removed endpoint 06:e4:ce:e6:2e:b2 from service wifi_psk_1
+2026-05-16T17:40:18.805946Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/device.cc:557] wlan0 no_service sid=none OnEnabledStateChanged: (target: 0, success: 1)
+2026-05-16T17:40:18.812771Z DEBUG wpa_supplicant[691]: RTM_NEWLINK: ifi_index=2 ifname=wlan0 operstate=2 linkmode=1 ifi_family=0 ifi_flags=0x1002 ()
+2026-05-16T17:40:18.812818Z DEBUG wpa_supplicant[691]: nl80211: Interface down (wlan0/wlan0)
+2026-05-16T17:40:18.812825Z DEBUG wpa_supplicant[691]: wlan0: Event INTERFACE_DISABLED (26) received
+2026-05-16T17:40:18.812833Z DEBUG wpa_supplicant[691]: wlan0: Interface was disabled
+2026-05-16T17:40:18.813340Z DEBUG wpa_supplicant[691]: nl80211: Data frame filter flags=0x0
+2026-05-16T17:40:18.813389Z DEBUG wpa_supplicant[691]: wlan0: State: DISCONNECTED -> DISCONNECTED
+2026-05-16T17:40:18.813398Z DEBUG wpa_supplicant[691]: nl80211: Set wlan0 operstate 0->0 (DORMANT)
+2026-05-16T17:40:18.813402Z DEBUG wpa_supplicant[691]: netlink: Operstate: ifindex=2 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+2026-05-16T17:40:18.813413Z DEBUG wpa_supplicant[691]: EAPOL: External notification - portEnabled=0
+2026-05-16T17:40:18.813417Z DEBUG wpa_supplicant[691]: EAPOL: External notification - portValid=0
+2026-05-16T17:40:18.813424Z DEBUG wpa_supplicant[691]: wlan0: State: DISCONNECTED -> INTERFACE_DISABLED
+2026-05-16T17:40:18.813433Z DEBUG wpa_supplicant[691]: wlan0: Determining shared radio frequencies (max len 2)
+2026-05-16T17:40:18.813439Z DEBUG wpa_supplicant[691]: wlan0: Shared frequencies (len=0): completed iteration
+2026-05-16T17:40:18.813445Z DEBUG wpa_supplicant[691]: P2P: Add operating class 81
+2026-05-16T17:40:18.813450Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=13): 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d
+2026-05-16T17:40:18.813655Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/p2p_manager.cc:154] Stop
+2026-05-16T17:40:18.813659Z DEBUG wpa_supplicant[691]: P2P: Add operating class 115
+2026-05-16T17:40:18.813663Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/cellular/modem_info.cc:50] Stop
+2026-05-16T17:40:18.813667Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=4): 24 28 2c 30
+2026-05-16T17:40:18.813670Z DEBUG wpa_supplicant[691]: P2P: Add operating class 116
+2026-05-16T17:40:18.813673Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=2): 24 2c
+2026-05-16T17:40:18.813676Z DEBUG wpa_supplicant[691]: P2P: Add operating class 117
+2026-05-16T17:40:18.813679Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=2): 28 30
+2026-05-16T17:40:18.813682Z DEBUG wpa_supplicant[691]: P2P: Add operating class 124
+2026-05-16T17:40:18.813752Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=4): 95 99 9d a1
+2026-05-16T17:40:18.813757Z DEBUG wpa_supplicant[691]: P2P: Add operating class 125
+2026-05-16T17:40:18.813761Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=5): 95 99 9d a1 a5
+2026-05-16T17:40:18.813808Z DEBUG wpa_supplicant[691]: P2P: Add operating class 126
+2026-05-16T17:40:18.813813Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=2): 95 9d
+2026-05-16T17:40:18.813840Z DEBUG wpa_supplicant[691]: P2P: Add operating class 127
+2026-05-16T17:40:18.813873Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=2): 99 a1
+2026-05-16T17:40:18.813913Z DEBUG wpa_supplicant[691]: P2P: Add operating class 128
+2026-05-16T17:40:18.813968Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=8): 24 28 2c 30 95 99 9d a1
+2026-05-16T17:40:18.813978Z DEBUG wpa_supplicant[691]: P2P: Add operating class 130
+2026-05-16T17:40:18.814029Z DEBUG wpa_supplicant[691]: P2P: Channels - hexdump(len=9): 24 28 2c 30 95 99 9d a1 a5
+2026-05-16T17:40:18.814039Z DEBUG wpa_supplicant[691]: P2P: Update channel list
+2026-05-16T17:40:18.814121Z DEBUG wpa_supplicant[691]: P2P: channels: 81:1,2,3,4,5,6,7,8,9,10,11,12,13 115:36,40,44,48 116:36,44 117:40,48 124:149,153,157,161 125:149,153,157,161,165 126:149,157 127:153,161 128:36,40,44,48,149,153,157,161 130:36,40,44,48,149,153,157,161,165
+2026-05-16T17:40:18.814129Z DEBUG wpa_supplicant[691]: P2P: cli_channels:
+2026-05-16T17:40:18.820308Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/cellular/modem_info.cc:100] Disconnect
+2026-05-16T17:40:18.820333Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/power_manager.cc:60] Stop
+2026-05-16T17:40:18.820339Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/dbus/power_manager_proxy.cc:262] UnregisterSuspendDelayInternal(52035585, dark=false)
+2026-05-16T17:40:18.820651Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/dbus/power_manager_proxy.cc:262] UnregisterSuspendDelayInternal(52068353, dark=true)
+2026-05-16T17:40:18.820999Z DEBUG wpa_supplicant[691]: wlan0: Removing interface wlan0
+2026-05-16T17:40:18.821012Z DEBUG wpa_supplicant[691]: Remove remaining child interface p2p-dev-wlan0 from parent wlan0
+2026-05-16T17:40:18.821016Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: Removing interface p2p-dev-wlan0
+2026-05-16T17:40:18.821022Z DEBUG wpa_supplicant[691]: nl80211: Getting wowlan status
+2026-05-16T17:40:18.821054Z DEBUG wpa_supplicant[691]: nl80211: Getting wowlan status failed
+2026-05-16T17:40:18.821061Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: Request to deauthenticate - bssid=00:00:00:00:00:00 pending_bssid=00:00:00:00:00:00 reason=3 (DEAUTH_LEAVING) state=DISCONNECTED valid_links=0x0 ap_mld_addr=00:00:00:00:00:00
+2026-05-16T17:40:18.821086Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: State: DISCONNECTED -> DISCONNECTED
+2026-05-16T17:40:18.821092Z DEBUG wpa_supplicant[691]: nl80211: Set p2p-dev-wlan0 operstate 0->0 (DORMANT)
+2026-05-16T17:40:18.821096Z DEBUG wpa_supplicant[691]: netlink: Operstate: ifindex=0 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+2026-05-16T17:40:18.821106Z DEBUG wpa_supplicant[691]: EAPOL: External notification - portEnabled=0
+2026-05-16T17:40:18.821111Z DEBUG wpa_supplicant[691]: EAPOL: External notification - portValid=0
+2026-05-16T17:40:18.821402Z DEBUG wpa_supplicant[691]: QM: Clear all active DSCP policies
+2026-05-16T17:40:18.821411Z NOTICE wpa_supplicant[691]: p2p-dev-wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+2026-05-16T17:40:18.821447Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: WPA: Clear old PMK and PTK
+2026-05-16T17:40:18.821468Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 324 BSSID 02:e4:ce:e6:2e:b2 SSID '75effe4c55ab' due to wpa_bss_flush
+2026-05-16T17:40:18.821475Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 325 BSSID 02:e4:ce:e6:2e:b3 SSID '75effe4c55ab' due to wpa_bss_flush
+2026-05-16T17:40:18.821482Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 354 BSSID 06:e4:ce:e6:2e:b2 SSID 'c852cc171509' due to wpa_bss_flush
+2026-05-16T17:40:18.821488Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 327 BSSID 08:33:ed:c5:e2:12 SSID 'dc0a8430af2b' due to wpa_bss_flush
+2026-05-16T17:40:18.821495Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 328 BSSID ea:33:ed:c5:e2:12 SSID '14d410611832' due to wpa_bss_flush
+2026-05-16T17:40:18.821502Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 332 BSSID 1a:91:82:91:59:8a SSID '75effe4c55ab' due to wpa_bss_flush
+2026-05-16T17:40:18.821509Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 333 BSSID 0a:e4:ce:e6:2e:b3 SSID 'c852cc171509' due to wpa_bss_flush
+2026-05-16T17:40:18.821515Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 334 BSSID 0a:e4:ce:e6:2e:b4 SSID '75effe4c55ab' due to wpa_bss_flush
+2026-05-16T17:40:18.821809Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 335 BSSID 0a:e4:ce:e6:2e:b5 SSID '75effe4c55ab' due to wpa_bss_flush
+2026-05-16T17:40:18.821836Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 336 BSSID 6c:0b:5e:28:2e:0f SSID 'ecd52abbc5b6' due to wpa_bss_flush
+2026-05-16T17:40:18.821844Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 339 BSSID 80:ab:4d:b8:ee:74 SSID '86af8975b119' due to wpa_bss_flush
+2026-05-16T17:40:18.821850Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 340 BSSID 1a:91:82:91:5a:50 SSID '75effe4c55ab' due to wpa_bss_flush
+2026-05-16T17:40:18.821857Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 341 BSSID 18:a5:ff:02:a0:e0 SSID '3e3dffe44bce' due to wpa_bss_flush
+2026-05-16T17:40:18.821868Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 342 BSSID aa:af:97:77:e2:91 SSID '75effe4c55ab' due to wpa_bss_flush
+2026-05-16T17:40:18.821874Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 343 BSSID 34:53:d2:40:84:8e SSID '383c41a12cd8' due to wpa_bss_flush
+2026-05-16T17:40:18.821881Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 344 BSSID f4:17:b8:da:f4:7d SSID '86af8975b119' due to wpa_bss_flush
+2026-05-16T17:40:18.821887Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 345 BSSID 3c:37:86:82:25:41 SSID '620a3f7e034e' due to wpa_bss_flush
+2026-05-16T17:40:18.821894Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 331 BSSID 14:91:82:91:59:8a SSID '1701ddebf307' due to wpa_bss_flush
+2026-05-16T17:40:18.821900Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 348 BSSID f8:5e:4a:00:7e:b5 SSID 'ce7c7a6085ea' due to wpa_bss_flush
+2026-05-16T17:40:18.821907Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 347 BSSID c8:b4:22:d1:15:e5 SSID '5b473b86de5f' due to wpa_bss_flush
+2026-05-16T17:40:18.822123Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 349 BSSID 48:41:7b:08:4f:f8 SSID '15e43c1fe384' due to wpa_bss_flush
+2026-05-16T17:40:18.822137Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 350 BSSID 48:41:7b:06:59:5c SSID '44a46c9d7b14' due to wpa_bss_flush
+2026-05-16T17:40:18.822144Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 351 BSSID 48:41:7b:06:59:5f SSID '75effe4c55ab' due to wpa_bss_flush
+2026-05-16T17:40:18.822151Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 352 BSSID 28:74:f5:b6:04:14 SSID '411e6a829782' due to wpa_bss_flush
+2026-05-16T17:40:18.822158Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 353 BSSID 80:78:71:6f:21:ad SSID '24af6a140885' due to wpa_bss_flush
+2026-05-16T17:40:18.822164Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 326 BSSID 08:33:ed:c5:e2:11 SSID 'dc0a8430af2b' due to wpa_bss_flush
+2026-05-16T17:40:18.822304Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 323 BSSID 02:e4:ce:e6:2e:b1 SSID 'c852cc171509' due to wpa_bss_flush
+2026-05-16T17:40:18.822311Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 330 BSSID 48:41:7b:06:59:55 SSID '3f8edbc580b8' due to wpa_bss_flush
+2026-05-16T17:40:18.822318Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 355 BSSID 48:41:7b:06:59:54 SSID '44a46c9d7b14' due to wpa_bss_flush
+2026-05-16T17:40:18.822324Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 337 BSSID 48:41:7b:08:4f:f4 SSID '15e43c1fe384' due to wpa_bss_flush
+2026-05-16T17:40:18.822331Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 329 BSSID b0:fc:88:50:fd:ad SSID 'eb0cc4758cc4' due to wpa_bss_flush
+2026-05-16T17:40:18.822338Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 338 BSSID 08:33:ed:e3:07:95 SSID '58dcf7bcf353' due to wpa_bss_flush
+2026-05-16T17:40:18.822344Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 346 BSSID 48:41:7b:30:91:f4 SSID 'd76f9c3f709d' due to wpa_bss_flush
+2026-05-16T17:40:18.822500Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 356 BSSID f4:05:95:8b:20:ab SSID '88338be3994e' due to wpa_bss_flush
+2026-05-16T17:40:18.822509Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 357 BSSID a0:40:a0:96:aa:7c SSID 'a0ada88cef73' due to wpa_bss_flush
+2026-05-16T17:40:18.822516Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: BSS: Remove id 358 BSSID 34:64:a9:83:45:e1 SSID 'b88ff32ad5ed' due to wpa_bss_flush
+2026-05-16T17:40:18.822521Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: Cancelling delayed sched scan
+2026-05-16T17:40:18.822525Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: Cancelling scan request
+2026-05-16T17:40:18.822529Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: Cancelling authentication timeout
+2026-05-16T17:40:18.822537Z DEBUG wpa_supplicant[691]: Off-channel: Clear pending Action frame TX (pending_action_tx=(nil)
+2026-05-16T17:40:18.822746Z DEBUG wpa_supplicant[691]: HS20: Delete all stored icons
+2026-05-16T17:40:18.822761Z DEBUG wpa_supplicant[691]: Off-channel: Action frame sequence done notification: pending_action_tx=(nil) drv_offchan_tx=1 action_tx_wait_time=0 off_channel_freq=0 roc_waiting_drv_freq=0
+2026-05-16T17:40:18.822766Z DEBUG wpa_supplicant[691]: QM: Clear all active DSCP policies
+2026-05-16T17:40:18.822769Z NOTICE wpa_supplicant[691]: p2p-dev-wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+2026-05-16T17:40:18.822775Z DEBUG wpa_supplicant[691]: p2p-dev-wlan0: P2P: Disable P2P since removing the management interface is being removed
+2026-05-16T17:40:18.822780Z DEBUG wpa_supplicant[691]: P2P: All ASP advertisements flushed
+2026-05-16T17:40:18.822785Z DEBUG wpa_supplicant[691]: P2P: Disabling Extended Listen Timing
+2026-05-16T17:40:18.822789Z DEBUG wpa_supplicant[691]: P2P: Stopping find
+2026-05-16T17:40:18.822928Z DEBUG wpa_supplicant[691]: P2P: Clear timeout (state=IDLE)
+2026-05-16T17:40:18.822935Z DEBUG wpa_supplicant[691]: P2P: State IDLE -> IDLE
+2026-05-16T17:40:18.822940Z DEBUG wpa_supplicant[691]: P2P: p2p_stop_listen_for_freq(freq=0) pending_listen_freq=0 in_listen=0 drv_in_listen=0
+2026-05-16T17:40:18.822953Z DEBUG wpa_supplicant[691]: P2P: All ASP advertisements flushed
+2026-05-16T17:40:18.822957Z DEBUG wpa_supplicant[691]: Remove interface p2p-dev-wlan0 from radio phy0
+2026-05-16T17:40:18.822961Z NOTICE wpa_supplicant[691]: nl80211: deinit ifname=p2p-dev-wlan0 disabled_11b_rates=0
+2026-05-16T17:40:18.823091Z DEBUG wpa_supplicant[691]: nl80211: Remove monitor interface: refcount=0
+2026-05-16T17:40:18.823097Z DEBUG wpa_supplicant[691]: netlink: Operstate: ifindex=0 linkmode=0 (kernel-control), operstate=6 (IF_OPER_UP)
+2026-05-16T17:40:18.845190Z DEBUG wpa_supplicant[691]: nl80211: Stop P2P Device p2p-dev-wlan0 (0x2): Success
+2026-05-16T17:40:18.845197Z DEBUG wpa_supplicant[691]: nl80211: Unsubscribe mgmt frames handle 0x8888dfb17f6fcb99 (deinit)
+2026-05-16T17:40:18.848222Z DEBUG wpa_supplicant[691]: nl80211: Delete P2P Device p2p-dev-wlan0 (0x2): Success
+2026-05-16T17:40:18.848291Z ERR wpa_supplicant[691]: rmdir[ctrl_interface=/run/wpa_supplicant]: Permission denied
+2026-05-16T17:40:18.848297Z DEBUG wpa_supplicant[691]: nl80211: Getting wowlan status
+2026-05-16T17:40:18.848325Z DEBUG wpa_supplicant[691]: nl80211: wowlan is disabled
+2026-05-16T17:40:18.848334Z DEBUG wpa_supplicant[691]: wlan0: Request to deauthenticate - bssid=00:00:00:00:00:00 pending_bssid=00:00:00:00:00:00 reason=3 (DEAUTH_LEAVING) state=INTERFACE_DISABLED valid_links=0x0 ap_mld_addr=00:00:00:00:00:00
+2026-05-16T17:40:18.848360Z DEBUG wpa_supplicant[691]: nl80211: Data frame filter flags=0x0
+2026-05-16T17:40:18.848404Z DEBUG wpa_supplicant[691]: QM: Clear all active DSCP policies
+2026-05-16T17:40:18.848408Z NOTICE wpa_supplicant[691]: wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+2026-05-16T17:40:18.850007Z DEBUG wpa_supplicant[691]: wlan0: WPA: Clear old PMK and PTK
+2026-05-16T17:40:18.850062Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 315 BSSID 02:e4:ce:e6:2e:b2 SSID '75effe4c55ab' due to wpa_bss_flush
+2026-05-16T17:40:18.850082Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/315'
+2026-05-16T17:40:18.850141Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 316 BSSID 02:e4:ce:e6:2e:b3 SSID '75effe4c55ab' due to wpa_bss_flush
+2026-05-16T17:40:18.850161Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/316'
+2026-05-16T17:40:18.850200Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 345 BSSID 06:e4:ce:e6:2e:b2 SSID 'c852cc171509' due to wpa_bss_flush
+2026-05-16T17:40:18.850219Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/345'
+2026-05-16T17:40:18.850253Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 318 BSSID 08:33:ed:c5:e2:12 SSID 'dc0a8430af2b' due to wpa_bss_flush
+2026-05-16T17:40:18.850272Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/318'
+2026-05-16T17:40:18.850305Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 319 BSSID ea:33:ed:c5:e2:12 SSID '14d410611832' due to wpa_bss_flush
+2026-05-16T17:40:18.850324Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/319'
+2026-05-16T17:40:18.850358Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 323 BSSID 1a:91:82:91:59:8a SSID '75effe4c55ab' due to wpa_bss_flush
+2026-05-16T17:40:18.850377Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/323'
+2026-05-16T17:40:18.850410Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 324 BSSID 0a:e4:ce:e6:2e:b3 SSID 'c852cc171509' due to wpa_bss_flush
+2026-05-16T17:40:18.850429Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/324'
+2026-05-16T17:40:18.850460Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 325 BSSID 0a:e4:ce:e6:2e:b4 SSID '75effe4c55ab' due to wpa_bss_flush
+2026-05-16T17:40:18.850465Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/325'
+2026-05-16T17:40:18.850483Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 326 BSSID 0a:e4:ce:e6:2e:b5 SSID '75effe4c55ab' due to wpa_bss_flush
+2026-05-16T17:40:18.850487Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/326'
+2026-05-16T17:40:18.850505Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 322 BSSID 14:91:82:91:59:8a SSID '1701ddebf307' due to wpa_bss_flush
+2026-05-16T17:40:18.850509Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/322'
+2026-05-16T17:40:18.850528Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 327 BSSID 6c:0b:5e:28:2e:0f SSID 'ecd52abbc5b6' due to wpa_bss_flush
+2026-05-16T17:40:18.850532Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/327'
+2026-05-16T17:40:18.850549Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 330 BSSID 80:ab:4d:b8:ee:74 SSID '86af8975b119' due to wpa_bss_flush
+2026-05-16T17:40:18.850553Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/330'
+2026-05-16T17:40:18.850569Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 331 BSSID 1a:91:82:91:5a:50 SSID '75effe4c55ab' due to wpa_bss_flush
+2026-05-16T17:40:18.850647Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/331'
+2026-05-16T17:40:18.850677Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 332 BSSID 18:a5:ff:02:a0:e0 SSID '3e3dffe44bce' due to wpa_bss_flush
+2026-05-16T17:40:18.850696Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/332'
+2026-05-16T17:40:18.850727Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 333 BSSID aa:af:97:77:e2:91 SSID '75effe4c55ab' due to wpa_bss_flush
+2026-05-16T17:40:18.850746Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/333'
+2026-05-16T17:40:18.850776Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 334 BSSID 34:53:d2:40:84:8e SSID '383c41a12cd8' due to wpa_bss_flush
+2026-05-16T17:40:18.850781Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/334'
+2026-05-16T17:40:18.850798Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 335 BSSID f4:17:b8:da:f4:7d SSID '86af8975b119' due to wpa_bss_flush
+2026-05-16T17:40:18.850802Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/335'
+2026-05-16T17:40:18.850818Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 336 BSSID 3c:37:86:82:25:41 SSID '620a3f7e034e' due to wpa_bss_flush
+2026-05-16T17:40:18.850822Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/336'
+2026-05-16T17:40:18.850838Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 339 BSSID f8:5e:4a:00:7e:b5 SSID 'ce7c7a6085ea' due to wpa_bss_flush
+2026-05-16T17:40:18.850843Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/339'
+2026-05-16T17:40:18.850863Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 338 BSSID c8:b4:22:d1:15:e5 SSID '5b473b86de5f' due to wpa_bss_flush
+2026-05-16T17:40:18.850868Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/338'
+2026-05-16T17:40:18.850885Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 340 BSSID 48:41:7b:08:4f:f8 SSID '15e43c1fe384' due to wpa_bss_flush
+2026-05-16T17:40:18.850920Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/340'
+2026-05-16T17:40:18.850997Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 341 BSSID 48:41:7b:06:59:5c SSID '44a46c9d7b14' due to wpa_bss_flush
+2026-05-16T17:40:18.851015Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/341'
+2026-05-16T17:40:18.851045Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 342 BSSID 48:41:7b:06:59:5f SSID '75effe4c55ab' due to wpa_bss_flush
+2026-05-16T17:40:18.851090Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/342'
+2026-05-16T17:40:18.851113Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 343 BSSID 28:74:f5:b6:04:14 SSID '411e6a829782' due to wpa_bss_flush
+2026-05-16T17:40:18.851117Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/343'
+2026-05-16T17:40:18.851134Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 344 BSSID 80:78:71:6f:21:ad SSID '24af6a140885' due to wpa_bss_flush
+2026-05-16T17:40:18.851139Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/344'
+2026-05-16T17:40:18.851155Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 317 BSSID 08:33:ed:c5:e2:11 SSID 'dc0a8430af2b' due to wpa_bss_flush
+2026-05-16T17:40:18.851159Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/317'
+2026-05-16T17:40:18.851176Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 257 BSSID 02:e4:ce:e6:2e:b1 SSID 'c852cc171509' due to wpa_bss_flush
+2026-05-16T17:40:18.851180Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/257'
+2026-05-16T17:40:18.851197Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 321 BSSID 48:41:7b:06:59:55 SSID '3f8edbc580b8' due to wpa_bss_flush
+2026-05-16T17:40:18.851201Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/321'
+2026-05-16T17:40:18.851316Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 346 BSSID 48:41:7b:06:59:54 SSID '44a46c9d7b14' due to wpa_bss_flush
+2026-05-16T17:40:18.851335Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/346'
+2026-05-16T17:40:18.851367Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 328 BSSID 48:41:7b:08:4f:f4 SSID '15e43c1fe384' due to wpa_bss_flush
+2026-05-16T17:40:18.851396Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/328'
+2026-05-16T17:40:18.851429Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 320 BSSID b0:fc:88:50:fd:ad SSID 'eb0cc4758cc4' due to wpa_bss_flush
+2026-05-16T17:40:18.851434Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/320'
+2026-05-16T17:40:18.851452Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 329 BSSID 08:33:ed:e3:07:95 SSID '58dcf7bcf353' due to wpa_bss_flush
+2026-05-16T17:40:18.851456Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/329'
+2026-05-16T17:40:18.851473Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 337 BSSID 48:41:7b:30:91:f4 SSID 'd76f9c3f709d' due to wpa_bss_flush
+2026-05-16T17:40:18.851477Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/337'
+2026-05-16T17:40:18.851494Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 347 BSSID f4:05:95:8b:20:ab SSID '88338be3994e' due to wpa_bss_flush
+2026-05-16T17:40:18.851498Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/347'
+2026-05-16T17:40:18.851513Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 348 BSSID a0:40:a0:96:aa:7c SSID 'a0ada88cef73' due to wpa_bss_flush
+2026-05-16T17:40:18.851518Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/348'
+2026-05-16T17:40:18.851534Z DEBUG wpa_supplicant[691]: wlan0: BSS: Remove id 349 BSSID 34:64:a9:83:45:e1 SSID 'b88ff32ad5ed' due to wpa_bss_flush
+2026-05-16T17:40:18.851585Z DEBUG wpa_supplicant[691]: dbus: Unregister BSS object '/fi/w1/wpa_supplicant1/Interfaces/0/BSSs/349'
+2026-05-16T17:40:18.851663Z DEBUG wpa_supplicant[691]: wlan0: Cancelling delayed sched scan
+2026-05-16T17:40:18.851681Z DEBUG wpa_supplicant[691]: wlan0: Cancelling scan request
+2026-05-16T17:40:18.851697Z DEBUG wpa_supplicant[691]: wlan0: Cancelling authentication timeout
+2026-05-16T17:40:18.851717Z DEBUG wpa_supplicant[691]: Off-channel: Clear pending Action frame TX (pending_action_tx=(nil)
+2026-05-16T17:40:18.851784Z DEBUG wpa_supplicant[691]: nl80211: Data frame filter flags=0x0
+2026-05-16T17:40:18.851833Z DEBUG wpa_supplicant[691]: HS20: Delete all stored icons
+2026-05-16T17:40:18.851839Z DEBUG wpa_supplicant[691]: Off-channel: Action frame sequence done notification: pending_action_tx=(nil) drv_offchan_tx=1 action_tx_wait_time=1000 off_channel_freq=0 roc_waiting_drv_freq=0
+2026-05-16T17:40:18.851843Z DEBUG wpa_supplicant[691]: nl80211: Cancel TX frame wait: cookie=0x3a
+2026-05-16T17:40:18.851864Z DEBUG wpa_supplicant[691]: nl80211: wait cancel failed: ret=-100 (Network is down)
+2026-05-16T17:40:18.851869Z DEBUG wpa_supplicant[691]: QM: Clear all active DSCP policies
+2026-05-16T17:40:18.851873Z NOTICE wpa_supplicant[691]: wlan0: CTRL-EVENT-DSCP-POLICY clear_all
+2026-05-16T17:40:18.851879Z DEBUG wpa_supplicant[691]: Remove interface wlan0 from radio phy0
+2026-05-16T17:40:18.851882Z DEBUG wpa_supplicant[691]: Remove radio phy0
+2026-05-16T17:40:18.851886Z NOTICE wpa_supplicant[691]: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+2026-05-16T17:40:18.852061Z DEBUG wpa_supplicant[691]: nl80211: Remove monitor interface: refcount=0
+2026-05-16T17:40:18.852087Z DEBUG wpa_supplicant[691]: netlink: Operstate: ifindex=2 linkmode=0 (kernel-control), operstate=6 (IF_OPER_UP)
+2026-05-16T17:40:18.852142Z DEBUG wpa_supplicant[691]: nl80211: Set mode ifindex 2 iftype 2 (STATION)
+2026-05-16T17:40:18.852170Z DEBUG wpa_supplicant[691]: nl80211: Unsubscribe mgmt frames handle 0x8888dfb17f574ea9 (mode change)
+2026-05-16T17:40:18.852217Z DEBUG wpa_supplicant[691]: dbus: Unregister interface object '/fi/w1/wpa_supplicant1/Interfaces/0'
+2026-05-16T17:40:18.852276Z ERR wpa_supplicant[691]: rmdir[ctrl_interface=/run/wpa_supplicant]: Permission denied
+2026-05-16T17:40:18.852414Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/device.cc:122] wlan0 no_service sid=none ~Device
+2026-05-16T17:40:18.855296Z INFO patchpaneld[1916]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/manager.cc:1098] ConfigureNetwork on wlan0(2, sid=7): {IPv4 address: nullopt, IPv6 addresses: [], DNS: []}, priority {31}, area 0x80000000
+2026-05-16T17:40:18.855454Z WARNING patchpaneld[1916]: WARNING patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/network/routing_table.cc:111] Successfully removed routing entry but could not find the corresponding entry in patchpanel's representation of the routing table.
+2026-05-16T17:40:18.858913Z INFO shill[824]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/shill_main.cc:120] Process exiting.
+2026-05-16T17:40:18.858914Z WARNING patchpaneld[1916]: WARNING patchpaneld: [../libchrome-0.0.1/platform2/libchrome/dbus/object_proxy.cc:570] Failed to call method: org.chromium.flimflam.Device.GetProperties: object_path= /device/wlan0: org.freedesktop.DBus.Error.UnknownObject: Method "GetProperties" with signature "" on interface "org.chromium.flimflam.Device" doesn't exist#012
+2026-05-16T17:40:18.858935Z ERR patchpaneld[1916]: ERROR patchpaneld: [/build/nissa/usr/include/brillo/dbus/dbus_method_invoker.h:114] CallMethodAndBlockWithTimeout(...): Domain=dbus, Code=org.freedesktop.DBus.Error.UnknownObject, Message=Error calling D-Bus method: org.chromium.flimflam.Device.GetProperties: Method "GetProperties" with signature "" on interface "org.chromium.flimflam.Device" doesn't exist#012
+2026-05-16T17:40:18.858948Z ERR patchpaneld[1916]: ERROR patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:516] Unable to get shill Device properties for /device/wlan0
+2026-05-16T17:40:18.858959Z ERR patchpaneld[1916]: ERROR patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:772] Failed to update properties of Device /device/wlan0
+2026-05-16T17:40:18.858990Z ERR dhcpcd-script[24774]: ERROR dhcpcd-script: [../libchrome-0.0.1/platform2/libchrome/dbus/object_proxy.cc:572] Failed to call method: org.chromium.flimflam.Manager.NotifyDHCPEvent: object_path= /: org.freedesktop.DBus.Error.UnknownMethod: Method "NotifyDHCPEvent" with signature "a{ss}" on interface "org.chromium.flimflam.Manager" doesn't exist#012
+2026-05-16T17:40:18.859015Z ERR dhcpcd-script[24774]: ERROR dhcpcd-script: [/build/nissa/usr/include/brillo/dbus/dbus_method_invoker.h:114] CallMethodAndBlockWithTimeout(...): Domain=dbus, Code=org.freedesktop.DBus.Error.UnknownMethod, Message=Error calling D-Bus method: org.chromium.flimflam.Manager.NotifyDHCPEvent: Method "NotifyDHCPEvent" with signature "a{ss}" on interface "org.chromium.flimflam.Manager" doesn't exist#012
+2026-05-16T17:40:18.859028Z ERR dhcpcd-script[24774]: ERROR dhcpcd-script: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/shims/dhcpcd_script.cc:38] DBus error: org.freedesktop.DBus.Error.UnknownMethod: Error calling D-Bus method: org.chromium.flimflam.Manager.NotifyDHCPEvent: Method "NotifyDHCPEvent" with signature "a{ss}" on interface "org.chromium.flimflam.Manager" doesn't exist#012
+2026-05-16T17:40:18.859558Z WARNING dnsproxyd[1807]: WARNING dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/controller.cc:264] Shill has been shutdown
+2026-05-16T17:40:18.859622Z WARNING dnsproxyd[1993]: WARNING dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/proxy.cc:436] {default:_} Shill has been shutdown
+2026-05-16T17:40:18.860334Z WARNING dnsproxyd[1996]: WARNING dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/proxy.cc:436] {system:_} Shill has been shutdown
+2026-05-16T17:40:18.861058Z ERR dnsproxyd[1993]: ERROR dnsproxyd: [../libchrome-0.0.1/platform2/libchrome/dbus/object_proxy.cc:572] Failed to call method: org.chromium.flimflam.Manager.GetProperties: object_path= /: org.freedesktop.DBus.Error.ServiceUnknown: The name org.chromium.flimflam was not provided by any .service files
+2026-05-16T17:40:18.861068Z ERR dnsproxyd[1993]: ERROR dnsproxyd: [/build/nissa/usr/include/brillo/dbus/dbus_method_invoker.h:114] CallMethodAndBlockWithTimeout(...): Domain=dbus, Code=org.freedesktop.DBus.Error.ServiceUnknown, Message=Error calling D-Bus method: org.chromium.flimflam.Manager.GetProperties: The name org.chromium.flimflam was not provided by any .service files
+2026-05-16T17:40:18.861075Z WARNING dnsproxyd[1993]: WARNING dnsproxyd: [../../../../../tmp/portage/chromeos-base/shill-dbus-client-0.0.1-r2734/work/shill-dbus-client-0.0.1/shill/dbus/client/client.cc:369] Unable to get shill Manager properties, likely because shill is unavailable
+2026-05-16T17:40:18.861600Z ERR dnsproxyd[1996]: ERROR dnsproxyd: [../libchrome-0.0.1/platform2/libchrome/dbus/object_proxy.cc:572] Failed to call method: org.chromium.flimflam.Manager.GetProperties: object_path= /: org.freedesktop.DBus.Error.ServiceUnknown: The name org.chromium.flimflam was not provided by any .service files
+2026-05-16T17:40:18.861610Z ERR dnsproxyd[1996]: ERROR dnsproxyd: [/build/nissa/usr/include/brillo/dbus/dbus_method_invoker.h:114] CallMethodAndBlockWithTimeout(...): Domain=dbus, Code=org.freedesktop.DBus.Error.ServiceUnknown, Message=Error calling D-Bus method: org.chromium.flimflam.Manager.GetProperties: The name org.chromium.flimflam was not provided by any .service files
+2026-05-16T17:40:18.861909Z WARNING dnsproxyd[1996]: WARNING dnsproxyd: [../../../../../tmp/portage/chromeos-base/shill-dbus-client-0.0.1-r2734/work/shill-dbus-client-0.0.1/shill/dbus/client/client.cc:369] Unable to get shill Manager properties, likely because shill is unavailable
+2026-05-16T17:40:18.862890Z ERR dhcpcd-script[24776]: ERROR dhcpcd-script: [../libchrome-0.0.1/platform2/libchrome/dbus/object_proxy.cc:572] Failed to call method: org.chromium.flimflam.Manager.NotifyDHCPEvent: object_path= /: org.freedesktop.DBus.Error.UnknownMethod: Method "NotifyDHCPEvent" with signature "a{ss}" on interface "org.chromium.flimflam.Manager" doesn't exist#012
+2026-05-16T17:40:18.862938Z ERR dhcpcd-script[24776]: ERROR dhcpcd-script: [/build/nissa/usr/include/brillo/dbus/dbus_method_invoker.h:114] CallMethodAndBlockWithTimeout(...): Domain=dbus, Code=org.freedesktop.DBus.Error.UnknownMethod, Message=Error calling D-Bus method: org.chromium.flimflam.Manager.NotifyDHCPEvent: Method "NotifyDHCPEvent" with signature "a{ss}" on interface "org.chromium.flimflam.Manager" doesn't exist#012
+2026-05-16T17:40:18.862957Z ERR dhcpcd-script[24776]: ERROR dhcpcd-script: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/shims/dhcpcd_script.cc:38] DBus error: org.freedesktop.DBus.Error.UnknownMethod: Error calling D-Bus method: org.chromium.flimflam.Manager.NotifyDHCPEvent: Method "NotifyDHCPEvent" with signature "a{ss}" on interface "org.chromium.flimflam.Manager" doesn't exist#012
+2026-05-16T17:40:19.238520Z DEBUG wpa_supplicant[691]: dbus: Unregister D-Bus object '/fi/w1/wpa_supplicant1'
+2026-05-18T17:59:47.433307Z NOTICE wpa_supplicant[704]: Successfully initialized wpa_supplicant
+2026-05-18T17:59:47.544752Z NOTICE hermes[865]: Starting post-start script.
+2026-05-18T17:59:47.549942Z NOTICE hermes[872]: Variant: 
+2026-05-18T17:59:47.550795Z NOTICE hermes[876]: Skip non cellular SKU.
+2026-05-18T17:59:47.564284Z INFO hermes[840]: Initialize
+2026-05-18T17:59:47.564296Z INFO hermes[840]: Transitioning from state Uninitialized to state Uninitialized
+2026-05-18T17:59:47.606743Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:347] Start
+2026-05-18T17:59:47.608587Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/dbus/power_manager_proxy.cc:421] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendImminentsuccess: 1
+2026-05-18T17:59:47.612169Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/dbus/power_manager_proxy.cc:421] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendDonesuccess: 1
+2026-05-18T17:59:47.612736Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/dbus/power_manager_proxy.cc:421] OnSignalConnected interface: org.chromium.PowerManager signal: DarkSuspendImminentsuccess: 1
+2026-05-18T17:59:47.671424Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:551] PushProfileInternal: default profile.
+2026-05-18T17:59:47.674881Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:598] PushProfileInternal: finished; 1 profile(s) now present.
+2026-05-18T17:59:47.674957Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/cellular/modem_info.cc:40] Start
+2026-05-18T17:59:47.680187Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/service.cc:1390] unselected ethernet_7 sid=none SetAutoConnect: 1
+2026-05-18T17:59:47.680639Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/p2p_manager.cc:150] Start
+2026-05-18T17:59:47.681670Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/cellular/modem.cc:128] ShouldCreateCellularDeviceNot creating cellular device for non-cellular variant.
+2026-05-18T17:59:47.685256Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/dbus/power_manager_proxy.cc:399] OnServiceOwnerChanged old:  new: :1.8
+2026-05-18T17:59:47.686317Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/power_manager.cc:230] OnPowerManagerAppeared
+2026-05-18T17:59:47.686409Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/power_manager.cc:230] OnPowerManagerAppeared
+2026-05-18T17:59:48.095007Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/device_info.cc:1389] Creating WiFi device for station mode interface wlan0 at interface index 2
+2026-05-18T17:59:48.095240Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/device.cc:118] wlan0 no_service sid=none Device
+2026-05-18T17:59:48.095410Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1204] Device wlan0 registered.
+2026-05-18T17:59:48.095441Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1566] Device wlan0 updated: enabled
+2026-05-18T17:59:48.113893Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/device.cc:604] wlan0 no_service sid=none SetEnabledChecked:  starting
+2026-05-18T17:59:48.113904Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/device.cc:659] wlan0 no_service sid=none SetEnabledUnchecked(true)
+2026-05-18T17:59:48.116465Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:3671] wlan0: disabled supplicant: absent proxy: null
+2026-05-18T17:59:48.116478Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/device.cc:557] wlan0 no_service sid=none OnEnabledStateChanged: (target: 1, success: 1)
+2026-05-18T17:59:48.116630Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:3591] WPA supplicant presence changed: 1
+2026-05-18T17:59:48.116636Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:3671] wlan0: enabled supplicant: present proxy: null
+2026-05-18T17:59:48.116641Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:3621] WiFi debug scope changed; enable is now 0
+2026-05-18T17:59:48.414692Z NOTICE wpa_supplicant[704]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=WORLD
+2026-05-18T17:59:48.416189Z NOTICE wpa_supplicant[704]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=WORLD
+2026-05-18T17:59:48.417133Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:3725] connected to supplicant on attempt 1
+2026-05-18T17:59:48.432339Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_provider.cc:1616] RegionChanged: Country notification: 00
+2026-05-18T17:59:48.438482Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/dbus/power_manager_proxy.cc:180] ChangeRegDomain
+2026-05-18T17:59:48.524110Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/p2p_manager.cc:491] SetAllowed Allowed set to true
+2026-05-18T17:59:48.524129Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/p2p_manager.cc:154] Stop
+2026-05-18T17:59:48.761753Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:2784] The WiFi AP list is empty
+2026-05-18T17:59:48.788913Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:3273] Received command for network throttling disabling
+2026-05-18T17:59:49.527381Z INFO dnsproxyd[1815]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/controller.cc:95] Starting DNS Proxy service
+2026-05-18T17:59:49.532404Z INFO dnsproxyd[1815]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/shill-dbus-client-0.0.1-r2734/work/shill-dbus-client-0.0.1/shill/dbus/client/client.cc:403] Default service changed from [] to [/]
+2026-05-18T17:59:49.552442Z INFO patchpanel_bpf_loader[1811]: Pinned bpf program match_dtls_srtp at /sys/fs/bpf/patchpanel/match_dtls_srtp
+2026-05-18T17:59:49.573813Z NOTICE ModemManager[1834]: <msg> ModemManager (version 1.24.0) starting in system bus...
+2026-05-18T17:59:49.585951Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/dbus/dbus_objectmanager_proxy.cc:100] OnServiceOwnerChanged old:  new: :1.74
+2026-05-18T17:59:49.586229Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/dbus/dbus_objectmanager_proxy.cc:86] OnServiceAvailable: 1
+2026-05-18T17:59:49.586353Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/dbus/dbus_objectmanager_proxy.cc:86] OnServiceAvailable: 1
+2026-05-18T17:59:49.586368Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/cellular/modem_info.cc:125] OnAppeared
+2026-05-18T17:59:49.586373Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/cellular/modem_info.cc:92] Connect
+2026-05-18T17:59:49.586396Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/cellular/modem_info.cc:125] OnAppeared
+2026-05-18T17:59:49.586400Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/cellular/modem_info.cc:92] Connect
+2026-05-18T17:59:49.616271Z INFO hermes[840]: WaitForModemStepLast: Waiting for modem...
+2026-05-18T17:59:49.616836Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/cellular/modem_info.cc:168] OnGetManagedObjectsReply: 1
+2026-05-18T17:59:49.616855Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/cellular/modem_info.cc:168] OnGetManagedObjectsReply: 1
+2026-05-18T17:59:49.695081Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/main.cc:75] Starting patchpanel D-Bus daemon
+2026-05-18T17:59:49.713685Z INFO patchpaneld[2001]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/main.cc:62] Spawning multicast proxy
+2026-05-18T17:59:49.728264Z INFO patchpaneld[2002]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/main.cc:55] Spawning nd proxy
+2026-05-18T17:59:49.728474Z INFO patchpaneld[2000]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/main.cc:48] Spawning adb proxy
+2026-05-18T17:59:49.731704Z INFO patchpaneld[2002]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/ndproxy.cc:859] Started watching on packet fd...
+2026-05-18T17:59:49.732043Z INFO patchpaneld[2004]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/main.cc:69] Spawning socket D-Bus daemon
+2026-05-18T17:59:49.748865Z INFO patchpaneld[2000]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/adb_proxy.cc:327] Chrome OS is not in developer mode and ADB sideloading is not enabled. ADB proxy is not listening
+2026-05-18T17:59:49.905579Z INFO dnsproxyd[1815]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/controller.cc:191] Service enabled by feature flag
+2026-05-18T17:59:49.905600Z INFO dnsproxyd[1815]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/controller.cc:208] Service is running on root namespace
+2026-05-18T17:59:49.906560Z INFO dnsproxyd[1815]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/controller.cc:360] Launched process for proxy {default:}(pid: 2172)
+2026-05-18T17:59:49.907502Z INFO dnsproxyd[1815]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/controller.cc:360] Launched process for proxy {system:}(pid: 2173)
+2026-05-18T17:59:49.920490Z WARNING dnsproxyd[2173]: WARNING dnsproxyd: [../../../../../tmp/portage/chromeos-base/net-base-0.0.1-r301/work/net-base-0.0.1/net-base/socket.cc:257] Failed to increase receive buffer size to 3145728b: Operation not permitted (1)
+2026-05-18T17:59:49.921767Z WARNING dnsproxyd[2172]: WARNING dnsproxyd: [../../../../../tmp/portage/chromeos-base/net-base-0.0.1-r301/work/net-base-0.0.1/net-base/socket.cc:257] Failed to increase receive buffer size to 3145728b: Operation not permitted (1)
+2026-05-18T17:59:49.931167Z INFO dnsproxyd[2173]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/proxy.cc:194] {system:_} Starting DNS proxy
+2026-05-18T17:59:49.931168Z INFO dnsproxyd[2172]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/proxy.cc:194] {default:_} Starting DNS proxy
+2026-05-18T17:59:49.974138Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/conntrack_monitor.cc:71] ConntrackMonitor started
+2026-05-18T17:59:49.974152Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/conntrack_monitor.cc:195] ConntrackMonitor added listener
+2026-05-18T17:59:50.001385Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:2935] OnPatchpanelClientReady
+2026-05-18T17:59:50.005696Z INFO dnsproxyd[1815]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/patchpanel-client-0.0.1-r1212/work/patchpanel-client-0.0.1/patchpanel/dbus/client.cc:1030] Patchpanel reset
+2026-05-18T17:59:50.005709Z WARNING dnsproxyd[1815]: WARNING dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/controller.cc:234] Patchpanel has been reset
+2026-05-18T17:59:50.006199Z INFO dnsproxyd[2173]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/shill-dbus-client-0.0.1-r2734/work/shill-dbus-client-0.0.1/shill/dbus/client/client.cc:403] Default service changed from [] to [/]
+2026-05-18T17:59:50.006242Z INFO dnsproxyd[2173]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/patchpanel-client-0.0.1-r1212/work/patchpanel-client-0.0.1/patchpanel/dbus/client.cc:1030] Patchpanel reset
+2026-05-18T17:59:50.006308Z WARNING dnsproxyd[2173]: WARNING dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/proxy.cc:367] {system:_} Patchpanel has been reset
+2026-05-18T17:59:50.007858Z INFO dnsproxyd[2172]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/shill-dbus-client-0.0.1-r2734/work/shill-dbus-client-0.0.1/shill/dbus/client/client.cc:403] Default service changed from [] to [/]
+2026-05-18T17:59:50.008464Z INFO dnsproxyd[2172]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/patchpanel-client-0.0.1-r1212/work/patchpanel-client-0.0.1/patchpanel/dbus/client.cc:1030] Patchpanel reset
+2026-05-18T17:59:50.008519Z WARNING dnsproxyd[2172]: WARNING dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/proxy.cc:367] {default:_} Patchpanel has been reset
+2026-05-18T17:59:50.209723Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/service.cc:2361] unselected wifi_psk_0 sid=none SetAutoConnectFull: AutoConnect=1->1
+2026-05-18T17:59:50.214349Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/manager.cc:1181] SetFeatureFlag: set WiFi QoS to 0 from 0
+2026-05-18T17:59:50.232144Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/service.cc:2361] unselected wifi_802_1x_5 sid=none SetAutoConnectFull: AutoConnect=1->1
+2026-05-18T17:59:50.249257Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/service.cc:2361] unselected wifi_802_1x_6 sid=none SetAutoConnectFull: AutoConnect=1->1
+2026-05-18T17:59:50.281092Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:2181] ScanAndConnectToBestServices: ensure scan
+2026-05-18T17:59:50.487809Z WARNING ModemManager[1834]: <wrn> [plugin-manager] task 0: port context already scheduled
+2026-05-18T17:59:51.003111Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/manager.cc:174] RunDelayedInitialization: start
+2026-05-18T17:59:51.006745Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:474] New shill Device {shill_device: wlan0, type: wifi, ifname: wlan0, ifindex: 2, service: /, sid: none}
+2026-05-18T17:59:51.121790Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/datapath.cc:1472] Start connection pinning on wlan0 fwmark=0x03ea0000
+2026-05-18T17:59:51.148984Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/datapath.cc:1648] UpdateSourceEnforcementIPv6Prefix: wlan0, {}
+2026-05-18T17:59:51.156159Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/network_monitor_service.cc:164] ipconfigs changed on wlan0, update watching entries
+2026-05-18T17:59:51.156176Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/network_monitor_service.cc:195] Stop due to empty watching list on wlan0
+2026-05-18T17:59:51.156228Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/manager.cc:197] RunDelayedInitialization: finished
+2026-05-18T17:59:51.255672Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_provider.cc:1616] RegionChanged: Country notification: US
+2026-05-18T17:59:51.255941Z NOTICE wpa_supplicant[704]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=COUNTRY alpha2=US
+2026-05-18T17:59:51.256569Z NOTICE wpa_supplicant[704]: p2p-dev-wlan0: Channel list changed: 6 GHz was enabled
+2026-05-18T17:59:51.258280Z NOTICE wpa_supplicant[704]: wlan0: Channel list changed: 6 GHz was enabled
+2026-05-18T17:59:51.258487Z NOTICE wpa_supplicant[704]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=COUNTRY alpha2=US
+2026-05-18T17:59:51.276125Z NOTICE wpa_supplicant[704]: wlan0: Triggering 6GHz-only scan
+2026-05-18T17:59:51.290652Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_provider.cc:510] Assigning endpoint 02:e4:ce:e6:2e:b1 to service wifi_psk_1
+2026-05-18T17:59:51.290678Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_1 sid=none UpdateFromEndpoints: sig: -59, sec: wpa2+wpa3, freq: 2412
+2026-05-18T17:59:51.290969Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_1 updated; state: Idle
+2026-05-18T17:59:51.303058Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:535] ScanDone
+2026-05-18T17:59:51.303474Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/service.cc:344] unselected wifi_psk_1 sid=none AutoConnect: Auto-connecting
+2026-05-18T17:59:51.303487Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/service.cc:404] unselected wifi_psk_1 sid=none Connect: AutoConnect
+2026-05-18T17:59:51.333178Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:3970] SetPendingService - wlan0: Scan state: FULL_START -> FULL_CONNECTING ensured scan: Waiting
+2026-05-18T17:59:51.334335Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/service.cc:561] unselected wifi_psk_1 sid=none SetState: state Idle -> Associating
+2026-05-18T17:59:51.335377Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_1 updated; state: Associating
+2026-05-18T17:59:51.336576Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/device.cc:445] wlan0 no_service sid=none SelectService(wifi_psk_1)
+2026-05-18T17:59:51.337111Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_9 sid=none UpdateFromEndpoints: sig: -64, sec: wpa2, freq: 2412
+2026-05-18T17:59:51.337312Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_9 updated; state: Idle
+2026-05-18T17:59:51.345377Z NOTICE wpa_supplicant[704]: SME: Trying to authenticate with 02:e4:ce:e6:2e:b1 (SSID='e811455728ef' freq=2412 MHz)
+2026-05-18T17:59:51.358108Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:1085] Updated bgscan parameters: simple:64:-70:360
+2026-05-18T17:59:51.363631Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_802_1x_10 sid=none UpdateFromEndpoints: sig: -77, sec: wpa2-ent, freq: 5785
+2026-05-18T17:59:51.363848Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_802_1x_10 updated; state: Idle
+2026-05-18T17:59:51.368341Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_11 sid=none UpdateFromEndpoints: sig: -76, sec: wpa2, freq: 2452
+2026-05-18T17:59:51.368658Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_11 updated; state: Idle
+2026-05-18T17:59:51.370438Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_12 sid=none UpdateFromEndpoints: sig: -76, sec: wpa2, freq: 2452
+2026-05-18T17:59:51.370652Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_12 updated; state: Idle
+2026-05-18T17:59:51.371840Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_provider.cc:510] Assigning endpoint 14:91:82:91:59:8a to service wifi_psk_3
+2026-05-18T17:59:51.371863Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_3 sid=none UpdateFromEndpoints: sig: -85, sec: wpa2, freq: 2462
+2026-05-18T17:59:51.372207Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_3 updated; state: Idle
+2026-05-18T17:59:51.374292Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:535] ScanDone
+2026-05-18T17:59:51.386485Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:1886] Delay processing scan results until 6GHz scan completes
+2026-05-18T17:59:51.388165Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged shill-unknown -> authenticating
+2026-05-18T17:59:51.398142Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/1 was not connected
+2026-05-18T17:59:51.399906Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/3 was not connected
+2026-05-18T17:59:51.401583Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/10 was not connected
+2026-05-18T17:59:51.402805Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/9 was not connected
+2026-05-18T17:59:51.405382Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/11 was not connected
+2026-05-18T17:59:51.406669Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/12 was not connected
+2026-05-18T17:59:51.408661Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/1 was not connected
+2026-05-18T17:59:51.432584Z INFO patchpaneld[1913]: message repeated 2 times: [ INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/1 was not connected]
+2026-05-18T17:59:53.395883Z NOTICE ModemManager[1834]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:14.3': not supported by any plugin
+2026-05-18T17:59:56.115164Z NOTICE wpa_supplicant[704]: nl80211: send_event_marker failed: Source based routing not supported
+2026-05-18T17:59:56.115253Z NOTICE wpa_supplicant[704]: wlan0: Added BSSID 02:e4:ce:e6:2e:b1 into ignore list, ignoring for 10 seconds
+2026-05-18T17:59:56.115272Z NOTICE wpa_supplicant[704]: wlan0: BSSID 02:e4:ce:e6:2e:b1 ignore list count incremented to 2, ignoring for 10 seconds
+2026-05-18T17:59:56.120954Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged authenticating -> disconnected
+2026-05-18T17:59:56.220985Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged disconnected -> scanning
+2026-05-18T17:59:56.262252Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_13 sid=none UpdateFromEndpoints: sig: -88, sec: wpa2, freq: 2412
+2026-05-18T17:59:56.262491Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_13 updated; state: Idle
+2026-05-18T17:59:56.263985Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_14 sid=none UpdateFromEndpoints: sig: -89, sec: wpa2, freq: 2412
+2026-05-18T17:59:56.264224Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_14 updated; state: Idle
+2026-05-18T17:59:56.264852Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:535] ScanDone
+2026-05-18T17:59:56.265362Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_15 sid=none UpdateFromEndpoints: sig: -93, sec: wpa2, freq: 2412
+2026-05-18T17:59:56.265572Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_15 updated; state: Idle
+2026-05-18T17:59:56.265656Z NOTICE wpa_supplicant[704]: SME: Trying to authenticate with 06:e4:ce:e6:2e:b2 (SSID='e811455728ef' freq=5300 MHz)
+2026-05-18T17:59:56.269265Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/13 was not connected
+2026-05-18T17:59:56.270187Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/14 was not connected
+2026-05-18T17:59:56.270890Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/15 was not connected
+2026-05-18T17:59:56.271800Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/1 was not connected
+2026-05-18T17:59:56.274880Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged scanning -> authenticating
+2026-05-18T17:59:56.276481Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/1 was not connected
+2026-05-18T17:59:56.348837Z NOTICE wpa_supplicant[704]: SME: Trying to authenticate with 06:e4:ce:e6:2e:b2 (SSID='e811455728ef' freq=5300 MHz)
+2026-05-18T17:59:56.354924Z NOTICE wpa_supplicant[704]: wlan0: PMKSA-CACHE-ADDED 06:e4:ce:e6:2e:b2 0
+2026-05-18T17:59:56.354993Z NOTICE wpa_supplicant[704]: Trying to associate with 06:e4:ce:e6:2e:b2 (SSID='e811455728ef' freq=5300 MHz)
+2026-05-18T17:59:56.355591Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged authenticating -> associating
+2026-05-18T17:59:56.370379Z NOTICE wpa_supplicant[704]: wlan0: Associated with 06:e4:ce:e6:2e:b2
+2026-05-18T17:59:56.370766Z NOTICE wpa_supplicant[704]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+2026-05-18T17:59:56.376160Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:1215] WiFi wlan0 CurrentBSS (unknown) -> /fi/w1/wpa_supplicant1/Interfaces/0/BSSs/4
+2026-05-18T17:59:56.376624Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:3970] HandleRoam - wlan0: Scan state: FULL_CONNECTING -> FULL_CONNECTED ensured scan: Waiting
+2026-05-18T17:59:56.376704Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:3970] HandleRoam - wlan0: Scan state: FULL_CONNECTED -> IDLE ensured scan: Waiting
+2026-05-18T17:59:56.376726Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/device.cc:445] wlan0 wifi_psk_1 sid=none SelectService(wifi_psk_1)
+2026-05-18T17:59:56.376753Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged associating -> 4way_handshake
+2026-05-18T17:59:56.452097Z NOTICE wpa_supplicant[704]: wlan0: WPA: Key negotiation completed with 06:e4:ce:e6:2e:b2 [PTK=CCMP GTK=CCMP]
+2026-05-18T17:59:56.452142Z NOTICE wpa_supplicant[704]: wlan0: CTRL-EVENT-CONNECTED - Connection to 06:e4:ce:e6:2e:b2 completed [id=0 id_str=]
+2026-05-18T17:59:56.456580Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged 4way_handshake -> completed
+2026-05-18T17:59:56.456819Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/network.cc:196] wlan0 wifi_psk_1 sid=1 Start: options={dhcp={use_legacy_dhcpcd=0, use_arp_gateway=1, use_rfc_8925=0, apply_dscp=0}, accept_ra=1, dhcp_pd=0, ignore_link_monitoring=0, probing_configuration=default, validation_mode=1, }
+2026-05-18T17:59:56.460292Z NOTICE wpa_supplicant[704]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-68 noise=9999 txrate=29200
+2026-05-18T17:59:56.460448Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/dhcpcd_proxy.cc:389] wlan0 wifi_psk_1 sid=1 Create: Created dhcpcd with pid 4240 and args: -B -i chromeos -q -o captive_portal_uri -o wpad_url --clientid --nodelay --noconfigure -4 -A -K wlan0
+2026-05-18T17:59:56.460644Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/network.cc:314] wlan0 wifi_psk_1 sid=1 Start: Started IP provisioning, dhcp: started, accept_ra: true,  initial config: wlan0: combined config {IPv4 address: nullopt, IPv6 addresses: [], DNS: []}
+2026-05-18T17:59:56.460657Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2789] wlan0 is up; started L3 configuration.
+2026-05-18T17:59:56.464495Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/service.cc:561] wlan0 wifi_psk_1 sid=1 SetState: state Associating -> Configuring
+2026-05-18T17:59:56.464527Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_1 updated; state: Configuring
+2026-05-18T17:59:56.466837Z ERR dhcpcd[4240]: refusing chroot: dhcp: /dev/null
+2026-05-18T17:59:56.467083Z INFO dhcpcd[4240]: dhcpcd-10.0.10 starting
+2026-05-18T17:59:56.484190Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/manager.cc:1098] ConfigureNetwork on wlan0(2, sid=1): {IPv4 address: nullopt, IPv6 addresses: [], DNS: []}, priority {31}, area 0x10000
+2026-05-18T17:59:56.487388Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/1 was not connected
+2026-05-18T17:59:56.491543Z INFO dhcpcd[4240]: wlan0: connected to Access Point: <redacted>
+2026-05-18T17:59:56.491641Z INFO dhcpcd[4240]: wlan0: soliciting a DHCP lease
+2026-05-18T17:59:56.491656Z INFO dhcpcd[4240]: wlan0: sending DISCOVER (xid 0xedbb8a0d), next in 3.1 seconds
+2026-05-18T17:59:56.495288Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/dhcpcd_proxy.cc:171] wlan0 wifi_psk_1 sid=1 GetEventReason: Ignore the reason: PREINIT
+2026-05-18T17:59:57.477594Z NOTICE wpa_supplicant[704]: wlan0: WNM: Preferred List Available
+2026-05-18T17:59:57.811590Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:535] ScanDone
+2026-05-18T17:59:59.507281Z INFO dhcpcd[4240]: wlan0: received OFFER with xid 0xedbb8a0d
+2026-05-18T17:59:59.507307Z INFO dhcpcd[4240]: wlan0: offered 192.168.40.207 from 192.168.40.1
+2026-05-18T17:59:59.507317Z INFO dhcpcd[4240]: wlan0: requesting lease of 192.168.40.207
+2026-05-18T17:59:59.507332Z INFO dhcpcd[4240]: wlan0: sending REQUEST (xid 0xedbb8a0d), next in 3.7 seconds
+2026-05-18T17:59:59.516514Z INFO dhcpcd[4240]: wlan0: received ACK with xid 0xedbb8a0d
+2026-05-18T17:59:59.516531Z INFO dhcpcd[4240]: wlan0: acknowledged 192.168.40.207 from 192.168.40.1
+2026-05-18T17:59:59.516542Z INFO dhcpcd[4240]: wlan0: leased 192.168.40.207 for 43200 seconds
+2026-05-18T17:59:59.526995Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/network.cc:575] wlan0 wifi_psk_1 sid=1 OnIPConfigUpdatedFromDHCP: DHCP lease acquired {IPv4 address: 192.168.40.207/24, IPv4 broadcast: 192.168.40.255, IPv4 gateway: 192.168.40.1, IPv6 addresses: [], DNS: [192.168.40.1], search domains: 1, mtu: 1500}
+2026-05-18T17:59:59.529441Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/network.cc:343] wlan0 wifi_psk_1 sid=1 SetupConnection: family: IPv4, is_slaac: 0
+2026-05-18T17:59:59.531342Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/manager.cc:1098] ConfigureNetwork on wlan0(2, sid=1): {IPv4 address: 192.168.40.207/24, IPv4 broadcast: 192.168.40.255, IPv4 gateway: 192.168.40.1, IPv6 addresses: [], DNS: [192.168.40.1], search domains: 1, mtu: 1500}, priority {31}, area 0x70007
+2026-05-18T17:59:59.533081Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/network/address_service.cc:83] SetIPv4Address: adding new address 192.168.40.207/24
+2026-05-18T17:59:59.533258Z WARNING patchpaneld[1913]: WARNING patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/network/routing_table.cc:111] Successfully removed routing entry but could not find the corresponding entry in patchpanel's representation of the routing table.
+2026-05-18T17:59:59.534391Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:799] [/device/wlan0]: IPConfig changed: {IPv4 address: 192.168.40.207/24, IPv4 broadcast: 192.168.40.255, IPv4 gateway: 192.168.40.1, IPv6 addresses: [], DNS: [192.168.40.1], search domains: 1, mtu: 1500}
+2026-05-18T17:59:59.546938Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/network_monitor_service.cc:164] ipconfigs changed on wlan0, update watching entries
+2026-05-18T17:59:59.546969Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/network_monitor_service.cc:128] IPv4 watching entries added on wlan0: skipped_dns_num=0 ,watching_dns_num=1
+2026-05-18T17:59:59.547016Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/qos_service.cc:93] DoHUpdater called with 0 valid hostnames, interface=wlan0, name_servers={192.168.40.1}
+2026-05-18T17:59:59.547023Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/qos_service.cc:175] Updating iptables rules for QoS with 0 IPv4 addrs and 0 IPv6 addrs
+2026-05-18T17:59:59.551577Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/network.cc:387] wlan0 wifi_psk_1 sid=1 OnSetupConnectionFinished: success: true
+2026-05-18T17:59:59.551605Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/service.cc:561] wlan0 wifi_psk_1 sid=1 SetState: state Configuring -> Connected
+2026-05-18T17:59:59.554025Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_1 updated; state: Connected
+2026-05-18T17:59:59.556917Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:835] wlan0 wifi_psk_1 sid=1 SendPostReadyStateMetrics: time_resume_to_ready=0 s
+2026-05-18T17:59:59.558014Z INFO dnsproxyd[2173]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/shill-dbus-client-0.0.1-r2734/work/shill-dbus-client-0.0.1/shill/dbus/client/client.cc:701] Device [/device/wlan0] connection state changed from [configuration] to [ready]
+2026-05-18T17:59:59.558409Z INFO dnsproxyd[2172]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/shill-dbus-client-0.0.1-r2734/work/shill-dbus-client-0.0.1/shill/dbus/client/client.cc:701] Device [/device/wlan0] connection state changed from [configuration] to [ready]
+2026-05-18T17:59:59.558705Z INFO dnsproxyd[1815]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/shill-dbus-client-0.0.1-r2734/work/shill-dbus-client-0.0.1/shill/dbus/client/client.cc:701] Device [/device/wlan0] connection state changed from [configuration] to [ready]
+2026-05-18T17:59:59.560830Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/network_monitor.cc:158] wlan0 wifi_psk_1 sid=1 StartValidationTask(NetworkConnectionUpdate)
+2026-05-18T17:59:59.561878Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/portal_detector.cc:169] wlan0 wifi_psk_1 sid=1 detection StartHttpProbe: { num_attempts=1, IPv4, HTTP probe connectivitycheck.gstatic.com in-flight, HTTPS probe not started, is_complete=false}
+2026-05-18T17:59:59.562386Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/portal_detector.cc:191] wlan0 wifi_psk_1 sid=1 detection StartHttpsProbe: { num_attempts=1, IPv4, HTTP probe connectivitycheck.gstatic.com in-flight, HTTPS probe www.google.com in-flight, is_complete=false}
+2026-05-18T17:59:59.564749Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1657] UpdateDefaultPhysicalService: None -> wlan0 wifi_psk_1 sid=1
+2026-05-18T17:59:59.565618Z INFO dnsproxyd[1815]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/shill-dbus-client-0.0.1-r2734/work/shill-dbus-client-0.0.1/shill/dbus/client/client.cc:403] Default service changed from [/] to [/service/1]
+2026-05-18T17:59:59.566026Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/network_monitor.cc:158] wlan0 wifi_psk_1 sid=1 StartValidationTask(ServiceReorder)
+2026-05-18T17:59:59.566038Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/portal_detector.cc:138] wlan0 wifi_psk_1 sid=1 detection Start: Attempt is already running
+2026-05-18T17:59:59.566335Z INFO dnsproxyd[2172]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/shill-dbus-client-0.0.1-r2734/work/shill-dbus-client-0.0.1/shill/dbus/client/client.cc:403] Default service changed from [/] to [/service/1]
+2026-05-18T17:59:59.566612Z INFO dnsproxyd[2173]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/shill-dbus-client-0.0.1-r2734/work/shill-dbus-client-0.0.1/shill/dbus/client/client.cc:403] Default service changed from [/] to [/service/1]
+2026-05-18T17:59:59.569478Z INFO dnsproxyd[1815]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolv_conf.cc:62] Setting resolv.conf to [192.168.40.1]
+2026-05-18T17:59:59.575226Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:378] Default logical device changed from none to {shill_device: wlan0, type: wifi, ifname: wlan0, ifindex: 2, service: wifi_psk_1, sid: 1}
+2026-05-18T17:59:59.575252Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:394] Default physical device changed from none to {shill_device: wlan0, type: wifi, ifname: wlan0, ifindex: 2, service: wifi_psk_1, sid: 1}
+2026-05-18T17:59:59.584745Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/manager.cc:1098] ConfigureNetwork on wlan0(2, sid=1): {IPv4 address: 192.168.40.207/24, IPv4 broadcast: 192.168.40.255, IPv4 gateway: 192.168.40.1, IPv6 addresses: [], DNS: [192.168.40.1], search domains: 1, mtu: 1500}, priority {0, primary_logical, primary_physical, primary_for_dns}, area 0x30000
+2026-05-18T17:59:59.585279Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/network_monitor_service.cc:339] NUD state changed on wlan0 for { addr: 192.168.40.1, role: gateway and dns_server, state: NUD_REACHABLE }, old_state=NUD_NONE
+2026-05-18T17:59:59.679057Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/http_request.cc:252] wlan0 wifi_psk_1 sid=1 detection HTTP probe GetDNSResult: Resolved connectivitycheck.gstatic.com to 142.251.210.99 in 0.117033 s
+2026-05-18T17:59:59.681439Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/http_request.cc:252] wlan0 wifi_psk_1 sid=1 detection HTTPS probe GetDNSResult: Resolved www.google.com to 142.251.156.119,142.251.151.119,142.251.155.119,142.251.154.119,142.251.152.119,142.251.157.119,142.251.150.119,142.251.153.119 in 0.118952 s
+2026-05-18T17:59:59.713009Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/portal_detector.cc:272] wlan0 wifi_psk_1 sid=1 detection ProcessHTTPProbeResult: { num_attempts=1, IPv4, HTTP probe connectivitycheck.gstatic.com result=Success code=204 content-length=0 duration=0.151721 s, HTTPS probe www.google.com in-flight, is_complete=false}
+2026-05-18T17:59:59.743418Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/portal_detector.cc:287] wlan0 wifi_psk_1 sid=1 detection ProcessHTTPSProbeResult: { num_attempts=1, IPv4, HTTP probe connectivitycheck.gstatic.com result=Success code=204 content-length=0 duration=0.151721 s, HTTPS probe www.google.com result=Success duration=0.182132 s, is_complete=true}
+2026-05-18T17:59:59.743858Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/network.cc:1146] wlan0 wifi_psk_1 sid=1 OnNetworkMonitorResult: unevaluated -> internet-connectivity
+2026-05-18T17:59:59.745397Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/service.cc:561] wlan0 wifi_psk_1 sid=1 SetState: state Connected -> Online
+2026-05-18T17:59:59.745463Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_1 updated; state: Online
+2026-05-18T17:59:59.749517Z INFO dnsproxyd[2172]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/shill-dbus-client-0.0.1-r2734/work/shill-dbus-client-0.0.1/shill/dbus/client/client.cc:701] Device [/device/wlan0] connection state changed from [ready] to [online]
+2026-05-18T17:59:59.749551Z INFO dnsproxyd[2172]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/proxy.cc:577] {default:_ sid=0} is now tracking [wlan0]
+2026-05-18T17:59:59.749553Z INFO dnsproxyd[1815]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/shill-dbus-client-0.0.1-r2734/work/shill-dbus-client-0.0.1/shill/dbus/client/client.cc:701] Device [/device/wlan0] connection state changed from [ready] to [online]
+2026-05-18T17:59:59.749578Z INFO dnsproxyd[1815]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolv_conf.cc:62] Setting resolv.conf to [192.168.40.1]
+2026-05-18T17:59:59.749949Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1657] UpdateDefaultPhysicalService: wlan0 wifi_psk_1 sid=1 -> wlan0 wifi_psk_1 sid=1
+2026-05-18T17:59:59.751358Z INFO dnsproxyd[2172]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolver.cc:279] {default:wlan0 sid=1} Accepting TCP connections on {family: AF_INET, port: 53, addr: 127.0.0.3}
+2026-05-18T17:59:59.751475Z INFO dnsproxyd[2172]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolver.cc:316] {default:wlan0 sid=1} Accepting UDP queries on {family: AF_INET, port: 53, addr: 127.0.0.3}
+2026-05-18T17:59:59.751543Z INFO dnsproxyd[2172]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolver.cc:279] {default:wlan0 sid=1} Accepting TCP connections on {family: AF_INET6, port: 53, addr: fd64:ffff::3}
+2026-05-18T17:59:59.751591Z INFO dnsproxyd[2172]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolver.cc:316] {default:wlan0 sid=1} Accepting UDP queries on {family: AF_INET6, port: 53, addr: fd64:ffff::3}
+2026-05-18T17:59:59.752241Z INFO dnsproxyd[2173]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/shill-dbus-client-0.0.1-r2734/work/shill-dbus-client-0.0.1/shill/dbus/client/client.cc:701] Device [/device/wlan0] connection state changed from [ready] to [online]
+2026-05-18T17:59:59.752280Z INFO dnsproxyd[2173]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/proxy.cc:577] {system:_ sid=0} is now tracking [wlan0]
+2026-05-18T17:59:59.753830Z INFO dnsproxyd[2173]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolver.cc:279] {system:wlan0 sid=1} Accepting TCP connections on {family: AF_INET, port: 53, addr: 127.0.0.2}
+2026-05-18T17:59:59.753889Z INFO dnsproxyd[2173]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolver.cc:316] {system:wlan0 sid=1} Accepting UDP queries on {family: AF_INET, port: 53, addr: 127.0.0.2}
+2026-05-18T17:59:59.753941Z INFO dnsproxyd[2173]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolver.cc:279] {system:wlan0 sid=1} Accepting TCP connections on {family: AF_INET6, port: 53, addr: fd64:ffff::2}
+2026-05-18T17:59:59.753981Z INFO dnsproxyd[2173]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolver.cc:316] {system:wlan0 sid=1} Accepting UDP queries on {family: AF_INET6, port: 53, addr: fd64:ffff::2}
+2026-05-18T17:59:59.769898Z INFO dnsproxyd[2173]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/proxy.cc:902] {system:wlan0 sid=1} DoH: off
+2026-05-18T17:59:59.770776Z INFO dnsproxyd[2173]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolver.cc:719] {system:wlan0 sid=1} Name servers are updated, 0/1 validated name servers
+2026-05-18T17:59:59.770939Z INFO dnsproxyd[2173]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/proxy.cc:786] {system:wlan0 sid=1} applied device DNS configuration
+2026-05-18T17:59:59.771411Z INFO dnsproxyd[1815]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolv_conf.cc:62] Setting resolv.conf to [127.0.0.2]
+2026-05-18T17:59:59.774086Z INFO dnsproxyd[2172]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/proxy.cc:902] {default:wlan0 sid=1} DoH: off
+2026-05-18T17:59:59.774487Z INFO dnsproxyd[2172]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolver.cc:719] {default:wlan0 sid=1} Name servers are updated, 0/1 validated name servers
+2026-05-18T17:59:59.774623Z INFO dnsproxyd[2172]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/proxy.cc:786] {default:wlan0 sid=1} applied device DNS configuration
+2026-05-18T17:59:59.804899Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/guest_ipv6_service.cc:691] RegisterDownstreamNeighborIP: downlink: , neighbor IP {fd64:ffff::2}, no corresponding uplink IP yet, postponing /128 route
+2026-05-18T17:59:59.805424Z INFO dnsproxyd[2173]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolver.cc:610] {system:wlan0 sid=1} Do53 probe attempt 1 to 192.168.40.1 succeeded (0.034946 s). 1/1 validated name servers
+2026-05-18T17:59:59.808669Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/guest_ipv6_service.cc:691] RegisterDownstreamNeighborIP: downlink: , neighbor IP {fd64:ffff::3}, no corresponding uplink IP yet, postponing /128 route
+2026-05-18T17:59:59.822658Z INFO dnsproxyd[2172]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolver.cc:610] {default:wlan0 sid=1} Do53 probe attempt 1 to 192.168.40.1 succeeded (0.048462 s). 1/1 validated name servers
+2026-05-18T18:00:00.387396Z NOTICE wpa_supplicant[704]: wlan0: WNM: Preferred List Available
+2026-05-18T18:00:00.686800Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:535] ScanDone
+2026-05-18T18:00:01.390380Z NOTICE wpa_supplicant[704]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-69 noise=9999 txrate=216100
+2026-05-18T18:00:02.531402Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/connection_diagnostics.cc:162] wlan0 wifi_psk_1 sid=1 reachability Start: Starting IPv4 diagnostics, url=none
+2026-05-18T18:00:04.570059Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/connection_diagnostics.cc:219] wlan0 wifi_psk_1 sid=1 reachability PrintEvents: IPv4 Ping (gateway): Success, Pinged 192.168.40.1: 48.11ms, 17.72ms, 4.47ms
+2026-05-18T18:00:04.570075Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/connection_diagnostics.cc:219] wlan0 wifi_psk_1 sid=1 reachability PrintEvents: IPv4 Ping DNS servers: Success, Pinged 192.168.40.1: 48.05ms, 17.70ms, 4.53ms
+2026-05-18T18:00:04.570086Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/connection_diagnostics.cc:219] wlan0 wifi_psk_1 sid=1 reachability PrintEvents: IPv4 Ping Google DNS servers: Success, Pinged 8.8.8.8: 57.24ms, 28.72ms, 35.56ms
+2026-05-18T18:00:04.570094Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/connection_diagnostics.cc:219] wlan0 wifi_psk_1 sid=1 reachability PrintEvents: IPv4 Ping Google DNS servers: Success, Pinged 8.8.4.4: 57.25ms, 28.72ms, 35.61ms
+2026-05-18T18:00:04.570104Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/connection_diagnostics.cc:174] wlan0 wifi_psk_1 sid=1 reachability Stop: Stopping IPv4 diagnostics
+2026-05-18T18:00:04.985492Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_16 sid=none UpdateFromEndpoints: sig: -78, sec: wpa2, freq: 2437
+2026-05-18T18:00:04.985778Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_16 updated; state: Idle
+2026-05-18T18:00:04.986484Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_17 sid=none UpdateFromEndpoints: sig: -78, sec: wpa2, freq: 2437
+2026-05-18T18:00:04.986725Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_17 updated; state: Idle
+2026-05-18T18:00:04.987478Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_18 sid=none UpdateFromEndpoints: sig: -77, sec: wpa2, freq: 2417
+2026-05-18T18:00:04.987721Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_18 updated; state: Idle
+2026-05-18T18:00:04.989012Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:535] ScanDone
+2026-05-18T18:00:04.989638Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_19 sid=none UpdateFromEndpoints: sig: -79, sec: wpa2, freq: 2437
+2026-05-18T18:00:04.989891Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_19 updated; state: Idle
+2026-05-18T18:00:04.995972Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_20 sid=none UpdateFromEndpoints: sig: -85, sec: wpa2, freq: 2437
+2026-05-18T18:00:04.996221Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_20 updated; state: Idle
+2026-05-18T18:00:04.996988Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_21 sid=none UpdateFromEndpoints: sig: -87, sec: wpa2, freq: 2462
+2026-05-18T18:00:04.997226Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_21 updated; state: Idle
+2026-05-18T18:00:04.997795Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_22 sid=none UpdateFromEndpoints: sig: -90, sec: wpa2, freq: 2447
+2026-05-18T18:00:04.998002Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_22 updated; state: Idle
+2026-05-18T18:00:04.998457Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_23 sid=none UpdateFromEndpoints: sig: -92, sec: wpa2, freq: 2412
+2026-05-18T18:00:04.998629Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_23 updated; state: Idle
+2026-05-18T18:00:04.999060Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_24 sid=none UpdateFromEndpoints: sig: -92, sec: wpa2, freq: 2462
+2026-05-18T18:00:04.999259Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_24 updated; state: Idle
+2026-05-18T18:00:05.004754Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/18 was not connected
+2026-05-18T18:00:05.005578Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/16 was not connected
+2026-05-18T18:00:05.006262Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/17 was not connected
+2026-05-18T18:00:05.006886Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/19 was not connected
+2026-05-18T18:00:05.007587Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/20 was not connected
+2026-05-18T18:00:05.008444Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/21 was not connected
+2026-05-18T18:00:05.009367Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/22 was not connected
+2026-05-18T18:00:05.010024Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/23 was not connected
+2026-05-18T18:00:05.010626Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/24 was not connected
+2026-05-18T18:00:24.280392Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:558] PushProfileInternal: user profile: chronos
+2026-05-18T18:00:24.280566Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/tethering_manager.cc:1364] Tethering config is not available in the persistent store, use default config
+2026-05-18T18:00:24.280822Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:575] PushProfileInternal: (Re-)configured service wifi_psk_1 from new profile.
+2026-05-18T18:00:24.281009Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:575] PushProfileInternal: (Re-)configured service wifi_psk_2 from new profile.
+2026-05-18T18:00:24.282295Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:598] PushProfileInternal: finished; 2 profile(s) now present.
+2026-05-18T18:00:24.406721Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:2963] Setting ARC always-on VPN package: ""
+2026-05-18T18:00:24.523323Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:2181] ScanAndConnectToBestServices: ensure scan
+2026-05-18T18:00:24.524105Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:3970] ScanTask - wlan0: Scan state: IDLE -> BACKGROUND_START ensured scan: Scanning
+2026-05-18T18:00:27.938501Z NOTICE wpa_supplicant[704]: wlan0: Considering within-ESS reassociation
+2026-05-18T18:00:27.938511Z NOTICE wpa_supplicant[704]: wlan0: Current BSS: 06:e4:ce:e6:2e:b2 freq=5300 level=-70 snr=22 est_throughput=360302
+2026-05-18T18:00:27.938517Z NOTICE wpa_supplicant[704]: wlan0: Selected BSS: 02:e4:ce:e6:2e:b1 freq=2412 level=-63 snr=26 est_throughput=90302
+2026-05-18T18:00:27.939668Z NOTICE wpa_supplicant[704]: wlan0: Using signal poll values for the current BSS: level=-71 snr=21 est_throughput=324252
+2026-05-18T18:00:27.939683Z NOTICE wpa_supplicant[704]: wlan0: Skip roam - too small difference in signal level (8 < 14)
+2026-05-18T18:00:27.941910Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:535] ScanDone
+2026-05-18T18:00:27.942249Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_27 sid=none UpdateFromEndpoints: sig: -85, sec: wpa2, freq: 2462
+2026-05-18T18:00:27.942378Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_27 updated; state: Idle
+2026-05-18T18:00:27.944793Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_28 sid=none UpdateFromEndpoints: sig: -86, sec: wpa2+wpa3, freq: 2442
+2026-05-18T18:00:27.944931Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_28 updated; state: Idle
+2026-05-18T18:00:27.945852Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_29 sid=none UpdateFromEndpoints: sig: -86, sec: wpa2, freq: 2462
+2026-05-18T18:00:27.945983Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_29 updated; state: Idle
+2026-05-18T18:00:27.947550Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_30 sid=none UpdateFromEndpoints: sig: -92, sec: wpa2, freq: 5745
+2026-05-18T18:00:27.947685Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_30 updated; state: Idle
+2026-05-18T18:00:27.948999Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_31 sid=none UpdateFromEndpoints: sig: -90, sec: wpa2, freq: 2437
+2026-05-18T18:00:27.949127Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_31 updated; state: Idle
+2026-05-18T18:00:27.950876Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:3970] UpdateScanStateAfterScanDone - wlan0: Scan state: BACKGROUND_START -> IDLE ensured scan: Scanning
+2026-05-18T18:00:27.954122Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/27 was not connected
+2026-05-18T18:00:27.954573Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/28 was not connected
+2026-05-18T18:00:27.955182Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/29 was not connected
+2026-05-18T18:00:27.956117Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/30 was not connected
+2026-05-18T18:00:27.956680Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/31 was not connected
+2026-05-18T18:00:29.090977Z ERR dnsproxyd[2172]: ERROR dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolver.cc:397] {default:wlan0 sid=1} Do53 query to 192.168.40.1 failed after 1 attempt: Timeout while contacting DNS servers. 0/1 validated name servers
+2026-05-18T18:00:29.112062Z INFO dnsproxyd[2172]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolver.cc:610] {default:wlan0 sid=1} Do53 probe attempt 1 to 192.168.40.1 succeeded (0.021244 s). 1/1 validated name servers
+2026-05-18T18:01:35.469219Z NOTICE wpa_supplicant[704]: wlan0: Considering within-ESS reassociation
+2026-05-18T18:01:35.469231Z NOTICE wpa_supplicant[704]: wlan0: Current BSS: 06:e4:ce:e6:2e:b2 freq=5300 level=-69 snr=23 est_throughput=396352
+2026-05-18T18:01:35.469237Z NOTICE wpa_supplicant[704]: wlan0: Selected BSS: 02:e4:ce:e6:2e:b1 freq=2412 level=-51 snr=38 est_throughput=143402
+2026-05-18T18:01:35.469812Z NOTICE wpa_supplicant[704]: wlan0: Using signal poll values for the current BSS: level=-72 snr=20 est_throughput=288202
+2026-05-18T18:01:35.469822Z NOTICE wpa_supplicant[704]: wlan0: Allow reassociation due to difference in signal level (21 >= 14)
+2026-05-18T18:01:35.469956Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_32 sid=none UpdateFromEndpoints: sig: -83, sec: wpa2+wpa3, freq: 2447
+2026-05-18T18:01:35.470093Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_32 updated; state: Idle
+2026-05-18T18:01:35.470721Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_33 sid=none UpdateFromEndpoints: sig: -84, sec: wpa2, freq: 2442
+2026-05-18T18:01:35.470971Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_33 updated; state: Idle
+2026-05-18T18:01:35.471368Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:535] ScanDone
+2026-05-18T18:01:35.471867Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_34 sid=none UpdateFromEndpoints: sig: -88, sec: wpa2, freq: 2447
+2026-05-18T18:01:35.471976Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_34 updated; state: Idle
+2026-05-18T18:01:35.472087Z NOTICE wpa_supplicant[704]: SME: Trying to authenticate with 02:e4:ce:e6:2e:b1 (SSID='e811455728ef' freq=2412 MHz)
+2026-05-18T18:01:35.476836Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/32 was not connected
+2026-05-18T18:01:35.477582Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/33 was not connected
+2026-05-18T18:01:35.478283Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/34 was not connected
+2026-05-18T18:01:35.500950Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/network_monitor_service.cc:339] NUD state changed on wlan0 for { addr: 192.168.40.1, role: gateway and dns_server, state: NUD_NONE }, old_state=NUD_REACHABLE
+2026-05-18T18:01:35.526910Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:1215] WiFi wlan0 CurrentBSS /fi/w1/wpa_supplicant1/Interfaces/0/BSSs/4 -> /fi/w1/wpa_supplicant1/Interfaces/0/BSSs/0
+2026-05-18T18:01:35.527112Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] wlan0 wifi_psk_1 sid=1 UpdateFromEndpoints: sig: -51, sec: wpa2+wpa3, freq: 2412
+2026-05-18T18:01:35.527217Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1135] wlan0 wifi_psk_1 sid=1 EmitDisconnectionEvent: unexpected disconnection, type: 2, reason code: 0
+2026-05-18T18:01:35.529784Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/device.cc:445] wlan0 wifi_psk_1 sid=1 SelectService(wifi_psk_1)
+2026-05-18T18:01:35.529805Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged completed -> authenticating
+2026-05-18T18:01:35.530295Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_3 sid=none UpdateFromEndpoints: sig: -62, sec: wpa2, freq: 2462
+2026-05-18T18:01:35.530396Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_15 sid=none UpdateFromEndpoints: sig: -79, sec: wpa2, freq: 2412
+2026-05-18T18:01:38.881943Z ERR patchpaneld[1913]: ERROR patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/network_monitor_service.cc:346] Neighbor becomes NUD_FAILED from NUD_NONE on wlan0 { addr: 192.168.40.1, role: gateway and dns_server, state: NUD_FAILED }
+2026-05-18T18:01:38.882879Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:3568] WiFi Device wlan0: StartReconnectTimer
+2026-05-18T18:01:38.882891Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:3007] In OnLinkMonitorFailure(): Called Reattach().
+2026-05-18T18:01:40.536802Z NOTICE wpa_supplicant[704]: nl80211: send_event_marker failed: Source based routing not supported
+2026-05-18T18:01:40.536826Z NOTICE wpa_supplicant[704]: wlan0: BSSID 02:e4:ce:e6:2e:b1 ignore list count incremented to 3, ignoring for 60 seconds
+2026-05-18T18:01:40.542254Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged authenticating -> disconnected
+2026-05-18T18:01:40.542265Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:3564] WiFi Device wlan0: StartReconnectTimer: reconnect timer already running.
+2026-05-18T18:01:40.642313Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged disconnected -> scanning
+2026-05-18T18:01:41.953905Z ERR patchpaneld[1913]: ERROR patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/network_monitor_service.cc:346] Neighbor becomes NUD_FAILED from NUD_FAILED on wlan0 { addr: 192.168.40.1, role: gateway and dns_server, state: NUD_FAILED }
+2026-05-18T18:01:42.319255Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:535] ScanDone
+2026-05-18T18:01:42.319405Z NOTICE wpa_supplicant[704]: SME: Trying to authenticate with 06:e4:ce:e6:2e:b2 (SSID='e811455728ef' freq=5300 MHz)
+2026-05-18T18:01:42.319481Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_35 sid=none UpdateFromEndpoints: sig: -79, sec: wpa2+wpa3, freq: 2447
+2026-05-18T18:01:42.319605Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/manager.cc:1496] Service wifi_psk_35 updated; state: Idle
+2026-05-18T18:01:42.322806Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/shill_client.cc:319] Service /service/35 was not connected
+2026-05-18T18:01:42.328535Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged scanning -> authenticating
+2026-05-18T18:01:42.329372Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] unselected wifi_psk_3 sid=none UpdateFromEndpoints: sig: -75, sec: wpa2, freq: 2462
+2026-05-18T18:01:42.382322Z NOTICE wpa_supplicant[704]: Trying to associate with 06:e4:ce:e6:2e:b2 (SSID='e811455728ef' freq=5300 MHz)
+2026-05-18T18:01:42.382752Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged authenticating -> associating
+2026-05-18T18:01:42.384498Z WARNING shill[912]: WARNING shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/nl80211_message.cc:602] Unknown/unhandled netlink nl80211 message 0x93
+2026-05-18T18:01:42.730513Z NOTICE wpa_supplicant[704]: wlan0: CTRL-EVENT-DISCONNECTED bssid=06:e4:ce:e6:2e:b2 reason=6
+2026-05-18T18:01:42.730538Z NOTICE wpa_supplicant[704]: wlan0: Added BSSID 06:e4:ce:e6:2e:b2 into ignore list, ignoring for 10 seconds
+2026-05-18T18:01:42.730552Z NOTICE wpa_supplicant[704]: wlan0: BSSID 06:e4:ce:e6:2e:b2 ignore list count incremented to 2, ignoring for 10 seconds
+2026-05-18T18:01:42.730921Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:1341] WiFi wlan0 supplicant updated DisconnectReason to 6 (Class 2 frame received from nonauthenticated STA)
+2026-05-18T18:01:42.736103Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged associating -> disconnected
+2026-05-18T18:01:42.736112Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:3564] WiFi Device wlan0: StartReconnectTimer: reconnect timer already running.
+2026-05-18T18:01:42.836044Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged disconnected -> scanning
+2026-05-18T18:01:42.868145Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:535] ScanDone
+2026-05-18T18:01:42.868442Z NOTICE wpa_supplicant[704]: SME: Trying to authenticate with 0a:e4:ce:e6:2e:b3 (SSID='e811455728ef' freq=6135 MHz)
+2026-05-18T18:01:42.876282Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged scanning -> authenticating
+2026-05-18T18:01:42.977794Z NOTICE wpa_supplicant[704]: SME: Trying to authenticate with 0a:e4:ce:e6:2e:b3 (SSID='e811455728ef' freq=6135 MHz)
+2026-05-18T18:01:43.000804Z NOTICE wpa_supplicant[704]: wlan0: PMKSA-CACHE-ADDED 0a:e4:ce:e6:2e:b3 0
+2026-05-18T18:01:43.000850Z NOTICE wpa_supplicant[704]: Trying to associate with 0a:e4:ce:e6:2e:b3 (SSID='e811455728ef' freq=6135 MHz)
+2026-05-18T18:01:43.001206Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged authenticating -> associating
+2026-05-18T18:01:43.037700Z NOTICE wpa_supplicant[704]: wlan0: Associated with 0a:e4:ce:e6:2e:b3
+2026-05-18T18:01:43.038073Z NOTICE wpa_supplicant[704]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+2026-05-18T18:01:43.043037Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:1215] WiFi wlan0 CurrentBSS /fi/w1/wpa_supplicant1/Interfaces/0/BSSs/0 -> /fi/w1/wpa_supplicant1/Interfaces/0/BSSs/13
+2026-05-18T18:01:43.043188Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] wlan0 wifi_psk_1 sid=1 UpdateFromEndpoints: sig: -85, sec: wpa3, freq: 6135
+2026-05-18T18:01:43.043294Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1135] wlan0 wifi_psk_1 sid=1 EmitDisconnectionEvent: unexpected disconnection, type: 2, reason code: 0
+2026-05-18T18:01:43.043888Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/device.cc:445] wlan0 wifi_psk_1 sid=1 SelectService(wifi_psk_1)
+2026-05-18T18:01:43.043905Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged associating -> 4way_handshake
+2026-05-18T18:01:43.065313Z NOTICE wpa_supplicant[704]: wlan0: WPA: Key negotiation completed with 0a:e4:ce:e6:2e:b3 [PTK=CCMP GTK=CCMP]
+2026-05-18T18:01:43.065345Z NOTICE wpa_supplicant[704]: wlan0: CTRL-EVENT-CONNECTED - Connection to 0a:e4:ce:e6:2e:b3 completed [id=0 id_str=]
+2026-05-18T18:01:43.072265Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged 4way_handshake -> completed
+2026-05-18T18:01:43.072371Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2759] wlan0 renewing L3 configuration after roam.
+2026-05-18T18:01:43.075850Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] wlan0 wifi_psk_1 sid=1 UpdateFromEndpoints: sig: -71, sec: wpa3, freq: 6135
+2026-05-18T18:01:43.078373Z INFO dhcpcd[4240]: received SIGHUP, rebinding
+2026-05-18T18:01:43.082809Z INFO dhcpcd[4240]: wlan0: rebinding lease of 192.168.40.207
+2026-05-18T18:01:43.086872Z INFO dhcpcd[4240]: wlan0: sending REQUEST (xid 0x6f5483b4), next in 4.0 seconds
+2026-05-18T18:01:43.088643Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/dhcpcd_proxy.cc:171] wlan0 wifi_psk_1 sid=1 GetEventReason: Ignore the reason: RECONFIGURE
+2026-05-18T18:01:43.319217Z INFO dhcpcd[4240]: wlan0: received ACK with xid 0x6f5483b4
+2026-05-18T18:01:43.319228Z INFO dhcpcd[4240]: wlan0: acknowledged 192.168.40.207 from 192.168.40.1
+2026-05-18T18:01:43.319234Z INFO dhcpcd[4240]: wlan0: leased 192.168.40.207 for 43200 seconds
+2026-05-18T18:01:43.325626Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/network.cc:575] wlan0 wifi_psk_1 sid=1 OnIPConfigUpdatedFromDHCP: DHCP lease acquired {IPv4 address: 192.168.40.207/24, IPv4 broadcast: 192.168.40.255, IPv4 gateway: 192.168.40.1, IPv6 addresses: [], DNS: [192.168.40.1], search domains: 1, mtu: 1500}
+2026-05-18T18:01:43.328306Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/network.cc:343] wlan0 wifi_psk_1 sid=1 SetupConnection: family: IPv4, is_slaac: 0
+2026-05-18T18:01:43.328755Z NOTICE wpa_supplicant[704]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-69 noise=9999 txrate=29200
+2026-05-18T18:01:43.330236Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/manager.cc:1098] ConfigureNetwork on wlan0(2, sid=1): {IPv4 address: 192.168.40.207/24, IPv4 broadcast: 192.168.40.255, IPv4 gateway: 192.168.40.1, IPv6 addresses: [], DNS: [192.168.40.1], search domains: 1, mtu: 1500}, priority {0, primary_logical, primary_physical, primary_for_dns}, area 0x70007
+2026-05-18T18:01:43.330766Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/network.cc:387] wlan0 wifi_psk_1 sid=1 OnSetupConnectionFinished: success: true
+2026-05-18T18:01:43.334186Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/network_monitor.cc:158] wlan0 wifi_psk_1 sid=1 StartValidationTask(NetworkConnectionUpdate)
+2026-05-18T18:01:43.334218Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/portal_detector.cc:169] wlan0 wifi_psk_1 sid=1 detection StartHttpProbe: { num_attempts=1, IPv4, HTTP probe connectivitycheck.gstatic.com in-flight, HTTPS probe not started, is_complete=false}
+2026-05-18T18:01:43.334432Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/portal_detector.cc:191] wlan0 wifi_psk_1 sid=1 detection StartHttpsProbe: { num_attempts=1, IPv4, HTTP probe connectivitycheck.gstatic.com in-flight, HTTPS probe www.google.com in-flight, is_complete=false}
+2026-05-18T18:01:43.882779Z ERR dnsproxyd[2172]: ERROR dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolver.cc:397] {default:wlan0 sid=1} Do53 query to 192.168.40.1 failed after 1 attempt: Timeout while contacting DNS servers. 0/1 validated name servers
+2026-05-18T18:01:44.009596Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/network_monitor_service.cc:339] NUD state changed on wlan0 for { addr: 192.168.40.1, role: gateway and dns_server, state: NUD_REACHABLE }, old_state=NUD_FAILED
+2026-05-18T18:01:44.835701Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/http_request.cc:252] wlan0 wifi_psk_1 sid=1 detection HTTP probe GetDNSResult: Resolved connectivitycheck.gstatic.com to 142.250.177.227 in 1.5014 s
+2026-05-18T18:01:44.840190Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/http_request.cc:252] wlan0 wifi_psk_1 sid=1 detection HTTPS probe GetDNSResult: Resolved www.google.com to 142.251.152.119,142.251.155.119,142.251.154.119,142.251.150.119,142.251.157.119,142.251.151.119,142.251.156.119,142.251.153.119 in 1.50568 s
+2026-05-18T18:01:44.906376Z INFO dnsproxyd[2172]: INFO dnsproxyd: [../../../../../tmp/portage/chromeos-base/dns-proxy-0.0.1-r1071/work/dns-proxy-0.0.1/dns-proxy/resolver.cc:610] {default:wlan0 sid=1} Do53 probe attempt 1 to 192.168.40.1 succeeded (1.02372 s). 1/1 validated name servers
+2026-05-18T18:01:45.305594Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/portal_detector.cc:272] wlan0 wifi_psk_1 sid=1 detection ProcessHTTPProbeResult: { num_attempts=1, IPv4, HTTP probe connectivitycheck.gstatic.com result=Success code=204 content-length=0 duration=1.97137 s, HTTPS probe www.google.com in-flight, is_complete=false}
+2026-05-18T18:01:45.924109Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/portal_detector.cc:287] wlan0 wifi_psk_1 sid=1 detection ProcessHTTPSProbeResult: { num_attempts=1, IPv4, HTTP probe connectivitycheck.gstatic.com result=Success code=204 content-length=0 duration=1.97137 s, HTTPS probe www.google.com result=Success duration=2.58987 s, is_complete=true}
+2026-05-18T18:01:45.924242Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/network.cc:1146] wlan0 wifi_psk_1 sid=1 OnNetworkMonitorResult: internet-connectivity -> internet-connectivity
+2026-05-18T18:01:46.329660Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/connection_diagnostics.cc:162] wlan0 wifi_psk_1 sid=1 reachability Start: Starting IPv4 diagnostics, url=none
+2026-05-18T18:01:48.346878Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/connection_diagnostics.cc:219] wlan0 wifi_psk_1 sid=1 reachability PrintEvents: IPv4 Ping (gateway): Success, Pinged 192.168.40.1: 184.78ms, 2.09ms, 1.75ms
+2026-05-18T18:01:48.346888Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/connection_diagnostics.cc:219] wlan0 wifi_psk_1 sid=1 reachability PrintEvents: IPv4 Ping DNS servers: Success, Pinged 192.168.40.1: 185.13ms, 2.46ms, 2.44ms
+2026-05-18T18:01:48.346895Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/connection_diagnostics.cc:219] wlan0 wifi_psk_1 sid=1 reachability PrintEvents: IPv4 Ping Google DNS servers: Success, Pinged 8.8.8.8: 202.44ms, 12.41ms, 12.78ms
+2026-05-18T18:01:48.346900Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/connection_diagnostics.cc:219] wlan0 wifi_psk_1 sid=1 reachability PrintEvents: IPv4 Ping Google DNS servers: Success, Pinged 8.8.4.4: 202.85ms, 13.27ms, 13.65ms
+2026-05-18T18:01:48.346905Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/connection_diagnostics.cc:174] wlan0 wifi_psk_1 sid=1 reachability Stop: Stopping IPv4 diagnostics
+2026-05-18T18:02:50.693477Z NOTICE wpa_supplicant[704]: wlan0: Considering within-ESS reassociation
+2026-05-18T18:02:50.693503Z NOTICE wpa_supplicant[704]: wlan0: Current BSS: 0a:e4:ce:e6:2e:b3 freq=6135 level=-80 snr=12 est_throughput=96102
+2026-05-18T18:02:50.693516Z NOTICE wpa_supplicant[704]: wlan0: Selected BSS: 02:e4:ce:e6:2e:b1 freq=2412 level=-52 snr=37 est_throughput=143402
+2026-05-18T18:02:50.694021Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:535] ScanDone
+2026-05-18T18:02:50.694971Z NOTICE wpa_supplicant[704]: wlan0: Using signal poll values for the current BSS: level=-80 snr=12 est_throughput=96102
+2026-05-18T18:02:50.694995Z NOTICE wpa_supplicant[704]: wlan0: Allow reassociation due to difference in signal level (28 >= 6)
+2026-05-18T18:02:50.699859Z NOTICE wpa_supplicant[704]: SME: Trying to authenticate with 02:e4:ce:e6:2e:b1 (SSID='e811455728ef' freq=2412 MHz)
+2026-05-18T18:02:50.731992Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/network_monitor_service.cc:339] NUD state changed on wlan0 for { addr: 192.168.40.1, role: gateway and dns_server, state: NUD_NONE }, old_state=NUD_REACHABLE
+2026-05-18T18:02:50.772515Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:1215] WiFi wlan0 CurrentBSS /fi/w1/wpa_supplicant1/Interfaces/0/BSSs/13 -> /fi/w1/wpa_supplicant1/Interfaces/0/BSSs/0
+2026-05-18T18:02:50.772711Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] wlan0 wifi_psk_1 sid=1 UpdateFromEndpoints: sig: -52, sec: wpa2+wpa3, freq: 2412
+2026-05-18T18:02:50.772808Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1135] wlan0 wifi_psk_1 sid=1 EmitDisconnectionEvent: unexpected disconnection, type: 2, reason code: 0
+2026-05-18T18:02:50.773447Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/device.cc:445] wlan0 wifi_psk_1 sid=1 SelectService(wifi_psk_1)
+2026-05-18T18:02:50.773462Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged completed -> authenticating
+2026-05-18T18:02:54.530263Z ERR patchpaneld[1913]: ERROR patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/network_monitor_service.cc:346] Neighbor becomes NUD_FAILED from NUD_NONE on wlan0 { addr: 192.168.40.1, role: gateway and dns_server, state: NUD_FAILED }
+2026-05-18T18:02:54.531143Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2992] Current service is unreliable, skipping reassociate attempt.
+2026-05-18T18:02:55.777946Z NOTICE wpa_supplicant[704]: nl80211: send_event_marker failed: Source based routing not supported
+2026-05-18T18:02:55.777996Z NOTICE wpa_supplicant[704]: wlan0: BSSID 02:e4:ce:e6:2e:b1 ignore list count incremented to 4, ignoring for 120 seconds
+2026-05-18T18:02:55.784029Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged authenticating -> disconnected
+2026-05-18T18:02:55.784057Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:3568] WiFi Device wlan0: StartReconnectTimer
+2026-05-18T18:02:55.889400Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged disconnected -> scanning
+2026-05-18T18:02:56.927559Z NOTICE wpa_supplicant[704]: SME: Trying to authenticate with 06:e4:ce:e6:2e:b2 (SSID='e811455728ef' freq=5300 MHz)
+2026-05-18T18:02:56.927888Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:535] ScanDone
+2026-05-18T18:02:56.937662Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged scanning -> authenticating
+2026-05-18T18:02:56.988120Z NOTICE wpa_supplicant[704]: Trying to associate with 06:e4:ce:e6:2e:b2 (SSID='e811455728ef' freq=5300 MHz)
+2026-05-18T18:02:56.989065Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged authenticating -> associating
+2026-05-18T18:02:57.012722Z NOTICE wpa_supplicant[704]: wlan0: Associated with 06:e4:ce:e6:2e:b2
+2026-05-18T18:02:57.013183Z NOTICE wpa_supplicant[704]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+2026-05-18T18:02:57.018564Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:1215] WiFi wlan0 CurrentBSS /fi/w1/wpa_supplicant1/Interfaces/0/BSSs/0 -> /fi/w1/wpa_supplicant1/Interfaces/0/BSSs/4
+2026-05-18T18:02:57.019023Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1497] wlan0 wifi_psk_1 sid=1 UpdateFromEndpoints: sig: -68, sec: wpa2+wpa3, freq: 5300
+2026-05-18T18:02:57.019324Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi_service.cc:1135] wlan0 wifi_psk_1 sid=1 EmitDisconnectionEvent: unexpected disconnection, type: 2, reason code: 0
+2026-05-18T18:02:57.020516Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/device.cc:445] wlan0 wifi_psk_1 sid=1 SelectService(wifi_psk_1)
+2026-05-18T18:02:57.020562Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged associating -> 4way_handshake
+2026-05-18T18:02:57.050782Z NOTICE wpa_supplicant[704]: wlan0: WPA: Key negotiation completed with 06:e4:ce:e6:2e:b2 [PTK=CCMP GTK=CCMP]
+2026-05-18T18:02:57.050822Z NOTICE wpa_supplicant[704]: wlan0: Removed BSSID 06:e4:ce:e6:2e:b2 from ignore list
+2026-05-18T18:02:57.050881Z NOTICE wpa_supplicant[704]: wlan0: CTRL-EVENT-CONNECTED - Connection to 06:e4:ce:e6:2e:b2 completed [id=0 id_str=]
+2026-05-18T18:02:57.061350Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2707] WiFi wlan0 StateChanged 4way_handshake -> completed
+2026-05-18T18:02:57.061588Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/wifi/wifi.cc:2759] wlan0 renewing L3 configuration after roam.
+2026-05-18T18:02:57.066913Z INFO dhcpcd[4240]: received SIGHUP, rebinding
+2026-05-18T18:02:57.073923Z INFO dhcpcd[4240]: wlan0: rebinding lease of 192.168.40.207
+2026-05-18T18:02:57.073951Z INFO dhcpcd[4240]: wlan0: sending REQUEST (xid 0x25f45d09), next in 4.7 seconds
+2026-05-18T18:02:57.081377Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/dhcpcd_proxy.cc:171] wlan0 wifi_psk_1 sid=1 GetEventReason: Ignore the reason: RECONFIGURE
+2026-05-18T18:02:57.109874Z INFO dhcpcd[4240]: wlan0: received ACK with xid 0x25f45d09
+2026-05-18T18:02:57.109883Z INFO dhcpcd[4240]: wlan0: acknowledged 192.168.40.207 from 192.168.40.1
+2026-05-18T18:02:57.109889Z INFO dhcpcd[4240]: wlan0: leased 192.168.40.207 for 43200 seconds
+2026-05-18T18:02:57.116177Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/network.cc:575] wlan0 wifi_psk_1 sid=1 OnIPConfigUpdatedFromDHCP: DHCP lease acquired {IPv4 address: 192.168.40.207/24, IPv4 broadcast: 192.168.40.255, IPv4 gateway: 192.168.40.1, IPv6 addresses: [], DNS: [192.168.40.1], search domains: 1, mtu: 1500}
+2026-05-18T18:02:57.117674Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/network.cc:343] wlan0 wifi_psk_1 sid=1 SetupConnection: family: IPv4, is_slaac: 0
+2026-05-18T18:02:57.117865Z NOTICE wpa_supplicant[704]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-66 noise=9999 txrate=29200
+2026-05-18T18:02:57.118846Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/manager.cc:1098] ConfigureNetwork on wlan0(2, sid=1): {IPv4 address: 192.168.40.207/24, IPv4 broadcast: 192.168.40.255, IPv4 gateway: 192.168.40.1, IPv6 addresses: [], DNS: [192.168.40.1], search domains: 1, mtu: 1500}, priority {0, primary_logical, primary_physical, primary_for_dns}, area 0x70007
+2026-05-18T18:02:57.119524Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/network.cc:387] wlan0 wifi_psk_1 sid=1 OnSetupConnectionFinished: success: true
+2026-05-18T18:02:57.123016Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/network_monitor.cc:158] wlan0 wifi_psk_1 sid=1 StartValidationTask(NetworkConnectionUpdate)
+2026-05-18T18:02:57.123069Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/portal_detector.cc:169] wlan0 wifi_psk_1 sid=1 detection StartHttpProbe: { num_attempts=1, IPv4, HTTP probe connectivitycheck.gstatic.com in-flight, HTTPS probe not started, is_complete=false}
+2026-05-18T18:02:57.123390Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/portal_detector.cc:191] wlan0 wifi_psk_1 sid=1 detection StartHttpsProbe: { num_attempts=1, IPv4, HTTP probe connectivitycheck.gstatic.com in-flight, HTTPS probe www.google.com in-flight, is_complete=false}
+2026-05-18T18:02:57.992817Z INFO patchpaneld[1913]: INFO patchpaneld: [../../../../../tmp/portage/chromeos-base/patchpanel-0.0.2-r1674/work/patchpanel-0.0.2/patchpanel/network_monitor_service.cc:339] NUD state changed on wlan0 for { addr: 192.168.40.1, role: gateway and dns_server, state: NUD_REACHABLE }, old_state=NUD_FAILED
+2026-05-18T18:02:58.010868Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/http_request.cc:252] wlan0 wifi_psk_1 sid=1 detection HTTP probe GetDNSResult: Resolved connectivitycheck.gstatic.com to 142.250.177.227 in 0.887524 s
+2026-05-18T18:02:58.013357Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/http_request.cc:252] wlan0 wifi_psk_1 sid=1 detection HTTPS probe GetDNSResult: Resolved www.google.com to 142.251.153.119,142.251.156.119,142.251.151.119,142.251.157.119,142.251.150.119,142.251.154.119,142.251.155.119,142.251.152.119 in 0.889819 s
+2026-05-18T18:02:58.043461Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/portal_detector.cc:272] wlan0 wifi_psk_1 sid=1 detection ProcessHTTPProbeResult: { num_attempts=1, IPv4, HTTP probe connectivitycheck.gstatic.com result=Success code=204 content-length=0 duration=0.92033 s, HTTPS probe www.google.com in-flight, is_complete=false}
+2026-05-18T18:02:58.095866Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/portal_detector.cc:287] wlan0 wifi_psk_1 sid=1 detection ProcessHTTPSProbeResult: { num_attempts=1, IPv4, HTTP probe connectivitycheck.gstatic.com result=Success code=204 content-length=0 duration=0.92033 s, HTTPS probe www.google.com result=Success duration=0.97276 s, is_complete=true}
+2026-05-18T18:02:58.096181Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/network.cc:1146] wlan0 wifi_psk_1 sid=1 OnNetworkMonitorResult: internet-connectivity -> internet-connectivity
+2026-05-18T18:03:00.121014Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/connection_diagnostics.cc:162] wlan0 wifi_psk_1 sid=1 reachability Start: Starting IPv4 diagnostics, url=none
+2026-05-18T18:03:02.138110Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/connection_diagnostics.cc:219] wlan0 wifi_psk_1 sid=1 reachability PrintEvents: IPv4 Ping (gateway): Success, Pinged 192.168.40.1: 8.86ms, 5.47ms, 3.28ms
+2026-05-18T18:03:02.138136Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/connection_diagnostics.cc:219] wlan0 wifi_psk_1 sid=1 reachability PrintEvents: IPv4 Ping DNS servers: Success, Pinged 192.168.40.1: 8.83ms, 5.45ms, 3.37ms
+2026-05-18T18:03:02.138152Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/connection_diagnostics.cc:219] wlan0 wifi_psk_1 sid=1 reachability PrintEvents: IPv4 Ping Google DNS servers: Success, Pinged 8.8.8.8: 16.43ms, 15.11ms, 13.58ms
+2026-05-18T18:03:02.138166Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/connection_diagnostics.cc:219] wlan0 wifi_psk_1 sid=1 reachability PrintEvents: IPv4 Ping Google DNS servers: Success, Pinged 8.8.4.4: 16.40ms, 15.13ms, 13.44ms
+2026-05-18T18:03:02.138182Z INFO shill[912]: INFO shill: [../../../../../tmp/portage/chromeos-base/shill-0.0.6-r5533/work/shill-0.0.6/shill/network/connection_diagnostics.cc:174] wlan0 wifi_psk_1 sid=1 reachability Stop: Stopping IPv4 diagnostics

@@ -1,0 +1,65 @@
+[    5852.586] Wake source: 0x00000001
+[    5852.589] Which pin: 0x0000000000000003
+[    5913.585] Wake source: 0x00000001
+[    5913.588] Which pin: 0x0000000000000003
+[    5974.588] Wake source: 0x00000001
+[    5974.591] Which pin: 0x0000000000000003
+[    5974.595] Alert[4] = 0x800
+[    5996.201] Wake source: 0x00000001
+[    5996.204] Which pin: 0x0000000000000003
+[    7792.691] Wake source: 0x00000001
+[    7792.694] Which pin: 0x0000000000000003
+[    7792.698] Alert[4] = 0x800
+[    9587.370] Wake source: 0x00000001
+[    9587.373] Which pin: 0x0000000000000003
+[    9587.377] Alert[4] = 0x800
+[   11381.340] Wake source: 0x00000001
+[   11381.343] Which pin: 0x0000000000000003
+[   13170.780] Wake source: 0x00000001
+[   13170.783] Which pin: 0x0000000000000003
+[   85309.730] Wake source: 0x00000001
+[   85309.733] Which pin: 0x0000000000000003
+[   85309.737] Alert[4] = 0x800
+[   85326.532] Wake source: 0x00000001
+[   85326.535] Which pin: 0x0000000000000003
+[   85326.539] Alert[4] = 0x800
+[       0.000] Starting D3C1 RO 0.0.62 RW 0.23.250
+[       0.003] ti50_common_mp-15980.B:v0.0.704-fe895966 libtock-rs:v0.0.925-1213708 tock:v0.0.9685-1f9552cfa ms-tpm-20-ref:v0.0.343-b28a970 chrome-bot@chromeos-firmware-mpa-us-east1-d-x32-0-j903 2026-02-05 09:48:49
+[       0.021] Strap config: dddd => TPM Bus: I2C; FormFactor: ClamshellInvertedKso
+[       0.029] Reset Type: Cold
+[       0.032] Reset cause: POR 0x00000001
+[       0.036] USB: Off
+[       0.042] RBOX: WP true
+[       0.043] RBOX: assert EC_RST_L
+[       0.046] cryptolib v1 at 0x100c00
+[       0.049] 
+[       0.055] RBOX: assert EC_RST_L
+[       0.055] AP WP SR OK!
+[       0.058] verifying cached gvd
+[       0.062] gscvd @00c04000 consistent
+[       0.065] validating 4 ranges in AP flash
+[       0.358] AP RO: OK
+[       0.359] AP RO verifications took 304 ms.
+[       0.369] 21 files found across 4 pages.
+[       0.371] 6566 bytes of data.
+[       0.374] 0 invalid and 6 free pages.
+[       0.378] 0 erases since boot.
+[       0.381] Partition |   File ID   | Bank | Page | Size
+[       0.386]      0x03    0x0100100b      1    241    180
+[       0.392]      0x03    0x01001007      1    241    158
+[       0.397]      0x03    0x01800005      1    241    188
+[       0.402]      0x03    0x01800006      1    241    184
+[       0.407]      0x03    0x0100100e      1    245    180
+[       0.413]      0x03    0x0100100a      1    245    188
+[       0.418]      0x03    0x0100100d      1    245    180
+[       0.423]      0x03    0x81000000      1    245    314
+[       0.429]      0x03    0x81000002      1    245    278
+[       0.434]      0x03    0x81000005      1    245    310
+[       0.439]      0x03    0x01800004      1    246    217
+[       0.445]      0x03    0x01001008      1    246    188
+[       0.450] 176 bytes free in active pages.
+[       0.454] Filesystem init took 92 ms.
+[       0.458] PLT_RST_L ASSERTED
+[       0.462] RBOX: deassert EC_RST_L
+[       0.487] Valid CCD config found
+[       0.491] RBOX: W

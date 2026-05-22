@@ -1,0 +1,10 @@
+2026-05-20T17:57:29.825591Z INFO btadapterd[3951]: bt_btif_core  btif/src/btif_core.cc:568 btif_set_scan_mode: set scan mode : 0
+2026-05-20T17:57:29.831497Z INFO btadapterd[3951]: bluetooth  gd/hci/le_address_manager.cc:776 OnCommandComplete: Received command complete with op_code LE_CLEAR_FILTER_ACCEPT_LIST(0x2010)
+2026-05-20T17:57:29.831513Z INFO btadapterd[3951]: bluetooth  gd/hci/le_address_manager.cc:391 resume_registered_clients: Resuming registered clients
+2026-05-21T00:29:18.239466Z ERR btadapterd[3951]: bluetooth  gd/os/linux_generic/files.cc:223 FileCreatedTime: unable to read '/var/log/bluetooth/btsnooz_hci.log' file metadata, error: No such file or directory
+2026-05-21T00:29:18.287895Z INFO btadapterd[3951]: bt_btif_core  btif/src/btif_core.cc:568 btif_set_scan_mode: set scan mode : 0
+2026-05-21T00:30:47.000567Z INFO btadapterd[3951]: bt_btif_core  btif/src/btif_core.cc:568 btif_set_scan_mode: set scan mode : 0
+2026-05-21T00:30:47.004281Z INFO btadapterd[3951]: bluetooth  gd/hci/le_address_manager.cc:776 OnCommandComplete: Received command complete with op_code LE_CLEAR_FILTER_ACCEPT_LIST(0x2010)
+2026-05-21T00:30:47.004297Z INFO btadapterd[3951]: bluetooth  gd/hci/le_address_manager.cc:391 resume_registered_clients: Resuming registered clients
+2026-05-21T20:36:04.191662Z ERR btadapterd[3951]: bluetooth  gd/os/linux_generic/files.cc:223 FileCreatedTime: unable to read '/var/log/bluetooth/btsnooz_hci.log' file metadata, error: No such file or directory
+2026-05-21T20:36:04.241831Z INFO btadapterd[3951]: bt_btif_core  btif/src/btif_core.cc:568 btif_set_scan_mode: set scan mode : 0
