@@ -1,0 +1,819 @@
+2026-05-22T03:19:39.942113Z INFO chrome[1365:1365]: [chrome/browser/ash/policy/handlers/bluetooth_policy_handler.cc:129] Set JustWorksPairingEnabled Success
+2026-05-22T03:19:39.959934Z ERROR chrome[1365:1365]: [chrome/browser/ash/dbus/chrome_features_service_provider.cc:243] Invalid prefix on feature DeferConciergeStartup (want CrOSLateBoot)
+2026-05-22T03:19:39.990602Z ERROR chrome[1365:1365]: [chrome/browser/profiles/profile_manager.cc:727] ProfileManager::GetActiveUserProfile is called in a user session but before initialization completion from Report@chrome/browser/net/network_annotation_monitor.cc:31
+2026-05-22T03:19:40.377017Z ERROR chrome[1365:1365]: [chrome/browser/profiles/profile_manager.cc:727] ProfileManager::GetActiveUserProfile is called in a user session but before initialization completion from Report@chrome/browser/net/network_annotation_monitor.cc:31
+2026-05-22T03:19:40.398013Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/login/session/user_session_manager.cc:977] RespectLocalePreference: app_locale='en-US', bkup_locale='', account_locale - unused.  Selected 'en-US'
+2026-05-22T03:19:40.401370Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/login/session/user_session_manager.cc:1313] Password consuming service 1 votes 0
+2026-05-22T03:19:40.454564Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/login/session/user_session_manager.cc:1313] Password consuming service 0 votes 0
+2026-05-22T03:19:40.454607Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/login/session/user_session_manager.cc:1347] Clearing login password
+2026-05-22T03:19:40.474707Z WARNING chrome[1365:1365]: [chrome/browser/ash/login/signin/merge_session_throttling_utils.cc:140] Loading content for a profile without session restore?
+2026-05-22T03:19:40.483477Z ERROR chrome[1365:1365]: [chrome/browser/ash/input_method/input_method_manager_impl.cc:1193] IMEEngine for "jkghodnilhceideoidjikpgommlajknk" is not registered
+2026-05-22T03:19:40.483769Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/login/session/user_session_manager.cc:1557] SetPrimaryAccount result=0
+2026-05-22T03:19:40.483797Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/login/session/user_session_manager.cc:1592] Seed IdentityManager with the authenticated account info, success=1
+2026-05-22T03:19:40.503406Z WARNING chrome[1365:1365]: [chrome/browser/extensions/forced_extensions/assessment_assistant_tracker.cc:32] AssessmentAssistantTracker started for AssessmentAssistant version 25.530.0.
+2026-05-22T03:19:40.503449Z WARNING chrome[1365:1365]: [chrome/browser/extensions/forced_extensions/assessment_assistant_tracker.cc:95] AssessmentAssistantTracker - creation stage changed to 7.
+2026-05-22T03:19:40.503461Z WARNING chrome[1365:1365]: [chrome/browser/extensions/forced_extensions/assessment_assistant_tracker.cc:57] AssessmentAssistantTracker - installation failed with reason 13.
+2026-05-22T03:19:40.508200Z WARNING chrome[1365:1365]: [chromeos/ash/components/dbus/dlcservice/dlcservice_client.cc:112] First time DLC install is skipping queue for: libsoda-model-en-us-df24d2
+2026-05-22T03:19:40.514217Z ERROR chrome[1365:1365]: [chromeos/ash/components/drivefs/drivefs_host.cc:324] DriveFs mounted
+2026-05-22T03:19:40.600784Z WARNING chrome[1365:1365]: [chrome/browser/extensions/sync/extension_sync_service.cc:662] Could not add pending extension for hmbjbjdpkobdjplfobhljndfdfdipjhg
+2026-05-22T03:19:40.607039Z WARNING chrome[1365:1365]: [chromeos/ash/components/memory/swap_configuration.cc:106] Overriding memory thresholds with values 8% and 40%
+2026-05-22T03:19:40.607107Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/arc/adbd/arc_adbd_monitor_bridge.cc:153] Init ArcAdbdMonitorBridge
+2026-05-22T03:19:40.607140Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/arc/bluetooth/arc_bluetooth_bridge.cc:355] Registering bluetooth adapter.
+2026-05-22T03:19:40.607363Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/arc/sharesheet/arc_sharesheet_bridge.cc:62] ArcSharesheetBridge created
+2026-05-22T03:19:40.608428Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/arc/enterprise/cert_store/arc_cert_installer.cc:56] ArcCertInstaller::ArcCertInstaller
+2026-05-22T03:19:40.608500Z WARNING chrome[1365:1365]: [chrome/browser/ash/arc/idle_manager/arc_idle_manager.cc:93] Doze will be enabled regardless of battery status
+2026-05-22T03:19:40.608577Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/arc/session/arc_session_manager.cc:854] Calling SetUserInfo() in ArcSessionManager::Initialize
+2026-05-22T03:19:40.609066Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/arc/session/arc_play_store_enabled_preference_handler.cc:65] Start observing Google Play Store enabled preference. Initial values are: Enabled=1 Managed=1
+2026-05-22T03:19:40.609104Z WARNING chrome[1365:1365]: [chromeos/ash/components/memory/swap_configuration.cc:106] Overriding memory thresholds with values 8% and 40%
+2026-05-22T03:19:40.609149Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/arc/session/arc_session_manager.cc:1076] ARC opt-in. Starting ARC session.
+2026-05-22T03:19:40.609259Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/arc/session/arc_session_manager.cc:1329] Activation is not allowed yet. Not starting ARC for now.
+2026-05-22T03:19:40.609268Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/arc/policy/arc_policy_bridge.cc:797] ArcPolicyBridge::ActivateArcIfRequiredByPolicy
+2026-05-22T03:19:40.610605Z ERROR chrome[1365:1365]: [ash/system/geolocation/geolocation_controller.cc:322] No valid current geoposition and no valid cached geoposition are available. Will use default times for sunset / sunrise.
+2026-05-22T03:19:40.612587Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/login/session/user_session_manager.cc:2133] UserSessionManager::OnUserProfileLoaded: token handles disabled or user invalid, returning early
+2026-05-22T03:19:40.612829Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/login/session/user_session_manager.cc:1838] Clearing all secrets
+2026-05-22T03:19:40.628640Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/login/session/user_session_manager.cc:977] RespectLocalePreference: app_locale='en-US', bkup_locale='en-US', account_locale - unused.  Selected 'en-US'
+2026-05-22T03:19:40.628753Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/login/session/user_session_manager.cc:2426] Launching browser...
+2026-05-22T03:19:40.629518Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/login/login_display_host_common.cc:282] Finalize
+2026-05-22T03:19:40.630436Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/login/login_display_host_common.cc:734] ShutdownDisplayHost
+2026-05-22T03:19:40.630786Z WARNING chrome[1365:1365]: [chrome/browser/browsing_data/chrome_browsing_data_remover_delegate.cc:1203] Failed to find user for current profile.
+2026-05-22T03:19:40.631053Z INFO chrome[1365:1365]: [chrome/browser/ash/login/existing_user_controller.cc:962] (LOGIN) Session started, the profile is ready 
+2026-05-22T03:19:40.697354Z ERROR chrome[4876:4897]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:40.700139Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/login/login_display_host_mojo.cc:243] OnDialogDestroyed
+2026-05-22T03:19:40.700451Z WARNING chrome[1365:1365]: [chrome/browser/ui/webui/ash/login/oobe_ui.cc:744] OobeUI destroyed
+2026-05-22T03:19:40.729438Z ERROR chrome[1365:1447]: [components/policy/core/common/cloud/component_cloud_policy_store.cc:221] Discarding policy for component app:com.vmware.view.client.android due to data validation failure: The JSON blob dictionary value is not a dictionary.
+2026-05-22T03:19:40.730571Z VERBOSE1 chrome[1365:1365]: [chromeos/ash/experiences/arc/session/connection_holder.h:292] Instance arc.mojom.IioSensorInstance not available.
+2026-05-22T03:19:40.732812Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/app_restore/full_restore_app_launch_handler.cc:495] There is restore data: Browser( no app type browser, has normal browser ) ARC(0) other apps(0) in /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa
+2026-05-22T03:19:40.749024Z WARNING chrome[1365:1365]: [chromeos/ash/components/dbus/dlcservice/dlcservice_client.cc:112] First time DLC install is skipping queue for: screen-ai
+2026-05-22T03:19:40.756986Z ERROR chrome[4910:4922]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:40.763665Z ERROR chrome[4912:4931]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:40.763888Z WARNING chrome[1365:1365]: [chrome/browser/ash/multidevice_setup/multidevice_setup_service_factory.cc:132] No Multidevice Features allowed. Unable to return MultiDeviceSetupServiceHolder, returning nullptr instead.
+2026-05-22T03:19:40.763911Z WARNING chrome[1365:1365]: [chrome/browser/ash/multidevice_setup/multidevice_setup_service_factory.cc:92] Missing MultiDeviceSetupServiceHolder. Unable to return MultiDeviceSetupService, returning nullptr instead.
+2026-05-22T03:19:40.767848Z VERBOSE1 chrome[1365:1365]: [ash/system/power/power_event_observer.cc:409] PowerEventObserver::OnLoginStatusChanged
+2026-05-22T03:19:40.767885Z INFO chrome[1365:1365]: [ash/quick_pair/feature_status_tracker/fast_pair_enabled_provider.cc:97] AreSubProvidersEnabled: Flag:1 Policy Pref:0 Google API Key:1 Logged in User:1 Screen State:1 Bluetooth:1
+2026-05-22T03:19:40.769648Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = aceopacgaepdcelohobicpffbbejnfac
+2026-05-22T03:19:40.769834Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = air.com.starfall.more
+2026-05-22T03:19:40.769844Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.amazon.kindle
+2026-05-22T03:19:40.769852Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.audible.application
+2026-05-22T03:19:40.769860Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.brainpop.brainpopfeaturedmovieandroid
+2026-05-22T03:19:40.769868Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.brainpop.brainpopjuniorandroid
+2026-05-22T03:19:40.769876Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.cromna.alphabetsoupfree
+2026-05-22T03:19:40.769883Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.learninga_z.onyourown
+2026-05-22T03:19:40.769890Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.spellingcity.VocabularySpellingCity
+2026-05-22T03:19:40.769898Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.trello
+2026-05-22T03:19:40.769905Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.tynker.Tynker
+2026-05-22T03:19:40.769912Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = it.dotnext.magneticalphabet
+2026-05-22T03:19:40.769919Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = org.scratchjr.android
+2026-05-22T03:19:40.775211Z ERROR chrome[1365:1365]: [dbus/object_proxy.cc:572] Failed to call method: org.chromium.PowerManager.GetKeyboardBrightnessPercent: object_path= /org/chromium/PowerManager: org.freedesktop.DBus.Error.UnknownMethod: Method "GetKeyboardBrightnessPercent" with signature "" on interface "org.chromium.PowerManager" doesn't exist
+
+2026-05-22T03:19:40.775237Z ERROR chrome[1365:1365]: [ash/system/keyboard_brightness/keyboard_brightness_controller.cc:529] KeyboardBrightnessController: keyboard_brightness has no value, so cannot set prefs.
+2026-05-22T03:19:40.781465Z ERROR chrome[1365:1365]: [dbus/object_proxy.cc:572] Failed to call method: org.chromium.VmPluginDispatcher.ListVms: object_path= /org/chromium/VmPluginDispatcher: org.freedesktop.DBus.Error.ServiceUnknown: The name org.chromium.VmPluginDispatcher was not provided by any .service files
+2026-05-22T03:19:40.826887Z ERROR chrome[1365:1365]: [dbus/object_proxy.cc:572] Failed to call method: org.chromium.BiometricsDaemon.BiometricsManager.GetRecordsForUser: object_path= /org/chromium/BiometricsDaemon/CrosFpBiometricsManager: org.freedesktop.DBus.Error.ServiceUnknown: The name org.chromium.BiometricsDaemon was not provided by any .service files
+2026-05-22T03:19:40.833536Z ERROR chrome[1365:1365]: [chrome/browser/ash/login/quick_unlock/fingerprint_storage.cc:195] Get Records failure
+2026-05-22T03:19:40.844656Z ERROR chrome[4966:4969]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:40.849339Z ERROR chrome[4967:4977]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:40.883047Z ERROR chrome[4970:4998]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:40.935626Z INFO chrome[1365:1365]: [chrome/browser/nearby_sharing/nearby_share_logger.cc:21] Nearby Share logging initialized.
+2026-05-22T03:19:40.936004Z INFO chrome[1365:1365]: [chrome/browser/ash/multidevice_setup/multidevice_setup_client_factory.cc:133] NOT allowed by policy. Unable to return MultiDeviceSetupClientHolder, returning nullptr instead.
+2026-05-22T03:19:40.936023Z WARNING chrome[1365:1365]: [chrome/browser/ash/multidevice_setup/multidevice_setup_client_factory.cc:115] Missing MultiDeviceSetupClientHolder. Unable to return MultiDeviceSetupClient, returning nullptr instead.
+2026-05-22T03:19:40.940892Z WARNING chrome[1365:1365]: [chrome/browser/ash/smb_client/smb_service.cc:591] SmbService: NetBios discovery disabled.
+2026-05-22T03:19:41.001259Z ERROR chrome[5019:5023]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:41.031591Z ERROR chrome[5037:5040]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:41.157852Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:19:41.188815Z ERROR chrome[1365:1444]: [chrome/browser/ash/power/freezer_cgroup_process_manager.cc:130] Writing 4818 to /sys/fs/cgroup/freezer/ui/chrome_renderers/cgroup.procs failed: No such process (3)
+2026-05-22T03:19:41.269917Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:19:41.387027Z WARNING chrome[1365:1365]: [chrome/browser/browsing_data/chrome_browsing_data_remover_delegate.cc:1203] Failed to find user for current profile.
+2026-05-22T03:19:41.506584Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = aceopacgaepdcelohobicpffbbejnfac
+2026-05-22T03:19:41.506637Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = air.com.starfall.more
+2026-05-22T03:19:41.506655Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.amazon.kindle
+2026-05-22T03:19:41.506672Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.audible.application
+2026-05-22T03:19:41.506687Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.brainpop.brainpopfeaturedmovieandroid
+2026-05-22T03:19:41.506713Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.brainpop.brainpopjuniorandroid
+2026-05-22T03:19:41.506729Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.cromna.alphabetsoupfree
+2026-05-22T03:19:41.506744Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.learninga_z.onyourown
+2026-05-22T03:19:41.506773Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.spellingcity.VocabularySpellingCity
+2026-05-22T03:19:41.506790Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.trello
+2026-05-22T03:19:41.506805Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.tynker.Tynker
+2026-05-22T03:19:41.506820Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = it.dotnext.magneticalphabet
+2026-05-22T03:19:41.506836Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = org.scratchjr.android
+2026-05-22T03:19:41.507579Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = aceopacgaepdcelohobicpffbbejnfac
+2026-05-22T03:19:41.507611Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = air.com.starfall.more
+2026-05-22T03:19:41.507626Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.amazon.kindle
+2026-05-22T03:19:41.507642Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.audible.application
+2026-05-22T03:19:41.507657Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.brainpop.brainpopfeaturedmovieandroid
+2026-05-22T03:19:41.507671Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.brainpop.brainpopjuniorandroid
+2026-05-22T03:19:41.507686Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.cromna.alphabetsoupfree
+2026-05-22T03:19:41.507701Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.learninga_z.onyourown
+2026-05-22T03:19:41.507715Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.spellingcity.VocabularySpellingCity
+2026-05-22T03:19:41.507730Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.trello
+2026-05-22T03:19:41.508097Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.tynker.Tynker
+2026-05-22T03:19:41.508148Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = it.dotnext.magneticalphabet
+2026-05-22T03:19:41.508163Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = org.scratchjr.android
+2026-05-22T03:19:41.524887Z WARNING chrome[1365:1365]: [chrome/browser/ash/platform_keys/key_permissions/key_permissions_manager_impl.cc:83] Updating arc key permissions in chaps succeeded, 0 key(s) updated.
+2026-05-22T03:19:41.534546Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/arc/enterprise/cert_store/arc_cert_installer.cc:70] ArcCertInstaller::InstallArcCerts
+2026-05-22T03:19:41.534569Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/arc/enterprise/cert_store/cert_store_service.cc:573] ARC certificates installation has finished with result=1
+2026-05-22T03:19:41.592307Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/connection_handler_impl.cc:404] Received message of invalid type 84
+2026-05-22T03:19:41.592359Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -4
+2026-05-22T03:19:41.650288Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+2026-05-22T03:19:42.312317Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = aceopacgaepdcelohobicpffbbejnfac
+2026-05-22T03:19:42.312368Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = air.com.starfall.more
+2026-05-22T03:19:42.312387Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.amazon.kindle
+2026-05-22T03:19:42.312404Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.audible.application
+2026-05-22T03:19:42.312419Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.brainpop.brainpopfeaturedmovieandroid
+2026-05-22T03:19:42.312435Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.brainpop.brainpopjuniorandroid
+2026-05-22T03:19:42.312450Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.cromna.alphabetsoupfree
+2026-05-22T03:19:42.312465Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.learninga_z.onyourown
+2026-05-22T03:19:42.312480Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.spellingcity.VocabularySpellingCity
+2026-05-22T03:19:42.312495Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.trello
+2026-05-22T03:19:42.312511Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.tynker.Tynker
+2026-05-22T03:19:42.312526Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = it.dotnext.magneticalphabet
+2026-05-22T03:19:42.312541Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = org.scratchjr.android
+2026-05-22T03:19:42.335710Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = aceopacgaepdcelohobicpffbbejnfac
+2026-05-22T03:19:42.335772Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = air.com.starfall.more
+2026-05-22T03:19:42.335794Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.amazon.kindle
+2026-05-22T03:19:42.335812Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.audible.application
+2026-05-22T03:19:42.335828Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.brainpop.brainpopfeaturedmovieandroid
+2026-05-22T03:19:42.335855Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.brainpop.brainpopjuniorandroid
+2026-05-22T03:19:42.335873Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.cromna.alphabetsoupfree
+2026-05-22T03:19:42.335888Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.learninga_z.onyourown
+2026-05-22T03:19:42.335903Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.spellingcity.VocabularySpellingCity
+2026-05-22T03:19:42.335918Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.trello
+2026-05-22T03:19:42.335934Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.tynker.Tynker
+2026-05-22T03:19:42.335949Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = it.dotnext.magneticalphabet
+2026-05-22T03:19:42.335963Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = org.scratchjr.android
+2026-05-22T03:19:42.431212Z ERROR chrome[5216:5235]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:42.438038Z ERROR chrome[5222:5249]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:42.479149Z ERROR chrome[5264:5274]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:42.516601Z ERROR chrome[1365:1445]: [extensions/browser/content_verifier/content_verify_job.cc:494] Content verify job failed for extension: dakbfdmgjiabojdgbiljlhgjbokobjpg at path: espeak_offscreen.html and for reason:1
+2026-05-22T03:19:42.516638Z ERROR chrome[1365:1445]: [extensions/browser/content_verifier/content_verify_job.cc:494] Content verify job failed for extension: dakbfdmgjiabojdgbiljlhgjbokobjpg at path: constants.js and for reason:1
+2026-05-22T03:19:42.516650Z ERROR chrome[1365:1445]: [extensions/browser/content_verifier/content_verify_job.cc:494] Content verify job failed for extension: dakbfdmgjiabojdgbiljlhgjbokobjpg at path: espeak_offscreen.js and for reason:1
+2026-05-22T03:19:42.520492Z ERROR chrome[1365:1445]: [extensions/browser/content_verifier/content_verify_job.cc:494] Content verify job failed for extension: dakbfdmgjiabojdgbiljlhgjbokobjpg at path: js/espeakng.js and for reason:1
+2026-05-22T03:19:42.531344Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = aceopacgaepdcelohobicpffbbejnfac
+2026-05-22T03:19:42.531373Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = air.com.starfall.more
+2026-05-22T03:19:42.531382Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.amazon.kindle
+2026-05-22T03:19:42.531391Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.audible.application
+2026-05-22T03:19:42.531399Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.brainpop.brainpopfeaturedmovieandroid
+2026-05-22T03:19:42.531407Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.brainpop.brainpopjuniorandroid
+2026-05-22T03:19:42.531420Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.cromna.alphabetsoupfree
+2026-05-22T03:19:42.531428Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.learninga_z.onyourown
+2026-05-22T03:19:42.531435Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.spellingcity.VocabularySpellingCity
+2026-05-22T03:19:42.531443Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.trello
+2026-05-22T03:19:42.531450Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = com.tynker.Tynker
+2026-05-22T03:19:42.531458Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = it.dotnext.magneticalphabet
+2026-05-22T03:19:42.531465Z WARNING chrome[1365:1365]: [chrome/browser/ui/ash/shelf/chrome_shelf_prefs.cc:544] No matching app(s) found for |policy_entry| = org.scratchjr.android
+2026-05-22T03:19:42.531871Z WARNING chrome[1365:1365]: [chrome/browser/extensions/forced_extensions/force_installed_metrics.cc:571] Failed to install 5 forced extensions.
+2026-05-22T03:19:42.531916Z WARNING chrome[1365:1365]: [chrome/browser/extensions/forced_extensions/force_installed_metrics.cc:608] Forced extension cbpiiblghhnlalifiaddecedaeaijdpe failed to install with data=failure_reason: 25; install_stage: 2; downloading_stage: 2; no_update_info: 1
+2026-05-22T03:19:42.531932Z WARNING chrome[1365:1365]: [chrome/browser/extensions/forced_extensions/force_installed_metrics.cc:608] Forced extension fcnghgbgmemnlbckdipnmelbanpgneik failed to install with data=failure_reason: 25; install_stage: 2; downloading_stage: 2; no_update_info: 1
+2026-05-22T03:19:42.531944Z WARNING chrome[1365:1365]: [chrome/browser/extensions/forced_extensions/force_installed_metrics.cc:608] Forced extension hmbjbjdpkobdjplfobhljndfdfdipjhg failed to install with data=failure_reason: 25; install_stage: 2; downloading_stage: 2; no_update_info: 1
+2026-05-22T03:19:42.531953Z WARNING chrome[1365:1365]: [chrome/browser/extensions/forced_extensions/force_installed_metrics.cc:608] Forced extension mdmkkicfmmkgmpkmkdikhlbggogpicma failed to install with data=failure_reason: 25; install_stage: 2; downloading_stage: 2; no_update_info: 1
+2026-05-22T03:19:42.531961Z WARNING chrome[1365:1365]: [chrome/browser/extensions/forced_extensions/force_installed_metrics.cc:608] Forced extension pahdiadnidmaaoohjmlkcjffbfcapgko failed to install with data=failure_reason: 25; install_stage: 2; downloading_stage: 2; no_update_info: 1
+2026-05-22T03:19:42.591073Z ERROR chrome[1365:1445]: [extensions/browser/content_verifier/content_verify_job.cc:494] Content verify job failed for extension: dakbfdmgjiabojdgbiljlhgjbokobjpg at path: js/espeakng_worker.js and for reason:1
+2026-05-22T03:19:42.637206Z ERROR chrome[1365:1445]: [extensions/browser/content_verifier/content_verify_job.cc:494] Content verify job failed for extension: dakbfdmgjiabojdgbiljlhgjbokobjpg at path: js/espeakng_worker.data and for reason:1
+2026-05-22T03:19:42.650534Z ERROR chrome[1365:1445]: [extensions/browser/content_verifier/content_verify_job.cc:494] Content verify job failed for extension: dakbfdmgjiabojdgbiljlhgjbokobjpg at path: js/espeakng_worker.wasm and for reason:1
+2026-05-22T03:19:42.656992Z ERROR chrome[5331:5345]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:42.666107Z ERROR chrome[5328:5354]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:42.671319Z ERROR chrome[1365:1365]: [chrome/browser/ash/drive/drive_integration_service.cc:322] Drive mount status: kSuccess
+2026-05-22T03:19:42.766264Z ERROR chrome[1365:1445]: [extensions/browser/content_verifier/content_verify_job.cc:494] Content verify job failed for extension: gjjabgpgjpampikjhjpfhneeoapjbjaf at path: voices.json and for reason:1
+2026-05-22T03:19:42.769180Z WARNING chrome[1365:1365]: [extensions/browser/load_error_reporter.cc:73] Extension error: Text (extension ID "mmfbcljfglbokpmkimbfghdkjmjhdgbg") is blocked by the administrator. 
+2026-05-22T03:19:42.784389Z WARNING chrome[1365:1365]: [extensions/browser/load_error_reporter.cc:73] Extension error: Application Launcher For Drive (by Google) (extension ID "lmjegmlicamnimmfhcmpkclmigmmcbeh") is blocked by the administrator. 
+2026-05-22T03:19:42.812813Z ERROR chrome[5363:5386]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:43.002425Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language trk/ba (Bashkir) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.003071Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language zle/be (Belarusian) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.003121Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language iro/chr (Cherokee ) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.003156Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language sit/cmn-Latn-pinyin (Chinese (Mandarin, latin as Pinyin)) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.004368Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language trk/cv (Chuvash) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.004409Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language gmw/en-US-nyc (English (America, New York City)) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.009324Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language map/haw (Hawaiian) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.010635Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language sem/he (Hebrew) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.010725Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language art/io (Ido) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.010860Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language trk/kk (Kazakh) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.010901Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language gmw/lb (Luxembourgish) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.010928Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language bat/ltg (Latgalian) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.010977Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language miz/mto (Totontepec Mixe) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.011021Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language trk/nog (Nogai) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.011050Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language art/piqd (Klingon) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.011079Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language art/py (Pyash) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.011102Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language art/qdb (Lang Belta) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.011127Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language qu (Quechua) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.011165Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language myn/quc (K'iche') should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.011190Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language art/qya (Quenya) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.011216Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language zle/ru-cl (Russian (Classic)) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.011241Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language art/sjn (Sindarin) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.011273Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language urj/smj (Lule Saami) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.011297Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language tai/th (Thai) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.011312Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language trk/tk (Turkmen) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.011327Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language trk/ug (Uyghur) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.011343Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language zle/uk (Ukrainian) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.011363Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language trk/uz (Uzbek) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:43.011381Z ERROR chrome[1365:1365]: [CONSOLE:132] "Language sit/yue-Latn-jyutping (Chinese (Cantonese, latin as Jyutping)) should be handled in switch.", source: chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/language_defaults.js (132)
+2026-05-22T03:19:47.965042Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/app_restore/full_restore_service.cc:352] The full restore notification is closed for /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa
+2026-05-22T03:19:48.038960Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:19:48.043902Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:19:48.119161Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:19:48.128937Z ERROR chrome[5468:5472]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:48.129891Z ERROR chrome[5467:5475]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:48.142812Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:19:48.147243Z ERROR chrome[5470:5489]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:48.147796Z ERROR chrome[5469:5487]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:48.168086Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:19:48.329072Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:19:48.410407Z ERROR chrome[5512:5514]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:48.620934Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:19:48.630424Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:19:50.782832Z ERROR chrome[1365:1365]: [chrome/browser/ash/power/auto_screen_brightness/light_provider_mojo.cc:121] Target light sensor isn't available after timeout. Initialization failed.
+2026-05-22T03:19:50.783021Z ERROR chrome[1365:1365]: [chromeos/components/sensors/ash/sensor_hal_dispatcher.cc:213] Sensor HAL Client connection lost: 2
+2026-05-22T03:19:52.740464Z ERROR chrome[5542:5544]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:52.962931Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:19:52.967875Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:19:54.692922Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 13059051
+2026-05-22T03:19:54.693104Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 457785601
+2026-05-22T03:19:54.693130Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 559079338
+2026-05-22T03:19:54.693150Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 733108593
+2026-05-22T03:19:54.693168Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 858201813
+2026-05-22T03:19:54.693186Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1104477328
+2026-05-22T03:19:54.693203Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1235441726
+2026-05-22T03:19:54.693219Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1323480413
+2026-05-22T03:19:54.693238Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1398109417
+2026-05-22T03:19:54.693244Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1400656876
+2026-05-22T03:19:54.693248Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1579226582
+2026-05-22T03:19:54.693252Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1631258127
+2026-05-22T03:19:54.693256Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1736712483
+2026-05-22T03:19:54.693266Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1745445570
+2026-05-22T03:19:54.693270Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1793109273
+2026-05-22T03:19:54.693274Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1900920941
+2026-05-22T03:19:54.693277Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1909966793
+2026-05-22T03:19:54.693281Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1925021599
+2026-05-22T03:19:54.693285Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2142747128
+2026-05-22T03:19:54.693289Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2187350548
+2026-05-22T03:19:54.693293Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2260213137
+2026-05-22T03:19:54.693297Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2260818228
+2026-05-22T03:19:54.693300Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2466215579
+2026-05-22T03:19:54.693304Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2567716200
+2026-05-22T03:19:54.693308Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2596650905
+2026-05-22T03:19:54.693311Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2629264519
+2026-05-22T03:19:54.693315Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2722460348
+2026-05-22T03:19:54.693318Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2928374096
+2026-05-22T03:19:54.693322Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3120525362
+2026-05-22T03:19:54.693325Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3129925455
+2026-05-22T03:19:54.693331Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3162947791
+2026-05-22T03:19:54.693335Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3164045933
+2026-05-22T03:19:54.693338Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3189309105
+2026-05-22T03:19:54.693341Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3189316647
+2026-05-22T03:19:54.693345Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3209973736
+2026-05-22T03:19:54.693348Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3246905546
+2026-05-22T03:19:54.693352Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3316181760
+2026-05-22T03:19:54.693356Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3442880293
+2026-05-22T03:19:54.693359Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3867987773
+2026-05-22T03:19:54.693363Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3881943737
+2026-05-22T03:19:54.693367Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3961480405
+2026-05-22T03:19:54.693373Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 4132967467
+2026-05-22T03:19:54.693377Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 4155569757
+2026-05-22T03:19:54.924424Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 13059051
+2026-05-22T03:19:54.924481Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 457785601
+2026-05-22T03:19:54.924492Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 559079338
+2026-05-22T03:19:54.924500Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 733108593
+2026-05-22T03:19:54.924509Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 858201813
+2026-05-22T03:19:54.924516Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1104477328
+2026-05-22T03:19:54.924524Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1235441726
+2026-05-22T03:19:54.924532Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1323480413
+2026-05-22T03:19:54.924539Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1398109417
+2026-05-22T03:19:54.924546Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1400656876
+2026-05-22T03:19:54.924554Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1579226582
+2026-05-22T03:19:54.924561Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1631258127
+2026-05-22T03:19:54.924569Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1736712483
+2026-05-22T03:19:54.924577Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1745445570
+2026-05-22T03:19:54.924584Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1793109273
+2026-05-22T03:19:54.924592Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1900920941
+2026-05-22T03:19:54.924599Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1909966793
+2026-05-22T03:19:54.924607Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1925021599
+2026-05-22T03:19:54.924616Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2142747128
+2026-05-22T03:19:54.924623Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2187350548
+2026-05-22T03:19:54.924631Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2260213137
+2026-05-22T03:19:54.924638Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2260818228
+2026-05-22T03:19:54.924645Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2466215579
+2026-05-22T03:19:54.924652Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2567716200
+2026-05-22T03:19:54.924660Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2596650905
+2026-05-22T03:19:54.924679Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2629264519
+2026-05-22T03:19:54.924688Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2722460348
+2026-05-22T03:19:54.924696Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2928374096
+2026-05-22T03:19:54.924704Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3120525362
+2026-05-22T03:19:54.924712Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3129925455
+2026-05-22T03:19:54.924720Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3162947791
+2026-05-22T03:19:54.924729Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3164045933
+2026-05-22T03:19:54.924737Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3189309105
+2026-05-22T03:19:54.924755Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3189316647
+2026-05-22T03:19:54.924773Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3209973736
+2026-05-22T03:19:54.924782Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3246905546
+2026-05-22T03:19:54.924790Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3316181760
+2026-05-22T03:19:54.924799Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3442880293
+2026-05-22T03:19:54.924807Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3867987773
+2026-05-22T03:19:54.924815Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3881943737
+2026-05-22T03:19:54.924823Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3961480405
+2026-05-22T03:19:54.924830Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 4132967467
+2026-05-22T03:19:54.924837Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 4155569757
+2026-05-22T03:19:58.481245Z VERBOSE1 chrome[1365:1365]: [chrome/browser/ash/app_restore/full_restore_service.cc:352] The full restore notification is closed for /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa
+2026-05-22T03:19:58.513983Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:19:58.517827Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:19:58.545103Z ERROR chrome[5575:5577]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:19:58.738436Z WARNING chrome[1365:1365]: [CONSOLE:2720] "Files app starting up: full-page", source: chrome://file-manager/foreground/js/main.js (2720)
+2026-05-22T03:19:58.753284Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:19:58.757907Z WARNING chrome[1365:1365]: [CONSOLE:314] "Getting volumes", source: chrome://file-manager/foreground/js/main.js (314)
+2026-05-22T03:19:58.763585Z WARNING chrome[1365:1365]: [CONSOLE:314] "Queued the initialization of all 6 volumes", source: chrome://file-manager/foreground/js/main.js (314)
+2026-05-22T03:19:58.766208Z WARNING chrome[1365:1365]: [CONSOLE:314] "Volumes initialization finished", source: chrome://file-manager/foreground/js/main.js (314)
+2026-05-22T03:19:58.890863Z WARNING chrome[1365:1365]: [CONSOLE:2720] "Files app has started", source: chrome://file-manager/foreground/js/main.js (2720)
+2026-05-22T03:20:04.738518Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/connection_handler_impl.cc:404] Received message of invalid type 84
+2026-05-22T03:20:04.738605Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -4
+2026-05-22T03:20:08.325616Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:20:09.721889Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+2026-05-22T03:20:10.653590Z INFO chrome[1365:1443]: [chrome/browser/extensions/extension_garbage_collector.cc:188] Garbage collection for extensions on file thread is complete.
+2026-05-22T03:20:10.654569Z INFO chrome[1365:1443]: [chrome/browser/extensions/extension_garbage_collector.cc:188] Garbage collection for extensions on file thread is complete.
+2026-05-22T03:20:14.449959Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:20:14.511401Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:20:15.855809Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:20:18.924831Z WARNING chrome[1365:1365]: [chromeos/ash/components/system/statistics_provider_impl.cc:274] Unhandled statistic is recorded: tpm_kernver
+2026-05-22T03:20:18.979183Z INFO chrome[1365:1365]: [chrome/browser/ash/policy/uploading/status_uploader.cc:219] Starting status upload: has_device_status = 1
+2026-05-22T03:20:19.202286Z ERROR chrome[6052:6054]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:20:19.221578Z ERROR chrome[6063:6065]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:20:19.334646Z INFO chrome[1365:1365]: [chrome/browser/ash/policy/uploading/status_uploader.cc:241] Status upload successful
+2026-05-22T03:20:19.470014Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:20:19.486141Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:20:19.542166Z ERROR chrome[6081:6083]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:20:19.624093Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:20:19.633844Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:20:27.362863Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:20:27.369952Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:20:27.403330Z ERROR chrome[6117:6119]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:20:27.623474Z ERROR chrome[6137:6140]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:20:28.420414Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:20:28.453425Z ERROR chrome[6160:6162]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:20:28.465704Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:20:28.477321Z VERBOSE1 chrome[1365:1365]: [ash/metrics/ui_metrics_recorder.cc:276] Ash event latency is longer than usual, type=MouseMoved, latency= 558 ms
+2026-05-22T03:20:32.525692Z ERROR chrome[6254:6256]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:20:34.133903Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:20:34.205709Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:20:35.682646Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:20:36.968925Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:20:37.182509Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:20:37.801289Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:20:38.226395Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+2026-05-22T03:20:38.268935Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:20:38.326601Z ERROR chrome[6359:6361]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:20:38.328206Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:20:38.337879Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:20:38.380299Z ERROR chrome[1365:1365]: [components/policy/core/browser/policy_conversions_client.cc:308] DeveloperToolsDisabled has an error of type: Ignored because it was overridden by DeveloperToolsAvailability.
+2026-05-22T03:20:38.380405Z ERROR chrome[1365:1365]: [components/policy/core/browser/policy_conversions_client.cc:308] ExtensionInstallAllowlist has an error of type: Error at ExtensionInstallAllowlist[0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0]: Value doesn't match format.
+2026-05-22T03:20:38.380417Z ERROR chrome[1365:1365]: [components/policy/core/browser/policy_conversions_client.cc:308] ExtensionInstallForcelist has an error of type: Error at ExtensionInstallForcelist[15]: Invalid extension ID.
+2026-05-22T03:20:38.465699Z WARNING chrome[1365:1365]: [components/policy/core/common/cloud/device_management_service.cc:640] Request of type DeterminePromotionEligibility failed (response_code = DeviceManagementNotAllowed (403)).
+2026-05-22T03:20:38.465740Z WARNING chrome[1365:1365]: [components/policy/core/common/cloud/dmserver_job_configurations.cc:349] DMServer sent an error response: 403. 
+2026-05-22T03:20:41.125601Z INFO chrome[1365:1443]: [rlz/lib/rlz_lib.cc:442] Attempting to send RLZ ping brand=PNTQ
+2026-05-22T03:20:41.256384Z INFO chrome[1365:1443]: [rlz/lib/rlz_lib.cc:451] Succeeded in sending RLZ ping
+2026-05-22T03:20:47.329091Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/connection_handler_impl.cc:404] Received message of invalid type 84
+2026-05-22T03:20:47.329140Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -4
+2026-05-22T03:20:59.324825Z WARNING chrome[1365:1365]: [components/policy/core/common/cloud/device_management_service.cc:99] Got bad mime-type in response from dmserver that was fetched via a proxy.
+2026-05-22T03:20:59.324860Z WARNING chrome[1365:1365]: [components/policy/core/common/cloud/device_management_service.cc:601] Request of type UploadEncryptedReport failed (net_error = net::OK (0), response_code = Success( 200)), retrying in 0ms.
+2026-05-22T03:21:03.488718Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+2026-05-22T03:22:00.777478Z ERROR chrome[7050:7052]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:22:03.855662Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+2026-05-22T03:22:05.880296Z ERROR chrome[7086:7092]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:22:05.901946Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:22:05.908903Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:22:05.911566Z ERROR chrome[7098:7102]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:22:05.982098Z ERROR chrome[7122:7130]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:22:05.995541Z ERROR chrome[7128:7137]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:22:29.246350Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/connection_handler_impl.cc:404] Received message of invalid type 84
+2026-05-22T03:22:29.246475Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -4
+2026-05-22T03:22:31.903091Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:22:31.908866Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:22:31.929206Z ERROR chrome[7239:7241]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:22:32.126817Z ERROR chrome[7259:7261]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:22:32.232067Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:32.292776Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:32.435878Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:22:32.440794Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:22:32.682584Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:32.752163Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:33.127314Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:34.336908Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:34.474322Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:34.678619Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:35.180848Z WARNING chrome[1483:1503]: [net/spdy/spdy_session.cc:3093] Received HEADERS for invalid stream 11
+2026-05-22T03:22:36.657014Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:22:36.685266Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:22:36.764583Z ERROR chrome[7289:7292]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:22:36.888943Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:22:37.700398Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:38.346192Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:40.135724Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:40.264105Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:40.340994Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:40.462486Z WARNING chrome[1483:1503]: [net/spdy/spdy_session.cc:3093] Received HEADERS for invalid stream 37
+2026-05-22T03:22:40.580509Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:40.781671Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:41.215070Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:41.298118Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:41.365726Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:41.743833Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:41.844122Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:41.962869Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:42.032740Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:42.279797Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:22:42.323187Z ERROR chrome[7314:7316]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:22:42.664966Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:22:42.675937Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:22:42.709974Z ERROR chrome[7331:7334]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:22:46.794048Z ERROR chrome[7366:7370]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:22:46.796949Z ERROR chrome[7367:7372]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:22:52.108483Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+2026-05-22T03:23:41.016653Z WARNING chrome[1365:1365]: [components/policy/core/common/cloud/device_management_service.cc:99] Got bad mime-type in response from dmserver that was fetched via a proxy.
+2026-05-22T03:23:41.016715Z WARNING chrome[1365:1365]: [components/policy/core/common/cloud/device_management_service.cc:601] Request of type UploadEncryptedReport failed (net_error = net::OK (0), response_code = Success( 200)), retrying in 0ms.
+2026-05-22T03:23:41.017620Z WARNING chrome[1365:1365]: [components/policy/core/common/cloud/device_management_service.cc:99] Got bad mime-type in response from dmserver that was fetched via a proxy.
+2026-05-22T03:23:41.017657Z WARNING chrome[1365:1365]: [components/policy/core/common/cloud/device_management_service.cc:601] Request of type UploadEncryptedReport failed (net_error = net::OK (0), response_code = Success( 200)), retrying in 0ms.
+2026-05-22T03:23:47.780623Z ERROR chrome[7512:7514]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:24:11.674935Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:24:11.685920Z ERROR chrome[7549:7556]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:24:11.696898Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:24:11.721928Z ERROR chrome[7567:7569]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:24:11.734951Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:24:11.743627Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:24:11.790968Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:24:11.792227Z ERROR chrome[7586:7588]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:24:11.800886Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:25:33.032685Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/connection_handler_impl.cc:404] Received message of invalid type 84
+2026-05-22T03:25:33.032843Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -4
+2026-05-22T03:26:01.617705Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+2026-05-22T03:26:11.532218Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+2026-05-22T03:27:17.020335Z ERROR chrome[8064:8066]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:27:20.339823Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:27:20.348040Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:27:20.384395Z ERROR chrome[8146:8152]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:27:20.403431Z ERROR chrome[8158:8160]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:27:20.477909Z ERROR chrome[8178:8181]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:27:20.626703Z ERROR chrome[8197:8199]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:27:20.725859Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:27:20.786515Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:27:20.853988Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:27:20.863977Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:27:23.558193Z WARNING chrome[1483:1503]: [net/spdy/spdy_session.cc:3093] Received HEADERS for invalid stream 7
+2026-05-22T03:27:23.853478Z WARNING chrome[1483:1503]: [net/spdy/spdy_session.cc:3093] Received HEADERS for invalid stream 9
+2026-05-22T03:27:24.964459Z ERROR chrome[8227:8229]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:27:25.235309Z ERROR chrome[8245:8247]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:27:25.356432Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:27:25.815360Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:27:25.866857Z ERROR chrome[8264:8267]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:27:25.870869Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:27:25.881856Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:27:25.911235Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:27:58.217194Z ERROR chrome[8325:8328]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:27:58.261661Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:27:58.269840Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:27:58.271998Z ERROR chrome[8341:8349]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:27:58.302944Z ERROR chrome[8362:8369]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:27:58.325379Z ERROR chrome[8375:8377]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:28:00.674802Z ERROR chrome[8392:8394]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:28:00.677878Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:28:00.687099Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:28:00.728631Z ERROR chrome[8410:8412]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:28:00.729573Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:28:05.911230Z ERROR chrome[8432:8434]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:28:05.918282Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:28:05.923864Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:28:12.105007Z ERROR chrome[8455:8459]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:28:12.110598Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:28:12.117941Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:28:12.145468Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:28:22.580674Z ERROR chrome[1365:1365]: [chrome/browser/ash/arc/intent_helper/arc_intent_helper_mojo_ash.cc:74] Failed to get instance for RequestUrlHandlerList().
+2026-05-22T03:28:23.927947Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:28:23.934036Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:28:23.979548Z ERROR chrome[8557:8559]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:28:24.017844Z ERROR chrome[8576:8579]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:28:27.989381Z ERROR chrome[8606:8608]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:28:30.045963Z ERROR chrome[1365:1365]: [chrome/browser/ash/arc/intent_helper/arc_intent_helper_mojo_ash.cc:74] Failed to get instance for RequestUrlHandlerList().
+2026-05-22T03:28:31.662371Z ERROR chrome[8625:8627]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:28:37.204907Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:28:37.216112Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:28:38.933962Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:28:41.110969Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:29:10.531335Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:29:10.545860Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:29:10.583704Z ERROR chrome[8691:8698]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:29:10.595665Z ERROR chrome[8696:8705]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:29:10.639068Z ERROR chrome[8712:8721]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:29:10.686852Z ERROR chrome[8733:8735]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:29:10.714315Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:29:10.786169Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:29:10.861567Z ERROR chrome[8758:8760]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:29:11.046467Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:29:11.053874Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:29:12.846795Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:29:13.425819Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:29:13.531185Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:29:14.075126Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:29:14.122336Z ERROR chrome[8785:8787]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:29:14.135065Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:29:14.148940Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:29:14.275349Z ERROR chrome[1365:1365]: [components/device_event_log/device_event_log_impl.cc:202] [22:29:14.275] Network: cros_network_config.cc:3464 RequestTrafficCounters failure: traffic counters handler not initialized while requesting traffic counters for network guid 509a6bee-2600-4c02-aad7-3ed0374c3484
+2026-05-22T03:29:17.916502Z ERROR chrome[1365:1443]: [components/feedback/feedback_util.cc:135] Failed to open file /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa/google-assistant-library/log/libassistant.log: No such file or directory (2)
+2026-05-22T03:29:17.917346Z ERROR chrome[1365:1443]: [components/feedback/feedback_util.cc:135] Failed to open file /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa/logout-times: No such file or directory (2)
+2026-05-22T03:29:54.431214Z ERROR chrome[9664:9666]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:29:54.434059Z ERROR chrome[9663:9673]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:30:23.237385Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:30:23.251873Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:30:23.292705Z ERROR chrome[9789:9795]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:30:23.302402Z ERROR chrome[9793:9803]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:30:23.360292Z ERROR chrome[9820:9823]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:30:23.523726Z ERROR chrome[9839:9841]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:30:23.630258Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:30:23.687479Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:30:23.755116Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:30:23.770937Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:30:23.795853Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:30:25.239693Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:30:25.290185Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:30:26.234862Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:30:26.387730Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:30:26.506032Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:30:26.577866Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:30:26.747414Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:30:26.834849Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:30:27.002540Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:30:27.051641Z ERROR chrome[9868:9876]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:30:27.084211Z ERROR chrome[9887:9889]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:30:27.208951Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:30:27.611863Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:30:27.621986Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:30:27.650841Z ERROR chrome[9904:9906]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:30:29.725182Z VERBOSE1 chrome[1365:1365]: [ash/public/cpp/metrics_util.cc:74] Ash system animation takes longer than usual, duration= 2712 ms
+2026-05-22T03:30:29.759881Z ERROR chrome[9924:9926]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:30:30.138141Z ERROR chrome[9942:9944]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:30:30.771978Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:30:30.777879Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:31:00.893344Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:31:09.968796Z ERROR chrome[10011:10013]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:32:07.532085Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:32:07.545986Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:32:07.550554Z ERROR chrome[10148:10151]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:32:07.600342Z ERROR chrome[10173:10180]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:32:07.604544Z ERROR chrome[10178:10187]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:32:07.755045Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:32:08.534136Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:32:08.545901Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:32:08.553080Z ERROR chrome[10203:10205]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:32:08.857319Z ERROR chrome[10222:10224]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:32:08.904914Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:32:08.911841Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:32:08.936683Z ERROR chrome[1365:1365]: [components/webapps/browser/web_contents/web_app_url_loader.cc:140] Error loading https://mail.google.com/chat/download?usp=chrome_preinstall_update  page redirected to https://access.workspace.google.com/ServiceNotAllowed?application=216932279217&source=scrip&continue=https://mail.google.com/chat/download?usp%3Dchrome_preinstall_update&pli=1
+2026-05-22T03:32:29.244769Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 13059051
+2026-05-22T03:32:29.244845Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 457785601
+2026-05-22T03:32:29.244871Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 559079338
+2026-05-22T03:32:29.244885Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 733108593
+2026-05-22T03:32:29.244893Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 858201813
+2026-05-22T03:32:29.244901Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1104477328
+2026-05-22T03:32:29.244908Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1235441726
+2026-05-22T03:32:29.244915Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1323480413
+2026-05-22T03:32:29.244922Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1398109417
+2026-05-22T03:32:29.244929Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1400656876
+2026-05-22T03:32:29.244936Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1579226582
+2026-05-22T03:32:29.244944Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1631258127
+2026-05-22T03:32:29.244951Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1736712483
+2026-05-22T03:32:29.244957Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1745445570
+2026-05-22T03:32:29.244964Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1793109273
+2026-05-22T03:32:29.244971Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1900920941
+2026-05-22T03:32:29.244978Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1909966793
+2026-05-22T03:32:29.244986Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1925021599
+2026-05-22T03:32:29.244994Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2142747128
+2026-05-22T03:32:29.245001Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2187350548
+2026-05-22T03:32:29.245008Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2260213137
+2026-05-22T03:32:29.245015Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2260818228
+2026-05-22T03:32:29.245021Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2466215579
+2026-05-22T03:32:29.245028Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2567716200
+2026-05-22T03:32:29.245035Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2596650905
+2026-05-22T03:32:29.245042Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2629264519
+2026-05-22T03:32:29.245048Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2722460348
+2026-05-22T03:32:29.245055Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2928374096
+2026-05-22T03:32:29.245061Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3120525362
+2026-05-22T03:32:29.245072Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3129925455
+2026-05-22T03:32:29.245079Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3162947791
+2026-05-22T03:32:29.245085Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3164045933
+2026-05-22T03:32:29.245091Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3189309105
+2026-05-22T03:32:29.245098Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3189316647
+2026-05-22T03:32:29.245104Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3209973736
+2026-05-22T03:32:29.245110Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3246905546
+2026-05-22T03:32:29.245117Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3316181760
+2026-05-22T03:32:29.245123Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3442880293
+2026-05-22T03:32:29.245130Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3867987773
+2026-05-22T03:32:29.245136Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3881943737
+2026-05-22T03:32:29.245143Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3961480405
+2026-05-22T03:32:29.245149Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 4132967467
+2026-05-22T03:32:29.245155Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 4155569757
+2026-05-22T03:32:32.177823Z ERROR chrome[10333:10336]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:32:32.183957Z ERROR chrome[10334:10343]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:32:33.335393Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+2026-05-22T03:32:35.422599Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 13059051
+2026-05-22T03:32:35.422637Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 457785601
+2026-05-22T03:32:35.422644Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 559079338
+2026-05-22T03:32:35.422649Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 733108593
+2026-05-22T03:32:35.422653Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 858201813
+2026-05-22T03:32:35.422657Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1104477328
+2026-05-22T03:32:35.422661Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1235441726
+2026-05-22T03:32:35.422665Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1323480413
+2026-05-22T03:32:35.422668Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1398109417
+2026-05-22T03:32:35.422672Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1400656876
+2026-05-22T03:32:35.422684Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1579226582
+2026-05-22T03:32:35.422688Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1631258127
+2026-05-22T03:32:35.422692Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1736712483
+2026-05-22T03:32:35.422696Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1745445570
+2026-05-22T03:32:35.422700Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1793109273
+2026-05-22T03:32:35.422704Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1900920941
+2026-05-22T03:32:35.422707Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1909966793
+2026-05-22T03:32:35.422711Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 1925021599
+2026-05-22T03:32:35.422716Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2142747128
+2026-05-22T03:32:35.422720Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2187350548
+2026-05-22T03:32:35.422724Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2260213137
+2026-05-22T03:32:35.422728Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2260818228
+2026-05-22T03:32:35.422732Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2466215579
+2026-05-22T03:32:35.422735Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2567716200
+2026-05-22T03:32:35.422739Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2596650905
+2026-05-22T03:32:35.422743Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2629264519
+2026-05-22T03:32:35.422755Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2722460348
+2026-05-22T03:32:35.422760Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 2928374096
+2026-05-22T03:32:35.422763Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3120525362
+2026-05-22T03:32:35.422767Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3129925455
+2026-05-22T03:32:35.422770Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3162947791
+2026-05-22T03:32:35.422774Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3164045933
+2026-05-22T03:32:35.422778Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3189309105
+2026-05-22T03:32:35.422781Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3189316647
+2026-05-22T03:32:35.422785Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3209973736
+2026-05-22T03:32:35.422788Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3246905546
+2026-05-22T03:32:35.422792Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3316181760
+2026-05-22T03:32:35.422799Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3442880293
+2026-05-22T03:32:35.422803Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3867987773
+2026-05-22T03:32:35.422807Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3881943737
+2026-05-22T03:32:35.422812Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 3961480405
+2026-05-22T03:32:35.422817Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 4132967467
+2026-05-22T03:32:35.422820Z WARNING chrome[1481:1481]: [cc/paint/skottie_wrapper_impl.cc:131] Encountered unknown property node with hash: 4155569757
+2026-05-22T03:32:38.948909Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:33:08.108518Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/connection_handler_impl.cc:404] Received message of invalid type 84
+2026-05-22T03:33:08.108625Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/connection_factory_impl.cc:483] ConnectionHandler failed with net error: -4
+2026-05-22T03:33:17.957820Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:33:17.967132Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:33:18.011287Z ERROR chrome[10490:10492]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:33:18.048202Z ERROR chrome[10498:10501]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:33:18.079223Z ERROR chrome[10511:10513]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:33:18.279603Z ERROR chrome[10530:10532]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:33:18.484063Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:33:18.491871Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:33:18.626153Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:33:18.683180Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:33:18.813786Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:33:19.322062Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:33:19.710372Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:33:19.750712Z ERROR chrome[10556:10558]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:33:19.911819Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:33:19.920312Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:33:20.050078Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:33:20.297851Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:33:21.582783Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:33:23.701194Z WARNING chrome[1365:1365]: [chrome/browser/media/prefs/capture_device_ranking.h:255] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+2026-05-22T03:33:23.701237Z WARNING chrome[1365:1365]: [chrome/browser/media/prefs/capture_device_ranking.h:255] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+2026-05-22T03:33:24.158229Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:33:24.406967Z ERROR chrome[10584:10586]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:33:24.967118Z VERBOSE1 chrome[1365:1365]: [ash/public/cpp/metrics_util.cc:74] Ash system animation takes longer than usual, duration= 5249 ms
+2026-05-22T03:33:38.601995Z WARNING chrome[1365:1365]: [chrome/browser/media/prefs/capture_device_ranking.h:255] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+2026-05-22T03:33:38.602033Z WARNING chrome[1365:1365]: [chrome/browser/media/prefs/capture_device_ranking.h:255] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+2026-05-22T03:34:08.587688Z ERROR chrome[1365:1445]: [google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+2026-05-22T03:34:09.932015Z ERROR chrome[10650:10652]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:34:10.465415Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:34:10.474993Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:34:10.534651Z ERROR chrome[10684:10690]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:34:10.547150Z ERROR chrome[10688:10698]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:34:10.570220Z ERROR chrome[10701:10707]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:34:10.719458Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:34:10.741683Z ERROR chrome[10724:10726]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:34:10.786772Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:34:11.048943Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:34:11.056847Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:34:11.363107Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:34:11.830795Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:34:13.678717Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:34:13.878635Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:34:14.372269Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:34:14.415519Z ERROR chrome[10752:10754]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:34:14.433183Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:34:14.438322Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:34:47.917861Z ERROR chrome[10877:10879]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:34:47.947095Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:34:47.955958Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:34:48.007480Z ERROR chrome[10906:10909]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:34:48.012018Z ERROR chrome[10907:10916]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:35:20.207744Z ERROR chrome[11032:11034]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:35:20.227358Z ERROR chrome[11042:11046]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:36:08.612993Z ERROR chrome[11131:11134]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:36:08.615009Z ERROR chrome[11132:11136]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:37:22.602762Z ERROR chrome[11355:11357]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:37:57.642575Z ERROR chrome[11415:11417]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:38:01.085868Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:38:01.099015Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:38:01.133514Z ERROR chrome[11449:11455]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:38:01.148757Z ERROR chrome[11464:11473]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:38:01.179847Z ERROR chrome[11480:11482]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:38:01.291646Z ERROR chrome[11499:11501]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:38:01.291980Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:38:01.297855Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:38:01.399202Z WARNING chrome[1365:1365]: [chrome/browser/apps/app_service/metrics/app_platform_metrics.cc:560] Couldn't get Borealis ID for UNREGISTERED app ceoplblcdaffnnflkkcagjpomjgedmdl
+2026-05-22T03:38:01.444162Z ERROR chrome[1365:1365]: [components/device_event_log/device_event_log_impl.cc:202] [22:38:01.444] Network: cros_network_config.cc:3464 RequestTrafficCounters failure: traffic counters handler not initialized while requesting traffic counters for network guid 509a6bee-2600-4c02-aad7-3ed0374c3484
+2026-05-22T03:38:05.086799Z ERROR chrome[1365:1443]: [components/feedback/feedback_util.cc:135] Failed to open file /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa/google-assistant-library/log/libassistant.log: No such file or directory (2)
+2026-05-22T03:38:05.087820Z ERROR chrome[1365:1443]: [components/feedback/feedback_util.cc:135] Failed to open file /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa/logout-times: No such file or directory (2)
+2026-05-22T03:38:07.212482Z ERROR chrome[12352:12354]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:38:29.105881Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:38:29.111896Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:38:29.142328Z ERROR chrome[12456:12459]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:38:29.288083Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:38:29.289733Z ERROR chrome[12476:12479]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:38:29.310829Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:38:29.393899Z WARNING chrome[1365:1365]: [chrome/browser/apps/app_service/metrics/app_platform_metrics.cc:560] Couldn't get Borealis ID for UNREGISTERED app ceoplblcdaffnnflkkcagjpomjgedmdl
+2026-05-22T03:38:29.431286Z ERROR chrome[1365:1365]: [components/device_event_log/device_event_log_impl.cc:202] [22:38:29.431] Network: cros_network_config.cc:3464 RequestTrafficCounters failure: traffic counters handler not initialized while requesting traffic counters for network guid 509a6bee-2600-4c02-aad7-3ed0374c3484
+2026-05-22T03:38:33.013424Z ERROR chrome[1365:1443]: [components/feedback/feedback_util.cc:135] Failed to open file /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa/google-assistant-library/log/libassistant.log: No such file or directory (2)
+2026-05-22T03:38:33.014378Z ERROR chrome[1365:1443]: [components/feedback/feedback_util.cc:135] Failed to open file /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa/logout-times: No such file or directory (2)
+2026-05-22T03:38:39.177138Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:38:39.185939Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:38:39.213661Z ERROR chrome[13312:13314]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:38:39.373968Z WARNING chrome[1365:1365]: [chrome/browser/apps/app_service/metrics/app_platform_metrics.cc:560] Couldn't get Borealis ID for UNREGISTERED app ceoplblcdaffnnflkkcagjpomjgedmdl
+2026-05-22T03:38:39.389205Z ERROR chrome[1365:1365]: [components/device_event_log/device_event_log_impl.cc:202] [22:38:39.389] Network: cros_network_config.cc:3464 RequestTrafficCounters failure: traffic counters handler not initialized while requesting traffic counters for network guid 509a6bee-2600-4c02-aad7-3ed0374c3484
+2026-05-22T03:38:43.093297Z ERROR chrome[1365:1443]: [components/feedback/feedback_util.cc:135] Failed to open file /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa/google-assistant-library/log/libassistant.log: No such file or directory (2)
+2026-05-22T03:38:43.094395Z ERROR chrome[1365:1443]: [components/feedback/feedback_util.cc:135] Failed to open file /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa/logout-times: No such file or directory (2)
+2026-05-22T03:38:43.222830Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:38:43.231446Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:38:43.253418Z ERROR chrome[14147:14149]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:38:50.541477Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:38:50.546881Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:38:50.563981Z ERROR chrome[14176:14178]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:38:51.706050Z WARNING chrome[1365:1365]: [chrome/browser/media/prefs/capture_device_ranking.h:255] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+2026-05-22T03:38:51.706099Z WARNING chrome[1365:1365]: [chrome/browser/media/prefs/capture_device_ranking.h:255] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+2026-05-22T03:38:51.771589Z ERROR chrome[14197:14199]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:38:52.127975Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:38:52.139899Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:38:53.000942Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:38:53.106322Z ERROR chrome[14222:14224]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:39:18.212890Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:39:18.224852Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:39:18.243369Z ERROR chrome[14294:14296]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:39:18.436889Z VERBOSE1 chrome[1365:1365]: [ash/public/cpp/metrics_util.cc:74] Ash system animation takes longer than usual, duration= 27909 ms
+2026-05-22T03:39:18.440620Z ERROR chrome[14324:14334]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:39:18.511785Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:39:18.568625Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:39:18.707763Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:39:18.717839Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:39:20.366664Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:39:20.480733Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:39:20.907812Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:39:22.105328Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:39:22.229918Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:39:22.232920Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:39:22.262901Z ERROR chrome[14439:14441]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:39:22.399667Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:39:22.406080Z ERROR chrome[14457:14462]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:39:22.408658Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:39:22.500417Z WARNING chrome[1365:1365]: [chrome/browser/apps/app_service/metrics/app_platform_metrics.cc:560] Couldn't get Borealis ID for UNREGISTERED app ceoplblcdaffnnflkkcagjpomjgedmdl
+2026-05-22T03:39:22.550217Z ERROR chrome[1365:1365]: [components/device_event_log/device_event_log_impl.cc:202] [22:39:22.550] Network: cros_network_config.cc:3464 RequestTrafficCounters failure: traffic counters handler not initialized while requesting traffic counters for network guid 509a6bee-2600-4c02-aad7-3ed0374c3484
+2026-05-22T03:39:22.577121Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:39:23.796939Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:39:26.392530Z ERROR chrome[1365:1443]: [components/feedback/feedback_util.cc:135] Failed to open file /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa/google-assistant-library/log/libassistant.log: No such file or directory (2)
+2026-05-22T03:39:26.393425Z ERROR chrome[1365:1443]: [components/feedback/feedback_util.cc:135] Failed to open file /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa/logout-times: No such file or directory (2)
+2026-05-22T03:39:36.938492Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:39:36.997060Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:39:37.202579Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:39:38.857921Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:39:39.348827Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:39:39.401926Z ERROR chrome[15302:15304]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:39:39.415853Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:39:39.421041Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:39:39.580052Z ERROR chrome[1365:1365]: [components/device_event_log/device_event_log_impl.cc:202] [22:39:39.579] Network: cros_network_config.cc:3464 RequestTrafficCounters failure: traffic counters handler not initialized while requesting traffic counters for network guid 509a6bee-2600-4c02-aad7-3ed0374c3484
+2026-05-22T03:39:42.406031Z ERROR chrome[1365:1443]: [components/feedback/feedback_util.cc:135] Failed to open file /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa/google-assistant-library/log/libassistant.log: No such file or directory (2)
+2026-05-22T03:39:42.406777Z ERROR chrome[1365:1443]: [components/feedback/feedback_util.cc:135] Failed to open file /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa/logout-times: No such file or directory (2)
+2026-05-22T03:40:55.560962Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:40:55.564888Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:40:55.636080Z ERROR chrome[16211:16215]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:40:55.650488Z ERROR chrome[16213:16222]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:40:55.666203Z ERROR chrome[16212:16230]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:40:55.727743Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:40:55.783938Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:40:55.857667Z ERROR chrome[16247:16256]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:40:56.067833Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:40:56.075947Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:40:56.174356Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:40:56.365307Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:40:58.426621Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:40:58.748594Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:40:58.863025Z ERROR chrome[1365:1365]: [chrome/browser/ui/webui/ntp/new_tab_ui.cc:53] Requested load of chrome://newtab/ for incorrect profile type.
+2026-05-22T03:40:58.933056Z ERROR chrome[16276:16278]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:40:58.948894Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:40:58.953498Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:42:00.866101Z ERROR chrome[16413:16415]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:42:06.634083Z ERROR chrome[16437:16439]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:42:11.710870Z ERROR chrome[1365:1365]: [chrome/browser/ash/arc/intent_helper/arc_intent_helper_mojo_ash.cc:74] Failed to get instance for RequestUrlHandlerList().
+2026-05-22T03:42:12.507968Z ERROR chrome[16462:16464]: [default_socket.cc:61] /run/perfetto/ exists but cannot be accessed. Falling back on /tmp/  (errno: 13, Permission denied)
+2026-05-22T03:42:13.340150Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:42:13.351864Z VERBOSE1 chrome[1481:1481]: [ui/ozone/platform/drm/gpu/gbm_surface_factory.cc:465] Found Gbm Device at /dev/dri/renderD128
+2026-05-22T03:42:23.601881Z WARNING chrome[1365:1365]: [chrome/browser/apps/app_service/metrics/app_platform_metrics.cc:560] Couldn't get Borealis ID for UNREGISTERED app ceoplblcdaffnnflkkcagjpomjgedmdl
+2026-05-22T03:42:23.619927Z ERROR chrome[1365:1365]: [components/device_event_log/device_event_log_impl.cc:202] [22:42:23.619] Network: cros_network_config.cc:3464 RequestTrafficCounters failure: traffic counters handler not initialized while requesting traffic counters for network guid 509a6bee-2600-4c02-aad7-3ed0374c3484
+2026-05-22T03:42:26.315308Z ERROR chrome[1365:1443]: [components/feedback/feedback_util.cc:135] Failed to open file /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa/google-assistant-library/log/libassistant.log: No such file or directory (2)
+2026-05-22T03:42:26.316040Z ERROR chrome[1365:1443]: [components/feedback/feedback_util.cc:135] Failed to open file /home/chronos/u-fe955082b5b6b4681da9f4e9ac7f0b95109390aa/logout-times: No such file or directory (2)
